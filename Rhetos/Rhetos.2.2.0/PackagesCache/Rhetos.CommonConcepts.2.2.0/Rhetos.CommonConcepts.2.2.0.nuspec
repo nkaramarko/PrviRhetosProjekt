@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/01/nuspec.xsd">
+  <metadata>
+    <id>Rhetos.CommonConcepts</id>
+    <version>2.2.0</version>
+    <authors>Omega software</authors>
+    <owners>Omega software</owners>
+    <licenseUrl>http://opensource.org/licenses/AGPL-3.0</licenseUrl>
+    <projectUrl>https://github.com/rhetos/rhetos</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>CommonConcepts is a DSL package for Rhetos development platform.
+      It provides an implementation of domain-specific programming language for business applications.</description>
+    <copyright>Copyright Omega software 2015</copyright>
+    <tags>Rhetos plugin</tags>
+    <dependencies>
+      <dependency id="Rhetos" version="2.0.0" />
+    </dependencies>
+    <references>
+      <group targetFramework=".NETFramework4.5.1">
+        <reference file="Rhetos.DatabaseGenerator.DefaultConcepts.dll" />
+        <reference file="Rhetos.Dom.DefaultConcepts.dll" />
+        <reference file="Rhetos.Dom.DefaultConcepts.Interfaces.dll" />
+        <reference file="Rhetos.Dsl.DefaultConcepts.dll" />
+        <reference file="Rhetos.Processing.DefaultCommands.dll" />
+        <reference file="Rhetos.Processing.DefaultCommands.Interfaces.dll" />
+      </group>
+    </references>
+  </metadata>
+</package>

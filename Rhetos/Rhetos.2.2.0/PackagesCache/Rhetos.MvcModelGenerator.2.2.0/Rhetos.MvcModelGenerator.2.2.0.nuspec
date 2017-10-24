@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/01/nuspec.xsd">
+  <metadata>
+    <id>Rhetos.MvcModelGenerator</id>
+    <version>2.2.0</version>
+    <authors>Omega software</authors>
+    <owners>Omega software</owners>
+    <licenseUrl>http://opensource.org/licenses/AGPL-3.0</licenseUrl>
+    <projectUrl>https://github.com/rhetos/rhetos</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>MvcModelGenerator is a DSL package (a plugin module) for Rhetos development platform.
+      It automatically generates ASP.NET MVC model for all entities and other queryable data structures that are defined in a Rhetos application.</description>
+    <copyright>Copyright Omega software 2015</copyright>
+    <tags>Rhetos plugin</tags>
+    <dependencies>
+      <dependency id="Rhetos" version="1.2.0" />
+      <dependency id="Rhetos.CommonConcepts" version="1.2.0" />
+      <dependency id="Rhetos.MvcModelGenerator.Client" version="2.2.0" />
+    </dependencies>
+    <references>
+      <group targetFramework=".NETFramework4.5.1">
+        <reference file="Rhetos.MvcModelGenerator.DefaultConcepts.dll" />
+        <reference file="Rhetos.MvcModelGenerator.dll" />
+      </group>
+    </references>
+  </metadata>
+</package>

@@ -1,0 +1,25 @@
+﻿<?xml version="1.0"?>
+<ArrayOfTextReplacement xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <TextReplacement Text="Sifra" Replacement="Šifra" />
+  <TextReplacement Text="sifra" Replacement="šifra" />
+  <TextReplacement Text="Active" Replacement="Aktivan" />
+  <TextReplacement Text="since" Replacement="od" />
+  <TextReplacement Text="Kolicina" Replacement="Količina" />
+  <TextReplacement Text="kolicina" Replacement="količina" />
+  <TextReplacement Text="Dobavljac" Replacement="Dobavljač" />
+  <TextReplacement Text="dobavljac" Replacement="dobavljač" />
+  <TextReplacement Text="Drzav" Replacement="Držav" />
+  <TextReplacement Text="drzav" Replacement="držav" />
+  <TextReplacement Text="Racun" Replacement="Račun" />
+  <TextReplacement Text="racun" Replacement="račun" />
+  <TextReplacement Text="Narudzb" Replacement="Narudžb" />
+  <TextReplacement Text="narudzb" Replacement="narudžb" />
+  <TextReplacement Text="Katalosk" Replacement="Katalošk" />
+  <TextReplacement Text="katalosk" Replacement="katalošk" />
+  <TextReplacement Text="Oib" Replacement="OIB" />
+  <TextReplacement Text="Ean" Replacement="EAN" />
+  <TextReplacement Text="Jmbg" Replacement="JMBG" />
+  <TextReplacement Text="Skladis" Replacement="Skladiš" />
+  <TextReplacement Text="skladis" Replacement="skladiš" />
+</ArrayOfTextReplacement>
+

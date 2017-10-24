@@ -1,0 +1,31 @@
+Module Stanovnik
+{
+	Entity Osoba
+	{
+		Integer OIB {Required; Unique;}
+		ShortString Ime {Required;}
+		ShortString Prezime {Required;}
+	}
+	
+	Entity Drzava
+	{
+		Integer Sifra {Unique; Autocode;}
+		ShortString Naziv {Required;}
+	}
+	
+	Entity Grad
+	{
+		Integer Sifra {Unique; Autocode;}
+		ShortString Naziv {Required;}
+		ShortString PostanskiBroj {Required;}
+		Reference GradUDrzavi Stanovnik.Drzava;
+	}
+	
+		Entity Adresa
+	{
+		Integer Sifra {Unique; Autocode;}
+		ShortString Naziv {Required;}
+		ShortString KucniBroj {Required;}
+		Reference AdresaUGradu Stanovnik.Grad;
+	}
+}

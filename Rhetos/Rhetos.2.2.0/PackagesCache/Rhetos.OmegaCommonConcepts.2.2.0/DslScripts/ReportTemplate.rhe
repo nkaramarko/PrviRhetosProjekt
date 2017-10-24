@@ -1,0 +1,10 @@
+﻿Module Common
+{
+            Entity ReportTemplate
+            {
+                        ShortString FileName { Required; }
+                        ShortString DisplayName { Required; }
+                        Binary Content;
+            }
+
+}

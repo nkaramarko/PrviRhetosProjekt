@@ -1,0 +1,10 @@
+﻿<Schema Namespace="Rhetos" Provider="System.Data.SqlClient" ProviderManifestToken="2008" Alias="Self" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+
+  <Function Name="InterceptFullTextSearch" ReturnType="bit" >
+    <Parameter Name = "studentId" Mode = "In" Type = "uniqueidentifier" />
+    <Parameter Name = "pattern" Mode = "In" Type = "nvarchar" />
+    <Parameter Name = "tableName" Mode = "In" Type = "nvarchar" />
+    <Parameter Name = "searchColumns" Mode = "In" Type = "nvarchar" />
+  </Function>
+
+</Schema>

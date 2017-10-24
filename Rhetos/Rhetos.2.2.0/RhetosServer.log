@@ -1,0 +1,470 @@
+2017-10-24 14:30:55.5222|ERROR|Global|Application error: System.ServiceModel.ServiceActivationException: The service '/Rhetos/RhetosService.svc' cannot be activated due to an exception during compilation.  The exception message is: The HttpsGetEnabled property of ServiceMetadataBehavior is set to true and the HttpsGetUrl property is a relative address, but there is no https base address.  Either supply an https base address or set HttpsGetUrl to an absolute address.. ---> System.InvalidOperationException: The HttpsGetEnabled property of ServiceMetadataBehavior is set to true and the HttpsGetUrl property is a relative address, but there is no https base address.  Either supply an https base address or set HttpsGetUrl to an absolute address.
+   at System.ServiceModel.Description.ServiceMetadataBehavior.CreateHttpGetEndpoints(ServiceDescription description, ServiceHostBase host, ServiceMetadataExtension mex)
+   at System.ServiceModel.Description.ServiceMetadataBehavior.ApplyBehavior(ServiceDescription description, ServiceHostBase host)
+   at System.ServiceModel.Description.ServiceMetadataBehavior.System.ServiceModel.Description.IServiceBehavior.ApplyDispatchBehavior(ServiceDescription description, ServiceHostBase serviceHostBase)
+   at System.ServiceModel.Description.DispatcherBuilder.InitializeServiceHost(ServiceDescription description, ServiceHostBase serviceHost)
+   at System.ServiceModel.ServiceHostBase.InitializeRuntime()
+   at System.ServiceModel.ServiceHostBase.OnBeginOpen()
+   at System.ServiceModel.ServiceHostBase.OnOpen(TimeSpan timeout)
+   at System.ServiceModel.Channels.CommunicationObject.Open(TimeSpan timeout)
+   at System.ServiceModel.ServiceHostingEnvironment.HostingManager.ActivateService(ServiceActivationInfo serviceActivationInfo, EventTraceActivity eventTraceActivity)
+   at System.ServiceModel.ServiceHostingEnvironment.HostingManager.EnsureServiceAvailable(String normalizedVirtualPath, EventTraceActivity eventTraceActivity)
+   --- End of inner exception stack trace ---
+   at System.Runtime.AsyncResult.End[TAsyncResult](IAsyncResult result)
+   at System.ServiceModel.Activation.HostedHttpRequestAsyncResult.End(IAsyncResult result)
+   at System.ServiceModel.Activation.ServiceHttpHandlerFactory.ServiceHttpHandler.EndProcessRequest(IAsyncResult result)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.OnAsyncHandlerCompletion(IAsyncResult ar)
+2017-10-24 16:42:16.7436|ERROR|Global|Rhetos.FrameworkException: Please completed the installation of AspNetFormsAuth package. Follow the installation instructions in the Readme.md file inside AspNetFormsAuth package. Modify Web.config. (ProviderException: The Role Manager feature has not been enabled.)
+   at Rhetos.AspNetFormsAuth.AuthenticationServiceInitializer.InitializeDatabaseConnection(Boolean autoCreateTables) in C:\My Projects\RhetosPackages\AspNetFormsAuth\Plugins\Rhetos.AspNetFormsAuth\AuthenticationServiceInitializer.cs:line 54
+   at Rhetos.AspNetFormsAuth.AuthenticationServiceInitializer.Initialize() in C:\My Projects\RhetosPackages\AspNetFormsAuth\Plugins\Rhetos.AspNetFormsAuth\AuthenticationServiceInitializer.cs:line 64
+   at Rhetos.Global.Application_Start(Object sender, EventArgs e) in C:\My Projects\Rhetos\Source\Rhetos\Global.asax.cs:line 58
+Info: 
+2017-10-24 16:42:16.7436|ERROR|Global|Application error: Rhetos.FrameworkException: Please completed the installation of AspNetFormsAuth package. Follow the installation instructions in the Readme.md file inside AspNetFormsAuth package. Modify Web.config. (ProviderException: The Role Manager feature has not been enabled.)
+   at Rhetos.AspNetFormsAuth.AuthenticationServiceInitializer.InitializeDatabaseConnection(Boolean autoCreateTables) in C:\My Projects\RhetosPackages\AspNetFormsAuth\Plugins\Rhetos.AspNetFormsAuth\AuthenticationServiceInitializer.cs:line 54
+   at Rhetos.AspNetFormsAuth.AuthenticationServiceInitializer.Initialize() in C:\My Projects\RhetosPackages\AspNetFormsAuth\Plugins\Rhetos.AspNetFormsAuth\AuthenticationServiceInitializer.cs:line 64
+   at Rhetos.Global.Application_Start(Object sender, EventArgs e) in C:\My Projects\Rhetos\Source\Rhetos\Global.asax.cs:line 65
+Info: 
+2017-10-24 16:45:09.4924|INFO|GlobalErrorHandler|Rhetos.ClientException: User is not authenticated.
+   at Rhetos.Security.WcfWindowsUserInfo.CheckIfUserRecognized() in C:\My Projects\Rhetos\Source\Rhetos.Security\WcfWindowsUserInfo.cs:line 73
+   at Rhetos.Security.WcfWindowsUserInfo.get_UserName() in C:\My Projects\Rhetos\Source\Rhetos.Security\WcfWindowsUserInfo.cs:line 43
+   at Rhetos.Dom.DefaultConcepts.CommonAuthorizationProvider.GetAuthorizations(IUserInfo userInfo, IList`1 requiredClaims) in C:\My Projects\Rhetos\CommonConcepts\Plugins\Rhetos.Dom.DefaultConcepts\Authorization\CommonAuthorizationProvider.cs:line 42
+   at Rhetos.Security.AuthorizationManager.GetAuthorizations(IList`1 requiredClaims) in C:\My Projects\Rhetos\Source\Rhetos.Security\AuthorizationManager.cs:line 85
+   at Rhetos.Security.AuthorizationManager.Authorize(IList`1 commandInfos) in C:\My Projects\Rhetos\Source\Rhetos.Security\AuthorizationManager.cs:line 97
+   at Rhetos.Processing.ProcessingEngine.ExecuteInner(IList`1 commands, Guid executionId) in C:\My Projects\Rhetos\Source\Rhetos.Processing\ProcessingEngine.cs:line 101
+   at Rhetos.Processing.ProcessingEngine.Execute(IList`1 commands) in C:\My Projects\Rhetos\Source\Rhetos.Processing\ProcessingEngine.cs:line 89
+   at Rhetos.RestGenerator.Utilities.ServiceUtility.ExecuteReadCommand(ReadCommandInfo commandInfo) in C:\My Projects\RhetosPackages\RestGenerator\Plugins\Rhetos.RestGenerator\Utilities\ServiceUtility.cs:line 123
+   at Rhetos.RestGenerator.Utilities.ServiceUtility.GetData[T](String filter, String fparam, String genericfilter, String filters, IDictionary`2 filterTypesByName, Int32 top, Int32 skip, Int32 page, Int32 psize, String sort, Boolean readRecords, Boolean readTotalCount) in C:\My Projects\RhetosPackages\RestGenerator\Plugins\Rhetos.RestGenerator\Utilities\ServiceUtility.cs:line 93
+   at Rhetos.Rest.RestServiceStanovnikDrzava.Get(String filter, String fparam, String genericfilter, String filters, Int32 top, Int32 skip, Int32 page, Int32 psize, String sort) in c:\Users\nkaramarko\Desktop\Projekti\MojPrviRhetosProjekt\Rhetos\Rhetos.2.2.0\bin\Generated\RestService.cs:line 352
+   at SyncInvokeGet(Object , Object[] , Object[] )
+   at System.ServiceModel.Dispatcher.SyncMethodInvoker.Invoke(Object instance, Object[] inputs, Object[]& outputs)
+   at System.ServiceModel.Dispatcher.DispatchOperationRuntime.InvokeBegin(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage5(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage41(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage4(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage31(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage3(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage2(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage11(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage1(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.MessageRpc.Process(Boolean isOperationContextSet)
+Info: 
+2017-10-24 16:49:33.7356|INFO|GlobalErrorHandler|Rhetos.ClientException: User is not authenticated.
+   at Rhetos.Security.WcfWindowsUserInfo.CheckIfUserRecognized() in C:\My Projects\Rhetos\Source\Rhetos.Security\WcfWindowsUserInfo.cs:line 73
+   at Rhetos.Security.WcfWindowsUserInfo.get_UserName() in C:\My Projects\Rhetos\Source\Rhetos.Security\WcfWindowsUserInfo.cs:line 43
+   at Rhetos.Dom.DefaultConcepts.CommonAuthorizationProvider.GetAuthorizations(IUserInfo userInfo, IList`1 requiredClaims) in C:\My Projects\Rhetos\CommonConcepts\Plugins\Rhetos.Dom.DefaultConcepts\Authorization\CommonAuthorizationProvider.cs:line 42
+   at Rhetos.Security.AuthorizationManager.GetAuthorizations(IList`1 requiredClaims) in C:\My Projects\Rhetos\Source\Rhetos.Security\AuthorizationManager.cs:line 85
+   at Rhetos.Security.AuthorizationManager.Authorize(IList`1 commandInfos) in C:\My Projects\Rhetos\Source\Rhetos.Security\AuthorizationManager.cs:line 97
+   at Rhetos.Processing.ProcessingEngine.ExecuteInner(IList`1 commands, Guid executionId) in C:\My Projects\Rhetos\Source\Rhetos.Processing\ProcessingEngine.cs:line 101
+   at Rhetos.Processing.ProcessingEngine.Execute(IList`1 commands) in C:\My Projects\Rhetos\Source\Rhetos.Processing\ProcessingEngine.cs:line 89
+   at Rhetos.RestGenerator.Utilities.ServiceUtility.ExecuteReadCommand(ReadCommandInfo commandInfo) in C:\My Projects\RhetosPackages\RestGenerator\Plugins\Rhetos.RestGenerator\Utilities\ServiceUtility.cs:line 123
+   at Rhetos.RestGenerator.Utilities.ServiceUtility.GetData[T](String filter, String fparam, String genericfilter, String filters, IDictionary`2 filterTypesByName, Int32 top, Int32 skip, Int32 page, Int32 psize, String sort, Boolean readRecords, Boolean readTotalCount) in C:\My Projects\RhetosPackages\RestGenerator\Plugins\Rhetos.RestGenerator\Utilities\ServiceUtility.cs:line 93
+   at Rhetos.Rest.RestServiceStanovnikDrzava.Get(String filter, String fparam, String genericfilter, String filters, Int32 top, Int32 skip, Int32 page, Int32 psize, String sort) in c:\Users\nkaramarko\Desktop\Projekti\MojPrviRhetosProjekt\Rhetos\Rhetos.2.2.0\bin\Generated\RestService.cs:line 352
+   at SyncInvokeGet(Object , Object[] , Object[] )
+   at System.ServiceModel.Dispatcher.SyncMethodInvoker.Invoke(Object instance, Object[] inputs, Object[]& outputs)
+   at System.ServiceModel.Dispatcher.DispatchOperationRuntime.InvokeBegin(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage5(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage41(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage4(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage31(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage3(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage2(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage11(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage1(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.MessageRpc.Process(Boolean isOperationContextSet)
+Info: 
+2017-10-24 16:51:30.0680|INFO|GlobalErrorHandler|Rhetos.ClientException: User is not authenticated.
+   at Rhetos.Security.WcfWindowsUserInfo.CheckIfUserRecognized() in C:\My Projects\Rhetos\Source\Rhetos.Security\WcfWindowsUserInfo.cs:line 73
+   at Rhetos.Security.WcfWindowsUserInfo.get_UserName() in C:\My Projects\Rhetos\Source\Rhetos.Security\WcfWindowsUserInfo.cs:line 43
+   at Rhetos.Dom.DefaultConcepts.CommonAuthorizationProvider.GetAuthorizations(IUserInfo userInfo, IList`1 requiredClaims) in C:\My Projects\Rhetos\CommonConcepts\Plugins\Rhetos.Dom.DefaultConcepts\Authorization\CommonAuthorizationProvider.cs:line 42
+   at Rhetos.Security.AuthorizationManager.GetAuthorizations(IList`1 requiredClaims) in C:\My Projects\Rhetos\Source\Rhetos.Security\AuthorizationManager.cs:line 85
+   at Rhetos.Security.AuthorizationManager.Authorize(IList`1 commandInfos) in C:\My Projects\Rhetos\Source\Rhetos.Security\AuthorizationManager.cs:line 97
+   at Rhetos.Processing.ProcessingEngine.ExecuteInner(IList`1 commands, Guid executionId) in C:\My Projects\Rhetos\Source\Rhetos.Processing\ProcessingEngine.cs:line 101
+   at Rhetos.Processing.ProcessingEngine.Execute(IList`1 commands) in C:\My Projects\Rhetos\Source\Rhetos.Processing\ProcessingEngine.cs:line 89
+   at Rhetos.RestGenerator.Utilities.ServiceUtility.ExecuteReadCommand(ReadCommandInfo commandInfo) in C:\My Projects\RhetosPackages\RestGenerator\Plugins\Rhetos.RestGenerator\Utilities\ServiceUtility.cs:line 123
+   at Rhetos.RestGenerator.Utilities.ServiceUtility.GetData[T](String filter, String fparam, String genericfilter, String filters, IDictionary`2 filterTypesByName, Int32 top, Int32 skip, Int32 page, Int32 psize, String sort, Boolean readRecords, Boolean readTotalCount) in C:\My Projects\RhetosPackages\RestGenerator\Plugins\Rhetos.RestGenerator\Utilities\ServiceUtility.cs:line 93
+   at Rhetos.Rest.RestServiceStanovnikDrzava.Get(String filter, String fparam, String genericfilter, String filters, Int32 top, Int32 skip, Int32 page, Int32 psize, String sort) in c:\Users\nkaramarko\Desktop\Projekti\MojPrviRhetosProjekt\Rhetos\Rhetos.2.2.0\bin\Generated\RestService.cs:line 352
+   at SyncInvokeGet(Object , Object[] , Object[] )
+   at System.ServiceModel.Dispatcher.SyncMethodInvoker.Invoke(Object instance, Object[] inputs, Object[]& outputs)
+   at System.ServiceModel.Dispatcher.DispatchOperationRuntime.InvokeBegin(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage5(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage41(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage4(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage31(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage3(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage2(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage11(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage1(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.MessageRpc.Process(Boolean isOperationContextSet)
+Info: 
+2017-10-24 16:51:31.4522|INFO|GlobalErrorHandler|Rhetos.ClientException: User is not authenticated.
+   at Rhetos.Security.WcfWindowsUserInfo.CheckIfUserRecognized() in C:\My Projects\Rhetos\Source\Rhetos.Security\WcfWindowsUserInfo.cs:line 73
+   at Rhetos.Security.WcfWindowsUserInfo.get_UserName() in C:\My Projects\Rhetos\Source\Rhetos.Security\WcfWindowsUserInfo.cs:line 43
+   at Rhetos.Dom.DefaultConcepts.CommonAuthorizationProvider.GetAuthorizations(IUserInfo userInfo, IList`1 requiredClaims) in C:\My Projects\Rhetos\CommonConcepts\Plugins\Rhetos.Dom.DefaultConcepts\Authorization\CommonAuthorizationProvider.cs:line 42
+   at Rhetos.Security.AuthorizationManager.GetAuthorizations(IList`1 requiredClaims) in C:\My Projects\Rhetos\Source\Rhetos.Security\AuthorizationManager.cs:line 85
+   at Rhetos.Security.AuthorizationManager.Authorize(IList`1 commandInfos) in C:\My Projects\Rhetos\Source\Rhetos.Security\AuthorizationManager.cs:line 97
+   at Rhetos.Processing.ProcessingEngine.ExecuteInner(IList`1 commands, Guid executionId) in C:\My Projects\Rhetos\Source\Rhetos.Processing\ProcessingEngine.cs:line 101
+   at Rhetos.Processing.ProcessingEngine.Execute(IList`1 commands) in C:\My Projects\Rhetos\Source\Rhetos.Processing\ProcessingEngine.cs:line 89
+   at Rhetos.RestGenerator.Utilities.ServiceUtility.ExecuteReadCommand(ReadCommandInfo commandInfo) in C:\My Projects\RhetosPackages\RestGenerator\Plugins\Rhetos.RestGenerator\Utilities\ServiceUtility.cs:line 123
+   at Rhetos.RestGenerator.Utilities.ServiceUtility.GetData[T](String filter, String fparam, String genericfilter, String filters, IDictionary`2 filterTypesByName, Int32 top, Int32 skip, Int32 page, Int32 psize, String sort, Boolean readRecords, Boolean readTotalCount) in C:\My Projects\RhetosPackages\RestGenerator\Plugins\Rhetos.RestGenerator\Utilities\ServiceUtility.cs:line 93
+   at Rhetos.Rest.RestServiceStanovnikDrzava.Get(String filter, String fparam, String genericfilter, String filters, Int32 top, Int32 skip, Int32 page, Int32 psize, String sort) in c:\Users\nkaramarko\Desktop\Projekti\MojPrviRhetosProjekt\Rhetos\Rhetos.2.2.0\bin\Generated\RestService.cs:line 352
+   at SyncInvokeGet(Object , Object[] , Object[] )
+   at System.ServiceModel.Dispatcher.SyncMethodInvoker.Invoke(Object instance, Object[] inputs, Object[]& outputs)
+   at System.ServiceModel.Dispatcher.DispatchOperationRuntime.InvokeBegin(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage5(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage41(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage4(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage31(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage3(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage2(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage11(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage1(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.MessageRpc.Process(Boolean isOperationContextSet)
+Info: 
+2017-10-24 16:51:31.9929|INFO|GlobalErrorHandler|Rhetos.ClientException: User is not authenticated.
+   at Rhetos.Security.WcfWindowsUserInfo.CheckIfUserRecognized() in C:\My Projects\Rhetos\Source\Rhetos.Security\WcfWindowsUserInfo.cs:line 73
+   at Rhetos.Security.WcfWindowsUserInfo.get_UserName() in C:\My Projects\Rhetos\Source\Rhetos.Security\WcfWindowsUserInfo.cs:line 43
+   at Rhetos.Dom.DefaultConcepts.CommonAuthorizationProvider.GetAuthorizations(IUserInfo userInfo, IList`1 requiredClaims) in C:\My Projects\Rhetos\CommonConcepts\Plugins\Rhetos.Dom.DefaultConcepts\Authorization\CommonAuthorizationProvider.cs:line 42
+   at Rhetos.Security.AuthorizationManager.GetAuthorizations(IList`1 requiredClaims) in C:\My Projects\Rhetos\Source\Rhetos.Security\AuthorizationManager.cs:line 85
+   at Rhetos.Security.AuthorizationManager.Authorize(IList`1 commandInfos) in C:\My Projects\Rhetos\Source\Rhetos.Security\AuthorizationManager.cs:line 97
+   at Rhetos.Processing.ProcessingEngine.ExecuteInner(IList`1 commands, Guid executionId) in C:\My Projects\Rhetos\Source\Rhetos.Processing\ProcessingEngine.cs:line 101
+   at Rhetos.Processing.ProcessingEngine.Execute(IList`1 commands) in C:\My Projects\Rhetos\Source\Rhetos.Processing\ProcessingEngine.cs:line 89
+   at Rhetos.RestGenerator.Utilities.ServiceUtility.ExecuteReadCommand(ReadCommandInfo commandInfo) in C:\My Projects\RhetosPackages\RestGenerator\Plugins\Rhetos.RestGenerator\Utilities\ServiceUtility.cs:line 123
+   at Rhetos.RestGenerator.Utilities.ServiceUtility.GetData[T](String filter, String fparam, String genericfilter, String filters, IDictionary`2 filterTypesByName, Int32 top, Int32 skip, Int32 page, Int32 psize, String sort, Boolean readRecords, Boolean readTotalCount) in C:\My Projects\RhetosPackages\RestGenerator\Plugins\Rhetos.RestGenerator\Utilities\ServiceUtility.cs:line 93
+   at Rhetos.Rest.RestServiceStanovnikDrzava.Get(String filter, String fparam, String genericfilter, String filters, Int32 top, Int32 skip, Int32 page, Int32 psize, String sort) in c:\Users\nkaramarko\Desktop\Projekti\MojPrviRhetosProjekt\Rhetos\Rhetos.2.2.0\bin\Generated\RestService.cs:line 352
+   at SyncInvokeGet(Object , Object[] , Object[] )
+   at System.ServiceModel.Dispatcher.SyncMethodInvoker.Invoke(Object instance, Object[] inputs, Object[]& outputs)
+   at System.ServiceModel.Dispatcher.DispatchOperationRuntime.InvokeBegin(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage5(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage41(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage4(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage31(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage3(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage2(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage11(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage1(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.MessageRpc.Process(Boolean isOperationContextSet)
+Info: 
+2017-10-24 16:51:32.5786|INFO|GlobalErrorHandler|Rhetos.ClientException: User is not authenticated.
+   at Rhetos.Security.WcfWindowsUserInfo.CheckIfUserRecognized() in C:\My Projects\Rhetos\Source\Rhetos.Security\WcfWindowsUserInfo.cs:line 73
+   at Rhetos.Security.WcfWindowsUserInfo.get_UserName() in C:\My Projects\Rhetos\Source\Rhetos.Security\WcfWindowsUserInfo.cs:line 43
+   at Rhetos.Dom.DefaultConcepts.CommonAuthorizationProvider.GetAuthorizations(IUserInfo userInfo, IList`1 requiredClaims) in C:\My Projects\Rhetos\CommonConcepts\Plugins\Rhetos.Dom.DefaultConcepts\Authorization\CommonAuthorizationProvider.cs:line 42
+   at Rhetos.Security.AuthorizationManager.GetAuthorizations(IList`1 requiredClaims) in C:\My Projects\Rhetos\Source\Rhetos.Security\AuthorizationManager.cs:line 85
+   at Rhetos.Security.AuthorizationManager.Authorize(IList`1 commandInfos) in C:\My Projects\Rhetos\Source\Rhetos.Security\AuthorizationManager.cs:line 97
+   at Rhetos.Processing.ProcessingEngine.ExecuteInner(IList`1 commands, Guid executionId) in C:\My Projects\Rhetos\Source\Rhetos.Processing\ProcessingEngine.cs:line 101
+   at Rhetos.Processing.ProcessingEngine.Execute(IList`1 commands) in C:\My Projects\Rhetos\Source\Rhetos.Processing\ProcessingEngine.cs:line 89
+   at Rhetos.RestGenerator.Utilities.ServiceUtility.ExecuteReadCommand(ReadCommandInfo commandInfo) in C:\My Projects\RhetosPackages\RestGenerator\Plugins\Rhetos.RestGenerator\Utilities\ServiceUtility.cs:line 123
+   at Rhetos.RestGenerator.Utilities.ServiceUtility.GetData[T](String filter, String fparam, String genericfilter, String filters, IDictionary`2 filterTypesByName, Int32 top, Int32 skip, Int32 page, Int32 psize, String sort, Boolean readRecords, Boolean readTotalCount) in C:\My Projects\RhetosPackages\RestGenerator\Plugins\Rhetos.RestGenerator\Utilities\ServiceUtility.cs:line 93
+   at Rhetos.Rest.RestServiceStanovnikDrzava.Get(String filter, String fparam, String genericfilter, String filters, Int32 top, Int32 skip, Int32 page, Int32 psize, String sort) in c:\Users\nkaramarko\Desktop\Projekti\MojPrviRhetosProjekt\Rhetos\Rhetos.2.2.0\bin\Generated\RestService.cs:line 352
+   at SyncInvokeGet(Object , Object[] , Object[] )
+   at System.ServiceModel.Dispatcher.SyncMethodInvoker.Invoke(Object instance, Object[] inputs, Object[]& outputs)
+   at System.ServiceModel.Dispatcher.DispatchOperationRuntime.InvokeBegin(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage5(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage41(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage4(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage31(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage3(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage2(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage11(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage1(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.MessageRpc.Process(Boolean isOperationContextSet)
+Info: 
+2017-10-24 16:51:53.2337|INFO|GlobalErrorHandler|Rhetos.ClientException: User is not authenticated.
+   at Rhetos.Security.WcfWindowsUserInfo.CheckIfUserRecognized() in C:\My Projects\Rhetos\Source\Rhetos.Security\WcfWindowsUserInfo.cs:line 73
+   at Rhetos.Security.WcfWindowsUserInfo.get_UserName() in C:\My Projects\Rhetos\Source\Rhetos.Security\WcfWindowsUserInfo.cs:line 43
+   at Rhetos.Dom.DefaultConcepts.CommonAuthorizationProvider.GetAuthorizations(IUserInfo userInfo, IList`1 requiredClaims) in C:\My Projects\Rhetos\CommonConcepts\Plugins\Rhetos.Dom.DefaultConcepts\Authorization\CommonAuthorizationProvider.cs:line 42
+   at Rhetos.Security.AuthorizationManager.GetAuthorizations(IList`1 requiredClaims) in C:\My Projects\Rhetos\Source\Rhetos.Security\AuthorizationManager.cs:line 85
+   at Rhetos.Security.AuthorizationManager.Authorize(IList`1 commandInfos) in C:\My Projects\Rhetos\Source\Rhetos.Security\AuthorizationManager.cs:line 97
+   at Rhetos.Processing.ProcessingEngine.ExecuteInner(IList`1 commands, Guid executionId) in C:\My Projects\Rhetos\Source\Rhetos.Processing\ProcessingEngine.cs:line 101
+   at Rhetos.Processing.ProcessingEngine.Execute(IList`1 commands) in C:\My Projects\Rhetos\Source\Rhetos.Processing\ProcessingEngine.cs:line 89
+   at Rhetos.RestGenerator.Utilities.ServiceUtility.ExecuteReadCommand(ReadCommandInfo commandInfo) in C:\My Projects\RhetosPackages\RestGenerator\Plugins\Rhetos.RestGenerator\Utilities\ServiceUtility.cs:line 123
+   at Rhetos.RestGenerator.Utilities.ServiceUtility.GetData[T](String filter, String fparam, String genericfilter, String filters, IDictionary`2 filterTypesByName, Int32 top, Int32 skip, Int32 page, Int32 psize, String sort, Boolean readRecords, Boolean readTotalCount) in C:\My Projects\RhetosPackages\RestGenerator\Plugins\Rhetos.RestGenerator\Utilities\ServiceUtility.cs:line 93
+   at Rhetos.Rest.RestServiceStanovnikDrzava.Get(String filter, String fparam, String genericfilter, String filters, Int32 top, Int32 skip, Int32 page, Int32 psize, String sort) in c:\Users\nkaramarko\Desktop\Projekti\MojPrviRhetosProjekt\Rhetos\Rhetos.2.2.0\bin\Generated\RestService.cs:line 352
+   at SyncInvokeGet(Object , Object[] , Object[] )
+   at System.ServiceModel.Dispatcher.SyncMethodInvoker.Invoke(Object instance, Object[] inputs, Object[]& outputs)
+   at System.ServiceModel.Dispatcher.DispatchOperationRuntime.InvokeBegin(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage5(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage41(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage4(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage31(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage3(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage2(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage11(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage1(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.MessageRpc.Process(Boolean isOperationContextSet)
+Info: 
+2017-10-24 16:52:35.9099|INFO|GlobalErrorHandler|Rhetos.ClientException: User is not authenticated.
+   at Rhetos.Security.WcfWindowsUserInfo.CheckIfUserRecognized() in C:\My Projects\Rhetos\Source\Rhetos.Security\WcfWindowsUserInfo.cs:line 73
+   at Rhetos.Security.WcfWindowsUserInfo.get_UserName() in C:\My Projects\Rhetos\Source\Rhetos.Security\WcfWindowsUserInfo.cs:line 43
+   at Rhetos.Dom.DefaultConcepts.CommonAuthorizationProvider.GetAuthorizations(IUserInfo userInfo, IList`1 requiredClaims) in C:\My Projects\Rhetos\CommonConcepts\Plugins\Rhetos.Dom.DefaultConcepts\Authorization\CommonAuthorizationProvider.cs:line 42
+   at Rhetos.Security.AuthorizationManager.GetAuthorizations(IList`1 requiredClaims) in C:\My Projects\Rhetos\Source\Rhetos.Security\AuthorizationManager.cs:line 85
+   at Rhetos.Security.AuthorizationManager.Authorize(IList`1 commandInfos) in C:\My Projects\Rhetos\Source\Rhetos.Security\AuthorizationManager.cs:line 97
+   at Rhetos.Processing.ProcessingEngine.ExecuteInner(IList`1 commands, Guid executionId) in C:\My Projects\Rhetos\Source\Rhetos.Processing\ProcessingEngine.cs:line 101
+   at Rhetos.Processing.ProcessingEngine.Execute(IList`1 commands) in C:\My Projects\Rhetos\Source\Rhetos.Processing\ProcessingEngine.cs:line 89
+   at Rhetos.RestGenerator.Utilities.ServiceUtility.ExecuteReadCommand(ReadCommandInfo commandInfo) in C:\My Projects\RhetosPackages\RestGenerator\Plugins\Rhetos.RestGenerator\Utilities\ServiceUtility.cs:line 123
+   at Rhetos.RestGenerator.Utilities.ServiceUtility.GetData[T](String filter, String fparam, String genericfilter, String filters, IDictionary`2 filterTypesByName, Int32 top, Int32 skip, Int32 page, Int32 psize, String sort, Boolean readRecords, Boolean readTotalCount) in C:\My Projects\RhetosPackages\RestGenerator\Plugins\Rhetos.RestGenerator\Utilities\ServiceUtility.cs:line 93
+   at Rhetos.Rest.RestServiceStanovnikDrzava.Get(String filter, String fparam, String genericfilter, String filters, Int32 top, Int32 skip, Int32 page, Int32 psize, String sort) in c:\Users\nkaramarko\Desktop\Projekti\MojPrviRhetosProjekt\Rhetos\Rhetos.2.2.0\bin\Generated\RestService.cs:line 352
+   at SyncInvokeGet(Object , Object[] , Object[] )
+   at System.ServiceModel.Dispatcher.SyncMethodInvoker.Invoke(Object instance, Object[] inputs, Object[]& outputs)
+   at System.ServiceModel.Dispatcher.DispatchOperationRuntime.InvokeBegin(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage5(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage41(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage4(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage31(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage3(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage2(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage11(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage1(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.MessageRpc.Process(Boolean isOperationContextSet)
+Info: 
+2017-10-24 16:53:38.8359|ERROR|Global|Application error: System.ServiceModel.ServiceActivationException: The service '/Rhetos/Rest/Stanovnik/Drzava' cannot be activated due to an exception during compilation.  The exception message is: The authentication schemes configured on the host ('IntegratedWindowsAuthentication') do not allow those configured on the binding 'WebHttpBinding' ('Anonymous').  Please ensure that the SecurityMode is set to Transport or TransportCredentialOnly.  Additionally, this may be resolved by changing the authentication schemes for this application through the IIS management tool, through the ServiceHost.Authentication.AuthenticationSchemes property, in the application configuration file at the <serviceAuthenticationManager> element, by updating the ClientCredentialType property on the binding, or by adjusting the AuthenticationScheme property on the HttpTransportBindingElement.. ---> System.NotSupportedException: The authentication schemes configured on the host ('IntegratedWindowsAuthentication') do not allow those configured on the binding 'WebHttpBinding' ('Anonymous').  Please ensure that the SecurityMode is set to Transport or TransportCredentialOnly.  Additionally, this may be resolved by changing the authentication schemes for this application through the IIS management tool, through the ServiceHost.Authentication.AuthenticationSchemes property, in the application configuration file at the <serviceAuthenticationManager> element, by updating the ClientCredentialType property on the binding, or by adjusting the AuthenticationScheme property on the HttpTransportBindingElement.
+   at System.ServiceModel.Channels.HttpTransportBindingElement.UpdateAuthenticationSchemes(BindingContext context)
+   at System.ServiceModel.Channels.HttpTransportBindingElement.BuildChannelListener[TChannel](BindingContext context)
+   at System.ServiceModel.Channels.BindingContext.BuildInnerChannelListener[TChannel]()
+   at System.ServiceModel.Channels.MessageEncodingBindingElement.InternalBuildChannelListener[TChannel](BindingContext context)
+   at System.ServiceModel.Channels.WebMessageEncodingBindingElement.BuildChannelListener[TChannel](BindingContext context)
+   at System.ServiceModel.Channels.BindingContext.BuildInnerChannelListener[TChannel]()
+   at System.ServiceModel.Channels.Binding.BuildChannelListener[TChannel](Uri listenUriBaseAddress, String listenUriRelativeAddress, ListenUriMode listenUriMode, BindingParameterCollection parameters)
+   at System.ServiceModel.Description.DispatcherBuilder.MaybeCreateListener(Boolean actuallyCreate, Type[] supportedChannels, Binding binding, BindingParameterCollection parameters, Uri listenUriBaseAddress, String listenUriRelativeAddress, ListenUriMode listenUriMode, ServiceThrottle throttle, IChannelListener& result, Boolean supportContextSession)
+   at System.ServiceModel.Description.DispatcherBuilder.BuildChannelListener(StuffPerListenUriInfo stuff, ServiceHostBase serviceHost, Uri listenUri, ListenUriMode listenUriMode, Boolean supportContextSession, IChannelListener& result)
+   at System.ServiceModel.Description.DispatcherBuilder.InitializeServiceHost(ServiceDescription description, ServiceHostBase serviceHost)
+   at System.ServiceModel.ServiceHostBase.InitializeRuntime()
+   at System.ServiceModel.ServiceHostBase.OnBeginOpen()
+   at System.ServiceModel.ServiceHostBase.OnOpen(TimeSpan timeout)
+   at System.ServiceModel.Channels.CommunicationObject.Open(TimeSpan timeout)
+   at System.ServiceModel.ServiceHostingEnvironment.HostingManager.ActivateService(ServiceActivationInfo serviceActivationInfo, EventTraceActivity eventTraceActivity)
+   at System.ServiceModel.ServiceHostingEnvironment.HostingManager.EnsureServiceAvailable(String normalizedVirtualPath, EventTraceActivity eventTraceActivity)
+   --- End of inner exception stack trace ---
+   at System.Runtime.AsyncResult.End[TAsyncResult](IAsyncResult result)
+   at System.ServiceModel.Activation.HostedHttpRequestAsyncResult.End(IAsyncResult result)
+   at System.ServiceModel.Activation.AspNetRouteServiceHttpHandler.EndProcessRequest(IAsyncResult result)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.OnAsyncHandlerCompletion(IAsyncResult ar)
+2017-10-24 16:54:26.7641|ERROR|Global|Application error: System.ServiceModel.ServiceActivationException: The service '/Rhetos/Rest/Stanovnik/Drzava' cannot be activated due to an exception during compilation.  The exception message is: Could not find a base address that matches scheme https for the endpoint with binding WebHttpBinding. Registered base address schemes are [http].. ---> System.InvalidOperationException: Could not find a base address that matches scheme https for the endpoint with binding WebHttpBinding. Registered base address schemes are [http].
+   at System.ServiceModel.ServiceHostBase.MakeAbsoluteUri(Uri relativeOrAbsoluteUri, Binding binding, UriSchemeKeyedCollection baseAddresses)
+   at System.ServiceModel.ServiceHostBase.AddServiceEndpoint(String implementedContract, Binding binding, Uri address, Uri listenUri)
+   at System.ServiceModel.ServiceHost.AddServiceEndpoint(Type implementedContract, Binding binding, Uri address, Uri listenUri)
+   at System.ServiceModel.ServiceHost.AddServiceEndpoint(Type implementedContract, Binding binding, String address, Uri listenUri)
+   at System.ServiceModel.ServiceHost.AddServiceEndpoint(Type implementedContract, Binding binding, String address)
+   at Rhetos.Rest.RestServiceHost.OnOpening() in c:\Users\nkaramarko\Desktop\Projekti\MojPrviRhetosProjekt\Rhetos\Rhetos.2.2.0\bin\Generated\RestService.cs:line 75
+   at System.ServiceModel.Channels.CommunicationObject.Open(TimeSpan timeout)
+   at System.ServiceModel.ServiceHostingEnvironment.HostingManager.ActivateService(ServiceActivationInfo serviceActivationInfo, EventTraceActivity eventTraceActivity)
+   at System.ServiceModel.ServiceHostingEnvironment.HostingManager.EnsureServiceAvailable(String normalizedVirtualPath, EventTraceActivity eventTraceActivity)
+   --- End of inner exception stack trace ---
+   at System.Runtime.AsyncResult.End[TAsyncResult](IAsyncResult result)
+   at System.ServiceModel.Activation.HostedHttpRequestAsyncResult.End(IAsyncResult result)
+   at System.ServiceModel.Activation.AspNetRouteServiceHttpHandler.EndProcessRequest(IAsyncResult result)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.OnAsyncHandlerCompletion(IAsyncResult ar)
+2017-10-24 16:55:43.0783|ERROR|Global|Application error: System.ServiceModel.ServiceActivationException: The service '/Rhetos/Rest/Stanovnik/Drzava' cannot be activated due to an exception during compilation.  The exception message is: Could not find a base address that matches scheme https for the endpoint with binding WebHttpBinding. Registered base address schemes are [http].. ---> System.InvalidOperationException: Could not find a base address that matches scheme https for the endpoint with binding WebHttpBinding. Registered base address schemes are [http].
+   at System.ServiceModel.ServiceHostBase.MakeAbsoluteUri(Uri relativeOrAbsoluteUri, Binding binding, UriSchemeKeyedCollection baseAddresses)
+   at System.ServiceModel.ServiceHostBase.AddServiceEndpoint(String implementedContract, Binding binding, Uri address, Uri listenUri)
+   at System.ServiceModel.ServiceHost.AddServiceEndpoint(Type implementedContract, Binding binding, Uri address, Uri listenUri)
+   at System.ServiceModel.ServiceHost.AddServiceEndpoint(Type implementedContract, Binding binding, String address, Uri listenUri)
+   at System.ServiceModel.ServiceHost.AddServiceEndpoint(Type implementedContract, Binding binding, String address)
+   at Rhetos.Rest.RestServiceHost.OnOpening() in c:\Users\nkaramarko\Desktop\Projekti\MojPrviRhetosProjekt\Rhetos\Rhetos.2.2.0\bin\Generated\RestService.cs:line 75
+   at System.ServiceModel.Channels.CommunicationObject.Open(TimeSpan timeout)
+   at System.ServiceModel.ServiceHostingEnvironment.HostingManager.ActivateService(ServiceActivationInfo serviceActivationInfo, EventTraceActivity eventTraceActivity)
+   at System.ServiceModel.ServiceHostingEnvironment.HostingManager.EnsureServiceAvailable(String normalizedVirtualPath, EventTraceActivity eventTraceActivity)
+   --- End of inner exception stack trace ---
+   at System.Runtime.AsyncResult.End[TAsyncResult](IAsyncResult result)
+   at System.ServiceModel.Activation.HostedHttpRequestAsyncResult.End(IAsyncResult result)
+   at System.ServiceModel.Activation.AspNetRouteServiceHttpHandler.EndProcessRequest(IAsyncResult result)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.OnAsyncHandlerCompletion(IAsyncResult ar)
+2017-10-24 16:56:48.0345|ERROR|Global|Application error: System.ServiceModel.ServiceActivationException: The service '/Rhetos/Rest/Stanovnik/Drzava' cannot be activated due to an exception during compilation.  The exception message is: Could not find a base address that matches scheme https for the endpoint with binding WebHttpBinding. Registered base address schemes are [http].. ---> System.InvalidOperationException: Could not find a base address that matches scheme https for the endpoint with binding WebHttpBinding. Registered base address schemes are [http].
+   at System.ServiceModel.ServiceHostBase.MakeAbsoluteUri(Uri relativeOrAbsoluteUri, Binding binding, UriSchemeKeyedCollection baseAddresses)
+   at System.ServiceModel.ServiceHostBase.AddServiceEndpoint(String implementedContract, Binding binding, Uri address, Uri listenUri)
+   at System.ServiceModel.ServiceHost.AddServiceEndpoint(Type implementedContract, Binding binding, Uri address, Uri listenUri)
+   at System.ServiceModel.ServiceHost.AddServiceEndpoint(Type implementedContract, Binding binding, String address, Uri listenUri)
+   at System.ServiceModel.ServiceHost.AddServiceEndpoint(Type implementedContract, Binding binding, String address)
+   at Rhetos.Rest.RestServiceHost.OnOpening() in c:\Users\nkaramarko\Desktop\Projekti\MojPrviRhetosProjekt\Rhetos\Rhetos.2.2.0\bin\Generated\RestService.cs:line 75
+   at System.ServiceModel.Channels.CommunicationObject.Open(TimeSpan timeout)
+   at System.ServiceModel.ServiceHostingEnvironment.HostingManager.ActivateService(ServiceActivationInfo serviceActivationInfo, EventTraceActivity eventTraceActivity)
+   at System.ServiceModel.ServiceHostingEnvironment.HostingManager.EnsureServiceAvailable(String normalizedVirtualPath, EventTraceActivity eventTraceActivity)
+   --- End of inner exception stack trace ---
+   at System.Runtime.AsyncResult.End[TAsyncResult](IAsyncResult result)
+   at System.ServiceModel.Activation.HostedHttpRequestAsyncResult.End(IAsyncResult result)
+   at System.ServiceModel.Activation.AspNetRouteServiceHttpHandler.EndProcessRequest(IAsyncResult result)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.OnAsyncHandlerCompletion(IAsyncResult ar)
+2017-10-24 16:59:14.1034|ERROR|Global|Application error: System.ServiceModel.ServiceActivationException: The service '/Rhetos/Rest/Stanovnik/Drzava' cannot be activated due to an exception during compilation.  The exception message is: Could not find a base address that matches scheme https for the endpoint with binding WebHttpBinding. Registered base address schemes are [http].. ---> System.InvalidOperationException: Could not find a base address that matches scheme https for the endpoint with binding WebHttpBinding. Registered base address schemes are [http].
+   at System.ServiceModel.ServiceHostBase.MakeAbsoluteUri(Uri relativeOrAbsoluteUri, Binding binding, UriSchemeKeyedCollection baseAddresses)
+   at System.ServiceModel.ServiceHostBase.AddServiceEndpoint(String implementedContract, Binding binding, Uri address, Uri listenUri)
+   at System.ServiceModel.ServiceHost.AddServiceEndpoint(Type implementedContract, Binding binding, Uri address, Uri listenUri)
+   at System.ServiceModel.ServiceHost.AddServiceEndpoint(Type implementedContract, Binding binding, String address, Uri listenUri)
+   at System.ServiceModel.ServiceHost.AddServiceEndpoint(Type implementedContract, Binding binding, String address)
+   at Rhetos.Rest.RestServiceHost.OnOpening() in c:\Users\nkaramarko\Desktop\Projekti\MojPrviRhetosProjekt\Rhetos\Rhetos.2.2.0\bin\Generated\RestService.cs:line 75
+   at System.ServiceModel.Channels.CommunicationObject.Open(TimeSpan timeout)
+   at System.ServiceModel.ServiceHostingEnvironment.HostingManager.ActivateService(ServiceActivationInfo serviceActivationInfo, EventTraceActivity eventTraceActivity)
+   at System.ServiceModel.ServiceHostingEnvironment.HostingManager.EnsureServiceAvailable(String normalizedVirtualPath, EventTraceActivity eventTraceActivity)
+   --- End of inner exception stack trace ---
+   at System.Runtime.AsyncResult.End[TAsyncResult](IAsyncResult result)
+   at System.ServiceModel.Activation.HostedHttpRequestAsyncResult.End(IAsyncResult result)
+   at System.ServiceModel.Activation.AspNetRouteServiceHttpHandler.EndProcessRequest(IAsyncResult result)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.OnAsyncHandlerCompletion(IAsyncResult ar)
+2017-10-24 16:59:28.9101|ERROR|Global|Application error: System.ServiceModel.ServiceActivationException: The service '/Rhetos/Rest/Stanovnik/Drzava' cannot be activated due to an exception during compilation.  The exception message is: Could not find a base address that matches scheme https for the endpoint with binding WebHttpBinding. Registered base address schemes are [http].. ---> System.InvalidOperationException: Could not find a base address that matches scheme https for the endpoint with binding WebHttpBinding. Registered base address schemes are [http].
+   at System.ServiceModel.ServiceHostBase.MakeAbsoluteUri(Uri relativeOrAbsoluteUri, Binding binding, UriSchemeKeyedCollection baseAddresses)
+   at System.ServiceModel.ServiceHostBase.AddServiceEndpoint(String implementedContract, Binding binding, Uri address, Uri listenUri)
+   at System.ServiceModel.ServiceHost.AddServiceEndpoint(Type implementedContract, Binding binding, Uri address, Uri listenUri)
+   at System.ServiceModel.ServiceHost.AddServiceEndpoint(Type implementedContract, Binding binding, String address, Uri listenUri)
+   at System.ServiceModel.ServiceHost.AddServiceEndpoint(Type implementedContract, Binding binding, String address)
+   at Rhetos.Rest.RestServiceHost.OnOpening() in c:\Users\nkaramarko\Desktop\Projekti\MojPrviRhetosProjekt\Rhetos\Rhetos.2.2.0\bin\Generated\RestService.cs:line 75
+   at System.ServiceModel.Channels.CommunicationObject.Open(TimeSpan timeout)
+   at System.ServiceModel.ServiceHostingEnvironment.HostingManager.ActivateService(ServiceActivationInfo serviceActivationInfo, EventTraceActivity eventTraceActivity)
+   at System.ServiceModel.ServiceHostingEnvironment.HostingManager.EnsureServiceAvailable(String normalizedVirtualPath, EventTraceActivity eventTraceActivity)
+   --- End of inner exception stack trace ---
+   at System.Runtime.AsyncResult.End[TAsyncResult](IAsyncResult result)
+   at System.ServiceModel.Activation.HostedHttpRequestAsyncResult.End(IAsyncResult result)
+   at System.ServiceModel.Activation.AspNetRouteServiceHttpHandler.EndProcessRequest(IAsyncResult result)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.OnAsyncHandlerCompletion(IAsyncResult ar)
+2017-10-24 17:00:53.2091|ERROR|Global|Application error: System.ServiceModel.ServiceActivationException: The service '/Rhetos/Rest/Stanovnik/Drzava' cannot be activated due to an exception during compilation.  The exception message is: Could not find a base address that matches scheme https for the endpoint with binding WebHttpBinding. Registered base address schemes are [http].. ---> System.InvalidOperationException: Could not find a base address that matches scheme https for the endpoint with binding WebHttpBinding. Registered base address schemes are [http].
+   at System.ServiceModel.ServiceHostBase.MakeAbsoluteUri(Uri relativeOrAbsoluteUri, Binding binding, UriSchemeKeyedCollection baseAddresses)
+   at System.ServiceModel.ServiceHostBase.AddServiceEndpoint(String implementedContract, Binding binding, Uri address, Uri listenUri)
+   at System.ServiceModel.ServiceHost.AddServiceEndpoint(Type implementedContract, Binding binding, Uri address, Uri listenUri)
+   at System.ServiceModel.ServiceHost.AddServiceEndpoint(Type implementedContract, Binding binding, String address, Uri listenUri)
+   at System.ServiceModel.ServiceHost.AddServiceEndpoint(Type implementedContract, Binding binding, String address)
+   at Rhetos.Rest.RestServiceHost.OnOpening() in c:\Users\nkaramarko\Desktop\Projekti\MojPrviRhetosProjekt\Rhetos\Rhetos.2.2.0\bin\Generated\RestService.cs:line 75
+   at System.ServiceModel.Channels.CommunicationObject.Open(TimeSpan timeout)
+   at System.ServiceModel.ServiceHostingEnvironment.HostingManager.ActivateService(ServiceActivationInfo serviceActivationInfo, EventTraceActivity eventTraceActivity)
+   at System.ServiceModel.ServiceHostingEnvironment.HostingManager.EnsureServiceAvailable(String normalizedVirtualPath, EventTraceActivity eventTraceActivity)
+   --- End of inner exception stack trace ---
+   at System.Runtime.AsyncResult.End[TAsyncResult](IAsyncResult result)
+   at System.ServiceModel.Activation.HostedHttpRequestAsyncResult.End(IAsyncResult result)
+   at System.ServiceModel.Activation.AspNetRouteServiceHttpHandler.EndProcessRequest(IAsyncResult result)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.OnAsyncHandlerCompletion(IAsyncResult ar)
+2017-10-24 17:01:13.9658|ERROR|Global|Application error: System.ServiceModel.ServiceActivationException: The service '/Rhetos/Rest/Stanovnik/Drzava' cannot be activated due to an exception during compilation.  The exception message is: Could not find a base address that matches scheme https for the endpoint with binding WebHttpBinding. Registered base address schemes are [http].. ---> System.InvalidOperationException: Could not find a base address that matches scheme https for the endpoint with binding WebHttpBinding. Registered base address schemes are [http].
+   at System.ServiceModel.ServiceHostBase.MakeAbsoluteUri(Uri relativeOrAbsoluteUri, Binding binding, UriSchemeKeyedCollection baseAddresses)
+   at System.ServiceModel.ServiceHostBase.AddServiceEndpoint(String implementedContract, Binding binding, Uri address, Uri listenUri)
+   at System.ServiceModel.ServiceHost.AddServiceEndpoint(Type implementedContract, Binding binding, Uri address, Uri listenUri)
+   at System.ServiceModel.ServiceHost.AddServiceEndpoint(Type implementedContract, Binding binding, String address, Uri listenUri)
+   at System.ServiceModel.ServiceHost.AddServiceEndpoint(Type implementedContract, Binding binding, String address)
+   at Rhetos.Rest.RestServiceHost.OnOpening() in c:\Users\nkaramarko\Desktop\Projekti\MojPrviRhetosProjekt\Rhetos\Rhetos.2.2.0\bin\Generated\RestService.cs:line 75
+   at System.ServiceModel.Channels.CommunicationObject.Open(TimeSpan timeout)
+   at System.ServiceModel.ServiceHostingEnvironment.HostingManager.ActivateService(ServiceActivationInfo serviceActivationInfo, EventTraceActivity eventTraceActivity)
+   at System.ServiceModel.ServiceHostingEnvironment.HostingManager.EnsureServiceAvailable(String normalizedVirtualPath, EventTraceActivity eventTraceActivity)
+   --- End of inner exception stack trace ---
+   at System.Runtime.AsyncResult.End[TAsyncResult](IAsyncResult result)
+   at System.ServiceModel.Activation.HostedHttpRequestAsyncResult.End(IAsyncResult result)
+   at System.ServiceModel.Activation.AspNetRouteServiceHttpHandler.EndProcessRequest(IAsyncResult result)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.OnAsyncHandlerCompletion(IAsyncResult ar)
+2017-10-24 17:01:19.5263|ERROR|Global|Application error: System.ServiceModel.ServiceActivationException: The service '/Rhetos/Rest/Stanovnik/Drzava' cannot be activated due to an exception during compilation.  The exception message is: Could not find a base address that matches scheme https for the endpoint with binding WebHttpBinding. Registered base address schemes are [http].. ---> System.InvalidOperationException: Could not find a base address that matches scheme https for the endpoint with binding WebHttpBinding. Registered base address schemes are [http].
+   at System.ServiceModel.ServiceHostBase.MakeAbsoluteUri(Uri relativeOrAbsoluteUri, Binding binding, UriSchemeKeyedCollection baseAddresses)
+   at System.ServiceModel.ServiceHostBase.AddServiceEndpoint(String implementedContract, Binding binding, Uri address, Uri listenUri)
+   at System.ServiceModel.ServiceHost.AddServiceEndpoint(Type implementedContract, Binding binding, Uri address, Uri listenUri)
+   at System.ServiceModel.ServiceHost.AddServiceEndpoint(Type implementedContract, Binding binding, String address, Uri listenUri)
+   at System.ServiceModel.ServiceHost.AddServiceEndpoint(Type implementedContract, Binding binding, String address)
+   at Rhetos.Rest.RestServiceHost.OnOpening() in c:\Users\nkaramarko\Desktop\Projekti\MojPrviRhetosProjekt\Rhetos\Rhetos.2.2.0\bin\Generated\RestService.cs:line 75
+   at System.ServiceModel.Channels.CommunicationObject.Open(TimeSpan timeout)
+   at System.ServiceModel.ServiceHostingEnvironment.HostingManager.ActivateService(ServiceActivationInfo serviceActivationInfo, EventTraceActivity eventTraceActivity)
+   at System.ServiceModel.ServiceHostingEnvironment.HostingManager.EnsureServiceAvailable(String normalizedVirtualPath, EventTraceActivity eventTraceActivity)
+   --- End of inner exception stack trace ---
+   at System.Runtime.AsyncResult.End[TAsyncResult](IAsyncResult result)
+   at System.ServiceModel.Activation.HostedHttpRequestAsyncResult.End(IAsyncResult result)
+   at System.ServiceModel.Activation.AspNetRouteServiceHttpHandler.EndProcessRequest(IAsyncResult result)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.OnAsyncHandlerCompletion(IAsyncResult ar)
+2017-10-24 17:02:22.5509|ERROR|Global|Application error: System.ServiceModel.ServiceActivationException: The service '/Rhetos/Rest/Stanovnik/Drzava' cannot be activated due to an exception during compilation.  The exception message is: Could not find a base address that matches scheme https for the endpoint with binding WebHttpBinding. Registered base address schemes are [http].. ---> System.InvalidOperationException: Could not find a base address that matches scheme https for the endpoint with binding WebHttpBinding. Registered base address schemes are [http].
+   at System.ServiceModel.ServiceHostBase.MakeAbsoluteUri(Uri relativeOrAbsoluteUri, Binding binding, UriSchemeKeyedCollection baseAddresses)
+   at System.ServiceModel.ServiceHostBase.AddServiceEndpoint(String implementedContract, Binding binding, Uri address, Uri listenUri)
+   at System.ServiceModel.ServiceHost.AddServiceEndpoint(Type implementedContract, Binding binding, Uri address, Uri listenUri)
+   at System.ServiceModel.ServiceHost.AddServiceEndpoint(Type implementedContract, Binding binding, String address, Uri listenUri)
+   at System.ServiceModel.ServiceHost.AddServiceEndpoint(Type implementedContract, Binding binding, String address)
+   at Rhetos.Rest.RestServiceHost.OnOpening() in c:\Users\nkaramarko\Desktop\Projekti\MojPrviRhetosProjekt\Rhetos\Rhetos.2.2.0\bin\Generated\RestService.cs:line 75
+   at System.ServiceModel.Channels.CommunicationObject.Open(TimeSpan timeout)
+   at System.ServiceModel.ServiceHostingEnvironment.HostingManager.ActivateService(ServiceActivationInfo serviceActivationInfo, EventTraceActivity eventTraceActivity)
+   at System.ServiceModel.ServiceHostingEnvironment.HostingManager.EnsureServiceAvailable(String normalizedVirtualPath, EventTraceActivity eventTraceActivity)
+   --- End of inner exception stack trace ---
+   at System.Runtime.AsyncResult.End[TAsyncResult](IAsyncResult result)
+   at System.ServiceModel.Activation.HostedHttpRequestAsyncResult.End(IAsyncResult result)
+   at System.ServiceModel.Activation.AspNetRouteServiceHttpHandler.EndProcessRequest(IAsyncResult result)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.OnAsyncHandlerCompletion(IAsyncResult ar)
+2017-10-24 17:03:59.0310|ERROR|Global|Application error: System.ServiceModel.ServiceActivationException: The service '/Rhetos/Rest/Stanovnik/Drzava' cannot be activated due to an exception during compilation.  The exception message is: The authentication schemes configured on the host ('IntegratedWindowsAuthentication') do not allow those configured on the binding 'WebHttpBinding' ('Anonymous').  Please ensure that the SecurityMode is set to Transport or TransportCredentialOnly.  Additionally, this may be resolved by changing the authentication schemes for this application through the IIS management tool, through the ServiceHost.Authentication.AuthenticationSchemes property, in the application configuration file at the <serviceAuthenticationManager> element, by updating the ClientCredentialType property on the binding, or by adjusting the AuthenticationScheme property on the HttpTransportBindingElement.. ---> System.NotSupportedException: The authentication schemes configured on the host ('IntegratedWindowsAuthentication') do not allow those configured on the binding 'WebHttpBinding' ('Anonymous').  Please ensure that the SecurityMode is set to Transport or TransportCredentialOnly.  Additionally, this may be resolved by changing the authentication schemes for this application through the IIS management tool, through the ServiceHost.Authentication.AuthenticationSchemes property, in the application configuration file at the <serviceAuthenticationManager> element, by updating the ClientCredentialType property on the binding, or by adjusting the AuthenticationScheme property on the HttpTransportBindingElement.
+   at System.ServiceModel.Channels.HttpTransportBindingElement.UpdateAuthenticationSchemes(BindingContext context)
+   at System.ServiceModel.Channels.HttpsTransportBindingElement.BuildChannelListener[TChannel](BindingContext context)
+   at System.ServiceModel.Channels.BindingContext.BuildInnerChannelListener[TChannel]()
+   at System.ServiceModel.Channels.MessageEncodingBindingElement.InternalBuildChannelListener[TChannel](BindingContext context)
+   at System.ServiceModel.Channels.WebMessageEncodingBindingElement.BuildChannelListener[TChannel](BindingContext context)
+   at System.ServiceModel.Channels.BindingContext.BuildInnerChannelListener[TChannel]()
+   at System.ServiceModel.Channels.Binding.BuildChannelListener[TChannel](Uri listenUriBaseAddress, String listenUriRelativeAddress, ListenUriMode listenUriMode, BindingParameterCollection parameters)
+   at System.ServiceModel.Description.DispatcherBuilder.MaybeCreateListener(Boolean actuallyCreate, Type[] supportedChannels, Binding binding, BindingParameterCollection parameters, Uri listenUriBaseAddress, String listenUriRelativeAddress, ListenUriMode listenUriMode, ServiceThrottle throttle, IChannelListener& result, Boolean supportContextSession)
+   at System.ServiceModel.Description.DispatcherBuilder.BuildChannelListener(StuffPerListenUriInfo stuff, ServiceHostBase serviceHost, Uri listenUri, ListenUriMode listenUriMode, Boolean supportContextSession, IChannelListener& result)
+   at System.ServiceModel.Description.DispatcherBuilder.InitializeServiceHost(ServiceDescription description, ServiceHostBase serviceHost)
+   at System.ServiceModel.ServiceHostBase.InitializeRuntime()
+   at System.ServiceModel.ServiceHostBase.OnBeginOpen()
+   at System.ServiceModel.ServiceHostBase.OnOpen(TimeSpan timeout)
+   at System.ServiceModel.Channels.CommunicationObject.Open(TimeSpan timeout)
+   at System.ServiceModel.ServiceHostingEnvironment.HostingManager.ActivateService(ServiceActivationInfo serviceActivationInfo, EventTraceActivity eventTraceActivity)
+   at System.ServiceModel.ServiceHostingEnvironment.HostingManager.EnsureServiceAvailable(String normalizedVirtualPath, EventTraceActivity eventTraceActivity)
+   --- End of inner exception stack trace ---
+   at System.Runtime.AsyncResult.End[TAsyncResult](IAsyncResult result)
+   at System.ServiceModel.Activation.HostedHttpRequestAsyncResult.End(IAsyncResult result)
+   at System.ServiceModel.Activation.AspNetRouteServiceHttpHandler.EndProcessRequest(IAsyncResult result)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.OnAsyncHandlerCompletion(IAsyncResult ar)
+2017-10-24 17:04:24.2955|ERROR|Global|Application error: System.Web.HttpException (0x80004005): There was no channel actively listening at 'http://nkaramarko-pc.omega-software.hr/Rhetos/Rest/Stanovnik/Drzava/'. This is often caused by an incorrect address URI. Ensure that the address to which the message is sent matches an address on which a service is listening. ---> System.ServiceModel.EndpointNotFoundException: There was no channel actively listening at 'http://nkaramarko-pc.omega-software.hr/Rhetos/Rest/Stanovnik/Drzava/'. This is often caused by an incorrect address URI. Ensure that the address to which the message is sent matches an address on which a service is listening.
+   at System.ServiceModel.Activation.HostedHttpTransportManager.HttpContextReceived(HostedHttpRequestAsyncResult result)
+   at System.ServiceModel.Activation.HostedHttpRequestAsyncResult.HandleRequest()
+   at System.ServiceModel.Activation.HostedHttpRequestAsyncResult.BeginRequest()
+   at System.Runtime.AsyncResult.End[TAsyncResult](IAsyncResult result)
+   at System.ServiceModel.Activation.HostedHttpRequestAsyncResult.End(IAsyncResult result)
+   at System.ServiceModel.Activation.AspNetRouteServiceHttpHandler.EndProcessRequest(IAsyncResult result)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.OnAsyncHandlerCompletion(IAsyncResult ar)
+2017-10-24 17:05:01.9823|ERROR|AuthorizationDataLoader|There is no principal with the given username '' in Common.Principal.
+2017-10-24 17:05:01.9953|INFO|GlobalErrorHandler|Rhetos.ClientException: There is no principal with the given username.
+   at Rhetos.Dom.DefaultConcepts.AuthorizationDataLoader.GetPrincipal(String username) in C:\My Projects\Rhetos\CommonConcepts\Plugins\Rhetos.Dom.DefaultConcepts\Authorization\AuthorizationDataLoader.cs:line 114
+   at Rhetos.Dom.DefaultConcepts.AuthorizationDataCache.<>c__DisplayClass11_0.<GetPrincipal>b__0() in C:\My Projects\Rhetos\CommonConcepts\Plugins\Rhetos.Dom.DefaultConcepts\Authorization\AuthorizationDataCache.cs:line 135
+   at Rhetos.Dom.DefaultConcepts.AuthorizationDataCache.CacheGetOrAdd[T](String key, Func`1 valueCreator, Double absoluteExpirationInSeconds) in C:\My Projects\Rhetos\CommonConcepts\Plugins\Rhetos.Dom.DefaultConcepts\Authorization\AuthorizationDataCache.cs:line 122
+   at Rhetos.Dom.DefaultConcepts.AuthorizationDataCache.GetPrincipal(String username) in C:\My Projects\Rhetos\CommonConcepts\Plugins\Rhetos.Dom.DefaultConcepts\Authorization\AuthorizationDataCache.cs:line 134
+   at Rhetos.Dom.DefaultConcepts.CommonAuthorizationProvider.GetAuthorizations(IUserInfo userInfo, IList`1 requiredClaims) in C:\My Projects\Rhetos\CommonConcepts\Plugins\Rhetos.Dom.DefaultConcepts\Authorization\CommonAuthorizationProvider.cs:line 42
+   at Rhetos.Security.AuthorizationManager.GetAuthorizations(IList`1 requiredClaims) in C:\My Projects\Rhetos\Source\Rhetos.Security\AuthorizationManager.cs:line 85
+   at Rhetos.Security.AuthorizationManager.Authorize(IList`1 commandInfos) in C:\My Projects\Rhetos\Source\Rhetos.Security\AuthorizationManager.cs:line 97
+   at Rhetos.Processing.ProcessingEngine.ExecuteInner(IList`1 commands, Guid executionId) in C:\My Projects\Rhetos\Source\Rhetos.Processing\ProcessingEngine.cs:line 101
+   at Rhetos.Processing.ProcessingEngine.Execute(IList`1 commands) in C:\My Projects\Rhetos\Source\Rhetos.Processing\ProcessingEngine.cs:line 89
+   at Rhetos.RestGenerator.Utilities.ServiceUtility.ExecuteReadCommand(ReadCommandInfo commandInfo) in C:\My Projects\RhetosPackages\RestGenerator\Plugins\Rhetos.RestGenerator\Utilities\ServiceUtility.cs:line 123
+   at Rhetos.RestGenerator.Utilities.ServiceUtility.GetData[T](String filter, String fparam, String genericfilter, String filters, IDictionary`2 filterTypesByName, Int32 top, Int32 skip, Int32 page, Int32 psize, String sort, Boolean readRecords, Boolean readTotalCount) in C:\My Projects\RhetosPackages\RestGenerator\Plugins\Rhetos.RestGenerator\Utilities\ServiceUtility.cs:line 93
+   at Rhetos.Rest.RestServiceCommonClaim.Get(String filter, String fparam, String genericfilter, String filters, Int32 top, Int32 skip, Int32 page, Int32 psize, String sort) in c:\Users\nkaramarko\Desktop\Projekti\MojPrviRhetosProjekt\Rhetos\Rhetos.2.2.0\bin\Generated\RestService.cs:line 1830
+   at SyncInvokeGet(Object , Object[] , Object[] )
+   at System.ServiceModel.Dispatcher.SyncMethodInvoker.Invoke(Object instance, Object[] inputs, Object[]& outputs)
+   at System.ServiceModel.Dispatcher.DispatchOperationRuntime.InvokeBegin(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage5(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage41(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage4(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage31(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage3(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage2(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage11(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage1(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.MessageRpc.Process(Boolean isOperationContextSet)
+Info: 
+2017-10-24 17:06:29.9134|ERROR|Global|Application error: System.ServiceModel.ServiceActivationException: The service '/Rhetos/Rest/Stanovnik/Drzava' cannot be activated due to an exception during compilation.  The exception message is: The authentication schemes configured on the host ('IntegratedWindowsAuthentication') do not allow those configured on the binding 'WebHttpBinding' ('Anonymous').  Please ensure that the SecurityMode is set to Transport or TransportCredentialOnly.  Additionally, this may be resolved by changing the authentication schemes for this application through the IIS management tool, through the ServiceHost.Authentication.AuthenticationSchemes property, in the application configuration file at the <serviceAuthenticationManager> element, by updating the ClientCredentialType property on the binding, or by adjusting the AuthenticationScheme property on the HttpTransportBindingElement.. ---> System.NotSupportedException: The authentication schemes configured on the host ('IntegratedWindowsAuthentication') do not allow those configured on the binding 'WebHttpBinding' ('Anonymous').  Please ensure that the SecurityMode is set to Transport or TransportCredentialOnly.  Additionally, this may be resolved by changing the authentication schemes for this application through the IIS management tool, through the ServiceHost.Authentication.AuthenticationSchemes property, in the application configuration file at the <serviceAuthenticationManager> element, by updating the ClientCredentialType property on the binding, or by adjusting the AuthenticationScheme property on the HttpTransportBindingElement.
+   at System.ServiceModel.Channels.HttpTransportBindingElement.UpdateAuthenticationSchemes(BindingContext context)
+   at System.ServiceModel.Channels.HttpsTransportBindingElement.BuildChannelListener[TChannel](BindingContext context)
+   at System.ServiceModel.Channels.BindingContext.BuildInnerChannelListener[TChannel]()
+   at System.ServiceModel.Channels.MessageEncodingBindingElement.InternalBuildChannelListener[TChannel](BindingContext context)
+   at System.ServiceModel.Channels.WebMessageEncodingBindingElement.BuildChannelListener[TChannel](BindingContext context)
+   at System.ServiceModel.Channels.BindingContext.BuildInnerChannelListener[TChannel]()
+   at System.ServiceModel.Channels.Binding.BuildChannelListener[TChannel](Uri listenUriBaseAddress, String listenUriRelativeAddress, ListenUriMode listenUriMode, BindingParameterCollection parameters)
+   at System.ServiceModel.Description.DispatcherBuilder.MaybeCreateListener(Boolean actuallyCreate, Type[] supportedChannels, Binding binding, BindingParameterCollection parameters, Uri listenUriBaseAddress, String listenUriRelativeAddress, ListenUriMode listenUriMode, ServiceThrottle throttle, IChannelListener& result, Boolean supportContextSession)
+   at System.ServiceModel.Description.DispatcherBuilder.BuildChannelListener(StuffPerListenUriInfo stuff, ServiceHostBase serviceHost, Uri listenUri, ListenUriMode listenUriMode, Boolean supportContextSession, IChannelListener& result)
+   at System.ServiceModel.Description.DispatcherBuilder.InitializeServiceHost(ServiceDescription description, ServiceHostBase serviceHost)
+   at System.ServiceModel.ServiceHostBase.InitializeRuntime()
+   at System.ServiceModel.ServiceHostBase.OnBeginOpen()
+   at System.ServiceModel.ServiceHostBase.OnOpen(TimeSpan timeout)
+   at System.ServiceModel.Channels.CommunicationObject.Open(TimeSpan timeout)
+   at System.ServiceModel.ServiceHostingEnvironment.HostingManager.ActivateService(ServiceActivationInfo serviceActivationInfo, EventTraceActivity eventTraceActivity)
+   at System.ServiceModel.ServiceHostingEnvironment.HostingManager.EnsureServiceAvailable(String normalizedVirtualPath, EventTraceActivity eventTraceActivity)
+   --- End of inner exception stack trace ---
+   at System.Runtime.AsyncResult.End[TAsyncResult](IAsyncResult result)
+   at System.ServiceModel.Activation.HostedHttpRequestAsyncResult.End(IAsyncResult result)
+   at System.ServiceModel.Activation.AspNetRouteServiceHttpHandler.EndProcessRequest(IAsyncResult result)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.OnAsyncHandlerCompletion(IAsyncResult ar)
+2017-10-24 17:07:17.4338|ERROR|Global|Application error: System.Web.HttpException (0x80004005): There was no channel actively listening at 'http://nkaramarko-pc.omega-software.hr/Rhetos/Rest/Stanovnik/Drzava/'. This is often caused by an incorrect address URI. Ensure that the address to which the message is sent matches an address on which a service is listening. ---> System.ServiceModel.EndpointNotFoundException: There was no channel actively listening at 'http://nkaramarko-pc.omega-software.hr/Rhetos/Rest/Stanovnik/Drzava/'. This is often caused by an incorrect address URI. Ensure that the address to which the message is sent matches an address on which a service is listening.
+   at System.ServiceModel.Activation.HostedHttpTransportManager.HttpContextReceived(HostedHttpRequestAsyncResult result)
+   at System.ServiceModel.Activation.HostedHttpRequestAsyncResult.HandleRequest()
+   at System.ServiceModel.Activation.HostedHttpRequestAsyncResult.BeginRequest()
+   at System.Runtime.AsyncResult.End[TAsyncResult](IAsyncResult result)
+   at System.ServiceModel.Activation.HostedHttpRequestAsyncResult.End(IAsyncResult result)
+   at System.ServiceModel.Activation.AspNetRouteServiceHttpHandler.EndProcessRequest(IAsyncResult result)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.OnAsyncHandlerCompletion(IAsyncResult ar)
+2017-10-24 17:12:31.4141|ERROR|Global|Application error: System.Web.HttpException (0x80004005): There was no channel actively listening at 'https://nkaramarko-pc.omega-software.hr/Rhetos/Rest/Common/Claim/'. This is often caused by an incorrect address URI. Ensure that the address to which the message is sent matches an address on which a service is listening. ---> System.ServiceModel.EndpointNotFoundException: There was no channel actively listening at 'https://nkaramarko-pc.omega-software.hr/Rhetos/Rest/Common/Claim/'. This is often caused by an incorrect address URI. Ensure that the address to which the message is sent matches an address on which a service is listening.
+   at System.ServiceModel.Activation.HostedHttpTransportManager.HttpContextReceived(HostedHttpRequestAsyncResult result)
+   at System.ServiceModel.Activation.HostedHttpRequestAsyncResult.HandleRequest()
+   at System.ServiceModel.Activation.HostedHttpRequestAsyncResult.BeginRequest()
+   at System.Runtime.AsyncResult.End[TAsyncResult](IAsyncResult result)
+   at System.ServiceModel.Activation.HostedHttpRequestAsyncResult.End(IAsyncResult result)
+   at System.ServiceModel.Activation.AspNetRouteServiceHttpHandler.EndProcessRequest(IAsyncResult result)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.OnAsyncHandlerCompletion(IAsyncResult ar)

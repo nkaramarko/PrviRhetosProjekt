@@ -1,0 +1,612 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Stanovnik_Osoba" xml:space="preserve">
+    <value>Osoba</value>
+  </data>
+  <data name="Stanovnik_Drzava" xml:space="preserve">
+    <value>Država</value>
+  </data>
+  <data name="Stanovnik_Grad" xml:space="preserve">
+    <value>Grad</value>
+  </data>
+  <data name="Stanovnik_Adresa" xml:space="preserve">
+    <value>Adresa</value>
+  </data>
+  <data name="Common_AutoCodeCache" xml:space="preserve">
+    <value>Auto code cache</value>
+  </data>
+  <data name="Common_FilterId" xml:space="preserve">
+    <value>Filter id</value>
+  </data>
+  <data name="Common_KeepSynchronizedMetadata" xml:space="preserve">
+    <value>Keep synchronized metadata</value>
+  </data>
+  <data name="Common_ExclusiveLock" xml:space="preserve">
+    <value>Exclusive lock</value>
+  </data>
+  <data name="Common_Log" xml:space="preserve">
+    <value>Log</value>
+  </data>
+  <data name="Common_LogRelatedItem" xml:space="preserve">
+    <value>Log related item</value>
+  </data>
+  <data name="Common_Claim" xml:space="preserve">
+    <value>Claim</value>
+  </data>
+  <data name="Common_Principal" xml:space="preserve">
+    <value>Principal</value>
+  </data>
+  <data name="Common_PrincipalHasRole" xml:space="preserve">
+    <value>Principal has role</value>
+  </data>
+  <data name="Common_Role" xml:space="preserve">
+    <value>Role</value>
+  </data>
+  <data name="Common_RoleInheritsRole" xml:space="preserve">
+    <value>Role inherits role</value>
+  </data>
+  <data name="Common_PrincipalPermission" xml:space="preserve">
+    <value>Principal permission</value>
+  </data>
+  <data name="Common_RolePermission" xml:space="preserve">
+    <value>Role permission</value>
+  </data>
+  <data name="Common_AspNetFormsAuthPasswordAttemptsLimit" xml:space="preserve">
+    <value>Asp net forms auth password attempts limit</value>
+  </data>
+  <data name="Common_AspNetFormsAuthPasswordStrength" xml:space="preserve">
+    <value>Asp net forms auth password strength</value>
+  </data>
+  <data name="Common_ReportTemplate" xml:space="preserve">
+    <value>Report template</value>
+  </data>
+  <data name="Common_SetLock" xml:space="preserve">
+    <value>Set lock</value>
+  </data>
+  <data name="Common_ReleaseLock" xml:space="preserve">
+    <value>Release lock</value>
+  </data>
+  <data name="Common_AddToLog" xml:space="preserve">
+    <value>Add to log</value>
+  </data>
+  <data name="Common_LogReader" xml:space="preserve">
+    <value>Log reader</value>
+  </data>
+  <data name="Common_LogRelatedItemReader" xml:space="preserve">
+    <value>Log related item reader</value>
+  </data>
+  <data name="Common_RelatedEventsSource" xml:space="preserve">
+    <value>Related events source</value>
+  </data>
+  <data name="Common_MyClaim" xml:space="preserve">
+    <value>My claim</value>
+  </data>
+  <data name="Common_RowPermissionsReadItems" xml:space="preserve">
+    <value>Row permissions read items</value>
+  </data>
+  <data name="Common_RowPermissionsWriteItems" xml:space="preserve">
+    <value>Row permissions write items</value>
+  </data>
+  <data name="Common_LoggedItem" xml:space="preserve">
+    <value>Logged item</value>
+  </data>
+  <data name="Common_DeletedItems" xml:space="preserve">
+    <value>Deleted items</value>
+  </data>
+  <data name="Common_LogEntry" xml:space="preserve">
+    <value>Log entry</value>
+  </data>
+  <data name="Common_SystemRequiredAspNetUserId" xml:space="preserve">
+    <value>System required asp net user id</value>
+  </data>
+  <data name="Common_SystemRequiredMaxInvalidPasswordAttempts" xml:space="preserve">
+    <value>System required max invalid password attempts</value>
+  </data>
+  <data name="Common_SystemRequiredActive" xml:space="preserve">
+    <value>System required active</value>
+  </data>
+  <data name="Stanovnik_SystemRequiredSifra" xml:space="preserve">
+    <value>System required šifra</value>
+  </data>
+  <data name="Common_SystemRequiredLog" xml:space="preserve">
+    <value>System required log</value>
+  </data>
+  <data name="Common_SystemRequiredPrincipal" xml:space="preserve">
+    <value>System required principal</value>
+  </data>
+  <data name="Common_SystemRequiredUsersFrom" xml:space="preserve">
+    <value>System required users from</value>
+  </data>
+  <data name="Common_SystemRequiredClaim" xml:space="preserve">
+    <value>System required claim</value>
+  </data>
+  <data name="Common_SystemRequiredRole" xml:space="preserve">
+    <value>System required role</value>
+  </data>
+  <data name="Common_Permission" xml:space="preserve">
+    <value>Permission</value>
+  </data>
+  <data name="Common_AuditRelatedEvents" xml:space="preserve">
+    <value>Audit related events</value>
+  </data>
+  <data name="Common_AuditDataModifications" xml:space="preserve">
+    <value>Audit data modifications</value>
+  </data>
+  <data name="Stanovnik_Osoba_OIB" xml:space="preserve">
+    <value>OIB</value>
+  </data>
+  <data name="Stanovnik_Drzava_Sifra" xml:space="preserve">
+    <value>Šifra</value>
+  </data>
+  <data name="Stanovnik_Grad_Sifra" xml:space="preserve">
+    <value>Šifra</value>
+  </data>
+  <data name="Stanovnik_Adresa_Sifra" xml:space="preserve">
+    <value>Šifra</value>
+  </data>
+  <data name="Common_AutoCodeCache_MinDigits" xml:space="preserve">
+    <value>Min digits</value>
+  </data>
+  <data name="Common_AutoCodeCache_LastCode" xml:space="preserve">
+    <value>Last code</value>
+  </data>
+  <data name="Common_Principal_AspNetUserId" xml:space="preserve">
+    <value>Asp net user id</value>
+  </data>
+  <data name="Common_AspNetFormsAuthPasswordAttemptsLimit_MaxInvalidPasswordAttempts" xml:space="preserve">
+    <value>Max invalid password attempts</value>
+  </data>
+  <data name="Common_AspNetFormsAuthPasswordAttemptsLimit_TimeoutInSeconds" xml:space="preserve">
+    <value>Timeout in seconds</value>
+  </data>
+  <data name="Stanovnik_Osoba_Ime" xml:space="preserve">
+    <value>Ime</value>
+  </data>
+  <data name="Stanovnik_Osoba_Prezime" xml:space="preserve">
+    <value>Prezime</value>
+  </data>
+  <data name="Stanovnik_Drzava_Naziv" xml:space="preserve">
+    <value>Naziv</value>
+  </data>
+  <data name="Stanovnik_Grad_Naziv" xml:space="preserve">
+    <value>Naziv</value>
+  </data>
+  <data name="Stanovnik_Grad_PostanskiBroj" xml:space="preserve">
+    <value>Postanski broj</value>
+  </data>
+  <data name="Stanovnik_Adresa_Naziv" xml:space="preserve">
+    <value>Naziv</value>
+  </data>
+  <data name="Stanovnik_Adresa_KucniBroj" xml:space="preserve">
+    <value>Kucni broj</value>
+  </data>
+  <data name="Common_AutoCodeCache_Entity" xml:space="preserve">
+    <value>Entity</value>
+  </data>
+  <data name="Common_AutoCodeCache_Property" xml:space="preserve">
+    <value>Property</value>
+  </data>
+  <data name="Common_AutoCodeCache_Grouping" xml:space="preserve">
+    <value>Grouping</value>
+  </data>
+  <data name="Common_AutoCodeCache_Prefix" xml:space="preserve">
+    <value>Prefix</value>
+  </data>
+  <data name="Common_KeepSynchronizedMetadata_Target" xml:space="preserve">
+    <value>Target</value>
+  </data>
+  <data name="Common_KeepSynchronizedMetadata_Source" xml:space="preserve">
+    <value>Source</value>
+  </data>
+  <data name="Common_ExclusiveLock_ResourceType" xml:space="preserve">
+    <value>Resource type</value>
+  </data>
+  <data name="Common_ExclusiveLock_UserName" xml:space="preserve">
+    <value>User name</value>
+  </data>
+  <data name="Common_ExclusiveLock_Workstation" xml:space="preserve">
+    <value>Workstation</value>
+  </data>
+  <data name="Common_SetLock_ResourceType" xml:space="preserve">
+    <value>Resource type</value>
+  </data>
+  <data name="Common_ReleaseLock_ResourceType" xml:space="preserve">
+    <value>Resource type</value>
+  </data>
+  <data name="Common_Log_UserName" xml:space="preserve">
+    <value>User name</value>
+  </data>
+  <data name="Common_Log_Workstation" xml:space="preserve">
+    <value>Workstation</value>
+  </data>
+  <data name="Common_Log_ContextInfo" xml:space="preserve">
+    <value>Context info</value>
+  </data>
+  <data name="Common_Log_Action" xml:space="preserve">
+    <value>Action</value>
+  </data>
+  <data name="Common_Log_TableName" xml:space="preserve">
+    <value>Table name</value>
+  </data>
+  <data name="Common_AddToLog_Action" xml:space="preserve">
+    <value>Action</value>
+  </data>
+  <data name="Common_AddToLog_TableName" xml:space="preserve">
+    <value>Table name</value>
+  </data>
+  <data name="Common_LogRelatedItem_TableName" xml:space="preserve">
+    <value>Table name</value>
+  </data>
+  <data name="Common_LogRelatedItem_Relation" xml:space="preserve">
+    <value>Relation</value>
+  </data>
+  <data name="Common_RelatedEventsSource_Relation" xml:space="preserve">
+    <value>Relation</value>
+  </data>
+  <data name="Common_RelatedEventsSource_RelatedToTable" xml:space="preserve">
+    <value>Related to table</value>
+  </data>
+  <data name="Common_Claim_ClaimResource" xml:space="preserve">
+    <value>Claim resource</value>
+  </data>
+  <data name="Common_Claim_ClaimRight" xml:space="preserve">
+    <value>Claim right</value>
+  </data>
+  <data name="Common_Principal_Name" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="Common_Role_Name" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="Common_AspNetFormsAuthPasswordStrength_RegularExpression" xml:space="preserve">
+    <value>Regular expression</value>
+  </data>
+  <data name="Common_AspNetFormsAuthPasswordStrength_RuleDescription" xml:space="preserve">
+    <value>Rule description</value>
+  </data>
+  <data name="Common_LoggedItem_TableName" xml:space="preserve">
+    <value>Table name</value>
+  </data>
+  <data name="Common_DeletedItems_TableName" xml:space="preserve">
+    <value>Table name</value>
+  </data>
+  <data name="Common_AuditRelatedEvents_Action" xml:space="preserve">
+    <value>Action</value>
+  </data>
+  <data name="Common_AuditRelatedEvents_TableName" xml:space="preserve">
+    <value>Table name</value>
+  </data>
+  <data name="Common_AuditRelatedEvents_ClientUserName" xml:space="preserve">
+    <value>Client user name</value>
+  </data>
+  <data name="Common_AuditRelatedEvents_ClientWorkstation" xml:space="preserve">
+    <value>Client workstation</value>
+  </data>
+  <data name="Common_AuditRelatedEvents_Relation" xml:space="preserve">
+    <value>Relation</value>
+  </data>
+  <data name="Common_AuditDataModifications_Property" xml:space="preserve">
+    <value>Property</value>
+  </data>
+  <data name="Common_ReportTemplate_FileName" xml:space="preserve">
+    <value>File name</value>
+  </data>
+  <data name="Common_ReportTemplate_DisplayName" xml:space="preserve">
+    <value>Display name</value>
+  </data>
+  <data name="Common_LogReader_UserName" xml:space="preserve">
+    <value>User name</value>
+  </data>
+  <data name="Common_LogReader_Workstation" xml:space="preserve">
+    <value>Workstation</value>
+  </data>
+  <data name="Common_LogReader_ContextInfo" xml:space="preserve">
+    <value>Context info</value>
+  </data>
+  <data name="Common_LogReader_Action" xml:space="preserve">
+    <value>Action</value>
+  </data>
+  <data name="Common_LogReader_TableName" xml:space="preserve">
+    <value>Table name</value>
+  </data>
+  <data name="Common_LogRelatedItemReader_TableName" xml:space="preserve">
+    <value>Table name</value>
+  </data>
+  <data name="Common_LogRelatedItemReader_Relation" xml:space="preserve">
+    <value>Relation</value>
+  </data>
+  <data name="Common_RelatedEventsSource_UserName" xml:space="preserve">
+    <value>User name</value>
+  </data>
+  <data name="Common_RelatedEventsSource_Workstation" xml:space="preserve">
+    <value>Workstation</value>
+  </data>
+  <data name="Common_RelatedEventsSource_ContextInfo" xml:space="preserve">
+    <value>Context info</value>
+  </data>
+  <data name="Common_RelatedEventsSource_Action" xml:space="preserve">
+    <value>Action</value>
+  </data>
+  <data name="Common_RelatedEventsSource_TableName" xml:space="preserve">
+    <value>Table name</value>
+  </data>
+  <data name="Stanovnik_Grad_GradUDrzavi" xml:space="preserve">
+    <value>Grad u državi</value>
+  </data>
+  <data name="Stanovnik_Adresa_AdresaUGradu" xml:space="preserve">
+    <value>Adresa u gradu</value>
+  </data>
+  <data name="Common_RoleInheritsRole_UsersFrom" xml:space="preserve">
+    <value>Users from</value>
+  </data>
+  <data name="Common_RoleInheritsRole_PermissionsFrom" xml:space="preserve">
+    <value>Permissions from</value>
+  </data>
+  <data name="Common_PrincipalPermission_Principal" xml:space="preserve">
+    <value>Principal</value>
+  </data>
+  <data name="Common_PrincipalPermission_Claim" xml:space="preserve">
+    <value>Claim</value>
+  </data>
+  <data name="Common_Permission_Role" xml:space="preserve">
+    <value>Role</value>
+  </data>
+  <data name="Common_Permission_Claim" xml:space="preserve">
+    <value>Claim</value>
+  </data>
+  <data name="Common_LogRelatedItemReader_Log" xml:space="preserve">
+    <value>Log</value>
+  </data>
+  <data name="Common_FilterId_Handle" xml:space="preserve">
+    <value>Handle</value>
+  </data>
+  <data name="Common_FilterId_Value" xml:space="preserve">
+    <value>Value</value>
+  </data>
+  <data name="Common_ExclusiveLock_ResourceID" xml:space="preserve">
+    <value>Resource i d</value>
+  </data>
+  <data name="Common_SetLock_ResourceID" xml:space="preserve">
+    <value>Resource i d</value>
+  </data>
+  <data name="Common_ReleaseLock_ResourceID" xml:space="preserve">
+    <value>Resource i d</value>
+  </data>
+  <data name="Common_Log_ItemId" xml:space="preserve">
+    <value>Item id</value>
+  </data>
+  <data name="Common_AddToLog_ItemId" xml:space="preserve">
+    <value>Item id</value>
+  </data>
+  <data name="Common_LogRelatedItem_ItemId" xml:space="preserve">
+    <value>Item id</value>
+  </data>
+  <data name="Common_RelatedEventsSource_RelatedToItem" xml:space="preserve">
+    <value>Related to item</value>
+  </data>
+  <data name="Common_LoggedItem_ItemId" xml:space="preserve">
+    <value>Item id</value>
+  </data>
+  <data name="Common_LogEntry_LogID" xml:space="preserve">
+    <value>Log i d</value>
+  </data>
+  <data name="Common_AuditRelatedEvents_ItemId" xml:space="preserve">
+    <value>Item id</value>
+  </data>
+  <data name="Common_LogReader_ItemId" xml:space="preserve">
+    <value>Item id</value>
+  </data>
+  <data name="Common_LogRelatedItemReader_ItemId" xml:space="preserve">
+    <value>Item id</value>
+  </data>
+  <data name="Common_RelatedEventsSource_ItemId" xml:space="preserve">
+    <value>Item id</value>
+  </data>
+  <data name="Common_KeepSynchronizedMetadata_Context" xml:space="preserve">
+    <value>Context</value>
+  </data>
+  <data name="Common_Log_Description" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="Common_AddToLog_Description" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="Common_AuditRelatedEvents_Description" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="Common_AuditRelatedEvents_Summary" xml:space="preserve">
+    <value>Summary</value>
+  </data>
+  <data name="Common_AuditDataModifications_OldValue" xml:space="preserve">
+    <value>Old value</value>
+  </data>
+  <data name="Common_AuditDataModifications_NewValue" xml:space="preserve">
+    <value>New value</value>
+  </data>
+  <data name="Common_LogReader_Description" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="Common_RelatedEventsSource_Description" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="Common_ExclusiveLock_LockStart" xml:space="preserve">
+    <value>Lock start</value>
+  </data>
+  <data name="Common_ExclusiveLock_LockFinish" xml:space="preserve">
+    <value>Lock finish</value>
+  </data>
+  <data name="Common_Log_Created" xml:space="preserve">
+    <value>Created</value>
+  </data>
+  <data name="Common_AuditRelatedEvents_Created" xml:space="preserve">
+    <value>Created</value>
+  </data>
+  <data name="Common_LogReader_Created" xml:space="preserve">
+    <value>Created</value>
+  </data>
+  <data name="Common_RelatedEventsSource_Created" xml:space="preserve">
+    <value>Created</value>
+  </data>
+  <data name="Common_LogRelatedItem_Log" xml:space="preserve">
+    <value>Log</value>
+  </data>
+  <data name="Common_RelatedEventsSource_Log" xml:space="preserve">
+    <value>Log</value>
+  </data>
+  <data name="Common_PrincipalHasRole_Principal" xml:space="preserve">
+    <value>Principal</value>
+  </data>
+  <data name="Common_PrincipalHasRole_Role" xml:space="preserve">
+    <value>Role</value>
+  </data>
+  <data name="Common_RolePermission_Role" xml:space="preserve">
+    <value>Role</value>
+  </data>
+  <data name="Common_RolePermission_Claim" xml:space="preserve">
+    <value>Claim</value>
+  </data>
+  <data name="Common_AuditRelatedEvents_Log" xml:space="preserve">
+    <value>Log</value>
+  </data>
+  <data name="Common_AuditDataModifications_Log" xml:space="preserve">
+    <value>Log</value>
+  </data>
+  <data name="Common_MyClaim_Applies" xml:space="preserve">
+    <value>Applies</value>
+  </data>
+  <data name="Common_PrincipalPermission_IsAuthorized" xml:space="preserve">
+    <value>Is authorized</value>
+  </data>
+  <data name="Common_RolePermission_IsAuthorized" xml:space="preserve">
+    <value>Is authorized</value>
+  </data>
+  <data name="Common_Permission_IsAuthorized" xml:space="preserve">
+    <value>Is authorized</value>
+  </data>
+  <data name="Common_AuditDataModifications_Modified" xml:space="preserve">
+    <value>Modified</value>
+  </data>
+  <data name="Common_Claim_Active" xml:space="preserve">
+    <value>Aktivan</value>
+  </data>
+  <data name="Common_ReportTemplate_Content" xml:space="preserve">
+    <value>Content</value>
+  </data>
+</root>
