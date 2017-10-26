@@ -188,7 +188,6 @@
             <PropertyRef Name="ID" />
           </Key>
           <Property Name="ID" Type="Guid" Nullable="false" />
-          <Property Name="Sifra" Type="Int32" />
           <Property Name="Naziv" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
           <Property Name="KucniBroj" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
           <Property Name="AdresaUGraduID" Type="Guid" />
@@ -199,7 +198,6 @@
             <PropertyRef Name="ID" />
           </Key>
           <Property Name="ID" Type="Guid" Nullable="false" />
-          <Property Name="Sifra" Type="Int32" />
           <Property Name="Naziv" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
           <Property Name="PostanskiBroj" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
           <Property Name="GradUDrzaviID" Type="Guid" />
@@ -210,7 +208,6 @@
             <PropertyRef Name="ID" />
           </Key>
           <Property Name="ID" Type="Guid" Nullable="false" />
-          <Property Name="Sifra" Type="Int32" />
           <Property Name="Naziv" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
         </EntityType>
         <EntityType Name="Stanovnik_Osoba" customannotation:ClrType="Common.Queryable.Stanovnik_Osoba, ServerDom.Model, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
@@ -218,7 +215,7 @@
             <PropertyRef Name="ID" />
           </Key>
           <Property Name="ID" Type="Guid" Nullable="false" />
-          <Property Name="OIB" Type="Int32" />
+          <Property Name="OIB" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
           <Property Name="Ime" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
           <Property Name="Prezime" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
         </EntityType>

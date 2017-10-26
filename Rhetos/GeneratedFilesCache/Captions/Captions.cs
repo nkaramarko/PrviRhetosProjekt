@@ -1297,15 +1297,6 @@ namespace Rhetos.Mvc {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Šifra.
-        /// </summary>
-        public static string Stanovnik_Adresa_Sifra {
-            get {
-                return ResourceManager.GetString("Stanovnik_Adresa_Sifra", resourceCulture);
-            }
-        }
-        
-        /// <summary>
         ///   Looks up a localized string similar to Država.
         /// </summary>
         public static string Stanovnik_Drzava {
@@ -1320,15 +1311,6 @@ namespace Rhetos.Mvc {
         public static string Stanovnik_Drzava_Naziv {
             get {
                 return ResourceManager.GetString("Stanovnik_Drzava_Naziv", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Šifra.
-        /// </summary>
-        public static string Stanovnik_Drzava_Sifra {
-            get {
-                return ResourceManager.GetString("Stanovnik_Drzava_Sifra", resourceCulture);
             }
         }
         
@@ -1369,11 +1351,29 @@ namespace Rhetos.Mvc {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Šifra.
+        ///   Looks up a localized string similar to O i b Max length filter.
         /// </summary>
-        public static string Stanovnik_Grad_Sifra {
+        public static string Stanovnik_OIB_MaxLengthFilter {
             get {
-                return ResourceManager.GetString("Stanovnik_Grad_Sifra", resourceCulture);
+                return ResourceManager.GetString("Stanovnik_OIB_MaxLengthFilter", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to O i b Min length filter.
+        /// </summary>
+        public static string Stanovnik_OIB_MinLengthFilter {
+            get {
+                return ResourceManager.GetString("Stanovnik_OIB_MinLengthFilter", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to O i b Reg ex match filter.
+        /// </summary>
+        public static string Stanovnik_OIB_RegExMatchFilter {
+            get {
+                return ResourceManager.GetString("Stanovnik_OIB_RegExMatchFilter", resourceCulture);
             }
         }
         
@@ -1410,15 +1410,6 @@ namespace Rhetos.Mvc {
         public static string Stanovnik_Osoba_Prezime {
             get {
                 return ResourceManager.GetString("Stanovnik_Osoba_Prezime", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to System required šifra.
-        /// </summary>
-        public static string Stanovnik_SystemRequiredSifra {
-            get {
-                return ResourceManager.GetString("Stanovnik_SystemRequiredSifra", resourceCulture);
             }
         }
     }

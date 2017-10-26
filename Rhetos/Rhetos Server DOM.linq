@@ -1,25 +1,25 @@
 <Query Kind="Program">
-  <Reference Relative="bin\EntityFramework.dll">C:\Users\nkaramarko\Desktop\Projekti\Zadaci\1\MojPrviRhetosProjekt\Rhetos\Rhetos.2.2.0\bin\EntityFramework.dll</Reference>
-  <Reference Relative="bin\EntityFramework.SqlServer.dll">C:\Users\nkaramarko\Desktop\Projekti\Zadaci\1\MojPrviRhetosProjekt\Rhetos\Rhetos.2.2.0\bin\EntityFramework.SqlServer.dll</Reference>
-  <Reference Relative="bin\NLog.dll">C:\Users\nkaramarko\Desktop\Projekti\Zadaci\1\MojPrviRhetosProjekt\Rhetos\Rhetos.2.2.0\bin\NLog.dll</Reference>
-  <Reference Relative="bin\Oracle.ManagedDataAccess.dll">C:\Users\nkaramarko\Desktop\Projekti\Zadaci\1\MojPrviRhetosProjekt\Rhetos\Rhetos.2.2.0\bin\Oracle.ManagedDataAccess.dll</Reference>
-  <Reference Relative="..\..\..\..\..\MojPrviRhetosProjekt\Rhetos\Rhetos.2.2.0\bin\Plugins\Rhetos.AspNetFormsAuth.dll">C:\Users\nkaramarko\Desktop\Projekti\MojPrviRhetosProjekt\Rhetos\Rhetos.2.2.0\bin\Plugins\Rhetos.AspNetFormsAuth.dll</Reference>
-  <Reference Relative="bin\Rhetos.Configuration.Autofac.dll">C:\Users\nkaramarko\Desktop\Projekti\Zadaci\1\MojPrviRhetosProjekt\Rhetos\Rhetos.2.2.0\bin\Rhetos.Configuration.Autofac.dll</Reference>
-  <Reference Relative="bin\Plugins\Rhetos.Dom.DefaultConcepts.dll">C:\Users\nkaramarko\Desktop\Projekti\Zadaci\1\MojPrviRhetosProjekt\Rhetos\Rhetos.2.2.0\bin\Plugins\Rhetos.Dom.DefaultConcepts.dll</Reference>
-  <Reference Relative="bin\Plugins\Rhetos.Dom.DefaultConcepts.Interfaces.dll">C:\Users\nkaramarko\Desktop\Projekti\Zadaci\1\MojPrviRhetosProjekt\Rhetos\Rhetos.2.2.0\bin\Plugins\Rhetos.Dom.DefaultConcepts.Interfaces.dll</Reference>
-  <Reference Relative="bin\Rhetos.Dom.Interfaces.dll">C:\Users\nkaramarko\Desktop\Projekti\Zadaci\1\MojPrviRhetosProjekt\Rhetos\Rhetos.2.2.0\bin\Rhetos.Dom.Interfaces.dll</Reference>
-  <Reference Relative="bin\Plugins\Rhetos.Dsl.DefaultConcepts.dll">C:\Users\nkaramarko\Desktop\Projekti\Zadaci\1\MojPrviRhetosProjekt\Rhetos\Rhetos.2.2.0\bin\Plugins\Rhetos.Dsl.DefaultConcepts.dll</Reference>
-  <Reference Relative="bin\Rhetos.Dsl.Interfaces.dll">C:\Users\nkaramarko\Desktop\Projekti\Zadaci\1\MojPrviRhetosProjekt\Rhetos\Rhetos.2.2.0\bin\Rhetos.Dsl.Interfaces.dll</Reference>
-  <Reference Relative="bin\Rhetos.Interfaces.dll">C:\Users\nkaramarko\Desktop\Projekti\Zadaci\1\MojPrviRhetosProjekt\Rhetos\Rhetos.2.2.0\bin\Rhetos.Interfaces.dll</Reference>
-  <Reference Relative="bin\Rhetos.Logging.Interfaces.dll">C:\Users\nkaramarko\Desktop\Projekti\Zadaci\1\MojPrviRhetosProjekt\Rhetos\Rhetos.2.2.0\bin\Rhetos.Logging.Interfaces.dll</Reference>
-  <Reference Relative="bin\Rhetos.Persistence.Interfaces.dll">C:\Users\nkaramarko\Desktop\Projekti\Zadaci\1\MojPrviRhetosProjekt\Rhetos\Rhetos.2.2.0\bin\Rhetos.Persistence.Interfaces.dll</Reference>
-  <Reference Relative="bin\Plugins\Rhetos.Processing.DefaultCommands.Interfaces.dll">C:\Users\nkaramarko\Desktop\Projekti\Zadaci\1\MojPrviRhetosProjekt\Rhetos\Rhetos.2.2.0\bin\Plugins\Rhetos.Processing.DefaultCommands.Interfaces.dll</Reference>
-  <Reference Relative="bin\Rhetos.Processing.Interfaces.dll">C:\Users\nkaramarko\Desktop\Projekti\Zadaci\1\MojPrviRhetosProjekt\Rhetos\Rhetos.2.2.0\bin\Rhetos.Processing.Interfaces.dll</Reference>
-  <Reference Relative="bin\Rhetos.Security.Interfaces.dll">C:\Users\nkaramarko\Desktop\Projekti\Zadaci\1\MojPrviRhetosProjekt\Rhetos\Rhetos.2.2.0\bin\Rhetos.Security.Interfaces.dll</Reference>
-  <Reference Relative="bin\Rhetos.Utilities.dll">C:\Users\nkaramarko\Desktop\Projekti\Zadaci\1\MojPrviRhetosProjekt\Rhetos\Rhetos.2.2.0\bin\Rhetos.Utilities.dll</Reference>
-  <Reference Relative="bin\Generated\ServerDom.Model.dll">C:\Users\nkaramarko\Desktop\Projekti\Zadaci\1\MojPrviRhetosProjekt\Rhetos\Rhetos.2.2.0\bin\Generated\ServerDom.Model.dll</Reference>
-  <Reference Relative="bin\Generated\ServerDom.Orm.dll">C:\Users\nkaramarko\Desktop\Projekti\Zadaci\1\MojPrviRhetosProjekt\Rhetos\Rhetos.2.2.0\bin\Generated\ServerDom.Orm.dll</Reference>
-  <Reference Relative="bin\Generated\ServerDom.Repositories.dll">C:\Users\nkaramarko\Desktop\Projekti\Zadaci\1\MojPrviRhetosProjekt\Rhetos\Rhetos.2.2.0\bin\Generated\ServerDom.Repositories.dll</Reference>
+  <Reference Relative="bin\EntityFramework.dll">C:\Users\nkaramarko\Desktop\Omega\01. Zadaci\01. MojPrviRhetosProjekt\Rhetos\bin\EntityFramework.dll</Reference>
+  <Reference Relative="bin\EntityFramework.SqlServer.dll">C:\Users\nkaramarko\Desktop\Omega\01. Zadaci\01. MojPrviRhetosProjekt\Rhetos\bin\EntityFramework.SqlServer.dll</Reference>
+  <Reference Relative="bin\NLog.dll">C:\Users\nkaramarko\Desktop\Omega\01. Zadaci\01. MojPrviRhetosProjekt\Rhetos\bin\NLog.dll</Reference>
+  <Reference Relative="bin\Oracle.ManagedDataAccess.dll">C:\Users\nkaramarko\Desktop\Omega\01. Zadaci\01. MojPrviRhetosProjekt\Rhetos\bin\Oracle.ManagedDataAccess.dll</Reference>
+  <Reference Relative="..\..\..\..\Projekti\MojPrviRhetosProjekt\Rhetos\Rhetos.2.2.0\bin\Plugins\Rhetos.AspNetFormsAuth.dll">C:\Users\nkaramarko\Desktop\Projekti\MojPrviRhetosProjekt\Rhetos\Rhetos.2.2.0\bin\Plugins\Rhetos.AspNetFormsAuth.dll</Reference>
+  <Reference Relative="bin\Rhetos.Configuration.Autofac.dll">C:\Users\nkaramarko\Desktop\Omega\01. Zadaci\01. MojPrviRhetosProjekt\Rhetos\bin\Rhetos.Configuration.Autofac.dll</Reference>
+  <Reference Relative="bin\Plugins\Rhetos.Dom.DefaultConcepts.dll">C:\Users\nkaramarko\Desktop\Omega\01. Zadaci\01. MojPrviRhetosProjekt\Rhetos\bin\Plugins\Rhetos.Dom.DefaultConcepts.dll</Reference>
+  <Reference Relative="bin\Plugins\Rhetos.Dom.DefaultConcepts.Interfaces.dll">C:\Users\nkaramarko\Desktop\Omega\01. Zadaci\01. MojPrviRhetosProjekt\Rhetos\bin\Plugins\Rhetos.Dom.DefaultConcepts.Interfaces.dll</Reference>
+  <Reference Relative="bin\Rhetos.Dom.Interfaces.dll">C:\Users\nkaramarko\Desktop\Omega\01. Zadaci\01. MojPrviRhetosProjekt\Rhetos\bin\Rhetos.Dom.Interfaces.dll</Reference>
+  <Reference Relative="bin\Plugins\Rhetos.Dsl.DefaultConcepts.dll">C:\Users\nkaramarko\Desktop\Omega\01. Zadaci\01. MojPrviRhetosProjekt\Rhetos\bin\Plugins\Rhetos.Dsl.DefaultConcepts.dll</Reference>
+  <Reference Relative="bin\Rhetos.Dsl.Interfaces.dll">C:\Users\nkaramarko\Desktop\Omega\01. Zadaci\01. MojPrviRhetosProjekt\Rhetos\bin\Rhetos.Dsl.Interfaces.dll</Reference>
+  <Reference Relative="bin\Rhetos.Interfaces.dll">C:\Users\nkaramarko\Desktop\Omega\01. Zadaci\01. MojPrviRhetosProjekt\Rhetos\bin\Rhetos.Interfaces.dll</Reference>
+  <Reference Relative="bin\Rhetos.Logging.Interfaces.dll">C:\Users\nkaramarko\Desktop\Omega\01. Zadaci\01. MojPrviRhetosProjekt\Rhetos\bin\Rhetos.Logging.Interfaces.dll</Reference>
+  <Reference Relative="bin\Rhetos.Persistence.Interfaces.dll">C:\Users\nkaramarko\Desktop\Omega\01. Zadaci\01. MojPrviRhetosProjekt\Rhetos\bin\Rhetos.Persistence.Interfaces.dll</Reference>
+  <Reference Relative="bin\Plugins\Rhetos.Processing.DefaultCommands.Interfaces.dll">C:\Users\nkaramarko\Desktop\Omega\01. Zadaci\01. MojPrviRhetosProjekt\Rhetos\bin\Plugins\Rhetos.Processing.DefaultCommands.Interfaces.dll</Reference>
+  <Reference Relative="bin\Rhetos.Processing.Interfaces.dll">C:\Users\nkaramarko\Desktop\Omega\01. Zadaci\01. MojPrviRhetosProjekt\Rhetos\bin\Rhetos.Processing.Interfaces.dll</Reference>
+  <Reference Relative="bin\Rhetos.Security.Interfaces.dll">C:\Users\nkaramarko\Desktop\Omega\01. Zadaci\01. MojPrviRhetosProjekt\Rhetos\bin\Rhetos.Security.Interfaces.dll</Reference>
+  <Reference Relative="bin\Rhetos.Utilities.dll">C:\Users\nkaramarko\Desktop\Omega\01. Zadaci\01. MojPrviRhetosProjekt\Rhetos\bin\Rhetos.Utilities.dll</Reference>
+  <Reference Relative="bin\Generated\ServerDom.Model.dll">C:\Users\nkaramarko\Desktop\Omega\01. Zadaci\01. MojPrviRhetosProjekt\Rhetos\bin\Generated\ServerDom.Model.dll</Reference>
+  <Reference Relative="bin\Generated\ServerDom.Orm.dll">C:\Users\nkaramarko\Desktop\Omega\01. Zadaci\01. MojPrviRhetosProjekt\Rhetos\bin\Generated\ServerDom.Orm.dll</Reference>
+  <Reference Relative="bin\Generated\ServerDom.Repositories.dll">C:\Users\nkaramarko\Desktop\Omega\01. Zadaci\01. MojPrviRhetosProjekt\Rhetos\bin\Generated\ServerDom.Repositories.dll</Reference>
   <Reference>&lt;RuntimeDirectory&gt;\System.DirectoryServices.AccountManagement.dll</Reference>
   <Reference>&lt;RuntimeDirectory&gt;\System.DirectoryServices.dll</Reference>
   <Reference>&lt;RuntimeDirectory&gt;\System.Runtime.Serialization.dll</Reference>
@@ -82,6 +82,7 @@ void Main()
 //		Console.WriteLine("Done.");
 
 
-		repository.Stanovnik.Drzava.Insert(new Stanovnik.Drzava{Sifra = 1, Naziv = "The država"});
+		repository.Stanovnik.Drzava.Insert(new Stanovnik.Drzava{Naziv = "The država"});
+		repository.Stanovnik.Osoba.Insert(new Stanovnik.Osoba{OIB="12345678901", Ime = "Nikolina", Prezime="Karamarko"});
     }
 }

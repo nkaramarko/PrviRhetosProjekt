@@ -207,11 +207,17 @@
   <data name="Common_LogEntry" xml:space="preserve">
     <value>Log entry</value>
   </data>
+  <data name="Stanovnik_OIB_RegExMatchFilter" xml:space="preserve">
+    <value>O i b Reg ex match filter</value>
+  </data>
+  <data name="Stanovnik_OIB_MaxLengthFilter" xml:space="preserve">
+    <value>O i b Max length filter</value>
+  </data>
+  <data name="Stanovnik_OIB_MinLengthFilter" xml:space="preserve">
+    <value>O i b Min length filter</value>
+  </data>
   <data name="Common_SystemRequiredActive" xml:space="preserve">
     <value>System required active</value>
-  </data>
-  <data name="Stanovnik_SystemRequiredSifra" xml:space="preserve">
-    <value>System required šifra</value>
   </data>
   <data name="Common_SystemRequiredLog" xml:space="preserve">
     <value>System required log</value>
@@ -236,21 +242,6 @@
   </data>
   <data name="Stanovnik_Osoba_OIB" xml:space="preserve">
     <value>OIB</value>
-  </data>
-  <data name="Stanovnik_Drzava_Sifra" xml:space="preserve">
-    <value>Šifra</value>
-  </data>
-  <data name="Stanovnik_Grad_Sifra" xml:space="preserve">
-    <value>Šifra</value>
-  </data>
-  <data name="Stanovnik_Adresa_Sifra" xml:space="preserve">
-    <value>Šifra</value>
-  </data>
-  <data name="Common_AutoCodeCache_MinDigits" xml:space="preserve">
-    <value>Min digits</value>
-  </data>
-  <data name="Common_AutoCodeCache_LastCode" xml:space="preserve">
-    <value>Last code</value>
   </data>
   <data name="Stanovnik_Osoba_Ime" xml:space="preserve">
     <value>Ime</value>
@@ -437,6 +428,12 @@
   </data>
   <data name="Common_LogRelatedItemReader_Log" xml:space="preserve">
     <value>Log</value>
+  </data>
+  <data name="Common_AutoCodeCache_MinDigits" xml:space="preserve">
+    <value>Min digits</value>
+  </data>
+  <data name="Common_AutoCodeCache_LastCode" xml:space="preserve">
+    <value>Last code</value>
   </data>
   <data name="Common_FilterId_Handle" xml:space="preserve">
     <value>Handle</value>

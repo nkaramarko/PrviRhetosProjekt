@@ -194,7 +194,6 @@
             <EntityTypeMapping TypeName="Common.Stanovnik_Adresa">
               <MappingFragment StoreEntitySet="Stanovnik_Adresa">
                 <ScalarProperty Name="ID" ColumnName="ID" />
-                <ScalarProperty Name="Sifra" ColumnName="Sifra" />
                 <ScalarProperty Name="Naziv" ColumnName="Naziv" />
                 <ScalarProperty Name="KucniBroj" ColumnName="KucniBroj" />
                 <ScalarProperty Name="AdresaUGraduID" ColumnName="AdresaUGraduID" />
@@ -205,7 +204,6 @@
             <EntityTypeMapping TypeName="Common.Stanovnik_Grad">
               <MappingFragment StoreEntitySet="Stanovnik_Grad">
                 <ScalarProperty Name="ID" ColumnName="ID" />
-                <ScalarProperty Name="Sifra" ColumnName="Sifra" />
                 <ScalarProperty Name="Naziv" ColumnName="Naziv" />
                 <ScalarProperty Name="PostanskiBroj" ColumnName="PostanskiBroj" />
                 <ScalarProperty Name="GradUDrzaviID" ColumnName="GradUDrzaviID" />
@@ -216,7 +214,6 @@
             <EntityTypeMapping TypeName="Common.Stanovnik_Drzava">
               <MappingFragment StoreEntitySet="Stanovnik_Drzava">
                 <ScalarProperty Name="ID" ColumnName="ID" />
-                <ScalarProperty Name="Sifra" ColumnName="Sifra" />
                 <ScalarProperty Name="Naziv" ColumnName="Naziv" />
               </MappingFragment>
             </EntityTypeMapping>

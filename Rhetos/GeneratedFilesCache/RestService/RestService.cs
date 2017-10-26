@@ -4,27 +4,27 @@
 // Reference: C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System\v4.0_4.0.0.0__b77a5c561934e089\System.dll
 // Reference: C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Xml\v4.0_4.0.0.0__b77a5c561934e089\System.Xml.dll
 // Reference: C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.ComponentModel.Composition\v4.0_4.0.0.0__b77a5c561934e089\System.ComponentModel.Composition.dll
-// Reference: C:\Users\nkaramarko\Desktop\Projekti\MojPrviRhetosProjekt\Rhetos\Rhetos.2.2.0\bin\Autofac.Integration.Wcf.dll
+// Reference: C:\Users\nkaramarko\Desktop\Omega\01. Zadaci\01. MojPrviRhetosProjekt\Rhetos\bin\Autofac.Integration.Wcf.dll
 // Reference: C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.ServiceModel.Activation\v4.0_4.0.0.0__31bf3856ad364e35\System.ServiceModel.Activation.dll
 // Reference: C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.ServiceModel\v4.0_4.0.0.0__b77a5c561934e089\System.ServiceModel.dll
 // Reference: C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.ServiceModel.Web\v4.0_4.0.0.0__31bf3856ad364e35\System.ServiceModel.Web.dll
 // Reference: C:\Windows\Microsoft.Net\assembly\GAC_64\System.Web\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Web.dll
-// Reference: C:\Users\nkaramarko\Desktop\Projekti\MojPrviRhetosProjekt\Rhetos\Rhetos.2.2.0\bin\Rhetos.Interfaces.dll
-// Reference: C:\Users\nkaramarko\Desktop\Projekti\MojPrviRhetosProjekt\Rhetos\Rhetos.2.2.0\bin\Plugins\Rhetos.Dom.DefaultConcepts.Interfaces.dll
-// Reference: C:\Users\nkaramarko\Desktop\Projekti\MojPrviRhetosProjekt\Rhetos\Rhetos.2.2.0\bin\Rhetos.Logging.Interfaces.dll
-// Reference: C:\Users\nkaramarko\Desktop\Projekti\MojPrviRhetosProjekt\Rhetos\Rhetos.2.2.0\bin\Rhetos.Processing.Interfaces.dll
-// Reference: C:\Users\nkaramarko\Desktop\Projekti\MojPrviRhetosProjekt\Rhetos\Rhetos.2.2.0\bin\Rhetos.Utilities.dll
-// Reference: C:\Users\nkaramarko\Desktop\Projekti\MojPrviRhetosProjekt\Rhetos\Rhetos.2.2.0\bin\Rhetos.XmlSerialization.dll
-// Reference: C:\Users\nkaramarko\Desktop\Projekti\MojPrviRhetosProjekt\Rhetos\Rhetos.2.2.0\bin\Rhetos.Web.dll
-// Reference: C:\Users\nkaramarko\Desktop\Projekti\MojPrviRhetosProjekt\Rhetos\Rhetos.2.2.0\bin\Plugins\Rhetos.RestGenerator.dll
-// Reference: C:\Users\nkaramarko\Desktop\Projekti\MojPrviRhetosProjekt\Rhetos\Rhetos.2.2.0\bin\Generated\ServerDom.Model.dll
-// Reference: C:\Users\nkaramarko\Desktop\Projekti\MojPrviRhetosProjekt\Rhetos\Rhetos.2.2.0\bin\Generated\ServerDom.Orm.dll
-// Reference: C:\Users\nkaramarko\Desktop\Projekti\MojPrviRhetosProjekt\Rhetos\Rhetos.2.2.0\bin\Generated\ServerDom.Repositories.dll
-// Reference: C:\Users\nkaramarko\Desktop\Projekti\MojPrviRhetosProjekt\Rhetos\Rhetos.2.2.0\bin\Autofac.dll
-// Reference: C:\Users\nkaramarko\Desktop\Projekti\MojPrviRhetosProjekt\Rhetos\Rhetos.2.2.0\bin\Plugins\Rhetos.Processing.DefaultCommands.Interfaces.dll
-// Reference: C:\Users\nkaramarko\Desktop\Projekti\MojPrviRhetosProjekt\Rhetos\Rhetos.2.2.0\bin\Newtonsoft.Json.dll
-// Reference: C:\Users\nkaramarko\Desktop\Projekti\MojPrviRhetosProjekt\Rhetos\Rhetos.2.2.0\bin\Plugins\OmegaCommonConcepts.dll
-// Reference: C:\Users\nkaramarko\Desktop\Projekti\MojPrviRhetosProjekt\Rhetos\Rhetos.2.2.0\bin\Plugins\Rhetos.Dom.DefaultConcepts.dll
+// Reference: C:\Users\nkaramarko\Desktop\Omega\01. Zadaci\01. MojPrviRhetosProjekt\Rhetos\bin\Rhetos.Interfaces.dll
+// Reference: C:\Users\nkaramarko\Desktop\Omega\01. Zadaci\01. MojPrviRhetosProjekt\Rhetos\bin\Plugins\Rhetos.Dom.DefaultConcepts.Interfaces.dll
+// Reference: C:\Users\nkaramarko\Desktop\Omega\01. Zadaci\01. MojPrviRhetosProjekt\Rhetos\bin\Rhetos.Logging.Interfaces.dll
+// Reference: C:\Users\nkaramarko\Desktop\Omega\01. Zadaci\01. MojPrviRhetosProjekt\Rhetos\bin\Rhetos.Processing.Interfaces.dll
+// Reference: C:\Users\nkaramarko\Desktop\Omega\01. Zadaci\01. MojPrviRhetosProjekt\Rhetos\bin\Rhetos.Utilities.dll
+// Reference: C:\Users\nkaramarko\Desktop\Omega\01. Zadaci\01. MojPrviRhetosProjekt\Rhetos\bin\Rhetos.XmlSerialization.dll
+// Reference: C:\Users\nkaramarko\Desktop\Omega\01. Zadaci\01. MojPrviRhetosProjekt\Rhetos\bin\Rhetos.Web.dll
+// Reference: C:\Users\nkaramarko\Desktop\Omega\01. Zadaci\01. MojPrviRhetosProjekt\Rhetos\bin\Plugins\Rhetos.RestGenerator.dll
+// Reference: C:\Users\nkaramarko\Desktop\Omega\01. Zadaci\01. MojPrviRhetosProjekt\Rhetos\bin\Generated\ServerDom.Model.dll
+// Reference: C:\Users\nkaramarko\Desktop\Omega\01. Zadaci\01. MojPrviRhetosProjekt\Rhetos\bin\Generated\ServerDom.Orm.dll
+// Reference: C:\Users\nkaramarko\Desktop\Omega\01. Zadaci\01. MojPrviRhetosProjekt\Rhetos\bin\Generated\ServerDom.Repositories.dll
+// Reference: C:\Users\nkaramarko\Desktop\Omega\01. Zadaci\01. MojPrviRhetosProjekt\Rhetos\bin\Autofac.dll
+// Reference: C:\Users\nkaramarko\Desktop\Omega\01. Zadaci\01. MojPrviRhetosProjekt\Rhetos\bin\Plugins\Rhetos.Processing.DefaultCommands.Interfaces.dll
+// Reference: C:\Users\nkaramarko\Desktop\Omega\01. Zadaci\01. MojPrviRhetosProjekt\Rhetos\bin\Newtonsoft.Json.dll
+// Reference: C:\Users\nkaramarko\Desktop\Omega\01. Zadaci\01. MojPrviRhetosProjekt\Rhetos\bin\Plugins\OmegaCommonConcepts.dll
+// Reference: C:\Users\nkaramarko\Desktop\Omega\01. Zadaci\01. MojPrviRhetosProjekt\Rhetos\bin\Plugins\Rhetos.Dom.DefaultConcepts.dll
 // CompilerOptions: ""
 
 
@@ -205,6 +205,12 @@ namespace Rhetos.Rest
     
         public static readonly IDictionary<string, Type[]> FilterTypes = new List<Tuple<string, Type>>
             {
+                Tuple.Create("Stanovnik.OIB_RegExMatchFilter", typeof(Stanovnik.OIB_RegExMatchFilter)),
+                Tuple.Create("OIB_RegExMatchFilter", typeof(Stanovnik.OIB_RegExMatchFilter)),
+                Tuple.Create("Stanovnik.OIB_MaxLengthFilter", typeof(Stanovnik.OIB_MaxLengthFilter)),
+                Tuple.Create("OIB_MaxLengthFilter", typeof(Stanovnik.OIB_MaxLengthFilter)),
+                Tuple.Create("Stanovnik.OIB_MinLengthFilter", typeof(Stanovnik.OIB_MinLengthFilter)),
+                Tuple.Create("OIB_MinLengthFilter", typeof(Stanovnik.OIB_MinLengthFilter)),
                 /*DataStructureInfo FilterTypes Stanovnik.Osoba*/
             }
             .GroupBy(typeName => typeName.Item1)
@@ -337,8 +343,6 @@ namespace Rhetos.Rest
     
         public static readonly IDictionary<string, Type[]> FilterTypes = new List<Tuple<string, Type>>
             {
-                Tuple.Create("Stanovnik.SystemRequiredSifra", typeof(Stanovnik.SystemRequiredSifra)),
-                Tuple.Create("SystemRequiredSifra", typeof(Stanovnik.SystemRequiredSifra)),
                 /*DataStructureInfo FilterTypes Stanovnik.Drzava*/
             }
             .GroupBy(typeName => typeName.Item1)
@@ -471,8 +475,6 @@ namespace Rhetos.Rest
     
         public static readonly IDictionary<string, Type[]> FilterTypes = new List<Tuple<string, Type>>
             {
-                Tuple.Create("Stanovnik.SystemRequiredSifra", typeof(Stanovnik.SystemRequiredSifra)),
-                Tuple.Create("SystemRequiredSifra", typeof(Stanovnik.SystemRequiredSifra)),
                 /*DataStructureInfo FilterTypes Stanovnik.Grad*/
             }
             .GroupBy(typeName => typeName.Item1)
@@ -605,8 +607,6 @@ namespace Rhetos.Rest
     
         public static readonly IDictionary<string, Type[]> FilterTypes = new List<Tuple<string, Type>>
             {
-                Tuple.Create("Stanovnik.SystemRequiredSifra", typeof(Stanovnik.SystemRequiredSifra)),
-                Tuple.Create("SystemRequiredSifra", typeof(Stanovnik.SystemRequiredSifra)),
                 /*DataStructureInfo FilterTypes Stanovnik.Adresa*/
             }
             .GroupBy(typeName => typeName.Item1)

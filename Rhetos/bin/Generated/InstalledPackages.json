@@ -21,7 +21,7 @@
         "Source": null,
         "RequestedBy": "configuration file RhetosPackages.config"
       },
-      "Source": "C:\\Users\\nkaramarko\\Desktop\\Projekti\\MojPrviRhetosProjekt\\Rhetos\\Rhetos.2.2.0\\PackagesCache"
+      "Source": "C:\\Users\\nkaramarko\\Desktop\\Omega\\01. Zadaci\\01. MojPrviRhetosProjekt\\MojPrviRhetosPaket"
     },
     {
       "$id": "5",
@@ -72,7 +72,7 @@
         "Source": null,
         "RequestedBy": "configuration file RhetosPackages.config"
       },
-      "Source": "C:\\Users\\nkaramarko\\Desktop\\Projekti\\MojPrviRhetosProjekt\\Rhetos\\Rhetos.2.2.0\\PackagesCache"
+      "Source": "C:\\Users\\nkaramarko\\Desktop\\Omega\\01. Zadaci\\01. MojPrviRhetosProjekt\\Rhetos\\PackagesCache"
     },
     {
       "$id": "12",
@@ -93,7 +93,7 @@
         "Source": null,
         "RequestedBy": "package Rhetos.MvcModelGenerator"
       },
-      "Source": "C:\\Users\\nkaramarko\\Desktop\\Projekti\\MojPrviRhetosProjekt\\Rhetos\\Rhetos.2.2.0\\Packages"
+      "Source": "C:\\Users\\nkaramarko\\Desktop\\Omega\\01. Zadaci\\01. MojPrviRhetosProjekt\\Rhetos\\Packages"
     },
     {
       "$id": "15",
@@ -134,7 +134,7 @@
         "Source": null,
         "RequestedBy": "configuration file RhetosPackages.config"
       },
-      "Source": "C:\\Users\\nkaramarko\\Desktop\\Projekti\\MojPrviRhetosProjekt\\Rhetos\\Rhetos.2.2.0\\PackagesCache"
+      "Source": "C:\\Users\\nkaramarko\\Desktop\\Omega\\01. Zadaci\\01. MojPrviRhetosProjekt\\Rhetos\\PackagesCache"
     },
     {
       "$id": "20",
@@ -164,7 +164,7 @@
         "Source": null,
         "RequestedBy": "configuration file RhetosPackages.config"
       },
-      "Source": "C:\\Users\\nkaramarko\\Desktop\\Projekti\\MojPrviRhetosProjekt\\Rhetos\\Rhetos.2.2.0\\PackagesCache"
+      "Source": "C:\\Users\\nkaramarko\\Desktop\\Omega\\01. Zadaci\\01. MojPrviRhetosProjekt\\Rhetos\\PackagesCache"
     },
     {
       "$id": "24",
@@ -242,7 +242,7 @@
         "Source": null,
         "RequestedBy": "configuration file RhetosPackages.config"
       },
-      "Source": "C:\\Users\\nkaramarko\\Desktop\\Projekti\\MojPrviRhetosProjekt\\Rhetos\\Rhetos.2.2.0\\PackagesCache"
+      "Source": "C:\\Users\\nkaramarko\\Desktop\\Omega\\01. Zadaci\\01. MojPrviRhetosProjekt\\Rhetos\\PackagesCache"
     }
   ]
 }

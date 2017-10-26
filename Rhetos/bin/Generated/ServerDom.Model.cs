@@ -1,24 +1,24 @@
-﻿// Reference: C:\Users\nkaramarko\Desktop\Projekti\MojPrviRhetosProjekt\Rhetos\Rhetos.2.2.0\bin\Autofac.dll
-// Reference: C:\Users\nkaramarko\Desktop\Projekti\MojPrviRhetosProjekt\Rhetos\Rhetos.2.2.0\bin\Rhetos.Extensibility.Interfaces.dll
-// Reference: C:\Users\nkaramarko\Desktop\Projekti\MojPrviRhetosProjekt\Rhetos\Rhetos.2.2.0\bin\Rhetos.Utilities.dll
-// Reference: C:\Users\nkaramarko\Desktop\Projekti\MojPrviRhetosProjekt\Rhetos\Rhetos.2.2.0\bin\Rhetos.Security.Interfaces.dll
+﻿// Reference: C:\Users\nkaramarko\Desktop\Omega\01. Zadaci\01. MojPrviRhetosProjekt\Rhetos\bin\Autofac.dll
+// Reference: C:\Users\nkaramarko\Desktop\Omega\01. Zadaci\01. MojPrviRhetosProjekt\Rhetos\bin\Rhetos.Extensibility.Interfaces.dll
+// Reference: C:\Users\nkaramarko\Desktop\Omega\01. Zadaci\01. MojPrviRhetosProjekt\Rhetos\bin\Rhetos.Utilities.dll
+// Reference: C:\Users\nkaramarko\Desktop\Omega\01. Zadaci\01. MojPrviRhetosProjekt\Rhetos\bin\Rhetos.Security.Interfaces.dll
 // Reference: C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.ComponentModel.Composition\v4.0_4.0.0.0__b77a5c561934e089\System.ComponentModel.Composition.dll
 // Reference: C:\Windows\Microsoft.NET\Framework64\v4.0.30319\mscorlib.dll
-// Reference: C:\Users\nkaramarko\Desktop\Projekti\MojPrviRhetosProjekt\Rhetos\Rhetos.2.2.0\bin\Plugins\Rhetos.Dom.DefaultConcepts.dll
-// Reference: C:\Users\nkaramarko\Desktop\Projekti\MojPrviRhetosProjekt\Rhetos\Rhetos.2.2.0\bin\Rhetos.Logging.Interfaces.dll
-// Reference: C:\Users\nkaramarko\Desktop\Projekti\MojPrviRhetosProjekt\Rhetos\Rhetos.2.2.0\bin\EntityFramework.dll
-// Reference: C:\Users\nkaramarko\Desktop\Projekti\MojPrviRhetosProjekt\Rhetos\Rhetos.2.2.0\bin\EntityFramework.SqlServer.dll
+// Reference: C:\Users\nkaramarko\Desktop\Omega\01. Zadaci\01. MojPrviRhetosProjekt\Rhetos\bin\Plugins\Rhetos.Dom.DefaultConcepts.dll
+// Reference: C:\Users\nkaramarko\Desktop\Omega\01. Zadaci\01. MojPrviRhetosProjekt\Rhetos\bin\Rhetos.Logging.Interfaces.dll
+// Reference: C:\Users\nkaramarko\Desktop\Omega\01. Zadaci\01. MojPrviRhetosProjekt\Rhetos\bin\EntityFramework.dll
+// Reference: C:\Users\nkaramarko\Desktop\Omega\01. Zadaci\01. MojPrviRhetosProjekt\Rhetos\bin\EntityFramework.SqlServer.dll
 // Reference: C:\Windows\Microsoft.Net\assembly\GAC_64\System.Data\v4.0_4.0.0.0__b77a5c561934e089\System.Data.dll
 // Reference: C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System\v4.0_4.0.0.0__b77a5c561934e089\System.dll
-// Reference: C:\Users\nkaramarko\Desktop\Projekti\MojPrviRhetosProjekt\Rhetos\Rhetos.2.2.0\bin\Rhetos.Persistence.Interfaces.dll
+// Reference: C:\Users\nkaramarko\Desktop\Omega\01. Zadaci\01. MojPrviRhetosProjekt\Rhetos\bin\Rhetos.Persistence.Interfaces.dll
 // Reference: C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Core\v4.0_4.0.0.0__b77a5c561934e089\System.Core.dll
 // Reference: C:\Windows\Microsoft.Net\assembly\GAC_MSIL\Microsoft.CSharp\v4.0_4.0.0.0__b03f5f7f11d50a3a\Microsoft.CSharp.dll
 // Reference: C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Data.DataSetExtensions\v4.0_4.0.0.0__b77a5c561934e089\System.Data.DataSetExtensions.dll
 // Reference: C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Xml\v4.0_4.0.0.0__b77a5c561934e089\System.Xml.dll
 // Reference: C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Xml.Linq\v4.0_4.0.0.0__b77a5c561934e089\System.Xml.Linq.dll
-// Reference: C:\Users\nkaramarko\Desktop\Projekti\MojPrviRhetosProjekt\Rhetos\Rhetos.2.2.0\bin\Plugins\Rhetos.Dom.DefaultConcepts.Interfaces.dll
+// Reference: C:\Users\nkaramarko\Desktop\Omega\01. Zadaci\01. MojPrviRhetosProjekt\Rhetos\bin\Plugins\Rhetos.Dom.DefaultConcepts.Interfaces.dll
 // Reference: C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Runtime.Serialization\v4.0_4.0.0.0__b77a5c561934e089\System.Runtime.Serialization.dll
-// Reference: C:\Users\nkaramarko\Desktop\Projekti\MojPrviRhetosProjekt\Rhetos\Rhetos.2.2.0\bin\Plugins\OmegaCommonConcepts.dll
+// Reference: C:\Users\nkaramarko\Desktop\Omega\01. Zadaci\01. MojPrviRhetosProjekt\Rhetos\bin\Plugins\OmegaCommonConcepts.dll
 // CompilerOptions: "/optimize"
 
 namespace Stanovnik
@@ -51,7 +51,7 @@ namespace Stanovnik
         }
 
         [DataMember]/*PropertyInfo Attribute Stanovnik.Osoba.OIB*/
-        public int? OIB { get; set; }
+        public string OIB { get; set; }
         [DataMember]/*PropertyInfo Attribute Stanovnik.Osoba.Ime*/
         public string Ime { get; set; }
         [DataMember]/*PropertyInfo Attribute Stanovnik.Osoba.Prezime*/
@@ -69,13 +69,10 @@ namespace Stanovnik
             return new Common.Queryable.Stanovnik_Drzava
             {
                 ID = item.ID,
-                Sifra = item.Sifra,
                 Naziv = item.Naziv/*DataStructureInfo AssignSimpleProperty Stanovnik.Drzava*/
             };
         }
 
-        [DataMember]/*PropertyInfo Attribute Stanovnik.Drzava.Sifra*/
-        public int? Sifra { get; set; }
         [DataMember]/*PropertyInfo Attribute Stanovnik.Drzava.Naziv*/
         public string Naziv { get; set; }
         /*DataStructureInfo ClassBody Stanovnik.Drzava*/
@@ -91,15 +88,12 @@ namespace Stanovnik
             return new Common.Queryable.Stanovnik_Grad
             {
                 ID = item.ID,
-                Sifra = item.Sifra,
                 Naziv = item.Naziv,
                 PostanskiBroj = item.PostanskiBroj,
                 GradUDrzaviID = item.GradUDrzaviID/*DataStructureInfo AssignSimpleProperty Stanovnik.Grad*/
             };
         }
 
-        [DataMember]/*PropertyInfo Attribute Stanovnik.Grad.Sifra*/
-        public int? Sifra { get; set; }
         [DataMember]/*PropertyInfo Attribute Stanovnik.Grad.Naziv*/
         public string Naziv { get; set; }
         [DataMember]/*PropertyInfo Attribute Stanovnik.Grad.PostanskiBroj*/
@@ -119,15 +113,12 @@ namespace Stanovnik
             return new Common.Queryable.Stanovnik_Adresa
             {
                 ID = item.ID,
-                Sifra = item.Sifra,
                 Naziv = item.Naziv,
                 KucniBroj = item.KucniBroj,
                 AdresaUGraduID = item.AdresaUGraduID/*DataStructureInfo AssignSimpleProperty Stanovnik.Adresa*/
             };
         }
 
-        [DataMember]/*PropertyInfo Attribute Stanovnik.Adresa.Sifra*/
-        public int? Sifra { get; set; }
         [DataMember]/*PropertyInfo Attribute Stanovnik.Adresa.Naziv*/
         public string Naziv { get; set; }
         [DataMember]/*PropertyInfo Attribute Stanovnik.Adresa.KucniBroj*/
@@ -137,10 +128,22 @@ namespace Stanovnik
         /*DataStructureInfo ClassBody Stanovnik.Adresa*/
     }
 
-    [DataContract]/*DataStructureInfo ClassAttributes Stanovnik.SystemRequiredSifra*/
-    public class SystemRequiredSifra/*DataStructureInfo ClassInterace Stanovnik.SystemRequiredSifra*/
+    [DataContract]/*DataStructureInfo ClassAttributes Stanovnik.OIB_RegExMatchFilter*/
+    public class OIB_RegExMatchFilter/*DataStructureInfo ClassInterace Stanovnik.OIB_RegExMatchFilter*/
     {
-        /*DataStructureInfo ClassBody Stanovnik.SystemRequiredSifra*/
+        /*DataStructureInfo ClassBody Stanovnik.OIB_RegExMatchFilter*/
+    }
+
+    [DataContract]/*DataStructureInfo ClassAttributes Stanovnik.OIB_MaxLengthFilter*/
+    public class OIB_MaxLengthFilter/*DataStructureInfo ClassInterace Stanovnik.OIB_MaxLengthFilter*/
+    {
+        /*DataStructureInfo ClassBody Stanovnik.OIB_MaxLengthFilter*/
+    }
+
+    [DataContract]/*DataStructureInfo ClassAttributes Stanovnik.OIB_MinLengthFilter*/
+    public class OIB_MinLengthFilter/*DataStructureInfo ClassInterace Stanovnik.OIB_MinLengthFilter*/
+    {
+        /*DataStructureInfo ClassBody Stanovnik.OIB_MinLengthFilter*/
     }
 
     /*ModuleInfo Body Stanovnik*/
@@ -902,7 +905,6 @@ namespace Common.Queryable
             return new Stanovnik.Drzava
             {
                 ID = item.ID,
-                Sifra = item.Sifra,
                 Naziv = item.Naziv/*DataStructureInfo AssignSimpleProperty Stanovnik.Drzava*/
             };
         }
@@ -927,7 +929,6 @@ namespace Common.Queryable
             return new Stanovnik.Grad
             {
                 ID = item.ID,
-                Sifra = item.Sifra,
                 Naziv = item.Naziv,
                 PostanskiBroj = item.PostanskiBroj,
                 GradUDrzaviID = item.GradUDrzaviID/*DataStructureInfo AssignSimpleProperty Stanovnik.Grad*/
@@ -973,7 +974,6 @@ namespace Common.Queryable
             return new Stanovnik.Adresa
             {
                 ID = item.ID,
-                Sifra = item.Sifra,
                 Naziv = item.Naziv,
                 KucniBroj = item.KucniBroj,
                 AdresaUGraduID = item.AdresaUGraduID/*DataStructureInfo AssignSimpleProperty Stanovnik.Adresa*/
@@ -1871,7 +1871,6 @@ namespace Rhetos.Dom.DefaultConcepts
             return query.Select(item => new Stanovnik.Drzava
             {
                 ID = item.ID,
-                Sifra = item.Sifra,
                 Naziv = item.Naziv/*DataStructureInfo AssignSimpleProperty Stanovnik.Drzava*/
             });
         }
@@ -1881,7 +1880,6 @@ namespace Rhetos.Dom.DefaultConcepts
             return query.Select(item => new Stanovnik.Grad
             {
                 ID = item.ID,
-                Sifra = item.Sifra,
                 Naziv = item.Naziv,
                 PostanskiBroj = item.PostanskiBroj,
                 GradUDrzaviID = item.GradUDrzaviID/*DataStructureInfo AssignSimpleProperty Stanovnik.Grad*/
@@ -1893,7 +1891,6 @@ namespace Rhetos.Dom.DefaultConcepts
             return query.Select(item => new Stanovnik.Adresa
             {
                 ID = item.ID,
-                Sifra = item.Sifra,
                 Naziv = item.Naziv,
                 KucniBroj = item.KucniBroj,
                 AdresaUGraduID = item.AdresaUGraduID/*DataStructureInfo AssignSimpleProperty Stanovnik.Adresa*/

@@ -1,26 +1,26 @@
-﻿// Reference: C:\Users\nkaramarko\Desktop\Projekti\MojPrviRhetosProjekt\Rhetos\Rhetos.2.2.0\bin\Autofac.dll
-// Reference: C:\Users\nkaramarko\Desktop\Projekti\MojPrviRhetosProjekt\Rhetos\Rhetos.2.2.0\bin\Rhetos.Extensibility.Interfaces.dll
-// Reference: C:\Users\nkaramarko\Desktop\Projekti\MojPrviRhetosProjekt\Rhetos\Rhetos.2.2.0\bin\Rhetos.Utilities.dll
-// Reference: C:\Users\nkaramarko\Desktop\Projekti\MojPrviRhetosProjekt\Rhetos\Rhetos.2.2.0\bin\Rhetos.Security.Interfaces.dll
+﻿// Reference: C:\Users\nkaramarko\Desktop\Omega\01. Zadaci\01. MojPrviRhetosProjekt\Rhetos\bin\Autofac.dll
+// Reference: C:\Users\nkaramarko\Desktop\Omega\01. Zadaci\01. MojPrviRhetosProjekt\Rhetos\bin\Rhetos.Extensibility.Interfaces.dll
+// Reference: C:\Users\nkaramarko\Desktop\Omega\01. Zadaci\01. MojPrviRhetosProjekt\Rhetos\bin\Rhetos.Utilities.dll
+// Reference: C:\Users\nkaramarko\Desktop\Omega\01. Zadaci\01. MojPrviRhetosProjekt\Rhetos\bin\Rhetos.Security.Interfaces.dll
 // Reference: C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.ComponentModel.Composition\v4.0_4.0.0.0__b77a5c561934e089\System.ComponentModel.Composition.dll
 // Reference: C:\Windows\Microsoft.NET\Framework64\v4.0.30319\mscorlib.dll
-// Reference: C:\Users\nkaramarko\Desktop\Projekti\MojPrviRhetosProjekt\Rhetos\Rhetos.2.2.0\bin\Plugins\Rhetos.Dom.DefaultConcepts.dll
-// Reference: C:\Users\nkaramarko\Desktop\Projekti\MojPrviRhetosProjekt\Rhetos\Rhetos.2.2.0\bin\Rhetos.Logging.Interfaces.dll
-// Reference: C:\Users\nkaramarko\Desktop\Projekti\MojPrviRhetosProjekt\Rhetos\Rhetos.2.2.0\bin\EntityFramework.dll
-// Reference: C:\Users\nkaramarko\Desktop\Projekti\MojPrviRhetosProjekt\Rhetos\Rhetos.2.2.0\bin\EntityFramework.SqlServer.dll
+// Reference: C:\Users\nkaramarko\Desktop\Omega\01. Zadaci\01. MojPrviRhetosProjekt\Rhetos\bin\Plugins\Rhetos.Dom.DefaultConcepts.dll
+// Reference: C:\Users\nkaramarko\Desktop\Omega\01. Zadaci\01. MojPrviRhetosProjekt\Rhetos\bin\Rhetos.Logging.Interfaces.dll
+// Reference: C:\Users\nkaramarko\Desktop\Omega\01. Zadaci\01. MojPrviRhetosProjekt\Rhetos\bin\EntityFramework.dll
+// Reference: C:\Users\nkaramarko\Desktop\Omega\01. Zadaci\01. MojPrviRhetosProjekt\Rhetos\bin\EntityFramework.SqlServer.dll
 // Reference: C:\Windows\Microsoft.Net\assembly\GAC_64\System.Data\v4.0_4.0.0.0__b77a5c561934e089\System.Data.dll
 // Reference: C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System\v4.0_4.0.0.0__b77a5c561934e089\System.dll
-// Reference: C:\Users\nkaramarko\Desktop\Projekti\MojPrviRhetosProjekt\Rhetos\Rhetos.2.2.0\bin\Rhetos.Persistence.Interfaces.dll
+// Reference: C:\Users\nkaramarko\Desktop\Omega\01. Zadaci\01. MojPrviRhetosProjekt\Rhetos\bin\Rhetos.Persistence.Interfaces.dll
 // Reference: C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Core\v4.0_4.0.0.0__b77a5c561934e089\System.Core.dll
 // Reference: C:\Windows\Microsoft.Net\assembly\GAC_MSIL\Microsoft.CSharp\v4.0_4.0.0.0__b03f5f7f11d50a3a\Microsoft.CSharp.dll
 // Reference: C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Data.DataSetExtensions\v4.0_4.0.0.0__b77a5c561934e089\System.Data.DataSetExtensions.dll
 // Reference: C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Xml\v4.0_4.0.0.0__b77a5c561934e089\System.Xml.dll
 // Reference: C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Xml.Linq\v4.0_4.0.0.0__b77a5c561934e089\System.Xml.Linq.dll
-// Reference: C:\Users\nkaramarko\Desktop\Projekti\MojPrviRhetosProjekt\Rhetos\Rhetos.2.2.0\bin\Plugins\Rhetos.Dom.DefaultConcepts.Interfaces.dll
+// Reference: C:\Users\nkaramarko\Desktop\Omega\01. Zadaci\01. MojPrviRhetosProjekt\Rhetos\bin\Plugins\Rhetos.Dom.DefaultConcepts.Interfaces.dll
 // Reference: C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Runtime.Serialization\v4.0_4.0.0.0__b77a5c561934e089\System.Runtime.Serialization.dll
-// Reference: C:\Users\nkaramarko\Desktop\Projekti\MojPrviRhetosProjekt\Rhetos\Rhetos.2.2.0\bin\Plugins\OmegaCommonConcepts.dll
-// Reference: C:\Users\nkaramarko\Desktop\Projekti\MojPrviRhetosProjekt\Rhetos\Rhetos.2.2.0\bin\Generated\ServerDom.Model.dll
-// Reference: C:\Users\nkaramarko\Desktop\Projekti\MojPrviRhetosProjekt\Rhetos\Rhetos.2.2.0\bin\Generated\ServerDom.Orm.dll
+// Reference: C:\Users\nkaramarko\Desktop\Omega\01. Zadaci\01. MojPrviRhetosProjekt\Rhetos\bin\Plugins\OmegaCommonConcepts.dll
+// Reference: C:\Users\nkaramarko\Desktop\Omega\01. Zadaci\01. MojPrviRhetosProjekt\Rhetos\bin\Generated\ServerDom.Model.dll
+// Reference: C:\Users\nkaramarko\Desktop\Omega\01. Zadaci\01. MojPrviRhetosProjekt\Rhetos\bin\Generated\ServerDom.Orm.dll
 // CompilerOptions: "/optimize"
 
 namespace Common
@@ -390,6 +390,15 @@ namespace Stanovnik._Helper
             /*DataStructureInfo WritableOrm ClearContext Stanovnik.Osoba*/
 
             {
+                var invalidItem = insertedNew.Concat(updatedNew).Where(newItem => newItem.OIB != null && newItem.OIB.Length > 256).FirstOrDefault();
+                if (invalidItem != null)
+                    throw new Rhetos.UserException(
+                        "Maximum length of property {0} is {1}.",
+                        new[] { "Osoba.OIB", "256" },
+                        "DataStructure:Stanovnik.Osoba,ID:" + invalidItem.ID.ToString() + ",Property:OIB",
+                        null);
+            }
+            {
                 var invalidItem = insertedNew.Concat(updatedNew).Where(newItem => newItem.Ime != null && newItem.Ime.Length > 256).FirstOrDefault();
                 if (invalidItem != null)
                     throw new Rhetos.UserException(
@@ -420,7 +429,7 @@ namespace Stanovnik._Helper
             /*DataStructureInfo WritableOrm OldDataLoaded Stanovnik.Osoba*/
 
             {
-                var invalid = insertedNew.Concat(updatedNew).FirstOrDefault(item => item.OIB == null /*RequiredPropertyInfo OrCondition Stanovnik.Osoba.OIB*/);
+                var invalid = insertedNew.Concat(updatedNew).FirstOrDefault(item => item.OIB == null || string.IsNullOrWhiteSpace(item.OIB) /*RequiredPropertyInfo OrCondition Stanovnik.Osoba.OIB*/);
                 if (invalid != null)
                     throw new Rhetos.UserException("It is not allowed to enter {0} because the required property {1} is not set.",
                         new[] { "Stanovnik.Osoba", "OIB" },
@@ -516,6 +525,27 @@ namespace Stanovnik._Helper
 
         public IEnumerable<Rhetos.Dom.DefaultConcepts.InvalidDataMessage> Validate(IList<Guid> ids, bool onSave)
         {
+            if (onSave)
+            {
+                var errorIds = this.Filter(this.Query(ids), new OIB_MaxLengthFilter()).Select(item => item.ID).ToArray();
+                if (errorIds.Count() > 0)
+                    foreach (var error in GetErrorMessage_OIB__MaxLengthFilter(errorIds))
+                        yield return error;
+            }
+            if (onSave)
+            {
+                var errorIds = this.Filter(this.Query(ids), new OIB_MinLengthFilter()).Select(item => item.ID).ToArray();
+                if (errorIds.Count() > 0)
+                    foreach (var error in GetErrorMessage_OIB__MinLengthFilter(errorIds))
+                        yield return error;
+            }
+            if (onSave)
+            {
+                var errorIds = this.Filter(this.Query(ids), new Stanovnik.OIB_RegExMatchFilter()).Select(item => item.ID).ToArray();
+                if (errorIds.Count() > 0)
+                    foreach (var error in GetErrorMessage_OIB_RegExMatchFilter(errorIds))
+                        yield return error;
+            }
             /*DataStructureInfo WritableOrm OnSaveValidate Stanovnik.Osoba*/
             yield break;
         }
@@ -525,6 +555,114 @@ namespace Stanovnik._Helper
             var _item = new global::Stanovnik.Osoba();
             /*DataStructureInfo CreateInstance Stanovnik.Osoba*/
             return _item;
+        }
+
+        public IEnumerable<InvalidDataMessage> GetErrorMessage_OIB__MaxLengthFilter(IEnumerable<Guid> invalidData_Ids)
+        {
+            const string invalidData_Description = @"Maximum allowed length of {0} is {1} characters.";
+            IDictionary<string, object> metadata = new Dictionary<string, object>();
+            metadata["Validation"] = @"OIB_MaxLengthFilter";
+            metadata[@"Property"] = @"OIB";
+            /*InvalidDataInfo ErrorMetadata Stanovnik.Osoba.OIB_MaxLengthFilter*/
+            return invalidData_Ids.Select(id => new InvalidDataMessage
+            {
+                ID = id,
+                Message = invalidData_Description,
+                MessageParameters = new object[] { @"OIB", 11 },
+                Metadata = metadata
+            });
+            // /*InvalidDataInfo OverrideUserMessages Stanovnik.Osoba.OIB_MaxLengthFilter*/ return invalidData_Ids.Select(id => new InvalidDataMessage { ID = id, Message = invalidData_Description, Metadata = metadata });
+        }
+
+        public IEnumerable<InvalidDataMessage> GetErrorMessage_OIB__MinLengthFilter(IEnumerable<Guid> invalidData_Ids)
+        {
+            const string invalidData_Description = @"Minimum allowed length of {0} is {1} characters.";
+            IDictionary<string, object> metadata = new Dictionary<string, object>();
+            metadata["Validation"] = @"OIB_MinLengthFilter";
+            metadata[@"Property"] = @"OIB";
+            /*InvalidDataInfo ErrorMetadata Stanovnik.Osoba.OIB_MinLengthFilter*/
+            return invalidData_Ids.Select(id => new InvalidDataMessage
+            {
+                ID = id,
+                Message = invalidData_Description,
+                MessageParameters = new object[] { @"OIB", 11 },
+                Metadata = metadata
+            });
+            // /*InvalidDataInfo OverrideUserMessages Stanovnik.Osoba.OIB_MinLengthFilter*/ return invalidData_Ids.Select(id => new InvalidDataMessage { ID = id, Message = invalidData_Description, Metadata = metadata });
+        }
+
+        public IQueryable<Common.Queryable.Stanovnik_Osoba> Filter(IQueryable<Common.Queryable.Stanovnik_Osoba> localSource, Stanovnik.OIB_RegExMatchFilter localParameter)
+        {
+            Func<IQueryable<Common.Queryable.Stanovnik_Osoba>, Common.DomRepository, Stanovnik.OIB_RegExMatchFilter/*ComposableFilterByInfo AdditionalParametersType Stanovnik.Osoba.'Stanovnik.OIB_RegExMatchFilter'*/, IQueryable<Common.Queryable.Stanovnik_Osoba>> filterFunction =
+            (source, repository, parameter) =>
+                {
+                    var items = source.Where(item => !string.IsNullOrEmpty(item.OIB)).Select(item => new { item.ID, item.OIB }).ToList();
+                    var regex = new System.Text.RegularExpressions.Regex(@"^^[0-9]$");
+                    var invalidItemIds = items.Where(item => !regex.IsMatch(item.OIB)).Select(item => item.ID).ToList();
+                    return Filter(source, invalidItemIds);
+                };
+
+            /*ComposableFilterByInfo BeforeFilter Stanovnik.Osoba.'Stanovnik.OIB_RegExMatchFilter'*/
+            return filterFunction(localSource, _domRepository, localParameter/*ComposableFilterByInfo AdditionalParametersArgument Stanovnik.Osoba.'Stanovnik.OIB_RegExMatchFilter'*/);
+        }
+
+        public IEnumerable<InvalidDataMessage> GetErrorMessage_OIB_RegExMatchFilter(IEnumerable<Guid> invalidData_Ids)
+        {
+            const string invalidData_Description = @"Property {0} does not match required format.";
+            IDictionary<string, object> metadata = new Dictionary<string, object>();
+            metadata["Validation"] = @"Stanovnik.OIB_RegExMatchFilter";
+            metadata[@"Property"] = @"OIB";
+            /*InvalidDataInfo ErrorMetadata Stanovnik.Osoba.'Stanovnik.OIB_RegExMatchFilter'*/
+            return invalidData_Ids.Select(id => new InvalidDataMessage
+            {
+                ID = id,
+                Message = invalidData_Description,
+                MessageParameters = new object[] { @"OIB" },
+                Metadata = metadata
+            });
+            // /*InvalidDataInfo OverrideUserMessages Stanovnik.Osoba.'Stanovnik.OIB_RegExMatchFilter'*/ return invalidData_Ids.Select(id => new InvalidDataMessage { ID = id, Message = invalidData_Description, Metadata = metadata });
+        }
+
+        public IQueryable<Common.Queryable.Stanovnik_Osoba> Filter(IQueryable<Common.Queryable.Stanovnik_Osoba> localSource, Stanovnik.OIB_MaxLengthFilter localParameter)
+        {
+            Func<IQueryable<Common.Queryable.Stanovnik_Osoba>, Common.DomRepository, Stanovnik.OIB_MaxLengthFilter/*ComposableFilterByInfo AdditionalParametersType Stanovnik.Osoba.'Stanovnik.OIB_MaxLengthFilter'*/, IQueryable<Common.Queryable.Stanovnik_Osoba>> filterFunction =
+            (source, repository, parameter) => source.Where(item => !String.IsNullOrEmpty(item.OIB) && item.OIB.Length > 11);
+
+            /*ComposableFilterByInfo BeforeFilter Stanovnik.Osoba.'Stanovnik.OIB_MaxLengthFilter'*/
+            return filterFunction(localSource, _domRepository, localParameter/*ComposableFilterByInfo AdditionalParametersArgument Stanovnik.Osoba.'Stanovnik.OIB_MaxLengthFilter'*/);
+        }
+
+        public IQueryable<Common.Queryable.Stanovnik_Osoba> Filter(IQueryable<Common.Queryable.Stanovnik_Osoba> localSource, Stanovnik.OIB_MinLengthFilter localParameter)
+        {
+            Func<IQueryable<Common.Queryable.Stanovnik_Osoba>, Common.DomRepository, Stanovnik.OIB_MinLengthFilter/*ComposableFilterByInfo AdditionalParametersType Stanovnik.Osoba.'Stanovnik.OIB_MinLengthFilter'*/, IQueryable<Common.Queryable.Stanovnik_Osoba>> filterFunction =
+            (source, repository, parameter) => source.Where(item => !String.IsNullOrEmpty(item.OIB) && item.OIB.Length < 11);
+
+            /*ComposableFilterByInfo BeforeFilter Stanovnik.Osoba.'Stanovnik.OIB_MinLengthFilter'*/
+            return filterFunction(localSource, _domRepository, localParameter/*ComposableFilterByInfo AdditionalParametersArgument Stanovnik.Osoba.'Stanovnik.OIB_MinLengthFilter'*/);
+        }
+
+        public global::Stanovnik.Osoba[] Filter(Stanovnik.OIB_RegExMatchFilter filter_Parameter)
+        {
+            Func<Common.DomRepository, Stanovnik.OIB_RegExMatchFilter/*FilterByInfo AdditionalParametersType Stanovnik.Osoba.'Stanovnik.OIB_RegExMatchFilter'*/, Stanovnik.Osoba[]> filter_Function =
+                (repository, parameter) => repository.Stanovnik.Osoba.Filter(repository.Stanovnik.Osoba.Query(), parameter).ToArray();
+
+            return filter_Function(_domRepository, filter_Parameter/*FilterByInfo AdditionalParametersArgument Stanovnik.Osoba.'Stanovnik.OIB_RegExMatchFilter'*/);
+        }
+
+        public global::Stanovnik.Osoba[] Filter(Stanovnik.OIB_MaxLengthFilter filter_Parameter)
+        {
+            Func<Common.DomRepository, Stanovnik.OIB_MaxLengthFilter/*FilterByInfo AdditionalParametersType Stanovnik.Osoba.'Stanovnik.OIB_MaxLengthFilter'*/, Stanovnik.Osoba[]> filter_Function =
+                (repository, parameter) => repository.Stanovnik.Osoba.Filter(repository.Stanovnik.Osoba.Query(), parameter).ToArray();
+
+            return filter_Function(_domRepository, filter_Parameter/*FilterByInfo AdditionalParametersArgument Stanovnik.Osoba.'Stanovnik.OIB_MaxLengthFilter'*/);
+        }
+
+        public global::Stanovnik.Osoba[] Filter(Stanovnik.OIB_MinLengthFilter filter_Parameter)
+        {
+            Func<Common.DomRepository, Stanovnik.OIB_MinLengthFilter/*FilterByInfo AdditionalParametersType Stanovnik.Osoba.'Stanovnik.OIB_MinLengthFilter'*/, Stanovnik.Osoba[]> filter_Function =
+                (repository, parameter) => repository.Stanovnik.Osoba.Filter(repository.Stanovnik.Osoba.Query(), parameter).ToArray();
+
+            return filter_Function(_domRepository, filter_Parameter/*FilterByInfo AdditionalParametersArgument Stanovnik.Osoba.'Stanovnik.OIB_MinLengthFilter'*/);
         }
 
         /*DataStructureInfo RepositoryMembers Stanovnik.Osoba*/
@@ -583,11 +721,6 @@ namespace Stanovnik._Helper
             IEnumerable<Common.Queryable.Stanovnik_Drzava> updated = this.Query(updatedNew.Select(item => item.ID)).ToList();
             Rhetos.Utilities.Graph.SortByGivenOrder((List<Common.Queryable.Stanovnik_Drzava>)updated, updatedNew.Select(item => item.ID), item => item.ID);
 
-            AutoCodeHelper.UpdateCodesWithoutCache(
-                _executionContext.SqlExecuter, "Stanovnik.Drzava", "Sifra",
-                insertedNew.Select(item => AutoCodeItem.Create(item, item.Sifra/*AutoCodePropertyInfo Grouping Stanovnik.Drzava.Sifra*/)).ToList(),
-                (item, newCode) => item.Sifra = newCode/*AutoCodePropertyInfo GroupColumnMetadata Stanovnik.Drzava.Sifra*/);
-
             /*DataStructureInfo WritableOrm OldDataLoaded Stanovnik.Drzava*/
 
             {
@@ -638,8 +771,6 @@ namespace Stanovnik._Helper
         		Rhetos.RhetosException interpretedException = _sqlUtility.InterpretSqlException(saveException);
         		if (interpretedException is Rhetos.UserException && Rhetos.Utilities.MsSqlUtility.IsReferenceErrorOnDelete(interpretedException, @"Stanovnik.Grad", @"GradUDrzaviID", @"FK_Grad_Drzava_GradUDrzaviID"))
                     ((Rhetos.UserException)interpretedException).SystemMessage = @"DataStructure:Stanovnik.Grad,Property:GradUDrzaviID,Referenced:Stanovnik.Drzava";
-                if (interpretedException is Rhetos.UserException && Rhetos.Utilities.MsSqlUtility.IsUniqueError(interpretedException, @"Stanovnik.Drzava", @"IX_Drzava_Sifra"))
-                    ((Rhetos.UserException)interpretedException).SystemMessage = @"DataStructure:Stanovnik.Drzava,Property:Sifra";
                 /*DataStructureInfo WritableOrm OnDatabaseError Stanovnik.Drzava*/
                 if (checkUserPermissions)
                     Rhetos.Utilities.MsSqlUtility.ThrowIfPrimaryKeyErrorOnInsert(interpretedException, "Stanovnik.Drzava");
@@ -675,13 +806,6 @@ namespace Stanovnik._Helper
 
         public IEnumerable<Rhetos.Dom.DefaultConcepts.InvalidDataMessage> Validate(IList<Guid> ids, bool onSave)
         {
-            if (onSave)
-            {
-                var errorIds = this.Filter(this.Query(ids), new SystemRequiredSifra()).Select(item => item.ID).ToArray();
-                if (errorIds.Count() > 0)
-                    foreach (var error in GetErrorMessage_SystemRequiredSifra(errorIds))
-                        yield return error;
-            }
             /*DataStructureInfo WritableOrm OnSaveValidate Stanovnik.Drzava*/
             yield break;
         }
@@ -691,40 +815,6 @@ namespace Stanovnik._Helper
             var _item = new global::Stanovnik.Drzava();
             /*DataStructureInfo CreateInstance Stanovnik.Drzava*/
             return _item;
-        }
-
-        public IEnumerable<InvalidDataMessage> GetErrorMessage_SystemRequiredSifra(IEnumerable<Guid> invalidData_Ids)
-        {
-            const string invalidData_Description = @"System required property {0} is not set.";
-            IDictionary<string, object> metadata = new Dictionary<string, object>();
-            metadata["Validation"] = @"SystemRequiredSifra";
-            metadata[@"Property"] = @"Sifra";
-            /*InvalidDataInfo ErrorMetadata Stanovnik.Drzava.SystemRequiredSifra*/
-            return invalidData_Ids.Select(id => new InvalidDataMessage
-            {
-                ID = id,
-                Message = invalidData_Description,
-                MessageParameters = new object[] { @"Integer Stanovnik.Drzava.Sifra" },
-                Metadata = metadata
-            });
-            // /*InvalidDataInfo OverrideUserMessages Stanovnik.Drzava.SystemRequiredSifra*/ return invalidData_Ids.Select(id => new InvalidDataMessage { ID = id, Message = invalidData_Description, Metadata = metadata });
-        }
-
-        public IQueryable<Common.Queryable.Stanovnik_Drzava> Filter(IQueryable<Common.Queryable.Stanovnik_Drzava> localSource, Stanovnik.SystemRequiredSifra localParameter)
-        {
-            Func<IQueryable<Common.Queryable.Stanovnik_Drzava>, Common.DomRepository, Stanovnik.SystemRequiredSifra/*ComposableFilterByInfo AdditionalParametersType Stanovnik.Drzava.'Stanovnik.SystemRequiredSifra'*/, IQueryable<Common.Queryable.Stanovnik_Drzava>> filterFunction =
-            (source, repository, parameter) => source.Where(item => item.Sifra == null);
-
-            /*ComposableFilterByInfo BeforeFilter Stanovnik.Drzava.'Stanovnik.SystemRequiredSifra'*/
-            return filterFunction(localSource, _domRepository, localParameter/*ComposableFilterByInfo AdditionalParametersArgument Stanovnik.Drzava.'Stanovnik.SystemRequiredSifra'*/);
-        }
-
-        public global::Stanovnik.Drzava[] Filter(Stanovnik.SystemRequiredSifra filter_Parameter)
-        {
-            Func<Common.DomRepository, Stanovnik.SystemRequiredSifra/*FilterByInfo AdditionalParametersType Stanovnik.Drzava.'Stanovnik.SystemRequiredSifra'*/, Stanovnik.Drzava[]> filter_Function =
-                (repository, parameter) => repository.Stanovnik.Drzava.Filter(repository.Stanovnik.Drzava.Query(), parameter).ToArray();
-
-            return filter_Function(_domRepository, filter_Parameter/*FilterByInfo AdditionalParametersArgument Stanovnik.Drzava.'Stanovnik.SystemRequiredSifra'*/);
         }
 
         /*DataStructureInfo RepositoryMembers Stanovnik.Drzava*/
@@ -792,11 +882,6 @@ namespace Stanovnik._Helper
             IEnumerable<Common.Queryable.Stanovnik_Grad> updated = this.Query(updatedNew.Select(item => item.ID)).ToList();
             Rhetos.Utilities.Graph.SortByGivenOrder((List<Common.Queryable.Stanovnik_Grad>)updated, updatedNew.Select(item => item.ID), item => item.ID);
 
-            AutoCodeHelper.UpdateCodesWithoutCache(
-                _executionContext.SqlExecuter, "Stanovnik.Grad", "Sifra",
-                insertedNew.Select(item => AutoCodeItem.Create(item, item.Sifra/*AutoCodePropertyInfo Grouping Stanovnik.Grad.Sifra*/)).ToList(),
-                (item, newCode) => item.Sifra = newCode/*AutoCodePropertyInfo GroupColumnMetadata Stanovnik.Grad.Sifra*/);
-
             /*DataStructureInfo WritableOrm OldDataLoaded Stanovnik.Grad*/
 
             {
@@ -856,8 +941,6 @@ namespace Stanovnik._Helper
                     ((Rhetos.UserException)interpretedException).SystemMessage = @"DataStructure:Stanovnik.Grad,Property:GradUDrzaviID,Referenced:Stanovnik.Drzava";
                 if (interpretedException is Rhetos.UserException && Rhetos.Utilities.MsSqlUtility.IsReferenceErrorOnDelete(interpretedException, @"Stanovnik.Adresa", @"AdresaUGraduID", @"FK_Adresa_Grad_AdresaUGraduID"))
                     ((Rhetos.UserException)interpretedException).SystemMessage = @"DataStructure:Stanovnik.Adresa,Property:AdresaUGraduID,Referenced:Stanovnik.Grad";
-                if (interpretedException is Rhetos.UserException && Rhetos.Utilities.MsSqlUtility.IsUniqueError(interpretedException, @"Stanovnik.Grad", @"IX_Grad_Sifra"))
-                    ((Rhetos.UserException)interpretedException).SystemMessage = @"DataStructure:Stanovnik.Grad,Property:Sifra";
                 /*DataStructureInfo WritableOrm OnDatabaseError Stanovnik.Grad*/
                 if (checkUserPermissions)
                     Rhetos.Utilities.MsSqlUtility.ThrowIfPrimaryKeyErrorOnInsert(interpretedException, "Stanovnik.Grad");
@@ -893,13 +976,6 @@ namespace Stanovnik._Helper
 
         public IEnumerable<Rhetos.Dom.DefaultConcepts.InvalidDataMessage> Validate(IList<Guid> ids, bool onSave)
         {
-            if (onSave)
-            {
-                var errorIds = this.Filter(this.Query(ids), new SystemRequiredSifra()).Select(item => item.ID).ToArray();
-                if (errorIds.Count() > 0)
-                    foreach (var error in GetErrorMessage_SystemRequiredSifra(errorIds))
-                        yield return error;
-            }
             /*DataStructureInfo WritableOrm OnSaveValidate Stanovnik.Grad*/
             yield break;
         }
@@ -909,40 +985,6 @@ namespace Stanovnik._Helper
             var _item = new global::Stanovnik.Grad();
             /*DataStructureInfo CreateInstance Stanovnik.Grad*/
             return _item;
-        }
-
-        public IEnumerable<InvalidDataMessage> GetErrorMessage_SystemRequiredSifra(IEnumerable<Guid> invalidData_Ids)
-        {
-            const string invalidData_Description = @"System required property {0} is not set.";
-            IDictionary<string, object> metadata = new Dictionary<string, object>();
-            metadata["Validation"] = @"SystemRequiredSifra";
-            metadata[@"Property"] = @"Sifra";
-            /*InvalidDataInfo ErrorMetadata Stanovnik.Grad.SystemRequiredSifra*/
-            return invalidData_Ids.Select(id => new InvalidDataMessage
-            {
-                ID = id,
-                Message = invalidData_Description,
-                MessageParameters = new object[] { @"Integer Stanovnik.Grad.Sifra" },
-                Metadata = metadata
-            });
-            // /*InvalidDataInfo OverrideUserMessages Stanovnik.Grad.SystemRequiredSifra*/ return invalidData_Ids.Select(id => new InvalidDataMessage { ID = id, Message = invalidData_Description, Metadata = metadata });
-        }
-
-        public IQueryable<Common.Queryable.Stanovnik_Grad> Filter(IQueryable<Common.Queryable.Stanovnik_Grad> localSource, Stanovnik.SystemRequiredSifra localParameter)
-        {
-            Func<IQueryable<Common.Queryable.Stanovnik_Grad>, Common.DomRepository, Stanovnik.SystemRequiredSifra/*ComposableFilterByInfo AdditionalParametersType Stanovnik.Grad.'Stanovnik.SystemRequiredSifra'*/, IQueryable<Common.Queryable.Stanovnik_Grad>> filterFunction =
-            (source, repository, parameter) => source.Where(item => item.Sifra == null);
-
-            /*ComposableFilterByInfo BeforeFilter Stanovnik.Grad.'Stanovnik.SystemRequiredSifra'*/
-            return filterFunction(localSource, _domRepository, localParameter/*ComposableFilterByInfo AdditionalParametersArgument Stanovnik.Grad.'Stanovnik.SystemRequiredSifra'*/);
-        }
-
-        public global::Stanovnik.Grad[] Filter(Stanovnik.SystemRequiredSifra filter_Parameter)
-        {
-            Func<Common.DomRepository, Stanovnik.SystemRequiredSifra/*FilterByInfo AdditionalParametersType Stanovnik.Grad.'Stanovnik.SystemRequiredSifra'*/, Stanovnik.Grad[]> filter_Function =
-                (repository, parameter) => repository.Stanovnik.Grad.Filter(repository.Stanovnik.Grad.Query(), parameter).ToArray();
-
-            return filter_Function(_domRepository, filter_Parameter/*FilterByInfo AdditionalParametersArgument Stanovnik.Grad.'Stanovnik.SystemRequiredSifra'*/);
         }
 
         /*DataStructureInfo RepositoryMembers Stanovnik.Grad*/
@@ -1010,11 +1052,6 @@ namespace Stanovnik._Helper
             IEnumerable<Common.Queryable.Stanovnik_Adresa> updated = this.Query(updatedNew.Select(item => item.ID)).ToList();
             Rhetos.Utilities.Graph.SortByGivenOrder((List<Common.Queryable.Stanovnik_Adresa>)updated, updatedNew.Select(item => item.ID), item => item.ID);
 
-            AutoCodeHelper.UpdateCodesWithoutCache(
-                _executionContext.SqlExecuter, "Stanovnik.Adresa", "Sifra",
-                insertedNew.Select(item => AutoCodeItem.Create(item, item.Sifra/*AutoCodePropertyInfo Grouping Stanovnik.Adresa.Sifra*/)).ToList(),
-                (item, newCode) => item.Sifra = newCode/*AutoCodePropertyInfo GroupColumnMetadata Stanovnik.Adresa.Sifra*/);
-
             /*DataStructureInfo WritableOrm OldDataLoaded Stanovnik.Adresa*/
 
             {
@@ -1072,8 +1109,6 @@ namespace Stanovnik._Helper
         		Rhetos.RhetosException interpretedException = _sqlUtility.InterpretSqlException(saveException);
         		if (interpretedException is Rhetos.UserException && Rhetos.Utilities.MsSqlUtility.IsReferenceErrorOnInsertUpdate(interpretedException, @"Stanovnik.Grad", @"ID", @"FK_Adresa_Grad_AdresaUGraduID"))
                     ((Rhetos.UserException)interpretedException).SystemMessage = @"DataStructure:Stanovnik.Adresa,Property:AdresaUGraduID,Referenced:Stanovnik.Grad";
-                if (interpretedException is Rhetos.UserException && Rhetos.Utilities.MsSqlUtility.IsUniqueError(interpretedException, @"Stanovnik.Adresa", @"IX_Adresa_Sifra"))
-                    ((Rhetos.UserException)interpretedException).SystemMessage = @"DataStructure:Stanovnik.Adresa,Property:Sifra";
                 /*DataStructureInfo WritableOrm OnDatabaseError Stanovnik.Adresa*/
                 if (checkUserPermissions)
                     Rhetos.Utilities.MsSqlUtility.ThrowIfPrimaryKeyErrorOnInsert(interpretedException, "Stanovnik.Adresa");
@@ -1109,13 +1144,6 @@ namespace Stanovnik._Helper
 
         public IEnumerable<Rhetos.Dom.DefaultConcepts.InvalidDataMessage> Validate(IList<Guid> ids, bool onSave)
         {
-            if (onSave)
-            {
-                var errorIds = this.Filter(this.Query(ids), new SystemRequiredSifra()).Select(item => item.ID).ToArray();
-                if (errorIds.Count() > 0)
-                    foreach (var error in GetErrorMessage_SystemRequiredSifra(errorIds))
-                        yield return error;
-            }
             /*DataStructureInfo WritableOrm OnSaveValidate Stanovnik.Adresa*/
             yield break;
         }
@@ -1125,40 +1153,6 @@ namespace Stanovnik._Helper
             var _item = new global::Stanovnik.Adresa();
             /*DataStructureInfo CreateInstance Stanovnik.Adresa*/
             return _item;
-        }
-
-        public IEnumerable<InvalidDataMessage> GetErrorMessage_SystemRequiredSifra(IEnumerable<Guid> invalidData_Ids)
-        {
-            const string invalidData_Description = @"System required property {0} is not set.";
-            IDictionary<string, object> metadata = new Dictionary<string, object>();
-            metadata["Validation"] = @"SystemRequiredSifra";
-            metadata[@"Property"] = @"Sifra";
-            /*InvalidDataInfo ErrorMetadata Stanovnik.Adresa.SystemRequiredSifra*/
-            return invalidData_Ids.Select(id => new InvalidDataMessage
-            {
-                ID = id,
-                Message = invalidData_Description,
-                MessageParameters = new object[] { @"Integer Stanovnik.Adresa.Sifra" },
-                Metadata = metadata
-            });
-            // /*InvalidDataInfo OverrideUserMessages Stanovnik.Adresa.SystemRequiredSifra*/ return invalidData_Ids.Select(id => new InvalidDataMessage { ID = id, Message = invalidData_Description, Metadata = metadata });
-        }
-
-        public IQueryable<Common.Queryable.Stanovnik_Adresa> Filter(IQueryable<Common.Queryable.Stanovnik_Adresa> localSource, Stanovnik.SystemRequiredSifra localParameter)
-        {
-            Func<IQueryable<Common.Queryable.Stanovnik_Adresa>, Common.DomRepository, Stanovnik.SystemRequiredSifra/*ComposableFilterByInfo AdditionalParametersType Stanovnik.Adresa.'Stanovnik.SystemRequiredSifra'*/, IQueryable<Common.Queryable.Stanovnik_Adresa>> filterFunction =
-            (source, repository, parameter) => source.Where(item => item.Sifra == null);
-
-            /*ComposableFilterByInfo BeforeFilter Stanovnik.Adresa.'Stanovnik.SystemRequiredSifra'*/
-            return filterFunction(localSource, _domRepository, localParameter/*ComposableFilterByInfo AdditionalParametersArgument Stanovnik.Adresa.'Stanovnik.SystemRequiredSifra'*/);
-        }
-
-        public global::Stanovnik.Adresa[] Filter(Stanovnik.SystemRequiredSifra filter_Parameter)
-        {
-            Func<Common.DomRepository, Stanovnik.SystemRequiredSifra/*FilterByInfo AdditionalParametersType Stanovnik.Adresa.'Stanovnik.SystemRequiredSifra'*/, Stanovnik.Adresa[]> filter_Function =
-                (repository, parameter) => repository.Stanovnik.Adresa.Filter(repository.Stanovnik.Adresa.Query(), parameter).ToArray();
-
-            return filter_Function(_domRepository, filter_Parameter/*FilterByInfo AdditionalParametersArgument Stanovnik.Adresa.'Stanovnik.SystemRequiredSifra'*/);
         }
 
         /*DataStructureInfo RepositoryMembers Stanovnik.Adresa*/

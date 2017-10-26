@@ -2,20 +2,18 @@ Module Stanovnik
 {
 	Entity Osoba
 	{
-		Integer OIB {Required; Unique;}
+		ShortString OIB {Required; Unique; MinLength 11; MaxLength 11; RegExMatch "^[0-9]$";}
 		ShortString Ime {Required;}
 		ShortString Prezime {Required;}
 	}
 	
 	Entity Drzava
 	{
-		Integer Sifra {Unique; Autocode;}
 		ShortString Naziv {Required;}
 	}
 	
 	Entity Grad
 	{
-		Integer Sifra {Unique; Autocode;}
 		ShortString Naziv {Required;}
 		ShortString PostanskiBroj {Required;}
 		Reference GradUDrzavi Stanovnik.Drzava;
@@ -23,7 +21,6 @@ Module Stanovnik
 	
 		Entity Adresa
 	{
-		Integer Sifra {Unique; Autocode;}
 		ShortString Naziv {Required;}
 		ShortString KucniBroj {Required;}
 		Reference AdresaUGradu Stanovnik.Grad;

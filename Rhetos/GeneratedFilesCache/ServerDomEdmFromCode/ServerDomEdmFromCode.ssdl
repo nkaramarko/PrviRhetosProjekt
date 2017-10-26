@@ -177,7 +177,6 @@
             <PropertyRef Name="ID" />
           </Key>
           <Property Name="ID" Type="uniqueidentifier" Nullable="false" />
-          <Property Name="Sifra" Type="int" Nullable="true" />
           <Property Name="Naziv" Type="nvarchar(max)" Nullable="true" />
           <Property Name="KucniBroj" Type="nvarchar(max)" Nullable="true" />
           <Property Name="AdresaUGraduID" Type="uniqueidentifier" customannotation:Index="{ Name: IX_AdresaUGraduID, Order: 0 }" Nullable="true" />
@@ -187,7 +186,6 @@
             <PropertyRef Name="ID" />
           </Key>
           <Property Name="ID" Type="uniqueidentifier" Nullable="false" />
-          <Property Name="Sifra" Type="int" Nullable="true" />
           <Property Name="Naziv" Type="nvarchar(max)" Nullable="true" />
           <Property Name="PostanskiBroj" Type="nvarchar(max)" Nullable="true" />
           <Property Name="GradUDrzaviID" Type="uniqueidentifier" customannotation:Index="{ Name: IX_GradUDrzaviID, Order: 0 }" Nullable="true" />
@@ -197,7 +195,6 @@
             <PropertyRef Name="ID" />
           </Key>
           <Property Name="ID" Type="uniqueidentifier" Nullable="false" />
-          <Property Name="Sifra" Type="int" Nullable="true" />
           <Property Name="Naziv" Type="nvarchar(max)" Nullable="true" />
         </EntityType>
         <EntityType Name="Stanovnik_Osoba">
@@ -205,7 +202,7 @@
             <PropertyRef Name="ID" />
           </Key>
           <Property Name="ID" Type="uniqueidentifier" Nullable="false" />
-          <Property Name="OIB" Type="int" Nullable="true" />
+          <Property Name="OIB" Type="nvarchar(max)" Nullable="true" />
           <Property Name="Ime" Type="nvarchar(max)" Nullable="true" />
           <Property Name="Prezime" Type="nvarchar(max)" Nullable="true" />
         </EntityType>

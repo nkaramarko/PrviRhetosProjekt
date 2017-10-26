@@ -1,10 +1,10 @@
-﻿// Reference: C:\Users\nkaramarko\Desktop\Projekti\MojPrviRhetosProjekt\Rhetos\Rhetos.2.2.0\bin\Generated\Captions.dll
+﻿// Reference: C:\Users\nkaramarko\Desktop\Omega\01. Zadaci\01. MojPrviRhetosProjekt\Rhetos\bin\Generated\Captions.dll
 // Reference: C:\Windows\Microsoft.NET\Framework64\v4.0.30319\mscorlib.dll
 // Reference: C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Core\v4.0_4.0.0.0__b77a5c561934e089\System.Core.dll
 // Reference: C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System\v4.0_4.0.0.0__b77a5c561934e089\System.dll
 // Reference: C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.ComponentModel.DataAnnotations\v4.0_4.0.0.0__31bf3856ad364e35\System.ComponentModel.DataAnnotations.dll
-// Reference: C:\Users\nkaramarko\Desktop\Projekti\MojPrviRhetosProjekt\Rhetos\Rhetos.2.2.0\bin\Plugins\OmegaCommonConcepts.Mvc.Client.dll
-// Reference: C:\Users\nkaramarko\Desktop\Projekti\MojPrviRhetosProjekt\Rhetos\Rhetos.2.2.0\bin\Plugins\Rhetos.Mvc.Client.dll
+// Reference: C:\Users\nkaramarko\Desktop\Omega\01. Zadaci\01. MojPrviRhetosProjekt\Rhetos\bin\Plugins\OmegaCommonConcepts.Mvc.Client.dll
+// Reference: C:\Users\nkaramarko\Desktop\Omega\01. Zadaci\01. MojPrviRhetosProjekt\Rhetos\bin\Plugins\Rhetos.Mvc.Client.dll
 // CompilerOptions: ""
 
 
@@ -46,8 +46,12 @@ namespace Rhetos.Mvc.Stanovnik
         public const string EntityOsoba = "Osoba";
 
         [Display(Name = "Stanovnik_Osoba_OIB", ResourceType = typeof(CaptionsResourceClass), AutoGenerateFilter = true)]
+        //[MaxLength(256)]
         [Required()]
-        public virtual int? OIB { get; set; }
+        [MinLength(11)]
+        [MaxLength(11)]
+        [RegularExpression(@"^[0-9]", ErrorMessage = @"Property {0} does not match required format.")]
+        public virtual string OIB { get; set; }
         public const string PropertyOIB = "OIB";
         
         [Display(Name = "Stanovnik_Osoba_Ime", ResourceType = typeof(CaptionsResourceClass), AutoGenerateFilter = true)]
@@ -74,10 +78,6 @@ namespace Rhetos.Mvc.Stanovnik
     {
         public const string EntityDrzava = "Drzava";
 
-        [Display(Name = "Stanovnik_Drzava_Sifra", ResourceType = typeof(CaptionsResourceClass), AutoGenerateFilter = true)]
-        public virtual int? Sifra { get; set; }
-        public const string PropertySifra = "Sifra";
-        
         [Display(Name = "Stanovnik_Drzava_Naziv", ResourceType = typeof(CaptionsResourceClass), AutoGenerateFilter = true)]
         [MaxLength(256)]
         [Required()]
@@ -96,10 +96,6 @@ namespace Rhetos.Mvc.Stanovnik
     {
         public const string EntityGrad = "Grad";
 
-        [Display(Name = "Stanovnik_Grad_Sifra", ResourceType = typeof(CaptionsResourceClass), AutoGenerateFilter = true)]
-        public virtual int? Sifra { get; set; }
-        public const string PropertySifra = "Sifra";
-        
         [Display(Name = "Stanovnik_Grad_Naziv", ResourceType = typeof(CaptionsResourceClass), AutoGenerateFilter = true)]
         [MaxLength(256)]
         [Required()]
@@ -128,10 +124,6 @@ namespace Rhetos.Mvc.Stanovnik
     {
         public const string EntityAdresa = "Adresa";
 
-        [Display(Name = "Stanovnik_Adresa_Sifra", ResourceType = typeof(CaptionsResourceClass), AutoGenerateFilter = true)]
-        public virtual int? Sifra { get; set; }
-        public const string PropertySifra = "Sifra";
-        
         [Display(Name = "Stanovnik_Adresa_Naziv", ResourceType = typeof(CaptionsResourceClass), AutoGenerateFilter = true)]
         [MaxLength(256)]
         [Required()]
@@ -975,22 +967,42 @@ namespace Rhetos.Mvc.Common
 }
 
 
-namespace Rhetos.Mvc.Common
+namespace Rhetos.Mvc.Stanovnik
 {
-    [Rhetos.Mvc.LocalizedDisplayName("Common_SystemRequiredActive", typeof(CaptionsResourceClass))]
-    public partial class SystemRequiredActive
+    [Rhetos.Mvc.LocalizedDisplayName("Stanovnik_OIB_RegExMatchFilter", typeof(CaptionsResourceClass))]
+    public partial class OIB_RegExMatchFilter
     {
-        public const string EntitySystemRequiredActive = "SystemRequiredActive";
+        public const string EntityOIB_RegExMatchFilter = "OIB_RegExMatchFilter";
     }
 }
 
 
 namespace Rhetos.Mvc.Stanovnik
 {
-    [Rhetos.Mvc.LocalizedDisplayName("Stanovnik_SystemRequiredSifra", typeof(CaptionsResourceClass))]
-    public partial class SystemRequiredSifra
+    [Rhetos.Mvc.LocalizedDisplayName("Stanovnik_OIB_MaxLengthFilter", typeof(CaptionsResourceClass))]
+    public partial class OIB_MaxLengthFilter
     {
-        public const string EntitySystemRequiredSifra = "SystemRequiredSifra";
+        public const string EntityOIB_MaxLengthFilter = "OIB_MaxLengthFilter";
+    }
+}
+
+
+namespace Rhetos.Mvc.Stanovnik
+{
+    [Rhetos.Mvc.LocalizedDisplayName("Stanovnik_OIB_MinLengthFilter", typeof(CaptionsResourceClass))]
+    public partial class OIB_MinLengthFilter
+    {
+        public const string EntityOIB_MinLengthFilter = "OIB_MinLengthFilter";
+    }
+}
+
+
+namespace Rhetos.Mvc.Common
+{
+    [Rhetos.Mvc.LocalizedDisplayName("Common_SystemRequiredActive", typeof(CaptionsResourceClass))]
+    public partial class SystemRequiredActive
+    {
+        public const string EntitySystemRequiredActive = "SystemRequiredActive";
     }
 }
 
