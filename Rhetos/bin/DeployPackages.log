@@ -1,0 +1,1299 @@
+2017-10-24 13:17:13.8397|TRACE|DeployPackages|Moving old generated files to cache.
+2017-10-24 13:17:13.8866|TRACE|DeployPackages|Getting packages.
+2017-10-24 13:17:13.9178|ERROR|DeployPackages|Rhetos.UserException: Missing configuration file 'C:\inetpub\wwwroot\Rhetos\Rhetos.2.2.0\RhetosPackages.config'. Rename the created template file (Template.RhetosPackages.config) to match the expected file name. Edit the file to set which Rhetos packages will be deployed. Note that removing a Rhetos package from the file will uninstall the package.
+   at Rhetos.Deployment.DeploymentConfiguration.ReadConfigFileOrCreateTemplate(String configFileName, String templateFileName, String configFileUsage) in C:\My Projects\Rhetos\Source\Rhetos.Deployment\DeploymentConfiguration.cs:line 138
+   at Rhetos.Deployment.DeploymentConfiguration.LoadPackageRequest() in C:\My Projects\Rhetos\Source\Rhetos.Deployment\DeploymentConfiguration.cs:line 61
+   at Rhetos.Deployment.DeploymentConfiguration.Initialize() in C:\My Projects\Rhetos\Source\Rhetos.Deployment\DeploymentConfiguration.cs:line 53
+   at Rhetos.Deployment.DeploymentConfiguration.get_PackageRequests() in C:\My Projects\Rhetos\Source\Rhetos.Deployment\DeploymentConfiguration.cs:line 42
+   at Rhetos.Deployment.PackageDownloader.GetPackages() in C:\My Projects\Rhetos\Source\Rhetos.Deployment\PackageDownloader.cs:line 78
+   at DeployPackages.Program.DownloadPackages(ILogger logger, Arguments arguments) in C:\My Projects\Rhetos\Source\DeployPackages\Program.cs:line 156
+   at DeployPackages.Program.Main(String[] args) in C:\My Projects\Rhetos\Source\DeployPackages\Program.cs:line 68
+Info: 
+MessageParameters: null
+SystemMessage: 
+2017-10-24 13:28:20.2324|TRACE|DeployPackages|Moving old generated files to cache.
+2017-10-24 13:28:20.2792|TRACE|DeployPackages|Getting packages.
+2017-10-24 13:28:20.2949|ERROR|DeployPackages|Rhetos.UserException: Missing configuration file 'C:\inetpub\wwwroot\Rhetos\Rhetos.2.2.0\RhetosPackages.config'. Rename the created template file (Template.RhetosPackages.config) to match the expected file name. Edit the file to set which Rhetos packages will be deployed. Note that removing a Rhetos package from the file will uninstall the package.
+   at Rhetos.Deployment.DeploymentConfiguration.ReadConfigFileOrCreateTemplate(String configFileName, String templateFileName, String configFileUsage) in C:\My Projects\Rhetos\Source\Rhetos.Deployment\DeploymentConfiguration.cs:line 138
+   at Rhetos.Deployment.DeploymentConfiguration.LoadPackageRequest() in C:\My Projects\Rhetos\Source\Rhetos.Deployment\DeploymentConfiguration.cs:line 61
+   at Rhetos.Deployment.DeploymentConfiguration.Initialize() in C:\My Projects\Rhetos\Source\Rhetos.Deployment\DeploymentConfiguration.cs:line 53
+   at Rhetos.Deployment.DeploymentConfiguration.get_PackageRequests() in C:\My Projects\Rhetos\Source\Rhetos.Deployment\DeploymentConfiguration.cs:line 42
+   at Rhetos.Deployment.PackageDownloader.GetPackages() in C:\My Projects\Rhetos\Source\Rhetos.Deployment\PackageDownloader.cs:line 78
+   at DeployPackages.Program.DownloadPackages(ILogger logger, Arguments arguments) in C:\My Projects\Rhetos\Source\DeployPackages\Program.cs:line 156
+   at DeployPackages.Program.Main(String[] args) in C:\My Projects\Rhetos\Source\DeployPackages\Program.cs:line 68
+Info: 
+MessageParameters: null
+SystemMessage: 
+2017-10-24 13:28:58.4884|TRACE|DeployPackages|Moving old generated files to cache.
+2017-10-24 13:28:58.5197|TRACE|DeployPackages|Getting packages.
+2017-10-24 13:28:58.5509|ERROR|DeployPackages|Rhetos.UserException: Missing configuration file 'C:\inetpub\wwwroot\Rhetos\Rhetos.2.2.0\RhetosPackages.config'. Rename the created template file (Template.RhetosPackages.config) to match the expected file name. Edit the file to set which Rhetos packages will be deployed. Note that removing a Rhetos package from the file will uninstall the package.
+   at Rhetos.Deployment.DeploymentConfiguration.ReadConfigFileOrCreateTemplate(String configFileName, String templateFileName, String configFileUsage) in C:\My Projects\Rhetos\Source\Rhetos.Deployment\DeploymentConfiguration.cs:line 138
+   at Rhetos.Deployment.DeploymentConfiguration.LoadPackageRequest() in C:\My Projects\Rhetos\Source\Rhetos.Deployment\DeploymentConfiguration.cs:line 61
+   at Rhetos.Deployment.DeploymentConfiguration.Initialize() in C:\My Projects\Rhetos\Source\Rhetos.Deployment\DeploymentConfiguration.cs:line 53
+   at Rhetos.Deployment.DeploymentConfiguration.get_PackageRequests() in C:\My Projects\Rhetos\Source\Rhetos.Deployment\DeploymentConfiguration.cs:line 42
+   at Rhetos.Deployment.PackageDownloader.GetPackages() in C:\My Projects\Rhetos\Source\Rhetos.Deployment\PackageDownloader.cs:line 78
+   at DeployPackages.Program.DownloadPackages(ILogger logger, Arguments arguments) in C:\My Projects\Rhetos\Source\DeployPackages\Program.cs:line 156
+   at DeployPackages.Program.Main(String[] args) in C:\My Projects\Rhetos\Source\DeployPackages\Program.cs:line 68
+Info: 
+MessageParameters: null
+SystemMessage: 
+2017-10-24 13:33:09.8504|TRACE|DeployPackages|Moving old generated files to cache.
+2017-10-24 13:33:09.8973|TRACE|DeployPackages|Getting packages.
+2017-10-24 13:33:09.9129|ERROR|DeployPackages|Rhetos.UserException: Invalid configuration file format 'RhetosPackages.config'. Missing attribute 'id'.
+   at Rhetos.Deployment.DeploymentConfiguration.LoadPackageRequest() in C:\My Projects\Rhetos\Source\Rhetos.Deployment\DeploymentConfiguration.cs:line 74
+   at Rhetos.Deployment.DeploymentConfiguration.Initialize() in C:\My Projects\Rhetos\Source\Rhetos.Deployment\DeploymentConfiguration.cs:line 53
+   at Rhetos.Deployment.DeploymentConfiguration.get_PackageRequests() in C:\My Projects\Rhetos\Source\Rhetos.Deployment\DeploymentConfiguration.cs:line 42
+   at Rhetos.Deployment.PackageDownloader.GetPackages() in C:\My Projects\Rhetos\Source\Rhetos.Deployment\PackageDownloader.cs:line 78
+   at DeployPackages.Program.DownloadPackages(ILogger logger, Arguments arguments) in C:\My Projects\Rhetos\Source\DeployPackages\Program.cs:line 156
+   at DeployPackages.Program.Main(String[] args) in C:\My Projects\Rhetos\Source\DeployPackages\Program.cs:line 68
+Info: 
+MessageParameters: null
+SystemMessage: 
+2017-10-24 13:42:06.5621|TRACE|DeployPackages|Moving old generated files to cache.
+2017-10-24 13:42:06.5933|TRACE|DeployPackages|Getting packages.
+2017-10-24 13:42:06.6246|ERROR|DeployPackages|Rhetos.UserException: Missing configuration file 'C:\inetpub\wwwroot\Rhetos\Rhetos.2.2.0\RhetosPackageSources.config'. Rename the created template file (Template.RhetosPackageSources.config) to match the expected file name. Edit the file to add locations where Rhetos packages can be found.
+   at Rhetos.Deployment.DeploymentConfiguration.ReadConfigFileOrCreateTemplate(String configFileName, String templateFileName, String configFileUsage) in C:\My Projects\Rhetos\Source\Rhetos.Deployment\DeploymentConfiguration.cs:line 138
+   at Rhetos.Deployment.DeploymentConfiguration.LoadPackageSources() in C:\My Projects\Rhetos\Source\Rhetos.Deployment\DeploymentConfiguration.cs:line 87
+   at Rhetos.Deployment.DeploymentConfiguration.Initialize() in C:\My Projects\Rhetos\Source\Rhetos.Deployment\DeploymentConfiguration.cs:line 54
+   at Rhetos.Deployment.DeploymentConfiguration.get_PackageRequests() in C:\My Projects\Rhetos\Source\Rhetos.Deployment\DeploymentConfiguration.cs:line 42
+   at Rhetos.Deployment.PackageDownloader.GetPackages() in C:\My Projects\Rhetos\Source\Rhetos.Deployment\PackageDownloader.cs:line 78
+   at DeployPackages.Program.DownloadPackages(ILogger logger, Arguments arguments) in C:\My Projects\Rhetos\Source\DeployPackages\Program.cs:line 156
+   at DeployPackages.Program.Main(String[] args) in C:\My Projects\Rhetos\Source\DeployPackages\Program.cs:line 68
+Info: 
+MessageParameters: null
+SystemMessage: 
+2017-10-24 13:45:15.4572|TRACE|DeployPackages|Moving old generated files to cache.
+2017-10-24 13:45:15.5040|TRACE|DeployPackages|Getting packages.
+2017-10-24 13:45:17.6290|TRACE|PackageDownloader|Downloading NuGet package Rhetos.CommonConcepts 2.2.0 from C:\inetpub\wwwroot\Rhetos\Rhetos.2.2.0\Packages.
+2017-10-24 13:45:17.7541|TRACE|NuGet|Installing 'Rhetos.CommonConcepts 2.2.0'.
+2017-10-24 13:45:17.8614|TRACE|NuGet|Successfully installed 'Rhetos.CommonConcepts 2.2.0'.
+2017-10-24 13:45:18.0812|TRACE|PackageDownloader|Downloading NuGet package Rhetos.OmegaCommonConcepts 2.2.0 from C:\inetpub\wwwroot\Rhetos\Rhetos.2.2.0\Packages.
+2017-10-24 13:45:18.0968|TRACE|NuGet|Installing 'Rhetos.OmegaCommonConcepts 2.2.0'.
+2017-10-24 13:45:18.1124|TRACE|NuGet|Successfully installed 'Rhetos.OmegaCommonConcepts 2.2.0'.
+2017-10-24 13:45:18.2843|TRACE|PackageDownloader|Downloading NuGet package Rhetos.RestGenerator 2.4.0 from https://www.nuget.org/api/v2/.
+2017-10-24 13:45:18.4718|TRACE|NuGet|Installing 'Rhetos.RestGenerator 2.4.0'.
+2017-10-24 13:45:18.4875|TRACE|NuGet|Successfully installed 'Rhetos.RestGenerator 2.4.0'.
+2017-10-24 13:45:19.0755|TRACE|PackageDownloader|Downloading NuGet package Rhetos.MvcModelGenerator 2.2.0 from C:\inetpub\wwwroot\Rhetos\Rhetos.2.2.0\Packages.
+2017-10-24 13:45:19.0911|TRACE|NuGet|Installing 'Rhetos.MvcModelGenerator 2.2.0'.
+2017-10-24 13:45:19.0911|TRACE|NuGet|Successfully installed 'Rhetos.MvcModelGenerator 2.2.0'.
+2017-10-24 13:45:19.0911|TRACE|PackageDownloader|Not looking for valueinjecter 2.3.3 in packages cache because the request does not specify an exact version.
+2017-10-24 13:45:19.3098|TRACE|PackageDownloader|Downloading NuGet package ValueInjecter 2.3.3 from https://www.nuget.org/api/v2/.
+2017-10-24 13:45:19.5273|TRACE|NuGet|Installing 'ValueInjecter 2.3.3'.
+2017-10-24 13:45:19.5273|TRACE|NuGet|Successfully installed 'ValueInjecter 2.3.3'.
+2017-10-24 13:45:19.5273|TRACE|PackageDownloader|Not looking for Rhetos.MvcModelGenerator.Client 2.2.0 in packages cache because the request does not specify an exact version.
+2017-10-24 13:45:20.0623|TRACE|PackageDownloader|There is no legacy file Rhetos.MvcModelGenerator.Client_2_2_0.zip in Packages.
+2017-10-24 13:45:20.0779|ERROR|DeployPackages|Rhetos.UserException: Cannot download package Rhetos.MvcModelGenerator.Client 2.2.0. Looked at 2 sources:
+https://www.nuget.org/api/v2/
+C:\inetpub\wwwroot\Rhetos\Rhetos.2.2.0\Packages
+   at Rhetos.Deployment.PackageDownloader.GetPackage(PackageRequest request, FileSyncer binFileSyncer) in C:\My Projects\Rhetos\Source\Rhetos.Deployment\PackageDownloader.cs:line 160
+   at Rhetos.Deployment.PackageDownloader.GetPackages() in C:\My Projects\Rhetos\Source\Rhetos.Deployment\PackageDownloader.cs:line 86
+   at DeployPackages.Program.DownloadPackages(ILogger logger, Arguments arguments) in C:\My Projects\Rhetos\Source\DeployPackages\Program.cs:line 156
+   at DeployPackages.Program.Main(String[] args) in C:\My Projects\Rhetos\Source\DeployPackages\Program.cs:line 68
+Info: 
+MessageParameters: null
+SystemMessage: 
+2017-10-24 13:47:38.4802|TRACE|DeployPackages|Moving old generated files to cache.
+2017-10-24 13:47:38.5115|TRACE|DeployPackages|Getting packages.
+2017-10-24 13:47:38.6053|TRACE|DeployPackages|Reading package from cache 'Rhetos.CommonConcepts.2.2.0'.
+2017-10-24 13:47:38.6365|TRACE|DeployPackages|Reading package from cache 'Rhetos.OmegaCommonConcepts.2.2.0'.
+2017-10-24 13:47:38.6365|TRACE|DeployPackages|Reading package from cache 'Rhetos.RestGenerator.2.4.0'.
+2017-10-24 13:47:38.6365|TRACE|DeployPackages|Reading package from cache 'Rhetos.MvcModelGenerator.2.2.0'.
+2017-10-24 13:47:38.6521|TRACE|PackageDownloader|Not looking for valueinjecter 2.3.3 in packages cache because the request does not specify an exact version.
+2017-10-24 13:47:40.4563|TRACE|PackageDownloader|Downloading NuGet package ValueInjecter 2.3.3 from https://www.nuget.org/api/v2/.
+2017-10-24 13:47:40.5263|TRACE|NuGet|'ValueInjecter 2.3.3' already installed.
+2017-10-24 13:47:40.5263|TRACE|PackageDownloader|Not looking for Rhetos.MvcModelGenerator.Client 2.2.0 in packages cache because the request does not specify an exact version.
+2017-10-24 13:47:40.7065|TRACE|PackageDownloader|There is no legacy file Rhetos.MvcModelGenerator.Client_2_2_0.zip in Packages.
+2017-10-24 13:47:40.7065|TRACE|PackageDownloader|Downloading NuGet package Rhetos.MvcModelGenerator.Client 2.2.0 from C:\inetpub\wwwroot\Rhetos\Rhetos.2.2.0\Packages.
+2017-10-24 13:47:40.7296|TRACE|NuGet|Installing 'Rhetos.MvcModelGenerator.Client 2.2.0'.
+2017-10-24 13:47:40.7911|TRACE|NuGet|Successfully installed 'Rhetos.MvcModelGenerator.Client 2.2.0'.
+2017-10-24 13:47:40.8223|TRACE|Packages|Rhetos 2.2.0 (requested from Rhetos framework) in C:\inetpub\wwwroot\Rhetos\Rhetos.2.2.0.
+2017-10-24 13:47:40.8223|TRACE|Packages|Rhetos.CommonConcepts 2.2.0 (requested from configuration file RhetosPackages.config) in C:\inetpub\wwwroot\Rhetos\Rhetos.2.2.0\PackagesCache\Rhetos.CommonConcepts.2.2.0.
+2017-10-24 13:47:40.8223|TRACE|Packages|Rhetos.MvcModelGenerator.Client 2.2.0 (requested from package Rhetos.MvcModelGenerator) in C:\inetpub\wwwroot\Rhetos\Rhetos.2.2.0\PackagesCache\Rhetos.MvcModelGenerator.Client.2.2.0.
+2017-10-24 13:47:40.8223|TRACE|Packages|Rhetos.MvcModelGenerator 2.2.0 (requested from configuration file RhetosPackages.config) in C:\inetpub\wwwroot\Rhetos\Rhetos.2.2.0\PackagesCache\Rhetos.MvcModelGenerator.2.2.0.
+2017-10-24 13:47:40.8223|TRACE|Packages|Rhetos.RestGenerator 2.4.0 (requested from configuration file RhetosPackages.config) in C:\inetpub\wwwroot\Rhetos\Rhetos.2.2.0\PackagesCache\Rhetos.RestGenerator.2.4.0.
+2017-10-24 13:47:40.8223|TRACE|Packages|ValueInjecter 2.3.3 (requested from package Rhetos.OmegaCommonConcepts) in C:\inetpub\wwwroot\Rhetos\Rhetos.2.2.0\PackagesCache\ValueInjecter.2.3.3.
+2017-10-24 13:47:40.8223|TRACE|Packages|Rhetos.OmegaCommonConcepts 2.2.0 (requested from configuration file RhetosPackages.config) in C:\inetpub\wwwroot\Rhetos\Rhetos.2.2.0\PackagesCache\Rhetos.OmegaCommonConcepts.2.2.0.
+2017-10-24 13:47:40.8536|TRACE|DeployPackages|Loading plugins.
+2017-10-24 13:47:41.3435|TRACE|DeployPackages|SQL connection string: Data Source=adsql2008r2;Initial Catalog=RhetosDb_nkaramarko;Integrated Security=SSPI;
+2017-10-24 13:47:41.3748|TRACE|DeployPackages|Preparing Rhetos database.
+2017-10-24 13:47:41.9701|TRACE|DeployPackages|Parsing DSL scripts.
+2017-10-24 13:47:42.3702|TRACE|DeployPackages|Application model has 549 statements.
+2017-10-24 13:47:42.3702|TRACE|DeployPackages|Compiling DOM assembly.
+2017-10-24 13:47:42.4171|ERROR|CodeGenerator|System.Configuration.ConfigurationErrorsException: Name cannot begin with the '<' character, hexadecimal value 0x3C. Line 88, position 7. (C:\inetpub\wwwroot\Rhetos\Rhetos.2.2.0\web.config line 88) ---> System.Xml.XmlException: Name cannot begin with the '<' character, hexadecimal value 0x3C. Line 88, position 7.
+   at System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   at System.Xml.XmlTextReaderImpl.ParseAttributes()
+   at System.Xml.XmlTextReaderImpl.ParseElement()
+   at System.Xml.XmlTextReaderImpl.ParseElementContent()
+   at System.Configuration.XmlUtil.CopyXmlNode(XmlUtilWriter utilWriter)
+   at System.Configuration.XmlUtil.CopyElement(XmlUtilWriter utilWriter)
+   at System.Configuration.XmlUtil.CopySection()
+   at System.Configuration.BaseConfigurationRecord.ScanSectionsRecursive(XmlUtil xmlUtil, String parentConfigKey, Boolean inLocation, String locationSubPath, OverrideModeSetting overrideMode, Boolean skipInChildApps)
+   at System.Configuration.BaseConfigurationRecord.ScanSectionsRecursive(XmlUtil xmlUtil, String parentConfigKey, Boolean inLocation, String locationSubPath, OverrideModeSetting overrideMode, Boolean skipInChildApps)
+   at System.Configuration.BaseConfigurationRecord.ScanSections(XmlUtil xmlUtil)
+   at System.Configuration.BaseConfigurationRecord.InitConfigFromFile()
+   --- End of inner exception stack trace ---
+   at System.Configuration.ConfigurationSchemaErrors.ThrowIfErrors(Boolean ignoreLocal)
+   at System.Configuration.BaseConfigurationRecord.ThrowIfParseErrors(ConfigurationSchemaErrors schemaErrors)
+   at System.Configuration.Configuration..ctor(String locationSubPath, Type typeConfigHost, Object[] hostInitConfigurationParams)
+   at System.Configuration.Internal.InternalConfigConfigurationFactory.System.Configuration.Internal.IInternalConfigConfigurationFactory.Create(Type typeConfigHost, Object[] hostInitConfigurationParams)
+   at System.Web.Configuration.WebConfigurationHost.OpenConfiguration(WebLevel webLevel, ConfigurationFileMap fileMap, VirtualPath path, String site, String locationSubPath, String server, String userName, String password, IntPtr tokenHandle)
+   at System.Web.Configuration.WebConfigurationManager.OpenMappedWebConfiguration(WebConfigurationFileMap fileMap, String path)
+   at Rhetos.Utilities.ConfigUtility.InitializeWebConfiguration() in C:\My Projects\Rhetos\Source\Rhetos.Utilities\ConfigUtility.cs:line 72
+   at System.Lazy`1.CreateValue()
+   at System.Lazy`1.LazyInitValue()
+   at Rhetos.Utilities.ConfigUtility.GetAppSetting(String key) in C:\My Projects\Rhetos\Source\Rhetos.Utilities\ConfigUtility.cs:line 42
+   at Rhetos.Utilities.Configuration.<>c__DisplayClass1_0.<GetBool>b__0() in C:\My Projects\Rhetos\Source\Rhetos.Utilities\Configuration.cs:line 51
+   at System.Lazy`1.CreateValue()
+   at System.Lazy`1.LazyInitValue()
+   at Rhetos.Dom.DefaultConcepts.DomInitializationCodeGenerator.GenerateCode(IConceptInfo conceptInfo, ICodeBuilder codeBuilder) in C:\My Projects\Rhetos\CommonConcepts\Plugins\Rhetos.Dom.DefaultConcepts\DataStructure\DomInitializationCodeGenerator.cs:line 68
+   at Rhetos.Compiler.CodeGenerator.ExecutePlugins[TPlugin](IPluginsContainer`1 plugins, String tagOpen, String tagClose, IConceptCodeGenerator initialCodeGenerator) in C:\My Projects\Rhetos\Source\Rhetos.Compiler\CodeGenerator.cs:line 60
+2017-10-24 13:47:42.4327|ERROR|CodeGenerator|Part of the source code that was generated before the exception was thrown is written in the trace log.
+2017-10-24 13:47:42.4483|ERROR|DeployPackages|System.Configuration.ConfigurationErrorsException: Name cannot begin with the '<' character, hexadecimal value 0x3C. Line 88, position 7. (C:\inetpub\wwwroot\Rhetos\Rhetos.2.2.0\web.config line 88) ---> System.Xml.XmlException: Name cannot begin with the '<' character, hexadecimal value 0x3C. Line 88, position 7.
+   at System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   at System.Xml.XmlTextReaderImpl.ParseAttributes()
+   at System.Xml.XmlTextReaderImpl.ParseElement()
+   at System.Xml.XmlTextReaderImpl.ParseElementContent()
+   at System.Configuration.XmlUtil.CopyXmlNode(XmlUtilWriter utilWriter)
+   at System.Configuration.XmlUtil.CopyElement(XmlUtilWriter utilWriter)
+   at System.Configuration.XmlUtil.CopySection()
+   at System.Configuration.BaseConfigurationRecord.ScanSectionsRecursive(XmlUtil xmlUtil, String parentConfigKey, Boolean inLocation, String locationSubPath, OverrideModeSetting overrideMode, Boolean skipInChildApps)
+   at System.Configuration.BaseConfigurationRecord.ScanSectionsRecursive(XmlUtil xmlUtil, String parentConfigKey, Boolean inLocation, String locationSubPath, OverrideModeSetting overrideMode, Boolean skipInChildApps)
+   at System.Configuration.BaseConfigurationRecord.ScanSections(XmlUtil xmlUtil)
+   at System.Configuration.BaseConfigurationRecord.InitConfigFromFile()
+   --- End of inner exception stack trace ---
+   at System.Configuration.ConfigurationSchemaErrors.ThrowIfErrors(Boolean ignoreLocal)
+   at System.Configuration.BaseConfigurationRecord.ThrowIfParseErrors(ConfigurationSchemaErrors schemaErrors)
+   at System.Configuration.Configuration..ctor(String locationSubPath, Type typeConfigHost, Object[] hostInitConfigurationParams)
+   at System.Configuration.Internal.InternalConfigConfigurationFactory.System.Configuration.Internal.IInternalConfigConfigurationFactory.Create(Type typeConfigHost, Object[] hostInitConfigurationParams)
+   at System.Web.Configuration.WebConfigurationHost.OpenConfiguration(WebLevel webLevel, ConfigurationFileMap fileMap, VirtualPath path, String site, String locationSubPath, String server, String userName, String password, IntPtr tokenHandle)
+   at System.Web.Configuration.WebConfigurationManager.OpenMappedWebConfiguration(WebConfigurationFileMap fileMap, String path)
+   at Rhetos.Utilities.ConfigUtility.InitializeWebConfiguration() in C:\My Projects\Rhetos\Source\Rhetos.Utilities\ConfigUtility.cs:line 72
+   at System.Lazy`1.CreateValue()
+   at System.Lazy`1.LazyInitValue()
+   at Rhetos.Utilities.ConfigUtility.GetAppSetting(String key) in C:\My Projects\Rhetos\Source\Rhetos.Utilities\ConfigUtility.cs:line 42
+   at Rhetos.Utilities.Configuration.<>c__DisplayClass1_0.<GetBool>b__0() in C:\My Projects\Rhetos\Source\Rhetos.Utilities\Configuration.cs:line 51
+   at System.Lazy`1.CreateValue()
+   at System.Lazy`1.LazyInitValue()
+   at Rhetos.Dom.DefaultConcepts.DomInitializationCodeGenerator.GenerateCode(IConceptInfo conceptInfo, ICodeBuilder codeBuilder) in C:\My Projects\Rhetos\CommonConcepts\Plugins\Rhetos.Dom.DefaultConcepts\DataStructure\DomInitializationCodeGenerator.cs:line 68
+   at Rhetos.Compiler.CodeGenerator.ExecutePlugins[TPlugin](IPluginsContainer`1 plugins, String tagOpen, String tagClose, IConceptCodeGenerator initialCodeGenerator) in C:\My Projects\Rhetos\Source\Rhetos.Compiler\CodeGenerator.cs:line 67
+   at Rhetos.Dom.DomGenerator.GenerateObjectModel() in C:\My Projects\Rhetos\Source\Rhetos.Dom\DomGenerator.cs:line 77
+   at Rhetos.Dom.DomGenerator.get_Assemblies() in C:\My Projects\Rhetos\Source\Rhetos.Dom\DomGenerator.cs:line 70
+   at Rhetos.Dom.DomainObjectModelExtensions.GetTypes(IDomainObjectModel dom) in C:\My Projects\Rhetos\Source\Rhetos.Dom.Interfaces\IDomainObjectModel.cs:line 51
+   at Rhetos.Deployment.ApplicationGenerator.ExecuteGenerators(Boolean deployDatabaseOnly) in C:\My Projects\Rhetos\Source\Rhetos.Deployment\ApplicationGenerator.cs:line 87
+   at DeployPackages.Program.GenerateApplication(ILogger logger, Arguments arguments) in C:\My Projects\Rhetos\Source\DeployPackages\Program.cs:line 183
+   at DeployPackages.Program.Main(String[] args) in C:\My Projects\Rhetos\Source\DeployPackages\Program.cs:line 69
+2017-10-24 13:51:53.0506|TRACE|DeployPackages|Moving old generated files to cache.
+2017-10-24 13:51:53.0818|TRACE|DeployPackages|Getting packages.
+2017-10-24 13:51:53.1912|TRACE|DeployPackages|Reading package from cache 'Rhetos.CommonConcepts.2.2.0'.
+2017-10-24 13:51:53.2068|TRACE|DeployPackages|Reading package from cache 'Rhetos.OmegaCommonConcepts.2.2.0'.
+2017-10-24 13:51:53.2225|TRACE|DeployPackages|Reading package from cache 'Rhetos.RestGenerator.2.4.0'.
+2017-10-24 13:51:53.2225|TRACE|DeployPackages|Reading package from cache 'Rhetos.MvcModelGenerator.2.2.0'.
+2017-10-24 13:51:53.2225|TRACE|PackageDownloader|Not looking for valueinjecter 2.3.3 in packages cache because the request does not specify an exact version.
+2017-10-24 13:51:55.0662|TRACE|PackageDownloader|Downloading NuGet package ValueInjecter 2.3.3 from https://www.nuget.org/api/v2/.
+2017-10-24 13:51:55.1131|TRACE|NuGet|'ValueInjecter 2.3.3' already installed.
+2017-10-24 13:51:55.1131|TRACE|PackageDownloader|Not looking for Rhetos.MvcModelGenerator.Client 2.2.0 in packages cache because the request does not specify an exact version.
+2017-10-24 13:51:55.3163|TRACE|PackageDownloader|There is no legacy file Rhetos.MvcModelGenerator.Client_2_2_0.zip in Packages.
+2017-10-24 13:51:55.3163|TRACE|PackageDownloader|Downloading NuGet package Rhetos.MvcModelGenerator.Client 2.2.0 from C:\inetpub\wwwroot\Rhetos\Rhetos.2.2.0\Packages.
+2017-10-24 13:51:55.3163|TRACE|NuGet|'Rhetos.MvcModelGenerator.Client 2.2.0' already installed.
+2017-10-24 13:51:55.3788|TRACE|Packages|Rhetos 2.2.0 (requested from Rhetos framework) in C:\inetpub\wwwroot\Rhetos\Rhetos.2.2.0.
+2017-10-24 13:51:55.3788|TRACE|Packages|Rhetos.CommonConcepts 2.2.0 (requested from configuration file RhetosPackages.config) in C:\inetpub\wwwroot\Rhetos\Rhetos.2.2.0\PackagesCache\Rhetos.CommonConcepts.2.2.0.
+2017-10-24 13:51:55.3788|TRACE|Packages|Rhetos.MvcModelGenerator.Client 2.2.0 (requested from package Rhetos.MvcModelGenerator) in C:\inetpub\wwwroot\Rhetos\Rhetos.2.2.0\PackagesCache\Rhetos.MvcModelGenerator.Client.2.2.0.
+2017-10-24 13:51:55.3944|TRACE|Packages|Rhetos.MvcModelGenerator 2.2.0 (requested from configuration file RhetosPackages.config) in C:\inetpub\wwwroot\Rhetos\Rhetos.2.2.0\PackagesCache\Rhetos.MvcModelGenerator.2.2.0.
+2017-10-24 13:51:55.3944|TRACE|Packages|Rhetos.RestGenerator 2.4.0 (requested from configuration file RhetosPackages.config) in C:\inetpub\wwwroot\Rhetos\Rhetos.2.2.0\PackagesCache\Rhetos.RestGenerator.2.4.0.
+2017-10-24 13:51:55.3944|TRACE|Packages|ValueInjecter 2.3.3 (requested from package Rhetos.OmegaCommonConcepts) in C:\inetpub\wwwroot\Rhetos\Rhetos.2.2.0\PackagesCache\ValueInjecter.2.3.3.
+2017-10-24 13:51:55.3944|TRACE|Packages|Rhetos.OmegaCommonConcepts 2.2.0 (requested from configuration file RhetosPackages.config) in C:\inetpub\wwwroot\Rhetos\Rhetos.2.2.0\PackagesCache\Rhetos.OmegaCommonConcepts.2.2.0.
+2017-10-24 13:51:55.4100|TRACE|DeployPackages|Loading plugins.
+2017-10-24 13:51:55.8632|TRACE|DeployPackages|SQL connection string: Data Source=adsql2008r2;Initial Catalog=RhetosDb_nkaramarko;Integrated Security=SSPI;
+2017-10-24 13:51:55.8944|TRACE|DeployPackages|Preparing Rhetos database.
+2017-10-24 13:51:55.9882|TRACE|DeployPackages|Parsing DSL scripts.
+2017-10-24 13:51:56.2538|TRACE|DeployPackages|Application model has 549 statements.
+2017-10-24 13:51:56.2538|TRACE|DeployPackages|Compiling DOM assembly.
+2017-10-24 13:51:56.3788|TRACE|AssemblyGenerator|Compiling assembly: ServerDom.Model.dll.
+2017-10-24 13:51:56.6600|TRACE|AssemblyGenerator|Compiling assembly: ServerDom.Orm.dll.
+2017-10-24 13:51:56.8163|TRACE|AssemblyGenerator|Compiling assembly: ServerDom.Repositories.dll.
+2017-10-24 13:51:57.0663|INFO|AssemblyGenerator|Warning CS0618: 'Common.QueryableRepositoryBase<Common.Queryable.Common_LogReader,Common.LogReader>.Filter(System.Collections.Generic.IEnumerable<System.Guid>)' is obsolete: 'Use Load(identifiers)or Query(identifiers) method.'. At line 3734, column 23, file 'c:\inetpub\wwwroot\Rhetos\Rhetos.2.2.0\bin\Generated\ServerDom.Repositories.cs'.
+2017-10-24 13:51:57.0663|TRACE|DeployPackages|Generated 144 types.
+2017-10-24 13:51:57.0819|INFO|DeployPackages|Missing dependency '' for application generator 'Rhetos.RestGenerator.RestGenerator'.
+2017-10-24 13:51:57.0819|TRACE|DeployPackages|Executing EntityFrameworkMappingGenerator.
+2017-10-24 13:51:57.0819|TRACE|DeployPackages|Executing RestGenerator.
+2017-10-24 13:51:57.1444|TRACE|AssemblyGenerator|Compiling assembly: RestService.dll.
+2017-10-24 13:51:57.4101|INFO|AssemblyGenerator|Warning CS1701: Assuming assembly reference 'Autofac, Version=3.3.0.0, Culture=neutral, PublicKeyToken=17863af14b0044da' matches 'Autofac, Version=3.5.0.0, Culture=neutral, PublicKeyToken=17863af14b0044da', you may need to supply runtime policy.
+2017-10-24 13:51:57.4101|INFO|AssemblyGenerator|62 warnings CS0618: 'Rhetos.LegacyClientException' is obsolete: 'Use ClientException instead.'. At line 246, column 34, file 'c:\inetpub\wwwroot\Rhetos\Rhetos.2.2.0\bin\Generated\RestService.cs'.
+2017-10-24 13:51:57.4101|TRACE|DeployPackages|Executing CaptionsResourceGenerator.
+2017-10-24 13:51:57.4726|TRACE|AssemblyGenerator|Compiling assembly: Captions.dll.
+2017-10-24 13:51:57.5663|TRACE|DeployPackages|Executing MvcModelGenerator.
+2017-10-24 13:51:57.5976|TRACE|AssemblyGenerator|Compiling assembly: Rhetos.Mvc.dll.
+2017-10-24 13:51:57.6913|TRACE|DeployPackages|Executing EntityFrameworkGenerateMetadataFiles.
+2017-10-24 13:51:58.6132|TRACE|DeployPackages|Cleaning old migration data.
+2017-10-24 13:51:58.6601|TRACE|DeployPackages|Deleted 0 columns in data migration schemas, 0 remaining.
+2017-10-24 13:51:58.6601|TRACE|DeployPackages|Executing data migration scripts.
+2017-10-24 13:51:58.6913|INFO|DataMigration|Executing Rhetos.CommonConcepts\0.9.12\1 - AppliedConcept Options1 Options2.sql (tag 533F534B-388C-4CE1-B8AE-A308542471F5)
+2017-10-24 13:51:58.7069|INFO|DataMigration|Executing Rhetos.CommonConcepts\0.9.14\1 - Claim.Active.sql (tag 323D7F48-433F-49E9-983B-09A4B7317077)
+2017-10-24 13:51:58.7069|INFO|DataMigration|Executing Rhetos.CommonConcepts\0.9.29\1 - RoleInheritsRole renames columns.sql (tag 0D99CDE7-E4CB-4FBF-937B-4ADEEEBC46CE)
+2017-10-24 13:51:58.7069|INFO|DataMigration|Executing Rhetos.CommonConcepts\0.9.29\2 - Permissions to RP and PP.sql (tag 33EA1F9E-1A89-4CF0-9AD3-A8E10BEF2D3C)
+2017-10-24 13:51:58.7069|INFO|DataMigration|Executing Rhetos.CommonConcepts\0.9.35\1 - A new tag in create property.sql (tag E2B91BB7-FED3-45DB-AFB1-61CEF615C2C3)
+2017-10-24 13:51:58.7069|INFO|DataMigration|Executing Rhetos.CommonConcepts\1.3.0\1 - Clear excess dependencies for subtype id.sql (tag B3D3CD35-D41F-4E70-A490-94CBD12226FF)
+2017-10-24 13:51:58.7069|INFO|DataMigration|Executing Rhetos.CommonConcepts\1.11.0\1 - DataStructureExtendsInfo to UniqueReferenceInfo.sql (tag 0246E7EA-F2F2-419B-9710-1149838E8604)
+2017-10-24 13:51:59.2853|TRACE|DeployPackages|Executed 7 of 7 scripts.
+2017-10-24 13:51:59.3010|TRACE|DeployPackages|Upgrading database.
+2017-10-24 13:51:59.4416|TRACE|DeployPackages|DatabaseGenerator removing 0 concept applications.
+2017-10-24 13:51:59.4572|TRACE|DatabaseGenerator Concepts|Creating ModuleInfo Common/Rhetos.DatabaseGenerator.DefaultConcepts.ModuleDatabaseDefinition, ID=AEB474F7-D271-42CE-943F-56499692B183.
+2017-10-24 13:51:59.4728|TRACE|DatabaseGenerator Concepts|Creating DataStructureInfo Common.AutoCodeCache/Rhetos.DatabaseGenerator.DefaultConcepts.EntityDatabaseDefinition, ID=D4C2ADDD-9DDA-4026-B67B-FFDFDB0C60B9.
+2017-10-24 13:51:59.4728|TRACE|DatabaseGenerator Concepts|Creating PropertyInfo Common.AutoCodeCache.Entity/Rhetos.DatabaseGenerator.DefaultConcepts.ShortStringPropertyDatabaseDefinition, ID=B0D9F105-8EF9-4498-B5A4-5D251A6BC1D8.
+2017-10-24 13:51:59.4728|TRACE|DatabaseGenerator Concepts|Creating PropertyInfo Common.AutoCodeCache.Property/Rhetos.DatabaseGenerator.DefaultConcepts.ShortStringPropertyDatabaseDefinition, ID=14F01763-9329-4DD8-8B93-D0B2234914D6.
+2017-10-24 13:51:59.4728|TRACE|DatabaseGenerator Concepts|Creating PropertyInfo Common.AutoCodeCache.Grouping/Rhetos.DatabaseGenerator.DefaultConcepts.ShortStringPropertyDatabaseDefinition, ID=76C0E427-5CF3-4D5E-BA8F-19ABAB2D14E6.
+2017-10-24 13:51:59.4728|TRACE|DatabaseGenerator Concepts|Creating PropertyInfo Common.AutoCodeCache.Prefix/Rhetos.DatabaseGenerator.DefaultConcepts.ShortStringPropertyDatabaseDefinition, ID=186A1284-AF1E-4AC7-8727-E965A2D7EC5B.
+2017-10-24 13:51:59.4728|TRACE|DatabaseGenerator Concepts|Creating PropertyInfo Common.AutoCodeCache.MinDigits/Rhetos.DatabaseGenerator.DefaultConcepts.IntegerPropertyDatabaseDefinition, ID=8D4F76D8-A671-484B-9BDD-E999BF89094B.
+2017-10-24 13:51:59.4728|TRACE|DatabaseGenerator Concepts|Creating PropertyInfo Common.AutoCodeCache.LastCode/Rhetos.DatabaseGenerator.DefaultConcepts.IntegerPropertyDatabaseDefinition, ID=87CAC82D-11E3-4793-803C-143092649367.
+2017-10-24 13:51:59.4728|TRACE|DatabaseGenerator Concepts|Creating SqlIndexMultipleInfo Common.AutoCodeCache.'Entity Property Grouping Prefix'/Rhetos.DatabaseGenerator.DefaultConcepts.SqlIndexMultipleDatabaseDefinition, ID=00954C2C-806A-4D83-BAD7-84A72F5712E5.
+2017-10-24 13:51:59.4728|TRACE|DatabaseGenerator Concepts|Creating SqlProcedureInfo Common.AutoCodeCacheGetNext/Rhetos.DatabaseGenerator.DefaultConcepts.SqlProcedureDatabaseDefinition, ID=6329D219-3F83-4CA1-A180-BC08D4CC8FF4.
+2017-10-24 13:51:59.4728|TRACE|DatabaseGenerator Concepts|Creating SqlProcedureInfo Common.AutoCodeCacheUpdate/Rhetos.DatabaseGenerator.DefaultConcepts.SqlProcedureDatabaseDefinition, ID=A1CAFB64-C443-4FF1-AB42-05C21F64BEF7.
+2017-10-24 13:51:59.4728|TRACE|DatabaseGenerator Concepts|Creating DataStructureInfo Common.FilterId/Rhetos.DatabaseGenerator.DefaultConcepts.EntityDatabaseDefinition, ID=4DF3CE78-100F-4938-BE4D-A8C22EF5FB5C.
+2017-10-24 13:51:59.4728|TRACE|DatabaseGenerator Concepts|Creating PropertyInfo Common.FilterId.Handle/Rhetos.DatabaseGenerator.DefaultConcepts.GuidPropertyDatabaseDefinition, ID=6CE1C389-9ABC-4614-B408-3910843E38A4.
+2017-10-24 13:51:59.4728|TRACE|DatabaseGenerator Concepts|Creating PropertyInfo Common.FilterId.Value/Rhetos.DatabaseGenerator.DefaultConcepts.GuidPropertyDatabaseDefinition, ID=5EE86A43-1772-4AF8-B80D-5FD76182D14D.
+2017-10-24 13:51:59.4728|TRACE|DatabaseGenerator Concepts|Creating SqlIndexMultipleInfo Common.FilterId.'Handle Value'/Rhetos.DatabaseGenerator.DefaultConcepts.SqlIndexMultipleDatabaseDefinition, ID=BC280FC6-DF5B-4928-80AB-9D3C117D4C4B.
+2017-10-24 13:51:59.4884|TRACE|DatabaseGenerator Concepts|Creating DataStructureInfo Common.KeepSynchronizedMetadata/Rhetos.DatabaseGenerator.DefaultConcepts.EntityDatabaseDefinition, ID=88ABCC2B-A1B4-4A8D-AF7C-3B3D17C2387A.
+2017-10-24 13:51:59.4884|TRACE|DatabaseGenerator Concepts|Creating PropertyInfo Common.KeepSynchronizedMetadata.Target/Rhetos.DatabaseGenerator.DefaultConcepts.ShortStringPropertyDatabaseDefinition, ID=EF71EFD1-5110-4FFA-A4B9-A8187A5428C7.
+2017-10-24 13:51:59.4884|TRACE|DatabaseGenerator Concepts|Creating PropertyInfo Common.KeepSynchronizedMetadata.Source/Rhetos.DatabaseGenerator.DefaultConcepts.ShortStringPropertyDatabaseDefinition, ID=AE8DA737-DECF-4D8D-BC8E-29DE33255809.
+2017-10-24 13:51:59.4884|TRACE|DatabaseGenerator Concepts|Creating PropertyInfo Common.KeepSynchronizedMetadata.Context/Rhetos.DatabaseGenerator.DefaultConcepts.LongStringPropertyDatabaseDefinition, ID=3027B1AB-0913-412A-BCA3-93DC7DAB59CE.
+2017-10-24 13:51:59.4884|TRACE|DatabaseGenerator Concepts|Creating DataStructureInfo Common.ExclusiveLock/Rhetos.DatabaseGenerator.DefaultConcepts.EntityDatabaseDefinition, ID=78A06683-9E76-4D56-B87B-1FEE794126B5.
+2017-10-24 13:51:59.4884|TRACE|DatabaseGenerator Concepts|Creating PropertyInfo Common.ExclusiveLock.ResourceType/Rhetos.DatabaseGenerator.DefaultConcepts.ShortStringPropertyDatabaseDefinition, ID=3E4BD437-960A-4D1A-8DCE-51A19ECDDD39.
+2017-10-24 13:51:59.4884|TRACE|DatabaseGenerator Concepts|Creating PropertyInfo Common.ExclusiveLock.ResourceID/Rhetos.DatabaseGenerator.DefaultConcepts.GuidPropertyDatabaseDefinition, ID=94E208BD-B340-4017-86CF-E33F43867D78.
+2017-10-24 13:51:59.4884|TRACE|DatabaseGenerator Concepts|Creating PropertyInfo Common.ExclusiveLock.UserName/Rhetos.DatabaseGenerator.DefaultConcepts.ShortStringPropertyDatabaseDefinition, ID=93A3181C-20DB-4D54-BC07-8E040629BD21.
+2017-10-24 13:51:59.4884|TRACE|DatabaseGenerator Concepts|Creating PropertyInfo Common.ExclusiveLock.Workstation/Rhetos.DatabaseGenerator.DefaultConcepts.ShortStringPropertyDatabaseDefinition, ID=348E82C9-29AD-4F95-9BEE-30D891281EA8.
+2017-10-24 13:51:59.4884|TRACE|DatabaseGenerator Concepts|Creating PropertyInfo Common.ExclusiveLock.LockStart/Rhetos.DatabaseGenerator.DefaultConcepts.DateTimePropertyDatabaseDefinition, ID=81D97C60-5A6C-4B4B-8943-043F87F326F4.
+2017-10-24 13:51:59.4884|TRACE|DatabaseGenerator Concepts|Creating PropertyInfo Common.ExclusiveLock.LockFinish/Rhetos.DatabaseGenerator.DefaultConcepts.DateTimePropertyDatabaseDefinition, ID=77115A09-EE71-4462-AE38-E8D935F98AC0.
+2017-10-24 13:51:59.4884|TRACE|DatabaseGenerator Concepts|Creating DataStructureInfo Common.Log/Rhetos.DatabaseGenerator.DefaultConcepts.EntityDatabaseDefinition, ID=83161D98-78EA-4F8A-96C6-E45970CE3C3D.
+2017-10-24 13:51:59.4884|TRACE|DatabaseGenerator Concepts|Creating PropertyInfo Common.Log.UserName/Rhetos.DatabaseGenerator.DefaultConcepts.ShortStringPropertyDatabaseDefinition, ID=DDDA12C6-46BB-4BC9-8F75-601E2E662A91.
+2017-10-24 13:51:59.4884|TRACE|DatabaseGenerator Concepts|Creating PropertyInfo Common.Log.Workstation/Rhetos.DatabaseGenerator.DefaultConcepts.ShortStringPropertyDatabaseDefinition, ID=6FA0DD55-7EAA-462D-80AE-2A7D10925553.
+2017-10-24 13:51:59.4884|TRACE|DatabaseGenerator Concepts|Creating PropertyInfo Common.Log.ContextInfo/Rhetos.DatabaseGenerator.DefaultConcepts.ShortStringPropertyDatabaseDefinition, ID=7E810395-05C0-4061-8AA1-918D12BB9ACE.
+2017-10-24 13:51:59.4884|TRACE|DatabaseGenerator Concepts|Creating PropertyInfo Common.Log.Action/Rhetos.DatabaseGenerator.DefaultConcepts.ShortStringPropertyDatabaseDefinition, ID=E8DF63A0-EC03-4B53-89D9-BCB5D312B2E6.
+2017-10-24 13:51:59.4884|TRACE|DatabaseGenerator Concepts|Creating PropertyInfo Common.Log.TableName/Rhetos.DatabaseGenerator.DefaultConcepts.ShortStringPropertyDatabaseDefinition, ID=1E5D1A21-4CB6-4F57-960D-BEA7546D01DA.
+2017-10-24 13:51:59.4884|TRACE|DatabaseGenerator Concepts|Creating PropertyInfo Common.Log.ItemId/Rhetos.DatabaseGenerator.DefaultConcepts.GuidPropertyDatabaseDefinition, ID=ADD6F516-968F-4B10-B4E0-361809D026F7.
+2017-10-24 13:51:59.4884|TRACE|DatabaseGenerator Concepts|Creating PropertyInfo Common.Log.Description/Rhetos.DatabaseGenerator.DefaultConcepts.LongStringPropertyDatabaseDefinition, ID=B6B9DD67-D70F-482C-AF53-F6C5623DEFA4.
+2017-10-24 13:51:59.4884|TRACE|DatabaseGenerator Concepts|Creating PropertyInfo Common.Log.Created/Rhetos.DatabaseGenerator.DefaultConcepts.DateTimePropertyDatabaseDefinition, ID=513C4AE5-A7BA-47EB-8311-82B3E433419A.
+2017-10-24 13:51:59.4884|TRACE|DatabaseGenerator Concepts|Creating DataStructureInfo Common.LogReader/Rhetos.DatabaseGenerator.DefaultConcepts.SqlQueryableDatabaseDefinition, ID=1BF469AD-A8BC-450A-84C1-FD04A717825C.
+2017-10-24 13:51:59.4884|TRACE|DatabaseGenerator Concepts|Creating DataStructureInfo Common.LogRelatedItem/Rhetos.DatabaseGenerator.DefaultConcepts.EntityDatabaseDefinition, ID=8541F150-0A4E-43E2-A50E-386719533178.
+2017-10-24 13:51:59.4884|TRACE|DatabaseGenerator Concepts|Creating PropertyInfo Common.LogRelatedItem.TableName/Rhetos.DatabaseGenerator.DefaultConcepts.ShortStringPropertyDatabaseDefinition, ID=F0DC7D8E-99DD-47D0-938C-C48320BEF8CE.
+2017-10-24 13:51:59.4884|TRACE|DatabaseGenerator Concepts|Creating PropertyInfo Common.LogRelatedItem.Relation/Rhetos.DatabaseGenerator.DefaultConcepts.ShortStringPropertyDatabaseDefinition, ID=1A5661BA-26D7-45F2-8841-6EFCA08938CD.
+2017-10-24 13:51:59.4884|TRACE|DatabaseGenerator Concepts|Creating PropertyInfo Common.LogRelatedItem.ItemId/Rhetos.DatabaseGenerator.DefaultConcepts.GuidPropertyDatabaseDefinition, ID=D777D7B7-79B3-4DF3-BE62-B420C578B201.
+2017-10-24 13:51:59.4884|TRACE|DatabaseGenerator Concepts|Creating PropertyInfo Common.LogRelatedItem.Log/Rhetos.DatabaseGenerator.DefaultConcepts.ReferencePropertyDatabaseDefinition, ID=14BA1E20-5F6D-4A74-9D38-2F689AC5F271.
+2017-10-24 13:51:59.4884|TRACE|DatabaseGenerator Concepts|Creating PropertyInfo Common.LogRelatedItem.Log/Rhetos.DatabaseGenerator.DefaultConcepts.ReferencePropertyConstraintDatabaseDefinition, ID=C0041800-C0C4-4DF8-B7C3-17872961AD01.
+2017-10-24 13:51:59.5041|TRACE|DatabaseGenerator Concepts|Creating DataStructureInfo Common.LogRelatedItemReader/Rhetos.DatabaseGenerator.DefaultConcepts.SqlQueryableDatabaseDefinition, ID=33CB7953-E78E-4B33-A529-89BD9C88A6BB.
+2017-10-24 13:51:59.5041|TRACE|DatabaseGenerator Concepts|Creating SqlDefaultPropertyInfo Common.Log.Created/Rhetos.DatabaseGenerator.DefaultConcepts.SqlDefaultPropertyDatabaseDefinition, ID=C87F0827-83EA-4203-89C7-0F7CBB77F52D.
+2017-10-24 13:51:59.5041|TRACE|DatabaseGenerator Concepts|Creating SqlDefaultPropertyInfo Common.Log.UserName/Rhetos.DatabaseGenerator.DefaultConcepts.SqlDefaultPropertyDatabaseDefinition, ID=41FA3836-C2AD-4F50-8B37-03E4E6F5D4F8.
+2017-10-24 13:51:59.5041|TRACE|DatabaseGenerator Concepts|Creating SqlDefaultPropertyInfo Common.Log.Workstation/Rhetos.DatabaseGenerator.DefaultConcepts.SqlDefaultPropertyDatabaseDefinition, ID=30DE63FE-9105-4024-A756-F2CC1912A727.
+2017-10-24 13:51:59.5041|TRACE|DatabaseGenerator Concepts|Creating SqlDefaultPropertyInfo Common.Log.ContextInfo/Rhetos.DatabaseGenerator.DefaultConcepts.SqlDefaultPropertyDatabaseDefinition, ID=37DAD650-DD39-4273-9DEF-158744CE324C.
+2017-10-24 13:51:59.5041|TRACE|DatabaseGenerator Concepts|Creating SqlIndexMultipleInfo Common.Log.'TableName Action'/Rhetos.DatabaseGenerator.DefaultConcepts.SqlIndexMultipleDatabaseDefinition, ID=9659DA00-3CDE-4293-B46E-E9052E3B9832.
+2017-10-24 13:51:59.5041|TRACE|DatabaseGenerator Concepts|Creating DataStructureInfo Common.RelatedEventsSource/Rhetos.DatabaseGenerator.DefaultConcepts.SqlQueryableDatabaseDefinition, ID=87B43BAE-C60D-4CC6-81F3-4A0B0D7FD4B1.
+2017-10-24 13:51:59.5041|TRACE|DatabaseGenerator Concepts|Creating DataStructureInfo Common.Claim/Rhetos.DatabaseGenerator.DefaultConcepts.EntityDatabaseDefinition, ID=D588CF16-E8E3-49A0-A135-673DCD25F56E.
+2017-10-24 13:51:59.5041|TRACE|DatabaseGenerator Concepts|Creating PropertyInfo Common.Claim.ClaimResource/Rhetos.DatabaseGenerator.DefaultConcepts.ShortStringPropertyDatabaseDefinition, ID=5A55F8B2-5040-4D7F-8351-A4AD4A9D9E03.
+2017-10-24 13:51:59.5041|TRACE|DatabaseGenerator Concepts|Creating PropertyInfo Common.Claim.ClaimRight/Rhetos.DatabaseGenerator.DefaultConcepts.ShortStringPropertyDatabaseDefinition, ID=A78102E3-DD0D-4BEE-A2EB-C47DD6ABBE11.
+2017-10-24 13:51:59.5041|TRACE|DatabaseGenerator Concepts|Creating PropertyInfo Common.Claim.Active/Rhetos.DatabaseGenerator.DefaultConcepts.BoolPropertyDatabaseDefinition, ID=C83E7E88-72D1-4DB7-BFA0-EDE2F088721B.
+2017-10-24 13:51:59.5041|TRACE|DatabaseGenerator Concepts|Creating EntityLoggingInfo Common.Claim/Rhetos.DatabaseGenerator.DefaultConcepts.EntityLoggingDefinition, ID=B0D68FA7-5625-4C49-BF6D-8B05113F77B5.
+2017-10-24 13:51:59.5041|TRACE|DatabaseGenerator Concepts|Creating EntityLoggingInfo Common.Claim/OmegaCommonConcepts.EntityLoggingDescriptionDefinition, ID=A3AA40E9-6B6B-4238-9EB5-983D2056E671.
+2017-10-24 13:51:59.5041|TRACE|DatabaseGenerator Concepts|Creating DataStructureInfo Common.Principal/Rhetos.DatabaseGenerator.DefaultConcepts.EntityDatabaseDefinition, ID=5BD9BBB9-06CA-41C6-9709-456DC9CA211C.
+2017-10-24 13:51:59.5041|TRACE|DatabaseGenerator Concepts|Creating PropertyInfo Common.Principal.Name/Rhetos.DatabaseGenerator.DefaultConcepts.ShortStringPropertyDatabaseDefinition, ID=6026125E-FE02-40FF-AB42-2AA90E40EFAA.
+2017-10-24 13:51:59.5041|TRACE|DatabaseGenerator Concepts|Creating EntityLoggingInfo Common.Principal/Rhetos.DatabaseGenerator.DefaultConcepts.EntityLoggingDefinition, ID=25BD70A4-AA41-4AFE-B121-6BF7611F8F01.
+2017-10-24 13:51:59.5041|TRACE|DatabaseGenerator Concepts|Creating EntityLoggingInfo Common.Principal/OmegaCommonConcepts.EntityLoggingDescriptionDefinition, ID=5B221991-20C7-43AB-9A19-C76C0C36E567.
+2017-10-24 13:51:59.5041|TRACE|DatabaseGenerator Concepts|Creating DataStructureInfo Common.PrincipalHasRole/Rhetos.DatabaseGenerator.DefaultConcepts.EntityDatabaseDefinition, ID=2CC06496-B596-4087-80D4-BF621835DC79.
+2017-10-24 13:51:59.5041|TRACE|DatabaseGenerator Concepts|Creating PropertyInfo Common.PrincipalHasRole.Principal/Rhetos.DatabaseGenerator.DefaultConcepts.ReferencePropertyDatabaseDefinition, ID=CE154350-B88F-415D-B7B8-235A7F91F2E9.
+2017-10-24 13:51:59.5041|TRACE|DatabaseGenerator Concepts|Creating PropertyInfo Common.PrincipalHasRole.Principal/Rhetos.DatabaseGenerator.DefaultConcepts.ReferencePropertyConstraintDatabaseDefinition, ID=EA92FE2F-2C05-4118-839D-9BB5E4357E9E.
+2017-10-24 13:51:59.5041|TRACE|DatabaseGenerator Concepts|Creating DataStructureInfo Common.Role/Rhetos.DatabaseGenerator.DefaultConcepts.EntityDatabaseDefinition, ID=2FC6C167-C65D-45A7-A0FA-A24528FFA505.
+2017-10-24 13:51:59.5041|TRACE|DatabaseGenerator Concepts|Creating PropertyInfo Common.PrincipalHasRole.Role/Rhetos.DatabaseGenerator.DefaultConcepts.ReferencePropertyDatabaseDefinition, ID=D2A2B8C6-14FB-417F-B2A1-C85DF6319F75.
+2017-10-24 13:51:59.5041|TRACE|DatabaseGenerator Concepts|Creating PropertyInfo Common.PrincipalHasRole.Role/Rhetos.DatabaseGenerator.DefaultConcepts.ReferencePropertyConstraintDatabaseDefinition, ID=A9AAD127-8EEB-46ED-9AE3-4EA08373E9C4.
+2017-10-24 13:51:59.5041|TRACE|DatabaseGenerator Concepts|Creating SqlIndexMultipleInfo Common.PrincipalHasRole.'Principal Role'/Rhetos.DatabaseGenerator.DefaultConcepts.SqlIndexMultipleDatabaseDefinition, ID=2AB62312-00B6-4BD1-B543-643235C251D6.
+2017-10-24 13:51:59.5041|TRACE|DatabaseGenerator Concepts|Creating EntityLoggingInfo Common.PrincipalHasRole/Rhetos.DatabaseGenerator.DefaultConcepts.EntityLoggingDefinition, ID=F9DC8C6E-26F7-4D4D-AE20-1BC7398467A5.
+2017-10-24 13:51:59.5197|TRACE|DatabaseGenerator Concepts|Creating EntityLoggingInfo Common.PrincipalHasRole/OmegaCommonConcepts.EntityLoggingDescriptionDefinition, ID=CAD2960C-A740-48D1-BC54-2DB3F8EDB3D1.
+2017-10-24 13:51:59.5197|TRACE|DatabaseGenerator Concepts|Creating PropertyInfo Common.Role.Name/Rhetos.DatabaseGenerator.DefaultConcepts.ShortStringPropertyDatabaseDefinition, ID=13FDBA6A-2031-45CF-96DE-C6DAF1E2B9D5.
+2017-10-24 13:51:59.5197|TRACE|DatabaseGenerator Concepts|Creating EntityLoggingInfo Common.Role/Rhetos.DatabaseGenerator.DefaultConcepts.EntityLoggingDefinition, ID=C07D1CB1-EDC9-4FFA-B249-667F8F893EBF.
+2017-10-24 13:51:59.5197|TRACE|DatabaseGenerator Concepts|Creating EntityLoggingInfo Common.Role/OmegaCommonConcepts.EntityLoggingDescriptionDefinition, ID=81D52A02-556F-4BF8-B2B9-ACD1E4F666C7.
+2017-10-24 13:51:59.5197|TRACE|DatabaseGenerator Concepts|Creating DataStructureInfo Common.RoleInheritsRole/Rhetos.DatabaseGenerator.DefaultConcepts.EntityDatabaseDefinition, ID=EB099B7E-9622-44E2-8FB5-EC27487A9931.
+2017-10-24 13:51:59.5197|TRACE|DatabaseGenerator Concepts|Creating PropertyInfo Common.RoleInheritsRole.UsersFrom/Rhetos.DatabaseGenerator.DefaultConcepts.ReferencePropertyDatabaseDefinition, ID=48B8F376-D3C6-4F24-A5FE-5D3A110862BA.
+2017-10-24 13:51:59.5197|TRACE|DatabaseGenerator Concepts|Creating PropertyInfo Common.RoleInheritsRole.UsersFrom/Rhetos.DatabaseGenerator.DefaultConcepts.ReferencePropertyConstraintDatabaseDefinition, ID=E34EE868-7D7E-46EC-9DDF-3D43E236A9AD.
+2017-10-24 13:51:59.5197|TRACE|DatabaseGenerator Concepts|Creating PropertyInfo Common.RoleInheritsRole.PermissionsFrom/Rhetos.DatabaseGenerator.DefaultConcepts.ReferencePropertyDatabaseDefinition, ID=2B57B5AD-8CCF-438A-BABA-12FBF55A7565.
+2017-10-24 13:51:59.5197|TRACE|DatabaseGenerator Concepts|Creating PropertyInfo Common.RoleInheritsRole.PermissionsFrom/Rhetos.DatabaseGenerator.DefaultConcepts.ReferencePropertyConstraintDatabaseDefinition, ID=870088B0-CEC4-4FE8-AA26-2D84542252C6.
+2017-10-24 13:51:59.5197|TRACE|DatabaseGenerator Concepts|Creating SqlIndexMultipleInfo Common.RoleInheritsRole.'UsersFrom PermissionsFrom'/Rhetos.DatabaseGenerator.DefaultConcepts.SqlIndexMultipleDatabaseDefinition, ID=7A42F827-0CDD-4024-A6D0-C494981BBFE8.
+2017-10-24 13:51:59.5197|TRACE|DatabaseGenerator Concepts|Creating EntityLoggingInfo Common.RoleInheritsRole/Rhetos.DatabaseGenerator.DefaultConcepts.EntityLoggingDefinition, ID=FFB3646F-E5DA-4A5C-ACAC-2C8FE9A8EBA5.
+2017-10-24 13:51:59.5197|TRACE|DatabaseGenerator Concepts|Creating EntityLoggingInfo Common.RoleInheritsRole/OmegaCommonConcepts.EntityLoggingDescriptionDefinition, ID=C0F52178-F5C6-41AD-BF31-DD6FA9381358.
+2017-10-24 13:51:59.5197|TRACE|DatabaseGenerator Concepts|Creating DataStructureInfo Common.PrincipalPermission/Rhetos.DatabaseGenerator.DefaultConcepts.EntityDatabaseDefinition, ID=7246F330-3080-41C6-8D3D-CA9191BDD8E1.
+2017-10-24 13:51:59.5197|TRACE|DatabaseGenerator Concepts|Creating PropertyInfo Common.PrincipalPermission.Principal/Rhetos.DatabaseGenerator.DefaultConcepts.ReferencePropertyDatabaseDefinition, ID=53A83C97-0545-44A6-A2BC-3B4E9F4C5F08.
+2017-10-24 13:51:59.5197|TRACE|DatabaseGenerator Concepts|Creating PropertyInfo Common.PrincipalPermission.Principal/Rhetos.DatabaseGenerator.DefaultConcepts.ReferencePropertyConstraintDatabaseDefinition, ID=FFA58B37-4A80-4777-AAA4-B5E4D7A2B9F8.
+2017-10-24 13:51:59.5197|TRACE|DatabaseGenerator Concepts|Creating PropertyInfo Common.PrincipalPermission.Claim/Rhetos.DatabaseGenerator.DefaultConcepts.ReferencePropertyDatabaseDefinition, ID=F276CA35-63B5-4D43-A9D2-8AC9BA7F343A.
+2017-10-24 13:51:59.5197|TRACE|DatabaseGenerator Concepts|Creating PropertyInfo Common.PrincipalPermission.Claim/Rhetos.DatabaseGenerator.DefaultConcepts.ReferencePropertyConstraintDatabaseDefinition, ID=DDCA96BB-0420-43FD-945C-C1CB7136D5C3.
+2017-10-24 13:51:59.5197|TRACE|DatabaseGenerator Concepts|Creating PropertyInfo Common.PrincipalPermission.IsAuthorized/Rhetos.DatabaseGenerator.DefaultConcepts.BoolPropertyDatabaseDefinition, ID=01D86623-18C0-479B-8ACD-2960DAC15C1D.
+2017-10-24 13:51:59.5197|TRACE|DatabaseGenerator Concepts|Creating SqlIndexMultipleInfo Common.PrincipalPermission.'Principal Claim'/Rhetos.DatabaseGenerator.DefaultConcepts.SqlIndexMultipleDatabaseDefinition, ID=5B6078F5-1232-4B86-ACD2-33359DA8E164.
+2017-10-24 13:51:59.5353|TRACE|DatabaseGenerator Concepts|Creating EntityLoggingInfo Common.PrincipalPermission/Rhetos.DatabaseGenerator.DefaultConcepts.EntityLoggingDefinition, ID=C669D061-2FC8-4DB8-855D-90C5E0F93999.
+2017-10-24 13:51:59.5353|TRACE|DatabaseGenerator Concepts|Creating EntityLoggingInfo Common.PrincipalPermission/OmegaCommonConcepts.EntityLoggingDescriptionDefinition, ID=EA80096F-476F-4755-9AE0-2B964884E23E.
+2017-10-24 13:51:59.5353|TRACE|DatabaseGenerator Concepts|Creating DataStructureInfo Common.RolePermission/Rhetos.DatabaseGenerator.DefaultConcepts.EntityDatabaseDefinition, ID=447AFC44-B78B-46F2-B67F-48DC1B38A2C7.
+2017-10-24 13:51:59.5353|TRACE|DatabaseGenerator Concepts|Creating PropertyInfo Common.RolePermission.Role/Rhetos.DatabaseGenerator.DefaultConcepts.ReferencePropertyDatabaseDefinition, ID=38A02907-7AA6-426C-A329-D4DA10A49771.
+2017-10-24 13:51:59.5353|TRACE|DatabaseGenerator Concepts|Creating PropertyInfo Common.RolePermission.Role/Rhetos.DatabaseGenerator.DefaultConcepts.ReferencePropertyConstraintDatabaseDefinition, ID=9BBF5445-DADF-4F57-93C1-EEA50EB23AFE.
+2017-10-24 13:51:59.5353|TRACE|DatabaseGenerator Concepts|Creating PropertyInfo Common.RolePermission.Claim/Rhetos.DatabaseGenerator.DefaultConcepts.ReferencePropertyDatabaseDefinition, ID=7AF2C51E-41DD-4B41-9CA7-AD7534BEA122.
+2017-10-24 13:51:59.5353|TRACE|DatabaseGenerator Concepts|Creating PropertyInfo Common.RolePermission.Claim/Rhetos.DatabaseGenerator.DefaultConcepts.ReferencePropertyConstraintDatabaseDefinition, ID=ACA8FB6A-08D9-4E3D-A32C-F41B9D399991.
+2017-10-24 13:51:59.5353|TRACE|DatabaseGenerator Concepts|Creating PropertyInfo Common.RolePermission.IsAuthorized/Rhetos.DatabaseGenerator.DefaultConcepts.BoolPropertyDatabaseDefinition, ID=2B946B03-41B7-4EEF-A67F-DB941BAA9B38.
+2017-10-24 13:51:59.5353|TRACE|DatabaseGenerator Concepts|Creating SqlIndexMultipleInfo Common.RolePermission.'Role Claim'/Rhetos.DatabaseGenerator.DefaultConcepts.SqlIndexMultipleDatabaseDefinition, ID=1E6EC451-0DB5-409C-91B5-A046C7654E71.
+2017-10-24 13:51:59.5353|TRACE|DatabaseGenerator Concepts|Creating EntityLoggingInfo Common.RolePermission/Rhetos.DatabaseGenerator.DefaultConcepts.EntityLoggingDefinition, ID=D3535EB2-2162-4B04-B2F8-65060A2C5277.
+2017-10-24 13:51:59.5353|TRACE|DatabaseGenerator Concepts|Creating EntityLoggingInfo Common.RolePermission/OmegaCommonConcepts.EntityLoggingDescriptionDefinition, ID=C082F222-BD59-4E98-BF5A-CD2FA7679B2F.
+2017-10-24 13:51:59.5353|TRACE|DatabaseGenerator Concepts|Creating DataStructureInfo Common.ReportTemplate/Rhetos.DatabaseGenerator.DefaultConcepts.EntityDatabaseDefinition, ID=DF98CAA2-FDEE-4485-A16E-B6318C742AF8.
+2017-10-24 13:51:59.5353|TRACE|DatabaseGenerator Concepts|Creating PropertyInfo Common.ReportTemplate.FileName/Rhetos.DatabaseGenerator.DefaultConcepts.ShortStringPropertyDatabaseDefinition, ID=7746B3B9-F072-450C-8378-A1CD3B02595A.
+2017-10-24 13:51:59.5353|TRACE|DatabaseGenerator Concepts|Creating PropertyInfo Common.ReportTemplate.DisplayName/Rhetos.DatabaseGenerator.DefaultConcepts.ShortStringPropertyDatabaseDefinition, ID=28FE3041-82CE-4C6A-A516-3A999FE507F7.
+2017-10-24 13:51:59.5353|TRACE|DatabaseGenerator Concepts|Creating PropertyInfo Common.ReportTemplate.Content/Rhetos.DatabaseGenerator.DefaultConcepts.BinaryPropertyDatabaseDefinition, ID=26A9D367-C884-4584-AEA3-5BE42AF5697C.
+2017-10-24 13:51:59.5353|TRACE|DatabaseGenerator Concepts|Creating SqlIndexMultipleInfo Common.ExclusiveLock.'ResourceID ResourceType'/Rhetos.DatabaseGenerator.DefaultConcepts.SqlIndexMultipleDatabaseDefinition, ID=140267A7-5B23-4BF8-98B4-E0F873B9B645.
+2017-10-24 13:51:59.5353|TRACE|DatabaseGenerator Concepts|Creating SqlIndexMultipleInfo Common.Claim.'ClaimResource ClaimRight'/Rhetos.DatabaseGenerator.DefaultConcepts.SqlIndexMultipleDatabaseDefinition, ID=705A873C-888C-4E47-9051-63621F33403B.
+2017-10-24 13:51:59.5353|TRACE|DatabaseGenerator Concepts|Creating SqlIndexMultipleInfo Common.Principal.Name/Rhetos.DatabaseGenerator.DefaultConcepts.SqlIndexMultipleDatabaseDefinition, ID=1F1C440D-482C-4D32-8D42-D3BE87724FC9.
+2017-10-24 13:51:59.5353|TRACE|DatabaseGenerator Concepts|Creating SqlIndexMultipleInfo Common.Role.Name/Rhetos.DatabaseGenerator.DefaultConcepts.SqlIndexMultipleDatabaseDefinition, ID=47F2DCAE-1313-4E3F-9501-5D609B07AC9A.
+2017-10-24 13:51:59.5353|TRACE|DatabaseGenerator Concepts|Creating SqlIndexMultipleInfo Common.Log.ItemId/Rhetos.DatabaseGenerator.DefaultConcepts.SqlIndexMultipleDatabaseDefinition, ID=E3CD74B6-CC51-44CF-965B-EA5DEAF6DEDE.
+2017-10-24 13:51:59.5353|TRACE|DatabaseGenerator Concepts|Creating SqlIndexMultipleInfo Common.LogRelatedItem.TableName/Rhetos.DatabaseGenerator.DefaultConcepts.SqlIndexMultipleDatabaseDefinition, ID=FB09C2EF-0A1B-4D68-9FE1-2771D2455B6E.
+2017-10-24 13:51:59.5353|TRACE|DatabaseGenerator Concepts|Creating SqlIndexMultipleInfo Common.LogRelatedItem.ItemId/Rhetos.DatabaseGenerator.DefaultConcepts.SqlIndexMultipleDatabaseDefinition, ID=9F5B38AE-9E08-4EAE-9413-DB0E793C5B6A.
+2017-10-24 13:51:59.5353|TRACE|DatabaseGenerator Concepts|Creating SqlIndexMultipleInfo Common.LogRelatedItem.Log/Rhetos.DatabaseGenerator.DefaultConcepts.SqlIndexMultipleDatabaseDefinition, ID=02AF868C-24DA-4FDF-9E6F-F790168941F4.
+2017-10-24 13:51:59.5353|TRACE|DatabaseGenerator Concepts|Creating SqlIndexMultipleInfo Common.PrincipalHasRole.Principal/Rhetos.DatabaseGenerator.DefaultConcepts.SqlIndexMultipleDatabaseDefinition, ID=719DC630-D531-496D-87E1-84C97F7D53C7.
+2017-10-24 13:51:59.5353|TRACE|DatabaseGenerator Concepts|Creating SqlIndexMultipleInfo Common.RoleInheritsRole.UsersFrom/Rhetos.DatabaseGenerator.DefaultConcepts.SqlIndexMultipleDatabaseDefinition, ID=4BA18394-4A26-4363-AF63-68574EC81C6F.
+2017-10-24 13:51:59.5353|TRACE|DatabaseGenerator Concepts|Creating SqlIndexMultipleInfo Common.PrincipalPermission.Principal/Rhetos.DatabaseGenerator.DefaultConcepts.SqlIndexMultipleDatabaseDefinition, ID=3474A7DF-F288-4B80-8D50-3EDBE715C2C2.
+2017-10-24 13:51:59.5353|TRACE|DatabaseGenerator Concepts|Creating SqlIndexMultipleInfo Common.PrincipalPermission.Claim/Rhetos.DatabaseGenerator.DefaultConcepts.SqlIndexMultipleDatabaseDefinition, ID=66570463-68D3-4747-BFAF-74A13C725CE4.
+2017-10-24 13:51:59.5353|TRACE|DatabaseGenerator Concepts|Creating SqlIndexMultipleInfo Common.RolePermission.Role/Rhetos.DatabaseGenerator.DefaultConcepts.SqlIndexMultipleDatabaseDefinition, ID=E1DC9001-C9C4-482A-B0DF-9D9589677075.
+2017-10-24 13:51:59.5353|TRACE|DatabaseGenerator Concepts|Creating SqlIndexMultipleInfo Common.RolePermission.Claim/Rhetos.DatabaseGenerator.DefaultConcepts.SqlIndexMultipleDatabaseDefinition, ID=988B433D-39B8-4F99-92EE-CF6A55794B6A.
+2017-10-24 13:51:59.5353|INFO|DeployPackages|DatabaseGenerator creating 115 concept applications.
+2017-10-24 13:52:02.0704|TRACE|DeployPackages|Deleting redundant migration data.
+2017-10-24 13:52:02.1173|TRACE|DeployPackages|Deleted 9 columns in data migration schemas, 7 remaining.
+2017-10-24 13:52:02.1173|TRACE|DeployPackages|Uploading DSL scripts.
+2017-10-24 13:52:02.1485|TRACE|DeployPackages|Uploaded 8 DSL scripts to database.
+2017-10-24 13:52:02.1642|TRACE|DeployPackages|Loading generated plugins.
+2017-10-24 13:52:02.2892|TRACE|DeployPackages|Initialization KeepSynchronizedRecomputeOnDeploy.
+2017-10-24 13:52:03.4767|TRACE|DeployPackages|Initialization ClaimGenerator.
+2017-10-24 13:52:03.6798|TRACE|ClaimGenerator Claims|Inserting claims Common.AddToLog.Execute, Common.AuditDataModifications.Read, Common.AuditRelatedEvents.Read, Common.AutoCodeCache.Edit, Common.AutoCodeCache.New, Common.AutoCodeCache.Read, Common.AutoCodeCache.Remove, Common.Claim.Edit, Common.Claim.New, Common.Claim.Read, Common.Claim.Remove, Common.ExclusiveLock.Edit, Common.ExclusiveLock.New, Common.ExclusiveLock.Read, Common.ExclusiveLock.Remove, Common.FilterId.Edit, Common.FilterId.New, Common.FilterId.Read, Common.FilterId.Remove, Common.KeepSynchronizedMetadata.Edit, Common.KeepSynchronizedMetadata.New, Common.KeepSynchronizedMetadata.Read, Common.KeepSynchronizedMetadata.Remove, Common.Log.Edit, Common.Log.New, Common.Log.Read, Common.Log.Remove, Common.LogReader.Read, Common.LogRelatedItem.Edit, Common.LogRelatedItem.New, Common.LogRelatedItem.Read, Common.LogRelatedItem.Remove, Common.LogRelatedItemReader.Read, Common.MyClaim.Read, Common.Principal.Edit, Common.Principal.New, Common.Principal.Read, Common.Principal.Remove, Common.PrincipalHasRole.Edit, Common.PrincipalHasRole.New, Common.PrincipalHasRole.Read, Common.PrincipalHasRole.Remove, Common.PrincipalPermission.Edit, Common.PrincipalPermission.New, Common.PrincipalPermission.Read, Common.PrincipalPermission.Remove, Common.RelatedEventsSource.Read, Common.ReleaseLock.Execute, Common.ReportTemplate.Edit, Common.ReportTemplate.New, Common.ReportTemplate.Read, Common.ReportTemplate.Remove, Common.Role.Edit, Common.Role.New, Common.Role.Read, Common.Role.Remove, Common.RoleInheritsRole.Edit, Common.RoleInheritsRole.New, Common.RoleInheritsRole.Read, Common.RoleInheritsRole.Remove, Common.RolePermission.Edit, Common.RolePermission.New, Common.RolePermission.Read, Common.RolePermission.Remove, Common.SetLock.Execute.
+2017-10-24 13:52:04.3205|TRACE|DeployPackages|Updated Web.config modification date to restart server.
+2017-10-24 13:52:04.3517|TRACE|DeployPackages|Done.
+2017-10-24 14:18:35.3652|TRACE|DeployPackages|Moving old generated files to cache.
+2017-10-24 14:18:35.4447|TRACE|DeployPackages|Getting packages.
+2017-10-24 14:18:35.5442|TRACE|DeployPackages|Reading package from cache 'Rhetos.CommonConcepts.2.2.0'.
+2017-10-24 14:18:35.5742|TRACE|DeployPackages|Reading package from cache 'Rhetos.OmegaCommonConcepts.2.2.0'.
+2017-10-24 14:18:35.5742|TRACE|DeployPackages|Reading package from cache 'Rhetos.RestGenerator.2.4.0'.
+2017-10-24 14:18:35.5742|TRACE|DeployPackages|Reading package from cache 'Rhetos.MvcModelGenerator.2.2.0'.
+2017-10-24 14:18:35.5742|TRACE|PackageDownloader|Not looking for valueinjecter 2.3.3 in packages cache because the request does not specify an exact version.
+2017-10-24 14:18:37.4627|TRACE|PackageDownloader|Downloading NuGet package ValueInjecter 2.3.3 from https://www.nuget.org/api/v2/.
+2017-10-24 14:18:37.5227|TRACE|NuGet|'ValueInjecter 2.3.3' already installed.
+2017-10-24 14:18:37.5227|TRACE|PackageDownloader|Not looking for Rhetos.MvcModelGenerator.Client 2.2.0 in packages cache because the request does not specify an exact version.
+2017-10-24 14:18:37.7009|TRACE|PackageDownloader|There is no legacy file Rhetos.MvcModelGenerator.Client_2_2_0.zip in Packages.
+2017-10-24 14:18:37.7009|TRACE|PackageDownloader|Downloading NuGet package Rhetos.MvcModelGenerator.Client 2.2.0 from C:\inetpub\wwwroot\Rhetos\Rhetos.2.2.0\Packages.
+2017-10-24 14:18:37.7009|TRACE|NuGet|'Rhetos.MvcModelGenerator.Client 2.2.0' already installed.
+2017-10-24 14:18:37.8139|TRACE|Packages|Rhetos 2.2.0 (requested from Rhetos framework) in C:\inetpub\wwwroot\Rhetos\Rhetos.2.2.0.
+2017-10-24 14:18:37.8139|TRACE|Packages|Rhetos.CommonConcepts 2.2.0 (requested from configuration file RhetosPackages.config) in C:\inetpub\wwwroot\Rhetos\Rhetos.2.2.0\PackagesCache\Rhetos.CommonConcepts.2.2.0.
+2017-10-24 14:18:37.8139|TRACE|Packages|Rhetos.MvcModelGenerator.Client 2.2.0 (requested from package Rhetos.MvcModelGenerator) in C:\inetpub\wwwroot\Rhetos\Rhetos.2.2.0\PackagesCache\Rhetos.MvcModelGenerator.Client.2.2.0.
+2017-10-24 14:18:37.8139|TRACE|Packages|Rhetos.MvcModelGenerator 2.2.0 (requested from configuration file RhetosPackages.config) in C:\inetpub\wwwroot\Rhetos\Rhetos.2.2.0\PackagesCache\Rhetos.MvcModelGenerator.2.2.0.
+2017-10-24 14:18:37.8139|TRACE|Packages|Rhetos.RestGenerator 2.4.0 (requested from configuration file RhetosPackages.config) in C:\inetpub\wwwroot\Rhetos\Rhetos.2.2.0\PackagesCache\Rhetos.RestGenerator.2.4.0.
+2017-10-24 14:18:37.8139|TRACE|Packages|ValueInjecter 2.3.3 (requested from package Rhetos.OmegaCommonConcepts) in C:\inetpub\wwwroot\Rhetos\Rhetos.2.2.0\PackagesCache\ValueInjecter.2.3.3.
+2017-10-24 14:18:37.8139|TRACE|Packages|Rhetos.OmegaCommonConcepts 2.2.0 (requested from configuration file RhetosPackages.config) in C:\inetpub\wwwroot\Rhetos\Rhetos.2.2.0\PackagesCache\Rhetos.OmegaCommonConcepts.2.2.0.
+2017-10-24 14:18:37.8379|TRACE|DeployPackages|Loading plugins.
+2017-10-24 14:18:38.3296|TRACE|DeployPackages|SQL connection string: Data Source=adsql2008r2;Initial Catalog=RhetosDb_nkaramarko;Integrated Security=SSPI;
+2017-10-24 14:18:38.3626|TRACE|DeployPackages|Preparing Rhetos database.
+2017-10-24 14:18:38.6275|TRACE|DeployPackages|Parsing DSL scripts.
+2017-10-24 14:18:38.9195|TRACE|DeployPackages|Application model has 549 statements.
+2017-10-24 14:18:38.9195|TRACE|DeployPackages|Compiling DOM assembly.
+2017-10-24 14:18:39.0586|TRACE|AssemblyGenerator|Restoring assembly from cache: ServerDom.Model.dll.
+2017-10-24 14:18:39.0936|TRACE|AssemblyGenerator|Restoring assembly from cache: ServerDom.Orm.dll.
+2017-10-24 14:18:39.1222|TRACE|AssemblyGenerator|Restoring assembly from cache: ServerDom.Repositories.dll.
+2017-10-24 14:18:39.1392|TRACE|DeployPackages|Generated 144 types.
+2017-10-24 14:18:39.1552|INFO|DeployPackages|Missing dependency '' for application generator 'Rhetos.RestGenerator.RestGenerator'.
+2017-10-24 14:18:39.1552|TRACE|DeployPackages|Executing EntityFrameworkMappingGenerator.
+2017-10-24 14:18:39.1682|TRACE|DeployPackages|Executing RestGenerator.
+2017-10-24 14:18:39.2017|TRACE|AssemblyGenerator|Restoring assembly from cache: RestService.dll.
+2017-10-24 14:18:39.2187|TRACE|DeployPackages|Executing CaptionsResourceGenerator.
+2017-10-24 14:18:39.2647|TRACE|AssemblyGenerator|Restoring assembly from cache: Captions.dll.
+2017-10-24 14:18:39.2827|TRACE|DeployPackages|Executing MvcModelGenerator.
+2017-10-24 14:18:39.3107|TRACE|AssemblyGenerator|Restoring assembly from cache: Rhetos.Mvc.dll.
+2017-10-24 14:18:39.3327|TRACE|DeployPackages|Executing EntityFrameworkGenerateMetadataFiles.
+2017-10-24 14:18:39.3447|TRACE|DeployPackages|Cleaning old migration data.
+2017-10-24 14:18:39.3654|TRACE|DeployPackages|Deleted 0 columns in data migration schemas, 7 remaining.
+2017-10-24 14:18:39.3654|TRACE|DeployPackages|Executing data migration scripts.
+2017-10-24 14:18:39.3987|TRACE|DeployPackages|Executed 0 of 7 scripts.
+2017-10-24 14:18:39.3987|TRACE|DeployPackages|Upgrading database.
+2017-10-24 14:18:39.5579|TRACE|DeployPackages|DatabaseGenerator removing 0 concept applications.
+2017-10-24 14:18:39.5579|TRACE|DeployPackages|DatabaseGenerator creating 0 concept applications.
+2017-10-24 14:18:39.5769|TRACE|DeployPackages|Deleting redundant migration data.
+2017-10-24 14:18:39.5769|TRACE|DeployPackages|Deleted 0 columns in data migration schemas, 7 remaining.
+2017-10-24 14:18:39.5909|TRACE|DeployPackages|Uploading DSL scripts.
+2017-10-24 14:18:39.6158|TRACE|DeployPackages|Uploaded 8 DSL scripts to database.
+2017-10-24 14:18:39.6158|TRACE|DeployPackages|Loading generated plugins.
+2017-10-24 14:18:39.7603|TRACE|DeployPackages|Initialization KeepSynchronizedRecomputeOnDeploy.
+2017-10-24 14:18:41.4733|TRACE|DeployPackages|Initialization ClaimGenerator.
+2017-10-24 14:18:41.6758|TRACE|DeployPackages|Updated Web.config modification date to restart server.
+2017-10-24 14:18:41.6758|TRACE|DeployPackages|Done.
+2017-10-24 16:01:01.2212|TRACE|DeployPackages|Moving old generated files to cache.
+2017-10-24 16:01:01.3149|TRACE|DeployPackages|Getting packages.
+2017-10-24 16:01:01.4243|TRACE|DeployPackages|Reading package from cache 'Rhetos.CommonConcepts.2.2.0'.
+2017-10-24 16:01:01.4399|TRACE|DeployPackages|Reading package from cache 'Rhetos.OmegaCommonConcepts.2.2.0'.
+2017-10-24 16:01:01.4555|TRACE|DeployPackages|Reading package from cache 'Rhetos.RestGenerator.2.4.0'.
+2017-10-24 16:01:01.4555|TRACE|DeployPackages|Reading package from cache 'Rhetos.MvcModelGenerator.2.2.0'.
+2017-10-24 16:01:01.4555|TRACE|PackageDownloader|Not looking for valueinjecter 2.3.3 in packages cache because the request does not specify an exact version.
+2017-10-24 16:01:03.1665|TRACE|PackageDownloader|Downloading NuGet package ValueInjecter 2.3.3 from https://www.nuget.org/api/v2/.
+2017-10-24 16:01:03.2290|TRACE|NuGet|'ValueInjecter 2.3.3' already installed.
+2017-10-24 16:01:03.2290|TRACE|PackageDownloader|Not looking for Rhetos.MvcModelGenerator.Client 2.2.0 in packages cache because the request does not specify an exact version.
+2017-10-24 16:01:03.3541|TRACE|PackageDownloader|There is no legacy file Rhetos.MvcModelGenerator.Client_2_2_0.zip in Packages.
+2017-10-24 16:01:03.3541|TRACE|PackageDownloader|Downloading NuGet package Rhetos.MvcModelGenerator.Client 2.2.0 from C:\Users\nkaramarko\Desktop\Projekti\MojPrviRhetosProjekt\Rhetos\Rhetos.2.2.0\Packages.
+2017-10-24 16:01:03.3697|TRACE|NuGet|'Rhetos.MvcModelGenerator.Client 2.2.0' already installed.
+2017-10-24 16:01:03.4478|TRACE|Packages|Rhetos 2.2.0 (requested from Rhetos framework) in C:\Users\nkaramarko\Desktop\Projekti\MojPrviRhetosProjekt\Rhetos\Rhetos.2.2.0.
+2017-10-24 16:01:03.4478|TRACE|Packages|Rhetos.CommonConcepts 2.2.0 (requested from configuration file RhetosPackages.config) in C:\Users\nkaramarko\Desktop\Projekti\MojPrviRhetosProjekt\Rhetos\Rhetos.2.2.0\PackagesCache\Rhetos.CommonConcepts.2.2.0.
+2017-10-24 16:01:03.4478|TRACE|Packages|Rhetos.MvcModelGenerator.Client 2.2.0 (requested from package Rhetos.MvcModelGenerator) in C:\Users\nkaramarko\Desktop\Projekti\MojPrviRhetosProjekt\Rhetos\Rhetos.2.2.0\PackagesCache\Rhetos.MvcModelGenerator.Client.2.2.0.
+2017-10-24 16:01:03.4478|TRACE|Packages|Rhetos.MvcModelGenerator 2.2.0 (requested from configuration file RhetosPackages.config) in C:\Users\nkaramarko\Desktop\Projekti\MojPrviRhetosProjekt\Rhetos\Rhetos.2.2.0\PackagesCache\Rhetos.MvcModelGenerator.2.2.0.
+2017-10-24 16:01:03.4478|TRACE|Packages|Rhetos.RestGenerator 2.4.0 (requested from configuration file RhetosPackages.config) in C:\Users\nkaramarko\Desktop\Projekti\MojPrviRhetosProjekt\Rhetos\Rhetos.2.2.0\PackagesCache\Rhetos.RestGenerator.2.4.0.
+2017-10-24 16:01:03.4478|TRACE|Packages|ValueInjecter 2.3.3 (requested from package Rhetos.OmegaCommonConcepts) in C:\Users\nkaramarko\Desktop\Projekti\MojPrviRhetosProjekt\Rhetos\Rhetos.2.2.0\PackagesCache\ValueInjecter.2.3.3.
+2017-10-24 16:01:03.4478|TRACE|Packages|Rhetos.OmegaCommonConcepts 2.2.0 (requested from configuration file RhetosPackages.config) in C:\Users\nkaramarko\Desktop\Projekti\MojPrviRhetosProjekt\Rhetos\Rhetos.2.2.0\PackagesCache\Rhetos.OmegaCommonConcepts.2.2.0.
+2017-10-24 16:01:03.4790|TRACE|DeployPackages|Loading plugins.
+2017-10-24 16:01:03.9478|TRACE|DeployPackages|SQL connection string: Data Source=adsql2008r2;Initial Catalog=RhetosDb_nkaramarko;Integrated Security=SSPI;
+2017-10-24 16:01:03.9790|TRACE|DeployPackages|Preparing Rhetos database.
+2017-10-24 16:01:04.1041|TRACE|DeployPackages|Parsing DSL scripts.
+2017-10-24 16:01:04.3853|TRACE|DeployPackages|Application model has 549 statements.
+2017-10-24 16:01:04.3853|TRACE|DeployPackages|Compiling DOM assembly.
+2017-10-24 16:01:04.5103|TRACE|AssemblyGenerator|Compiling assembly: ServerDom.Model.dll.
+2017-10-24 16:01:04.6665|TRACE|AssemblyGenerator|Compiling assembly: ServerDom.Orm.dll.
+2017-10-24 16:01:04.8072|TRACE|AssemblyGenerator|Compiling assembly: ServerDom.Repositories.dll.
+2017-10-24 16:01:05.1040|INFO|AssemblyGenerator|Warning CS0618: 'Common.QueryableRepositoryBase<Common.Queryable.Common_LogReader,Common.LogReader>.Filter(System.Collections.Generic.IEnumerable<System.Guid>)' is obsolete: 'Use Load(identifiers)or Query(identifiers) method.'. At line 3734, column 23, file 'c:\Users\nkaramarko\Desktop\Projekti\MojPrviRhetosProjekt\Rhetos\Rhetos.2.2.0\bin\Generated\ServerDom.Repositories.cs'.
+2017-10-24 16:01:05.1040|TRACE|DeployPackages|Generated 144 types.
+2017-10-24 16:01:05.1197|INFO|DeployPackages|Missing dependency '' for application generator 'Rhetos.RestGenerator.RestGenerator'.
+2017-10-24 16:01:05.1197|TRACE|DeployPackages|Executing EntityFrameworkMappingGenerator.
+2017-10-24 16:01:05.1353|TRACE|DeployPackages|Executing RestGenerator.
+2017-10-24 16:01:05.1665|TRACE|AssemblyGenerator|Compiling assembly: RestService.dll.
+2017-10-24 16:01:05.3853|INFO|AssemblyGenerator|Warning CS1701: Assuming assembly reference 'Autofac, Version=3.3.0.0, Culture=neutral, PublicKeyToken=17863af14b0044da' matches 'Autofac, Version=3.5.0.0, Culture=neutral, PublicKeyToken=17863af14b0044da', you may need to supply runtime policy.
+2017-10-24 16:01:05.3853|INFO|AssemblyGenerator|62 warnings CS0618: 'Rhetos.LegacyClientException' is obsolete: 'Use ClientException instead.'. At line 246, column 34, file 'c:\Users\nkaramarko\Desktop\Projekti\MojPrviRhetosProjekt\Rhetos\Rhetos.2.2.0\bin\Generated\RestService.cs'.
+2017-10-24 16:01:05.4009|TRACE|DeployPackages|Executing CaptionsResourceGenerator.
+2017-10-24 16:01:05.4478|TRACE|AssemblyGenerator|Restoring assembly from cache: Captions.dll.
+2017-10-24 16:01:05.4634|TRACE|DeployPackages|Executing MvcModelGenerator.
+2017-10-24 16:01:05.4947|TRACE|AssemblyGenerator|Compiling assembly: Rhetos.Mvc.dll.
+2017-10-24 16:01:05.5884|TRACE|DeployPackages|Executing EntityFrameworkGenerateMetadataFiles.
+2017-10-24 16:01:06.5728|TRACE|DeployPackages|Cleaning old migration data.
+2017-10-24 16:01:06.5884|TRACE|DeployPackages|Deleted 0 columns in data migration schemas, 7 remaining.
+2017-10-24 16:01:06.5884|TRACE|DeployPackages|Executing data migration scripts.
+2017-10-24 16:01:06.6197|TRACE|DeployPackages|Executed 0 of 7 scripts.
+2017-10-24 16:01:06.6197|TRACE|DeployPackages|Upgrading database.
+2017-10-24 16:01:06.8072|TRACE|DeployPackages|DatabaseGenerator removing 0 concept applications.
+2017-10-24 16:01:06.8228|TRACE|DeployPackages|DatabaseGenerator creating 0 concept applications.
+2017-10-24 16:01:06.8384|TRACE|DeployPackages|Deleting redundant migration data.
+2017-10-24 16:01:06.8384|TRACE|DeployPackages|Deleted 0 columns in data migration schemas, 7 remaining.
+2017-10-24 16:01:06.8384|TRACE|DeployPackages|Uploading DSL scripts.
+2017-10-24 16:01:06.8853|TRACE|DeployPackages|Uploaded 8 DSL scripts to database.
+2017-10-24 16:01:06.8853|TRACE|DeployPackages|Loading generated plugins.
+2017-10-24 16:01:07.0103|TRACE|DeployPackages|Initialization KeepSynchronizedRecomputeOnDeploy.
+2017-10-24 16:01:08.2378|TRACE|DeployPackages|Initialization ClaimGenerator.
+2017-10-24 16:01:08.4409|TRACE|DeployPackages|Updated Web.config modification date to restart server.
+2017-10-24 16:01:08.4409|TRACE|DeployPackages|Done.
+2017-10-24 16:03:35.7375|TRACE|DeployPackages|Moving old generated files to cache.
+2017-10-24 16:03:35.8156|TRACE|DeployPackages|Getting packages.
+2017-10-24 16:03:35.9250|TRACE|DeployPackages|Reading package from cache 'Rhetos.CommonConcepts.2.2.0'.
+2017-10-24 16:03:35.9562|TRACE|DeployPackages|Reading package from cache 'Rhetos.OmegaCommonConcepts.2.2.0'.
+2017-10-24 16:03:35.9562|TRACE|DeployPackages|Reading package from cache 'Rhetos.RestGenerator.2.4.0'.
+2017-10-24 16:03:35.9719|TRACE|DeployPackages|Reading package from cache 'Rhetos.MvcModelGenerator.2.2.0'.
+2017-10-24 16:03:35.9719|TRACE|PackageDownloader|Not looking for valueinjecter 2.3.3 in packages cache because the request does not specify an exact version.
+2017-10-24 16:03:37.7844|TRACE|PackageDownloader|Downloading NuGet package ValueInjecter 2.3.3 from https://www.nuget.org/api/v2/.
+2017-10-24 16:03:37.8469|TRACE|NuGet|'ValueInjecter 2.3.3' already installed.
+2017-10-24 16:03:37.8469|TRACE|PackageDownloader|Not looking for Rhetos.MvcModelGenerator.Client 2.2.0 in packages cache because the request does not specify an exact version.
+2017-10-24 16:03:38.0188|TRACE|PackageDownloader|There is no legacy file Rhetos.MvcModelGenerator.Client_2_2_0.zip in Packages.
+2017-10-24 16:03:38.0188|TRACE|PackageDownloader|Downloading NuGet package Rhetos.MvcModelGenerator.Client 2.2.0 from C:\Users\nkaramarko\Desktop\Projekti\MojPrviRhetosProjekt\Rhetos\Rhetos.2.2.0\Packages.
+2017-10-24 16:03:38.0344|TRACE|NuGet|'Rhetos.MvcModelGenerator.Client 2.2.0' already installed.
+2017-10-24 16:03:38.0969|TRACE|Packages|Rhetos 2.2.0 (requested from Rhetos framework) in C:\Users\nkaramarko\Desktop\Projekti\MojPrviRhetosProjekt\Rhetos\Rhetos.2.2.0.
+2017-10-24 16:03:38.0969|TRACE|Packages|Rhetos.CommonConcepts 2.2.0 (requested from configuration file RhetosPackages.config) in C:\Users\nkaramarko\Desktop\Projekti\MojPrviRhetosProjekt\Rhetos\Rhetos.2.2.0\PackagesCache\Rhetos.CommonConcepts.2.2.0.
+2017-10-24 16:03:38.0969|TRACE|Packages|Rhetos.MvcModelGenerator.Client 2.2.0 (requested from package Rhetos.MvcModelGenerator) in C:\Users\nkaramarko\Desktop\Projekti\MojPrviRhetosProjekt\Rhetos\Rhetos.2.2.0\PackagesCache\Rhetos.MvcModelGenerator.Client.2.2.0.
+2017-10-24 16:03:38.0969|TRACE|Packages|Rhetos.MvcModelGenerator 2.2.0 (requested from configuration file RhetosPackages.config) in C:\Users\nkaramarko\Desktop\Projekti\MojPrviRhetosProjekt\Rhetos\Rhetos.2.2.0\PackagesCache\Rhetos.MvcModelGenerator.2.2.0.
+2017-10-24 16:03:38.0969|TRACE|Packages|Rhetos.RestGenerator 2.4.0 (requested from configuration file RhetosPackages.config) in C:\Users\nkaramarko\Desktop\Projekti\MojPrviRhetosProjekt\Rhetos\Rhetos.2.2.0\PackagesCache\Rhetos.RestGenerator.2.4.0.
+2017-10-24 16:03:38.0969|TRACE|Packages|ValueInjecter 2.3.3 (requested from package Rhetos.OmegaCommonConcepts) in C:\Users\nkaramarko\Desktop\Projekti\MojPrviRhetosProjekt\Rhetos\Rhetos.2.2.0\PackagesCache\ValueInjecter.2.3.3.
+2017-10-24 16:03:38.0969|TRACE|Packages|Rhetos.OmegaCommonConcepts 2.2.0 (requested from configuration file RhetosPackages.config) in C:\Users\nkaramarko\Desktop\Projekti\MojPrviRhetosProjekt\Rhetos\Rhetos.2.2.0\PackagesCache\Rhetos.OmegaCommonConcepts.2.2.0.
+2017-10-24 16:03:38.1125|TRACE|DeployPackages|Loading plugins.
+2017-10-24 16:03:38.5859|TRACE|DeployPackages|SQL connection string: Data Source=adsql2008r2;Initial Catalog=RhetosDb_nkaramarko;Integrated Security=SSPI;
+2017-10-24 16:03:38.6172|TRACE|DeployPackages|Preparing Rhetos database.
+2017-10-24 16:03:38.7109|TRACE|DeployPackages|Parsing DSL scripts.
+2017-10-24 16:03:38.9921|TRACE|DeployPackages|Application model has 549 statements.
+2017-10-24 16:03:38.9921|TRACE|DeployPackages|Compiling DOM assembly.
+2017-10-24 16:03:39.1172|TRACE|AssemblyGenerator|Restoring assembly from cache: ServerDom.Model.dll.
+2017-10-24 16:03:39.1328|TRACE|AssemblyGenerator|Restoring assembly from cache: ServerDom.Orm.dll.
+2017-10-24 16:03:39.1640|TRACE|AssemblyGenerator|Restoring assembly from cache: ServerDom.Repositories.dll.
+2017-10-24 16:03:39.1640|TRACE|DeployPackages|Generated 144 types.
+2017-10-24 16:03:39.1796|INFO|DeployPackages|Missing dependency '' for application generator 'Rhetos.RestGenerator.RestGenerator'.
+2017-10-24 16:03:39.1796|TRACE|DeployPackages|Executing EntityFrameworkMappingGenerator.
+2017-10-24 16:03:39.1953|TRACE|DeployPackages|Executing RestGenerator.
+2017-10-24 16:03:39.2265|TRACE|AssemblyGenerator|Restoring assembly from cache: RestService.dll.
+2017-10-24 16:03:39.2265|TRACE|DeployPackages|Executing CaptionsResourceGenerator.
+2017-10-24 16:03:39.2734|TRACE|AssemblyGenerator|Restoring assembly from cache: Captions.dll.
+2017-10-24 16:03:39.2890|TRACE|DeployPackages|Executing MvcModelGenerator.
+2017-10-24 16:03:39.3203|TRACE|AssemblyGenerator|Restoring assembly from cache: Rhetos.Mvc.dll.
+2017-10-24 16:03:39.3203|TRACE|DeployPackages|Executing EntityFrameworkGenerateMetadataFiles.
+2017-10-24 16:03:39.3359|TRACE|DeployPackages|Cleaning old migration data.
+2017-10-24 16:03:39.3515|TRACE|DeployPackages|Deleted 0 columns in data migration schemas, 7 remaining.
+2017-10-24 16:03:39.3515|TRACE|DeployPackages|Executing data migration scripts.
+2017-10-24 16:03:39.3828|TRACE|DeployPackages|Executed 0 of 7 scripts.
+2017-10-24 16:03:39.3828|TRACE|DeployPackages|Upgrading database.
+2017-10-24 16:03:39.5546|TRACE|DeployPackages|DatabaseGenerator removing 0 concept applications.
+2017-10-24 16:03:39.5546|TRACE|DeployPackages|DatabaseGenerator creating 0 concept applications.
+2017-10-24 16:03:39.5703|TRACE|DeployPackages|Deleting redundant migration data.
+2017-10-24 16:03:39.5859|TRACE|DeployPackages|Deleted 0 columns in data migration schemas, 7 remaining.
+2017-10-24 16:03:39.5859|TRACE|DeployPackages|Uploading DSL scripts.
+2017-10-24 16:03:39.6172|TRACE|DeployPackages|Uploaded 8 DSL scripts to database.
+2017-10-24 16:03:39.6328|TRACE|DeployPackages|Loading generated plugins.
+2017-10-24 16:03:39.7578|TRACE|DeployPackages|Initialization KeepSynchronizedRecomputeOnDeploy.
+2017-10-24 16:03:41.4297|TRACE|DeployPackages|Initialization ClaimGenerator.
+2017-10-24 16:03:41.6328|TRACE|DeployPackages|Updated Web.config modification date to restart server.
+2017-10-24 16:03:41.6328|TRACE|DeployPackages|Done.
+2017-10-24 16:07:48.6434|TRACE|DeployPackages|Moving old generated files to cache.
+2017-10-24 16:07:48.7215|TRACE|DeployPackages|Getting packages.
+2017-10-24 16:07:48.8309|TRACE|DeployPackages|Reading package from cache 'Rhetos.CommonConcepts.2.2.0'.
+2017-10-24 16:07:48.8621|TRACE|DeployPackages|Reading package from cache 'Rhetos.OmegaCommonConcepts.2.2.0'.
+2017-10-24 16:07:48.8621|TRACE|DeployPackages|Reading package from cache 'Rhetos.RestGenerator.2.4.0'.
+2017-10-24 16:07:48.8777|TRACE|DeployPackages|Reading package from cache 'Rhetos.MvcModelGenerator.2.2.0'.
+2017-10-24 16:07:50.6595|TRACE|PackageDownloader|Downloading NuGet package Rhetos.AspNetFormsAuth 2.0.1 from C:\Users\nkaramarko\Desktop\Projekti\MojPrviRhetosProjekt\Rhetos\Rhetos.2.2.0\Packages.
+2017-10-24 16:07:50.7533|TRACE|NuGet|Installing 'Rhetos.AspNetFormsAuth 2.0.1'.
+2017-10-24 16:07:50.8470|TRACE|NuGet|Successfully installed 'Rhetos.AspNetFormsAuth 2.0.1'.
+2017-10-24 16:07:51.0190|ERROR|DeployPackages|Rhetos.UserException: Cannot download package MojPrviRhetosPaket [1.0.0,1.0.0]. Looked at 3 sources:
+https://www.nuget.org/api/v2/
+C:\Users\nkaramarko\Desktop\Projekti\MojPrviRhetosProjekt\Rhetos\Rhetos.2.2.0\Packages
+C:\Users\nkaramarko\Desktop\Projekti\MojPrviRhetosProjekt\MojPrviRhetosPaket
+   at Rhetos.Deployment.PackageDownloader.GetPackage(PackageRequest request, FileSyncer binFileSyncer) in C:\My Projects\Rhetos\Source\Rhetos.Deployment\PackageDownloader.cs:line 160
+   at Rhetos.Deployment.PackageDownloader.GetPackages() in C:\My Projects\Rhetos\Source\Rhetos.Deployment\PackageDownloader.cs:line 86
+   at DeployPackages.Program.DownloadPackages(ILogger logger, Arguments arguments) in C:\My Projects\Rhetos\Source\DeployPackages\Program.cs:line 156
+   at DeployPackages.Program.Main(String[] args) in C:\My Projects\Rhetos\Source\DeployPackages\Program.cs:line 68
+Info: 
+MessageParameters: null
+SystemMessage: 
+2017-10-24 16:11:07.8703|TRACE|DeployPackages|Moving old generated files to cache.
+2017-10-24 16:11:07.9171|TRACE|DeployPackages|Getting packages.
+2017-10-24 16:11:08.0109|TRACE|DeployPackages|Reading package from cache 'Rhetos.CommonConcepts.2.2.0'.
+2017-10-24 16:11:08.0421|TRACE|DeployPackages|Reading package from cache 'Rhetos.OmegaCommonConcepts.2.2.0'.
+2017-10-24 16:11:08.0578|TRACE|DeployPackages|Reading package from cache 'Rhetos.RestGenerator.2.4.0'.
+2017-10-24 16:11:08.0578|TRACE|DeployPackages|Reading package from cache 'Rhetos.MvcModelGenerator.2.2.0'.
+2017-10-24 16:11:08.0734|TRACE|DeployPackages|Reading package from cache 'Rhetos.AspNetFormsAuth.2.0.1'.
+2017-10-24 16:11:09.7453|ERROR|DeployPackages|Rhetos.UserException: Cannot download package MojPrviRhetosPaket [1.0.0,1.0.0]. Looked at 3 sources:
+https://www.nuget.org/api/v2/
+C:\Users\nkaramarko\Desktop\Projekti\MojPrviRhetosProjekt\Rhetos\Rhetos.2.2.0\Packages
+C:\Users\nkaramarko\Desktop\Projekti\MojPrviRhetosProjekt\MojPrviRhetosPaket
+   at Rhetos.Deployment.PackageDownloader.GetPackage(PackageRequest request, FileSyncer binFileSyncer) in C:\My Projects\Rhetos\Source\Rhetos.Deployment\PackageDownloader.cs:line 160
+   at Rhetos.Deployment.PackageDownloader.GetPackages() in C:\My Projects\Rhetos\Source\Rhetos.Deployment\PackageDownloader.cs:line 86
+   at DeployPackages.Program.DownloadPackages(ILogger logger, Arguments arguments) in C:\My Projects\Rhetos\Source\DeployPackages\Program.cs:line 156
+   at DeployPackages.Program.Main(String[] args) in C:\My Projects\Rhetos\Source\DeployPackages\Program.cs:line 68
+Info: 
+MessageParameters: null
+SystemMessage: 
+2017-10-24 16:13:16.5358|TRACE|DeployPackages|Moving old generated files to cache.
+2017-10-24 16:13:16.5826|TRACE|DeployPackages|Getting packages.
+2017-10-24 16:13:16.6764|TRACE|DeployPackages|Reading package from cache 'Rhetos.CommonConcepts.2.2.0'.
+2017-10-24 16:13:16.7076|TRACE|DeployPackages|Reading package from cache 'Rhetos.OmegaCommonConcepts.2.2.0'.
+2017-10-24 16:13:16.7076|TRACE|DeployPackages|Reading package from cache 'Rhetos.RestGenerator.2.4.0'.
+2017-10-24 16:13:16.7233|TRACE|DeployPackages|Reading package from cache 'Rhetos.MvcModelGenerator.2.2.0'.
+2017-10-24 16:13:16.7233|TRACE|DeployPackages|Reading package from cache 'Rhetos.AspNetFormsAuth.2.0.1'.
+2017-10-24 16:13:18.4425|TRACE|PackageDownloader|Downloading NuGet package MojPrviRhetosPaket 1.0.0 from C:\Users\nkaramarko\Desktop\Projekti\MojPrviRhetosProjekt\MojPrviRhetosPaket.
+2017-10-24 16:13:18.4894|TRACE|NuGet|Installing 'MojPrviRhetosPaket 1.0.0'.
+2017-10-24 16:13:18.5519|TRACE|NuGet|Successfully installed 'MojPrviRhetosPaket 1.0.0'.
+2017-10-24 16:13:18.5519|TRACE|PackageDownloader|Not looking for valueinjecter 2.3.3 in packages cache because the request does not specify an exact version.
+2017-10-24 16:13:18.8019|TRACE|PackageDownloader|Downloading NuGet package ValueInjecter 2.3.3 from https://www.nuget.org/api/v2/.
+2017-10-24 16:13:18.8176|TRACE|NuGet|'ValueInjecter 2.3.3' already installed.
+2017-10-24 16:13:18.8176|TRACE|PackageDownloader|Not looking for Rhetos.MvcModelGenerator.Client 2.2.0 in packages cache because the request does not specify an exact version.
+2017-10-24 16:13:19.0363|TRACE|PackageDownloader|There is no legacy file Rhetos.MvcModelGenerator.Client_2_2_0.zip in Packages.
+2017-10-24 16:13:19.0363|TRACE|PackageDownloader|Downloading NuGet package Rhetos.MvcModelGenerator.Client 2.2.0 from C:\Users\nkaramarko\Desktop\Projekti\MojPrviRhetosProjekt\Rhetos\Rhetos.2.2.0\Packages.
+2017-10-24 16:13:19.0363|TRACE|NuGet|'Rhetos.MvcModelGenerator.Client 2.2.0' already installed.
+2017-10-24 16:13:19.1300|TRACE|Packages|MojPrviRhetosPaket 1.0.0 (requested from configuration file RhetosPackages.config) in C:\Users\nkaramarko\Desktop\Projekti\MojPrviRhetosProjekt\Rhetos\Rhetos.2.2.0\PackagesCache\MojPrviRhetosPaket.1.0.0.
+2017-10-24 16:13:19.1300|TRACE|Packages|Rhetos 2.2.0 (requested from Rhetos framework) in C:\Users\nkaramarko\Desktop\Projekti\MojPrviRhetosProjekt\Rhetos\Rhetos.2.2.0.
+2017-10-24 16:13:19.1300|TRACE|Packages|Rhetos.CommonConcepts 2.2.0 (requested from configuration file RhetosPackages.config) in C:\Users\nkaramarko\Desktop\Projekti\MojPrviRhetosProjekt\Rhetos\Rhetos.2.2.0\PackagesCache\Rhetos.CommonConcepts.2.2.0.
+2017-10-24 16:13:19.1300|TRACE|Packages|Rhetos.AspNetFormsAuth 2.0.1 (requested from configuration file RhetosPackages.config) in C:\Users\nkaramarko\Desktop\Projekti\MojPrviRhetosProjekt\Rhetos\Rhetos.2.2.0\PackagesCache\Rhetos.AspNetFormsAuth.2.0.1.
+2017-10-24 16:13:19.1300|TRACE|Packages|Rhetos.MvcModelGenerator.Client 2.2.0 (requested from package Rhetos.MvcModelGenerator) in C:\Users\nkaramarko\Desktop\Projekti\MojPrviRhetosProjekt\Rhetos\Rhetos.2.2.0\PackagesCache\Rhetos.MvcModelGenerator.Client.2.2.0.
+2017-10-24 16:13:19.1300|TRACE|Packages|Rhetos.MvcModelGenerator 2.2.0 (requested from configuration file RhetosPackages.config) in C:\Users\nkaramarko\Desktop\Projekti\MojPrviRhetosProjekt\Rhetos\Rhetos.2.2.0\PackagesCache\Rhetos.MvcModelGenerator.2.2.0.
+2017-10-24 16:13:19.1300|TRACE|Packages|Rhetos.RestGenerator 2.4.0 (requested from configuration file RhetosPackages.config) in C:\Users\nkaramarko\Desktop\Projekti\MojPrviRhetosProjekt\Rhetos\Rhetos.2.2.0\PackagesCache\Rhetos.RestGenerator.2.4.0.
+2017-10-24 16:13:19.1300|TRACE|Packages|ValueInjecter 2.3.3 (requested from package Rhetos.OmegaCommonConcepts) in C:\Users\nkaramarko\Desktop\Projekti\MojPrviRhetosProjekt\Rhetos\Rhetos.2.2.0\PackagesCache\ValueInjecter.2.3.3.
+2017-10-24 16:13:19.1300|TRACE|Packages|Rhetos.OmegaCommonConcepts 2.2.0 (requested from configuration file RhetosPackages.config) in C:\Users\nkaramarko\Desktop\Projekti\MojPrviRhetosProjekt\Rhetos\Rhetos.2.2.0\PackagesCache\Rhetos.OmegaCommonConcepts.2.2.0.
+2017-10-24 16:13:19.1457|TRACE|DeployPackages|Loading plugins.
+2017-10-24 16:13:19.7082|TRACE|DeployPackages|SQL connection string: Data Source=adsql2008r2;Initial Catalog=RhetosDb_nkaramarko;Integrated Security=SSPI;
+2017-10-24 16:13:19.7395|TRACE|DeployPackages|Preparing Rhetos database.
+2017-10-24 16:13:19.8332|TRACE|DeployPackages|Parsing DSL scripts.
+2017-10-24 16:13:19.8957|ERROR|DeployPackages|Rhetos.Dsl.DslSyntaxException: At line 5, column 24, file 'C:\Users\nkaramarko\Desktop\Projekti\MojPrviRhetosProjekt\Rhetos\Rhetos.2.2.0\PackagesCache\MojPrviRhetosPaket.1.0.0\DslScripts\MojaPrvaSkripta.rhe',
+after: "Module Stanovnik { Entity Osoba { Integer OIB {Required",
+before: ", Unique;} ShortString Ime {Required;} ShortString Prezime {Required;}...".
+Previous concept: Required Stanovnik.Osoba.OIB
+Property Property (PropertyInfo) = Stanovnik.Osoba.OIB
+Expected ";" or "{".
+   at Rhetos.Dsl.DslParser.UpdateContextForNextConcept(TokenReader tokenReader, Stack`1 context, IConceptInfo conceptInfo) in C:\My Projects\Rhetos\Source\Rhetos.Dsl\DslParser.cs:line 201
+   at Rhetos.Dsl.DslParser.ExtractConcepts(IEnumerable`1 conceptParsers) in C:\My Projects\Rhetos\Source\Rhetos.Dsl\DslParser.cs:line 109
+   at Rhetos.Dsl.DslParser.get_ParsedConcepts() in C:\My Projects\Rhetos\Source\Rhetos.Dsl\DslParser.cs:line 53
+   at Rhetos.Dsl.DslModel.Initialize() in C:\My Projects\Rhetos\Source\Rhetos.Dsl\DslModel.cs:line 114
+   at Rhetos.Dsl.DslModel.get_Concepts() in C:\My Projects\Rhetos\Source\Rhetos.Dsl\DslModel.cs:line 75
+   at Rhetos.Deployment.ApplicationGenerator.ExecuteGenerators(Boolean deployDatabaseOnly) in C:\My Projects\Rhetos\Source\Rhetos.Deployment\ApplicationGenerator.cs:line 79
+   at DeployPackages.Program.GenerateApplication(ILogger logger, Arguments arguments) in C:\My Projects\Rhetos\Source\DeployPackages\Program.cs:line 183
+   at DeployPackages.Program.Main(String[] args) in C:\My Projects\Rhetos\Source\DeployPackages\Program.cs:line 69
+Info: 
+2017-10-24 16:14:03.5973|TRACE|DeployPackages|Moving old generated files to cache.
+2017-10-24 16:14:03.6442|TRACE|DeployPackages|Getting packages.
+2017-10-24 16:14:03.7379|TRACE|DeployPackages|Reading package from cache 'Rhetos.CommonConcepts.2.2.0'.
+2017-10-24 16:14:03.7692|TRACE|DeployPackages|Reading package from cache 'Rhetos.OmegaCommonConcepts.2.2.0'.
+2017-10-24 16:14:03.7692|TRACE|DeployPackages|Reading package from cache 'Rhetos.RestGenerator.2.4.0'.
+2017-10-24 16:14:03.7849|TRACE|DeployPackages|Reading package from cache 'Rhetos.MvcModelGenerator.2.2.0'.
+2017-10-24 16:14:03.7849|TRACE|DeployPackages|Reading package from cache 'Rhetos.AspNetFormsAuth.2.0.1'.
+2017-10-24 16:14:03.7849|TRACE|DeployPackages|Reading package from cache 'MojPrviRhetosPaket.1.0.0'.
+2017-10-24 16:14:03.8004|TRACE|PackageDownloader|Not looking for valueinjecter 2.3.3 in packages cache because the request does not specify an exact version.
+2017-10-24 16:14:05.5817|TRACE|PackageDownloader|Downloading NuGet package ValueInjecter 2.3.3 from https://www.nuget.org/api/v2/.
+2017-10-24 16:14:05.6286|TRACE|NuGet|'ValueInjecter 2.3.3' already installed.
+2017-10-24 16:14:05.6286|TRACE|PackageDownloader|Not looking for Rhetos.MvcModelGenerator.Client 2.2.0 in packages cache because the request does not specify an exact version.
+2017-10-24 16:14:05.8474|TRACE|PackageDownloader|There is no legacy file Rhetos.MvcModelGenerator.Client_2_2_0.zip in Packages.
+2017-10-24 16:14:05.8474|TRACE|PackageDownloader|Downloading NuGet package Rhetos.MvcModelGenerator.Client 2.2.0 from C:\Users\nkaramarko\Desktop\Projekti\MojPrviRhetosProjekt\Rhetos\Rhetos.2.2.0\Packages.
+2017-10-24 16:14:05.8630|TRACE|NuGet|'Rhetos.MvcModelGenerator.Client 2.2.0' already installed.
+2017-10-24 16:14:05.9567|TRACE|Packages|MojPrviRhetosPaket 1.0.0 (requested from configuration file RhetosPackages.config) in C:\Users\nkaramarko\Desktop\Projekti\MojPrviRhetosProjekt\Rhetos\Rhetos.2.2.0\PackagesCache\MojPrviRhetosPaket.1.0.0.
+2017-10-24 16:14:05.9567|TRACE|Packages|Rhetos 2.2.0 (requested from Rhetos framework) in C:\Users\nkaramarko\Desktop\Projekti\MojPrviRhetosProjekt\Rhetos\Rhetos.2.2.0.
+2017-10-24 16:14:05.9567|TRACE|Packages|Rhetos.CommonConcepts 2.2.0 (requested from configuration file RhetosPackages.config) in C:\Users\nkaramarko\Desktop\Projekti\MojPrviRhetosProjekt\Rhetos\Rhetos.2.2.0\PackagesCache\Rhetos.CommonConcepts.2.2.0.
+2017-10-24 16:14:05.9567|TRACE|Packages|Rhetos.AspNetFormsAuth 2.0.1 (requested from configuration file RhetosPackages.config) in C:\Users\nkaramarko\Desktop\Projekti\MojPrviRhetosProjekt\Rhetos\Rhetos.2.2.0\PackagesCache\Rhetos.AspNetFormsAuth.2.0.1.
+2017-10-24 16:14:05.9567|TRACE|Packages|Rhetos.MvcModelGenerator.Client 2.2.0 (requested from package Rhetos.MvcModelGenerator) in C:\Users\nkaramarko\Desktop\Projekti\MojPrviRhetosProjekt\Rhetos\Rhetos.2.2.0\PackagesCache\Rhetos.MvcModelGenerator.Client.2.2.0.
+2017-10-24 16:14:05.9567|TRACE|Packages|Rhetos.MvcModelGenerator 2.2.0 (requested from configuration file RhetosPackages.config) in C:\Users\nkaramarko\Desktop\Projekti\MojPrviRhetosProjekt\Rhetos\Rhetos.2.2.0\PackagesCache\Rhetos.MvcModelGenerator.2.2.0.
+2017-10-24 16:14:05.9567|TRACE|Packages|Rhetos.RestGenerator 2.4.0 (requested from configuration file RhetosPackages.config) in C:\Users\nkaramarko\Desktop\Projekti\MojPrviRhetosProjekt\Rhetos\Rhetos.2.2.0\PackagesCache\Rhetos.RestGenerator.2.4.0.
+2017-10-24 16:14:05.9567|TRACE|Packages|ValueInjecter 2.3.3 (requested from package Rhetos.OmegaCommonConcepts) in C:\Users\nkaramarko\Desktop\Projekti\MojPrviRhetosProjekt\Rhetos\Rhetos.2.2.0\PackagesCache\ValueInjecter.2.3.3.
+2017-10-24 16:14:05.9567|TRACE|Packages|Rhetos.OmegaCommonConcepts 2.2.0 (requested from configuration file RhetosPackages.config) in C:\Users\nkaramarko\Desktop\Projekti\MojPrviRhetosProjekt\Rhetos\Rhetos.2.2.0\PackagesCache\Rhetos.OmegaCommonConcepts.2.2.0.
+2017-10-24 16:14:05.9723|TRACE|DeployPackages|Loading plugins.
+2017-10-24 16:14:06.5036|TRACE|DeployPackages|SQL connection string: Data Source=adsql2008r2;Initial Catalog=RhetosDb_nkaramarko;Integrated Security=SSPI;
+2017-10-24 16:14:06.5349|TRACE|DeployPackages|Preparing Rhetos database.
+2017-10-24 16:14:06.6286|TRACE|DeployPackages|Parsing DSL scripts.
+2017-10-24 16:14:06.6911|ERROR|DeployPackages|Rhetos.Dsl.DslSyntaxException: At line 5, column 24, file 'C:\Users\nkaramarko\Desktop\Projekti\MojPrviRhetosProjekt\Rhetos\Rhetos.2.2.0\PackagesCache\MojPrviRhetosPaket.1.0.0\DslScripts\MojaPrvaSkripta.rhe',
+after: "Module Stanovnik { Entity Osoba { Integer OIB {Required",
+before: ", Unique;} ShortString Ime {Required;} ShortString Prezime {Required;}...".
+Previous concept: Required Stanovnik.Osoba.OIB
+Property Property (PropertyInfo) = Stanovnik.Osoba.OIB
+Expected ";" or "{".
+   at Rhetos.Dsl.DslParser.UpdateContextForNextConcept(TokenReader tokenReader, Stack`1 context, IConceptInfo conceptInfo) in C:\My Projects\Rhetos\Source\Rhetos.Dsl\DslParser.cs:line 201
+   at Rhetos.Dsl.DslParser.ExtractConcepts(IEnumerable`1 conceptParsers) in C:\My Projects\Rhetos\Source\Rhetos.Dsl\DslParser.cs:line 109
+   at Rhetos.Dsl.DslParser.get_ParsedConcepts() in C:\My Projects\Rhetos\Source\Rhetos.Dsl\DslParser.cs:line 53
+   at Rhetos.Dsl.DslModel.Initialize() in C:\My Projects\Rhetos\Source\Rhetos.Dsl\DslModel.cs:line 114
+   at Rhetos.Dsl.DslModel.get_Concepts() in C:\My Projects\Rhetos\Source\Rhetos.Dsl\DslModel.cs:line 75
+   at Rhetos.Deployment.ApplicationGenerator.ExecuteGenerators(Boolean deployDatabaseOnly) in C:\My Projects\Rhetos\Source\Rhetos.Deployment\ApplicationGenerator.cs:line 79
+   at DeployPackages.Program.GenerateApplication(ILogger logger, Arguments arguments) in C:\My Projects\Rhetos\Source\DeployPackages\Program.cs:line 183
+   at DeployPackages.Program.Main(String[] args) in C:\My Projects\Rhetos\Source\DeployPackages\Program.cs:line 69
+Info: 
+2017-10-24 16:15:30.8908|TRACE|DeployPackages|Moving old generated files to cache.
+2017-10-24 16:15:30.9377|TRACE|DeployPackages|Getting packages.
+2017-10-24 16:15:31.0315|TRACE|DeployPackages|Reading package from cache 'Rhetos.CommonConcepts.2.2.0'.
+2017-10-24 16:15:31.0627|TRACE|DeployPackages|Reading package from cache 'Rhetos.OmegaCommonConcepts.2.2.0'.
+2017-10-24 16:15:31.0627|TRACE|DeployPackages|Reading package from cache 'Rhetos.RestGenerator.2.4.0'.
+2017-10-24 16:15:31.0783|TRACE|DeployPackages|Reading package from cache 'Rhetos.MvcModelGenerator.2.2.0'.
+2017-10-24 16:15:31.0783|TRACE|DeployPackages|Reading package from cache 'Rhetos.AspNetFormsAuth.2.0.1'.
+2017-10-24 16:15:32.9065|TRACE|PackageDownloader|Downloading NuGet package MojPrviRhetosPaket 1.0.0 from C:\Users\nkaramarko\Desktop\Projekti\MojPrviRhetosProjekt\MojPrviRhetosPaket.
+2017-10-24 16:15:32.9533|TRACE|NuGet|Installing 'MojPrviRhetosPaket 1.0.0'.
+2017-10-24 16:15:33.0002|TRACE|NuGet|Successfully installed 'MojPrviRhetosPaket 1.0.0'.
+2017-10-24 16:15:33.0158|TRACE|PackageDownloader|Not looking for valueinjecter 2.3.3 in packages cache because the request does not specify an exact version.
+2017-10-24 16:15:33.2815|TRACE|PackageDownloader|Downloading NuGet package ValueInjecter 2.3.3 from https://www.nuget.org/api/v2/.
+2017-10-24 16:15:33.2971|TRACE|NuGet|'ValueInjecter 2.3.3' already installed.
+2017-10-24 16:15:33.2971|TRACE|PackageDownloader|Not looking for Rhetos.MvcModelGenerator.Client 2.2.0 in packages cache because the request does not specify an exact version.
+2017-10-24 16:15:33.5159|TRACE|PackageDownloader|There is no legacy file Rhetos.MvcModelGenerator.Client_2_2_0.zip in Packages.
+2017-10-24 16:15:33.5159|TRACE|PackageDownloader|Downloading NuGet package Rhetos.MvcModelGenerator.Client 2.2.0 from C:\Users\nkaramarko\Desktop\Projekti\MojPrviRhetosProjekt\Rhetos\Rhetos.2.2.0\Packages.
+2017-10-24 16:15:33.5159|TRACE|NuGet|'Rhetos.MvcModelGenerator.Client 2.2.0' already installed.
+2017-10-24 16:15:33.6096|TRACE|Packages|MojPrviRhetosPaket 1.0.0 (requested from configuration file RhetosPackages.config) in C:\Users\nkaramarko\Desktop\Projekti\MojPrviRhetosProjekt\Rhetos\Rhetos.2.2.0\PackagesCache\MojPrviRhetosPaket.1.0.0.
+2017-10-24 16:15:33.6096|TRACE|Packages|Rhetos 2.2.0 (requested from Rhetos framework) in C:\Users\nkaramarko\Desktop\Projekti\MojPrviRhetosProjekt\Rhetos\Rhetos.2.2.0.
+2017-10-24 16:15:33.6096|TRACE|Packages|Rhetos.CommonConcepts 2.2.0 (requested from configuration file RhetosPackages.config) in C:\Users\nkaramarko\Desktop\Projekti\MojPrviRhetosProjekt\Rhetos\Rhetos.2.2.0\PackagesCache\Rhetos.CommonConcepts.2.2.0.
+2017-10-24 16:15:33.6096|TRACE|Packages|Rhetos.AspNetFormsAuth 2.0.1 (requested from configuration file RhetosPackages.config) in C:\Users\nkaramarko\Desktop\Projekti\MojPrviRhetosProjekt\Rhetos\Rhetos.2.2.0\PackagesCache\Rhetos.AspNetFormsAuth.2.0.1.
+2017-10-24 16:15:33.6096|TRACE|Packages|Rhetos.MvcModelGenerator.Client 2.2.0 (requested from package Rhetos.MvcModelGenerator) in C:\Users\nkaramarko\Desktop\Projekti\MojPrviRhetosProjekt\Rhetos\Rhetos.2.2.0\PackagesCache\Rhetos.MvcModelGenerator.Client.2.2.0.
+2017-10-24 16:15:33.6096|TRACE|Packages|Rhetos.MvcModelGenerator 2.2.0 (requested from configuration file RhetosPackages.config) in C:\Users\nkaramarko\Desktop\Projekti\MojPrviRhetosProjekt\Rhetos\Rhetos.2.2.0\PackagesCache\Rhetos.MvcModelGenerator.2.2.0.
+2017-10-24 16:15:33.6096|TRACE|Packages|Rhetos.RestGenerator 2.4.0 (requested from configuration file RhetosPackages.config) in C:\Users\nkaramarko\Desktop\Projekti\MojPrviRhetosProjekt\Rhetos\Rhetos.2.2.0\PackagesCache\Rhetos.RestGenerator.2.4.0.
+2017-10-24 16:15:33.6096|TRACE|Packages|ValueInjecter 2.3.3 (requested from package Rhetos.OmegaCommonConcepts) in C:\Users\nkaramarko\Desktop\Projekti\MojPrviRhetosProjekt\Rhetos\Rhetos.2.2.0\PackagesCache\ValueInjecter.2.3.3.
+2017-10-24 16:15:33.6096|TRACE|Packages|Rhetos.OmegaCommonConcepts 2.2.0 (requested from configuration file RhetosPackages.config) in C:\Users\nkaramarko\Desktop\Projekti\MojPrviRhetosProjekt\Rhetos\Rhetos.2.2.0\PackagesCache\Rhetos.OmegaCommonConcepts.2.2.0.
+2017-10-24 16:15:33.6408|TRACE|DeployPackages|Loading plugins.
+2017-10-24 16:15:34.1591|TRACE|DeployPackages|SQL connection string: Data Source=adsql2008r2;Initial Catalog=RhetosDb_nkaramarko;Integrated Security=SSPI;
+2017-10-24 16:15:34.1904|TRACE|DeployPackages|Preparing Rhetos database.
+2017-10-24 16:15:34.2852|TRACE|DeployPackages|Parsing DSL scripts.
+2017-10-24 16:15:34.3476|ERROR|DeployPackages|Rhetos.Dsl.DslSyntaxException: At line 5, column 24, file 'C:\Users\nkaramarko\Desktop\Projekti\MojPrviRhetosProjekt\Rhetos\Rhetos.2.2.0\PackagesCache\MojPrviRhetosPaket.1.0.0\DslScripts\MojaPrvaSkripta.rhe',
+after: "Module Stanovnik { Entity Osoba { Integer OIB {Required",
+before: ", Unique;} ShortString Ime {Required;} ShortString Prezime {Required;}...".
+Previous concept: Required Stanovnik.Osoba.OIB
+Property Property (PropertyInfo) = Stanovnik.Osoba.OIB
+Expected ";" or "{".
+   at Rhetos.Dsl.DslParser.UpdateContextForNextConcept(TokenReader tokenReader, Stack`1 context, IConceptInfo conceptInfo) in C:\My Projects\Rhetos\Source\Rhetos.Dsl\DslParser.cs:line 201
+   at Rhetos.Dsl.DslParser.ExtractConcepts(IEnumerable`1 conceptParsers) in C:\My Projects\Rhetos\Source\Rhetos.Dsl\DslParser.cs:line 109
+   at Rhetos.Dsl.DslParser.get_ParsedConcepts() in C:\My Projects\Rhetos\Source\Rhetos.Dsl\DslParser.cs:line 53
+   at Rhetos.Dsl.DslModel.Initialize() in C:\My Projects\Rhetos\Source\Rhetos.Dsl\DslModel.cs:line 114
+   at Rhetos.Dsl.DslModel.get_Concepts() in C:\My Projects\Rhetos\Source\Rhetos.Dsl\DslModel.cs:line 75
+   at Rhetos.Deployment.ApplicationGenerator.ExecuteGenerators(Boolean deployDatabaseOnly) in C:\My Projects\Rhetos\Source\Rhetos.Deployment\ApplicationGenerator.cs:line 79
+   at DeployPackages.Program.GenerateApplication(ILogger logger, Arguments arguments) in C:\My Projects\Rhetos\Source\DeployPackages\Program.cs:line 183
+   at DeployPackages.Program.Main(String[] args) in C:\My Projects\Rhetos\Source\DeployPackages\Program.cs:line 69
+Info: 
+2017-10-24 16:18:23.9569|TRACE|DeployPackages|Moving old generated files to cache.
+2017-10-24 16:18:24.0038|TRACE|DeployPackages|Getting packages.
+2017-10-24 16:18:24.1131|TRACE|DeployPackages|Reading package from cache 'Rhetos.CommonConcepts.2.2.0'.
+2017-10-24 16:18:24.1288|TRACE|DeployPackages|Reading package from cache 'Rhetos.OmegaCommonConcepts.2.2.0'.
+2017-10-24 16:18:24.1444|TRACE|DeployPackages|Reading package from cache 'Rhetos.RestGenerator.2.4.0'.
+2017-10-24 16:18:24.1444|TRACE|DeployPackages|Reading package from cache 'Rhetos.MvcModelGenerator.2.2.0'.
+2017-10-24 16:18:24.1600|TRACE|DeployPackages|Reading package from cache 'Rhetos.AspNetFormsAuth.2.0.1'.
+2017-10-24 16:18:24.1600|TRACE|DeployPackages|Reading package from cache 'MojPrviRhetosPaket.1.0.0'.
+2017-10-24 16:18:24.1600|TRACE|PackageDownloader|Not looking for valueinjecter 2.3.3 in packages cache because the request does not specify an exact version.
+2017-10-24 16:18:26.0507|TRACE|PackageDownloader|Downloading NuGet package ValueInjecter 2.3.3 from https://www.nuget.org/api/v2/.
+2017-10-24 16:18:26.0975|TRACE|NuGet|'ValueInjecter 2.3.3' already installed.
+2017-10-24 16:18:26.1131|TRACE|PackageDownloader|Not looking for Rhetos.MvcModelGenerator.Client 2.2.0 in packages cache because the request does not specify an exact version.
+2017-10-24 16:18:26.2695|TRACE|PackageDownloader|There is no legacy file Rhetos.MvcModelGenerator.Client_2_2_0.zip in Packages.
+2017-10-24 16:18:26.2695|TRACE|PackageDownloader|Downloading NuGet package Rhetos.MvcModelGenerator.Client 2.2.0 from C:\Users\nkaramarko\Desktop\Projekti\MojPrviRhetosProjekt\Rhetos\Rhetos.2.2.0\Packages.
+2017-10-24 16:18:26.2851|TRACE|NuGet|'Rhetos.MvcModelGenerator.Client 2.2.0' already installed.
+2017-10-24 16:18:26.3788|TRACE|Packages|MojPrviRhetosPaket 1.0.0 (requested from configuration file RhetosPackages.config) in C:\Users\nkaramarko\Desktop\Projekti\MojPrviRhetosProjekt\Rhetos\Rhetos.2.2.0\PackagesCache\MojPrviRhetosPaket.1.0.0.
+2017-10-24 16:18:26.3788|TRACE|Packages|Rhetos 2.2.0 (requested from Rhetos framework) in C:\Users\nkaramarko\Desktop\Projekti\MojPrviRhetosProjekt\Rhetos\Rhetos.2.2.0.
+2017-10-24 16:18:26.3788|TRACE|Packages|Rhetos.CommonConcepts 2.2.0 (requested from configuration file RhetosPackages.config) in C:\Users\nkaramarko\Desktop\Projekti\MojPrviRhetosProjekt\Rhetos\Rhetos.2.2.0\PackagesCache\Rhetos.CommonConcepts.2.2.0.
+2017-10-24 16:18:26.3788|TRACE|Packages|Rhetos.AspNetFormsAuth 2.0.1 (requested from configuration file RhetosPackages.config) in C:\Users\nkaramarko\Desktop\Projekti\MojPrviRhetosProjekt\Rhetos\Rhetos.2.2.0\PackagesCache\Rhetos.AspNetFormsAuth.2.0.1.
+2017-10-24 16:18:26.3788|TRACE|Packages|Rhetos.MvcModelGenerator.Client 2.2.0 (requested from package Rhetos.MvcModelGenerator) in C:\Users\nkaramarko\Desktop\Projekti\MojPrviRhetosProjekt\Rhetos\Rhetos.2.2.0\PackagesCache\Rhetos.MvcModelGenerator.Client.2.2.0.
+2017-10-24 16:18:26.3788|TRACE|Packages|Rhetos.MvcModelGenerator 2.2.0 (requested from configuration file RhetosPackages.config) in C:\Users\nkaramarko\Desktop\Projekti\MojPrviRhetosProjekt\Rhetos\Rhetos.2.2.0\PackagesCache\Rhetos.MvcModelGenerator.2.2.0.
+2017-10-24 16:18:26.3788|TRACE|Packages|Rhetos.RestGenerator 2.4.0 (requested from configuration file RhetosPackages.config) in C:\Users\nkaramarko\Desktop\Projekti\MojPrviRhetosProjekt\Rhetos\Rhetos.2.2.0\PackagesCache\Rhetos.RestGenerator.2.4.0.
+2017-10-24 16:18:26.3788|TRACE|Packages|ValueInjecter 2.3.3 (requested from package Rhetos.OmegaCommonConcepts) in C:\Users\nkaramarko\Desktop\Projekti\MojPrviRhetosProjekt\Rhetos\Rhetos.2.2.0\PackagesCache\ValueInjecter.2.3.3.
+2017-10-24 16:18:26.3788|TRACE|Packages|Rhetos.OmegaCommonConcepts 2.2.0 (requested from configuration file RhetosPackages.config) in C:\Users\nkaramarko\Desktop\Projekti\MojPrviRhetosProjekt\Rhetos\Rhetos.2.2.0\PackagesCache\Rhetos.OmegaCommonConcepts.2.2.0.
+2017-10-24 16:18:26.3944|TRACE|DeployPackages|Loading plugins.
+2017-10-24 16:18:26.9254|TRACE|DeployPackages|SQL connection string: Data Source=adsql2008r2;Initial Catalog=RhetosDb_nkaramarko;Integrated Security=SSPI;
+2017-10-24 16:18:26.9567|TRACE|DeployPackages|Preparing Rhetos database.
+2017-10-24 16:18:27.0504|TRACE|DeployPackages|Parsing DSL scripts.
+2017-10-24 16:18:27.1129|ERROR|DeployPackages|Rhetos.Dsl.DslSyntaxException: At line 5, column 24, file 'C:\Users\nkaramarko\Desktop\Projekti\MojPrviRhetosProjekt\Rhetos\Rhetos.2.2.0\PackagesCache\MojPrviRhetosPaket.1.0.0\DslScripts\MojaPrvaSkripta.rhe',
+after: "Module Stanovnik { Entity Osoba { Integer OIB {Required",
+before: ", Unique;} ShortString Ime {Required;} ShortString Prezime {Required;}...".
+Previous concept: Required Stanovnik.Osoba.OIB
+Property Property (PropertyInfo) = Stanovnik.Osoba.OIB
+Expected ";" or "{".
+   at Rhetos.Dsl.DslParser.UpdateContextForNextConcept(TokenReader tokenReader, Stack`1 context, IConceptInfo conceptInfo) in C:\My Projects\Rhetos\Source\Rhetos.Dsl\DslParser.cs:line 201
+   at Rhetos.Dsl.DslParser.ExtractConcepts(IEnumerable`1 conceptParsers) in C:\My Projects\Rhetos\Source\Rhetos.Dsl\DslParser.cs:line 109
+   at Rhetos.Dsl.DslParser.get_ParsedConcepts() in C:\My Projects\Rhetos\Source\Rhetos.Dsl\DslParser.cs:line 53
+   at Rhetos.Dsl.DslModel.Initialize() in C:\My Projects\Rhetos\Source\Rhetos.Dsl\DslModel.cs:line 114
+   at Rhetos.Dsl.DslModel.get_Concepts() in C:\My Projects\Rhetos\Source\Rhetos.Dsl\DslModel.cs:line 75
+   at Rhetos.Deployment.ApplicationGenerator.ExecuteGenerators(Boolean deployDatabaseOnly) in C:\My Projects\Rhetos\Source\Rhetos.Deployment\ApplicationGenerator.cs:line 79
+   at DeployPackages.Program.GenerateApplication(ILogger logger, Arguments arguments) in C:\My Projects\Rhetos\Source\DeployPackages\Program.cs:line 183
+   at DeployPackages.Program.Main(String[] args) in C:\My Projects\Rhetos\Source\DeployPackages\Program.cs:line 69
+Info: 
+2017-10-24 16:20:35.4267|TRACE|DeployPackages|Moving old generated files to cache.
+2017-10-24 16:20:35.4736|TRACE|DeployPackages|Getting packages.
+2017-10-24 16:20:35.5673|TRACE|DeployPackages|Reading package from cache 'Rhetos.CommonConcepts.2.2.0'.
+2017-10-24 16:20:35.5985|TRACE|DeployPackages|Reading package from cache 'Rhetos.OmegaCommonConcepts.2.2.0'.
+2017-10-24 16:20:35.5985|TRACE|DeployPackages|Reading package from cache 'Rhetos.RestGenerator.2.4.0'.
+2017-10-24 16:20:35.6142|TRACE|DeployPackages|Reading package from cache 'Rhetos.MvcModelGenerator.2.2.0'.
+2017-10-24 16:20:35.6142|TRACE|DeployPackages|Reading package from cache 'Rhetos.AspNetFormsAuth.2.0.1'.
+2017-10-24 16:20:37.2168|TRACE|PackageDownloader|Downloading NuGet package MojPrviRhetosPaket 1.0.0 from C:\Users\nkaramarko\Desktop\Projekti\MojPrviRhetosProjekt\MojPrviRhetosPaket.
+2017-10-24 16:20:37.2793|TRACE|NuGet|Installing 'MojPrviRhetosPaket 1.0.0'.
+2017-10-24 16:20:37.3262|TRACE|NuGet|Successfully installed 'MojPrviRhetosPaket 1.0.0'.
+2017-10-24 16:20:37.3262|TRACE|PackageDownloader|Not looking for valueinjecter 2.3.3 in packages cache because the request does not specify an exact version.
+2017-10-24 16:20:37.5136|TRACE|PackageDownloader|Downloading NuGet package ValueInjecter 2.3.3 from https://www.nuget.org/api/v2/.
+2017-10-24 16:20:37.5293|TRACE|NuGet|'ValueInjecter 2.3.3' already installed.
+2017-10-24 16:20:37.5293|TRACE|PackageDownloader|Not looking for Rhetos.MvcModelGenerator.Client 2.2.0 in packages cache because the request does not specify an exact version.
+2017-10-24 16:20:37.6699|TRACE|PackageDownloader|There is no legacy file Rhetos.MvcModelGenerator.Client_2_2_0.zip in Packages.
+2017-10-24 16:20:37.6699|TRACE|PackageDownloader|Downloading NuGet package Rhetos.MvcModelGenerator.Client 2.2.0 from C:\Users\nkaramarko\Desktop\Projekti\MojPrviRhetosProjekt\Rhetos\Rhetos.2.2.0\Packages.
+2017-10-24 16:20:37.6699|TRACE|NuGet|'Rhetos.MvcModelGenerator.Client 2.2.0' already installed.
+2017-10-24 16:20:38.2778|TRACE|Packages|MojPrviRhetosPaket 1.0.0 (requested from configuration file RhetosPackages.config) in C:\Users\nkaramarko\Desktop\Projekti\MojPrviRhetosProjekt\Rhetos\Rhetos.2.2.0\PackagesCache\MojPrviRhetosPaket.1.0.0.
+2017-10-24 16:20:38.2778|TRACE|Packages|Rhetos 2.2.0 (requested from Rhetos framework) in C:\Users\nkaramarko\Desktop\Projekti\MojPrviRhetosProjekt\Rhetos\Rhetos.2.2.0.
+2017-10-24 16:20:38.2778|TRACE|Packages|Rhetos.CommonConcepts 2.2.0 (requested from configuration file RhetosPackages.config) in C:\Users\nkaramarko\Desktop\Projekti\MojPrviRhetosProjekt\Rhetos\Rhetos.2.2.0\PackagesCache\Rhetos.CommonConcepts.2.2.0.
+2017-10-24 16:20:38.2778|TRACE|Packages|Rhetos.AspNetFormsAuth 2.0.1 (requested from configuration file RhetosPackages.config) in C:\Users\nkaramarko\Desktop\Projekti\MojPrviRhetosProjekt\Rhetos\Rhetos.2.2.0\PackagesCache\Rhetos.AspNetFormsAuth.2.0.1.
+2017-10-24 16:20:38.2778|TRACE|Packages|Rhetos.MvcModelGenerator.Client 2.2.0 (requested from package Rhetos.MvcModelGenerator) in C:\Users\nkaramarko\Desktop\Projekti\MojPrviRhetosProjekt\Rhetos\Rhetos.2.2.0\PackagesCache\Rhetos.MvcModelGenerator.Client.2.2.0.
+2017-10-24 16:20:38.2778|TRACE|Packages|Rhetos.MvcModelGenerator 2.2.0 (requested from configuration file RhetosPackages.config) in C:\Users\nkaramarko\Desktop\Projekti\MojPrviRhetosProjekt\Rhetos\Rhetos.2.2.0\PackagesCache\Rhetos.MvcModelGenerator.2.2.0.
+2017-10-24 16:20:38.2778|TRACE|Packages|Rhetos.RestGenerator 2.4.0 (requested from configuration file RhetosPackages.config) in C:\Users\nkaramarko\Desktop\Projekti\MojPrviRhetosProjekt\Rhetos\Rhetos.2.2.0\PackagesCache\Rhetos.RestGenerator.2.4.0.
+2017-10-24 16:20:38.2778|TRACE|Packages|ValueInjecter 2.3.3 (requested from package Rhetos.OmegaCommonConcepts) in C:\Users\nkaramarko\Desktop\Projekti\MojPrviRhetosProjekt\Rhetos\Rhetos.2.2.0\PackagesCache\ValueInjecter.2.3.3.
+2017-10-24 16:20:38.2778|TRACE|Packages|Rhetos.OmegaCommonConcepts 2.2.0 (requested from configuration file RhetosPackages.config) in C:\Users\nkaramarko\Desktop\Projekti\MojPrviRhetosProjekt\Rhetos\Rhetos.2.2.0\PackagesCache\Rhetos.OmegaCommonConcepts.2.2.0.
+2017-10-24 16:20:38.2934|TRACE|DeployPackages|Loading plugins.
+2017-10-24 16:20:38.8715|TRACE|DeployPackages|SQL connection string: Data Source=adsql2008r2;Initial Catalog=RhetosDb_nkaramarko;Integrated Security=SSPI;
+2017-10-24 16:20:38.9028|TRACE|DeployPackages|Preparing Rhetos database.
+2017-10-24 16:20:38.9965|TRACE|DeployPackages|Parsing DSL scripts.
+2017-10-24 16:20:39.0590|ERROR|DeployPackages|Rhetos.Dsl.DslSyntaxException: At line 21, column 24, file 'C:\Users\nkaramarko\Desktop\Projekti\MojPrviRhetosProjekt\Rhetos\Rhetos.2.2.0\PackagesCache\MojPrviRhetosPaket.1.0.0\DslScripts\MojaPrvaSkripta.rhe',
+after: "...Required;} ShortString PostanskiBroj {Required;} Reference GradUDrzavi",
+before: ".Stanovnik.Drzava; } Entity Adresa { Integer Id {Unique; Autocode;} Sh...".
+Previous concept: Reference Stanovnik.Grad.GradUDrzavi
+Property Referenced (DataStructureInfo) = <null>
+Property DataStructure (DataStructureInfo) = Stanovnik.Grad
+Property Name (String) = GradUDrzavi
+Expected ";" or "{".
+   at Rhetos.Dsl.DslParser.UpdateContextForNextConcept(TokenReader tokenReader, Stack`1 context, IConceptInfo conceptInfo) in C:\My Projects\Rhetos\Source\Rhetos.Dsl\DslParser.cs:line 201
+   at Rhetos.Dsl.DslParser.ExtractConcepts(IEnumerable`1 conceptParsers) in C:\My Projects\Rhetos\Source\Rhetos.Dsl\DslParser.cs:line 109
+   at Rhetos.Dsl.DslParser.get_ParsedConcepts() in C:\My Projects\Rhetos\Source\Rhetos.Dsl\DslParser.cs:line 53
+   at Rhetos.Dsl.DslModel.Initialize() in C:\My Projects\Rhetos\Source\Rhetos.Dsl\DslModel.cs:line 114
+   at Rhetos.Dsl.DslModel.get_Concepts() in C:\My Projects\Rhetos\Source\Rhetos.Dsl\DslModel.cs:line 75
+   at Rhetos.Deployment.ApplicationGenerator.ExecuteGenerators(Boolean deployDatabaseOnly) in C:\My Projects\Rhetos\Source\Rhetos.Deployment\ApplicationGenerator.cs:line 79
+   at DeployPackages.Program.GenerateApplication(ILogger logger, Arguments arguments) in C:\My Projects\Rhetos\Source\DeployPackages\Program.cs:line 183
+   at DeployPackages.Program.Main(String[] args) in C:\My Projects\Rhetos\Source\DeployPackages\Program.cs:line 69
+Info: 
+2017-10-24 16:22:11.7237|TRACE|DeployPackages|Moving old generated files to cache.
+2017-10-24 16:22:11.7706|TRACE|DeployPackages|Getting packages.
+2017-10-24 16:22:11.8643|TRACE|DeployPackages|Reading package from cache 'Rhetos.CommonConcepts.2.2.0'.
+2017-10-24 16:22:11.8956|TRACE|DeployPackages|Reading package from cache 'Rhetos.OmegaCommonConcepts.2.2.0'.
+2017-10-24 16:22:11.8956|TRACE|DeployPackages|Reading package from cache 'Rhetos.RestGenerator.2.4.0'.
+2017-10-24 16:22:11.9112|TRACE|DeployPackages|Reading package from cache 'Rhetos.MvcModelGenerator.2.2.0'.
+2017-10-24 16:22:11.9112|TRACE|DeployPackages|Reading package from cache 'Rhetos.AspNetFormsAuth.2.0.1'.
+2017-10-24 16:22:11.9268|TRACE|DeployPackages|Reading package from cache 'MojPrviRhetosPaket.1.0.0'.
+2017-10-24 16:22:11.9268|TRACE|PackageDownloader|Not looking for valueinjecter 2.3.3 in packages cache because the request does not specify an exact version.
+2017-10-24 16:22:13.6730|TRACE|PackageDownloader|Downloading NuGet package ValueInjecter 2.3.3 from https://www.nuget.org/api/v2/.
+2017-10-24 16:22:13.7199|TRACE|NuGet|'ValueInjecter 2.3.3' already installed.
+2017-10-24 16:22:13.7355|TRACE|PackageDownloader|Not looking for Rhetos.MvcModelGenerator.Client 2.2.0 in packages cache because the request does not specify an exact version.
+2017-10-24 16:22:14.0481|TRACE|PackageDownloader|There is no legacy file Rhetos.MvcModelGenerator.Client_2_2_0.zip in Packages.
+2017-10-24 16:22:14.0481|TRACE|PackageDownloader|Downloading NuGet package Rhetos.MvcModelGenerator.Client 2.2.0 from C:\Users\nkaramarko\Desktop\Projekti\MojPrviRhetosProjekt\Rhetos\Rhetos.2.2.0\Packages.
+2017-10-24 16:22:14.0636|TRACE|NuGet|'Rhetos.MvcModelGenerator.Client 2.2.0' already installed.
+2017-10-24 16:22:14.1730|TRACE|Packages|MojPrviRhetosPaket 1.0.0 (requested from configuration file RhetosPackages.config) in C:\Users\nkaramarko\Desktop\Projekti\MojPrviRhetosProjekt\Rhetos\Rhetos.2.2.0\PackagesCache\MojPrviRhetosPaket.1.0.0.
+2017-10-24 16:22:14.1730|TRACE|Packages|Rhetos 2.2.0 (requested from Rhetos framework) in C:\Users\nkaramarko\Desktop\Projekti\MojPrviRhetosProjekt\Rhetos\Rhetos.2.2.0.
+2017-10-24 16:22:14.1730|TRACE|Packages|Rhetos.CommonConcepts 2.2.0 (requested from configuration file RhetosPackages.config) in C:\Users\nkaramarko\Desktop\Projekti\MojPrviRhetosProjekt\Rhetos\Rhetos.2.2.0\PackagesCache\Rhetos.CommonConcepts.2.2.0.
+2017-10-24 16:22:14.1730|TRACE|Packages|Rhetos.AspNetFormsAuth 2.0.1 (requested from configuration file RhetosPackages.config) in C:\Users\nkaramarko\Desktop\Projekti\MojPrviRhetosProjekt\Rhetos\Rhetos.2.2.0\PackagesCache\Rhetos.AspNetFormsAuth.2.0.1.
+2017-10-24 16:22:14.1730|TRACE|Packages|Rhetos.MvcModelGenerator.Client 2.2.0 (requested from package Rhetos.MvcModelGenerator) in C:\Users\nkaramarko\Desktop\Projekti\MojPrviRhetosProjekt\Rhetos\Rhetos.2.2.0\PackagesCache\Rhetos.MvcModelGenerator.Client.2.2.0.
+2017-10-24 16:22:14.1730|TRACE|Packages|Rhetos.MvcModelGenerator 2.2.0 (requested from configuration file RhetosPackages.config) in C:\Users\nkaramarko\Desktop\Projekti\MojPrviRhetosProjekt\Rhetos\Rhetos.2.2.0\PackagesCache\Rhetos.MvcModelGenerator.2.2.0.
+2017-10-24 16:22:14.1730|TRACE|Packages|Rhetos.RestGenerator 2.4.0 (requested from configuration file RhetosPackages.config) in C:\Users\nkaramarko\Desktop\Projekti\MojPrviRhetosProjekt\Rhetos\Rhetos.2.2.0\PackagesCache\Rhetos.RestGenerator.2.4.0.
+2017-10-24 16:22:14.1730|TRACE|Packages|ValueInjecter 2.3.3 (requested from package Rhetos.OmegaCommonConcepts) in C:\Users\nkaramarko\Desktop\Projekti\MojPrviRhetosProjekt\Rhetos\Rhetos.2.2.0\PackagesCache\ValueInjecter.2.3.3.
+2017-10-24 16:22:14.1730|TRACE|Packages|Rhetos.OmegaCommonConcepts 2.2.0 (requested from configuration file RhetosPackages.config) in C:\Users\nkaramarko\Desktop\Projekti\MojPrviRhetosProjekt\Rhetos\Rhetos.2.2.0\PackagesCache\Rhetos.OmegaCommonConcepts.2.2.0.
+2017-10-24 16:22:14.1886|TRACE|DeployPackages|Loading plugins.
+2017-10-24 16:22:14.7199|TRACE|DeployPackages|SQL connection string: Data Source=adsql2008r2;Initial Catalog=RhetosDb_nkaramarko;Integrated Security=SSPI;
+2017-10-24 16:22:14.7511|TRACE|DeployPackages|Preparing Rhetos database.
+2017-10-24 16:22:14.8449|TRACE|DeployPackages|Parsing DSL scripts.
+2017-10-24 16:22:14.9074|ERROR|DeployPackages|Rhetos.Dsl.DslSyntaxException: At line 21, column 24, file 'C:\Users\nkaramarko\Desktop\Projekti\MojPrviRhetosProjekt\Rhetos\Rhetos.2.2.0\PackagesCache\MojPrviRhetosPaket.1.0.0\DslScripts\MojaPrvaSkripta.rhe',
+after: "...Required;} ShortString PostanskiBroj {Required;} Reference GradUDrzavi",
+before: ".Stanovnik.Drzava; } Entity Adresa { Integer Id {Unique; Autocode;} Sh...".
+Previous concept: Reference Stanovnik.Grad.GradUDrzavi
+Property Referenced (DataStructureInfo) = <null>
+Property DataStructure (DataStructureInfo) = Stanovnik.Grad
+Property Name (String) = GradUDrzavi
+Expected ";" or "{".
+   at Rhetos.Dsl.DslParser.UpdateContextForNextConcept(TokenReader tokenReader, Stack`1 context, IConceptInfo conceptInfo) in C:\My Projects\Rhetos\Source\Rhetos.Dsl\DslParser.cs:line 201
+   at Rhetos.Dsl.DslParser.ExtractConcepts(IEnumerable`1 conceptParsers) in C:\My Projects\Rhetos\Source\Rhetos.Dsl\DslParser.cs:line 109
+   at Rhetos.Dsl.DslParser.get_ParsedConcepts() in C:\My Projects\Rhetos\Source\Rhetos.Dsl\DslParser.cs:line 53
+   at Rhetos.Dsl.DslModel.Initialize() in C:\My Projects\Rhetos\Source\Rhetos.Dsl\DslModel.cs:line 114
+   at Rhetos.Dsl.DslModel.get_Concepts() in C:\My Projects\Rhetos\Source\Rhetos.Dsl\DslModel.cs:line 75
+   at Rhetos.Deployment.ApplicationGenerator.ExecuteGenerators(Boolean deployDatabaseOnly) in C:\My Projects\Rhetos\Source\Rhetos.Deployment\ApplicationGenerator.cs:line 79
+   at DeployPackages.Program.GenerateApplication(ILogger logger, Arguments arguments) in C:\My Projects\Rhetos\Source\DeployPackages\Program.cs:line 183
+   at DeployPackages.Program.Main(String[] args) in C:\My Projects\Rhetos\Source\DeployPackages\Program.cs:line 69
+Info: 
+2017-10-24 16:23:42.4773|TRACE|DeployPackages|Moving old generated files to cache.
+2017-10-24 16:23:42.5242|TRACE|DeployPackages|Getting packages.
+2017-10-24 16:23:42.6179|TRACE|DeployPackages|Reading package from cache 'Rhetos.CommonConcepts.2.2.0'.
+2017-10-24 16:23:42.6492|TRACE|DeployPackages|Reading package from cache 'Rhetos.OmegaCommonConcepts.2.2.0'.
+2017-10-24 16:23:42.6492|TRACE|DeployPackages|Reading package from cache 'Rhetos.RestGenerator.2.4.0'.
+2017-10-24 16:23:42.6648|TRACE|DeployPackages|Reading package from cache 'Rhetos.MvcModelGenerator.2.2.0'.
+2017-10-24 16:23:42.6648|TRACE|DeployPackages|Reading package from cache 'Rhetos.AspNetFormsAuth.2.0.1'.
+2017-10-24 16:23:44.4176|TRACE|PackageDownloader|Downloading NuGet package MojPrviRhetosPaket 1.0.0 from C:\Users\nkaramarko\Desktop\Projekti\MojPrviRhetosProjekt\MojPrviRhetosPaket.
+2017-10-24 16:23:44.4645|TRACE|NuGet|Installing 'MojPrviRhetosPaket 1.0.0'.
+2017-10-24 16:23:44.5114|TRACE|NuGet|Successfully installed 'MojPrviRhetosPaket 1.0.0'.
+2017-10-24 16:23:44.5270|TRACE|PackageDownloader|Not looking for valueinjecter 2.3.3 in packages cache because the request does not specify an exact version.
+2017-10-24 16:23:44.7614|TRACE|PackageDownloader|Downloading NuGet package ValueInjecter 2.3.3 from https://www.nuget.org/api/v2/.
+2017-10-24 16:23:44.7926|TRACE|NuGet|'ValueInjecter 2.3.3' already installed.
+2017-10-24 16:23:44.7926|TRACE|PackageDownloader|Not looking for Rhetos.MvcModelGenerator.Client 2.2.0 in packages cache because the request does not specify an exact version.
+2017-10-24 16:23:44.9552|TRACE|PackageDownloader|There is no legacy file Rhetos.MvcModelGenerator.Client_2_2_0.zip in Packages.
+2017-10-24 16:23:44.9552|TRACE|PackageDownloader|Downloading NuGet package Rhetos.MvcModelGenerator.Client 2.2.0 from C:\Users\nkaramarko\Desktop\Projekti\MojPrviRhetosProjekt\Rhetos\Rhetos.2.2.0\Packages.
+2017-10-24 16:23:44.9714|TRACE|NuGet|'Rhetos.MvcModelGenerator.Client 2.2.0' already installed.
+2017-10-24 16:23:45.0651|TRACE|Packages|MojPrviRhetosPaket 1.0.0 (requested from configuration file RhetosPackages.config) in C:\Users\nkaramarko\Desktop\Projekti\MojPrviRhetosProjekt\Rhetos\Rhetos.2.2.0\PackagesCache\MojPrviRhetosPaket.1.0.0.
+2017-10-24 16:23:45.0651|TRACE|Packages|Rhetos 2.2.0 (requested from Rhetos framework) in C:\Users\nkaramarko\Desktop\Projekti\MojPrviRhetosProjekt\Rhetos\Rhetos.2.2.0.
+2017-10-24 16:23:45.0651|TRACE|Packages|Rhetos.CommonConcepts 2.2.0 (requested from configuration file RhetosPackages.config) in C:\Users\nkaramarko\Desktop\Projekti\MojPrviRhetosProjekt\Rhetos\Rhetos.2.2.0\PackagesCache\Rhetos.CommonConcepts.2.2.0.
+2017-10-24 16:23:45.0651|TRACE|Packages|Rhetos.AspNetFormsAuth 2.0.1 (requested from configuration file RhetosPackages.config) in C:\Users\nkaramarko\Desktop\Projekti\MojPrviRhetosProjekt\Rhetos\Rhetos.2.2.0\PackagesCache\Rhetos.AspNetFormsAuth.2.0.1.
+2017-10-24 16:23:45.0651|TRACE|Packages|Rhetos.MvcModelGenerator.Client 2.2.0 (requested from package Rhetos.MvcModelGenerator) in C:\Users\nkaramarko\Desktop\Projekti\MojPrviRhetosProjekt\Rhetos\Rhetos.2.2.0\PackagesCache\Rhetos.MvcModelGenerator.Client.2.2.0.
+2017-10-24 16:23:45.0651|TRACE|Packages|Rhetos.MvcModelGenerator 2.2.0 (requested from configuration file RhetosPackages.config) in C:\Users\nkaramarko\Desktop\Projekti\MojPrviRhetosProjekt\Rhetos\Rhetos.2.2.0\PackagesCache\Rhetos.MvcModelGenerator.2.2.0.
+2017-10-24 16:23:45.0651|TRACE|Packages|Rhetos.RestGenerator 2.4.0 (requested from configuration file RhetosPackages.config) in C:\Users\nkaramarko\Desktop\Projekti\MojPrviRhetosProjekt\Rhetos\Rhetos.2.2.0\PackagesCache\Rhetos.RestGenerator.2.4.0.
+2017-10-24 16:23:45.0651|TRACE|Packages|ValueInjecter 2.3.3 (requested from package Rhetos.OmegaCommonConcepts) in C:\Users\nkaramarko\Desktop\Projekti\MojPrviRhetosProjekt\Rhetos\Rhetos.2.2.0\PackagesCache\ValueInjecter.2.3.3.
+2017-10-24 16:23:45.0651|TRACE|Packages|Rhetos.OmegaCommonConcepts 2.2.0 (requested from configuration file RhetosPackages.config) in C:\Users\nkaramarko\Desktop\Projekti\MojPrviRhetosProjekt\Rhetos\Rhetos.2.2.0\PackagesCache\Rhetos.OmegaCommonConcepts.2.2.0.
+2017-10-24 16:23:45.0808|TRACE|DeployPackages|Loading plugins.
+2017-10-24 16:23:45.6433|TRACE|DeployPackages|SQL connection string: Data Source=adsql2008r2;Initial Catalog=RhetosDb_nkaramarko;Integrated Security=SSPI;
+2017-10-24 16:23:45.6746|TRACE|DeployPackages|Preparing Rhetos database.
+2017-10-24 16:23:45.8152|TRACE|DeployPackages|Parsing DSL scripts.
+2017-10-24 16:23:45.8777|ERROR|DeployPackages|Rhetos.Dsl.DslSyntaxException: At line 21, column 24, file 'C:\Users\nkaramarko\Desktop\Projekti\MojPrviRhetosProjekt\Rhetos\Rhetos.2.2.0\PackagesCache\MojPrviRhetosPaket.1.0.0\DslScripts\MojaPrvaSkripta.rhe',
+after: "...Required;} ShortString PostanskiBroj {Required;} Reference GradUDrzavi",
+before: ".Stanovnik.Drzava; } Entity Adresa { Integer Id {Unique; Autocode;} Sh...".
+Previous concept: Reference Stanovnik.Grad.GradUDrzavi
+Property Referenced (DataStructureInfo) = <null>
+Property DataStructure (DataStructureInfo) = Stanovnik.Grad
+Property Name (String) = GradUDrzavi
+Expected ";" or "{".
+   at Rhetos.Dsl.DslParser.UpdateContextForNextConcept(TokenReader tokenReader, Stack`1 context, IConceptInfo conceptInfo) in C:\My Projects\Rhetos\Source\Rhetos.Dsl\DslParser.cs:line 201
+   at Rhetos.Dsl.DslParser.ExtractConcepts(IEnumerable`1 conceptParsers) in C:\My Projects\Rhetos\Source\Rhetos.Dsl\DslParser.cs:line 109
+   at Rhetos.Dsl.DslParser.get_ParsedConcepts() in C:\My Projects\Rhetos\Source\Rhetos.Dsl\DslParser.cs:line 53
+   at Rhetos.Dsl.DslModel.Initialize() in C:\My Projects\Rhetos\Source\Rhetos.Dsl\DslModel.cs:line 114
+   at Rhetos.Dsl.DslModel.get_Concepts() in C:\My Projects\Rhetos\Source\Rhetos.Dsl\DslModel.cs:line 75
+   at Rhetos.Deployment.ApplicationGenerator.ExecuteGenerators(Boolean deployDatabaseOnly) in C:\My Projects\Rhetos\Source\Rhetos.Deployment\ApplicationGenerator.cs:line 79
+   at DeployPackages.Program.GenerateApplication(ILogger logger, Arguments arguments) in C:\My Projects\Rhetos\Source\DeployPackages\Program.cs:line 183
+   at DeployPackages.Program.Main(String[] args) in C:\My Projects\Rhetos\Source\DeployPackages\Program.cs:line 69
+Info: 
+2017-10-24 16:24:27.2661|TRACE|DeployPackages|Moving old generated files to cache.
+2017-10-24 16:24:27.3129|TRACE|DeployPackages|Getting packages.
+2017-10-24 16:24:27.4067|TRACE|DeployPackages|Reading package from cache 'Rhetos.CommonConcepts.2.2.0'.
+2017-10-24 16:24:27.4379|TRACE|DeployPackages|Reading package from cache 'Rhetos.OmegaCommonConcepts.2.2.0'.
+2017-10-24 16:24:27.4379|TRACE|DeployPackages|Reading package from cache 'Rhetos.RestGenerator.2.4.0'.
+2017-10-24 16:24:27.4535|TRACE|DeployPackages|Reading package from cache 'Rhetos.MvcModelGenerator.2.2.0'.
+2017-10-24 16:24:27.4535|TRACE|DeployPackages|Reading package from cache 'Rhetos.AspNetFormsAuth.2.0.1'.
+2017-10-24 16:24:29.3286|TRACE|PackageDownloader|Downloading NuGet package MojPrviRhetosPaket 1.0.0 from C:\Users\nkaramarko\Desktop\Projekti\MojPrviRhetosProjekt\MojPrviRhetosPaket.
+2017-10-24 16:24:29.3754|TRACE|NuGet|Installing 'MojPrviRhetosPaket 1.0.0'.
+2017-10-24 16:24:29.4379|TRACE|NuGet|Successfully installed 'MojPrviRhetosPaket 1.0.0'.
+2017-10-24 16:24:29.4379|TRACE|PackageDownloader|Not looking for valueinjecter 2.3.3 in packages cache because the request does not specify an exact version.
+2017-10-24 16:24:29.7036|TRACE|PackageDownloader|Downloading NuGet package ValueInjecter 2.3.3 from https://www.nuget.org/api/v2/.
+2017-10-24 16:24:29.7348|TRACE|NuGet|'ValueInjecter 2.3.3' already installed.
+2017-10-24 16:24:29.7348|TRACE|PackageDownloader|Not looking for Rhetos.MvcModelGenerator.Client 2.2.0 in packages cache because the request does not specify an exact version.
+2017-10-24 16:24:29.9224|TRACE|PackageDownloader|There is no legacy file Rhetos.MvcModelGenerator.Client_2_2_0.zip in Packages.
+2017-10-24 16:24:29.9224|TRACE|PackageDownloader|Downloading NuGet package Rhetos.MvcModelGenerator.Client 2.2.0 from C:\Users\nkaramarko\Desktop\Projekti\MojPrviRhetosProjekt\Rhetos\Rhetos.2.2.0\Packages.
+2017-10-24 16:24:29.9380|TRACE|NuGet|'Rhetos.MvcModelGenerator.Client 2.2.0' already installed.
+2017-10-24 16:24:30.0161|TRACE|Packages|MojPrviRhetosPaket 1.0.0 (requested from configuration file RhetosPackages.config) in C:\Users\nkaramarko\Desktop\Projekti\MojPrviRhetosProjekt\Rhetos\Rhetos.2.2.0\PackagesCache\MojPrviRhetosPaket.1.0.0.
+2017-10-24 16:24:30.0317|TRACE|Packages|Rhetos 2.2.0 (requested from Rhetos framework) in C:\Users\nkaramarko\Desktop\Projekti\MojPrviRhetosProjekt\Rhetos\Rhetos.2.2.0.
+2017-10-24 16:24:30.0317|TRACE|Packages|Rhetos.CommonConcepts 2.2.0 (requested from configuration file RhetosPackages.config) in C:\Users\nkaramarko\Desktop\Projekti\MojPrviRhetosProjekt\Rhetos\Rhetos.2.2.0\PackagesCache\Rhetos.CommonConcepts.2.2.0.
+2017-10-24 16:24:30.0317|TRACE|Packages|Rhetos.AspNetFormsAuth 2.0.1 (requested from configuration file RhetosPackages.config) in C:\Users\nkaramarko\Desktop\Projekti\MojPrviRhetosProjekt\Rhetos\Rhetos.2.2.0\PackagesCache\Rhetos.AspNetFormsAuth.2.0.1.
+2017-10-24 16:24:30.0317|TRACE|Packages|Rhetos.MvcModelGenerator.Client 2.2.0 (requested from package Rhetos.MvcModelGenerator) in C:\Users\nkaramarko\Desktop\Projekti\MojPrviRhetosProjekt\Rhetos\Rhetos.2.2.0\PackagesCache\Rhetos.MvcModelGenerator.Client.2.2.0.
+2017-10-24 16:24:30.0317|TRACE|Packages|Rhetos.MvcModelGenerator 2.2.0 (requested from configuration file RhetosPackages.config) in C:\Users\nkaramarko\Desktop\Projekti\MojPrviRhetosProjekt\Rhetos\Rhetos.2.2.0\PackagesCache\Rhetos.MvcModelGenerator.2.2.0.
+2017-10-24 16:24:30.0317|TRACE|Packages|Rhetos.RestGenerator 2.4.0 (requested from configuration file RhetosPackages.config) in C:\Users\nkaramarko\Desktop\Projekti\MojPrviRhetosProjekt\Rhetos\Rhetos.2.2.0\PackagesCache\Rhetos.RestGenerator.2.4.0.
+2017-10-24 16:24:30.0317|TRACE|Packages|ValueInjecter 2.3.3 (requested from package Rhetos.OmegaCommonConcepts) in C:\Users\nkaramarko\Desktop\Projekti\MojPrviRhetosProjekt\Rhetos\Rhetos.2.2.0\PackagesCache\ValueInjecter.2.3.3.
+2017-10-24 16:24:30.0317|TRACE|Packages|Rhetos.OmegaCommonConcepts 2.2.0 (requested from configuration file RhetosPackages.config) in C:\Users\nkaramarko\Desktop\Projekti\MojPrviRhetosProjekt\Rhetos\Rhetos.2.2.0\PackagesCache\Rhetos.OmegaCommonConcepts.2.2.0.
+2017-10-24 16:24:30.0473|TRACE|DeployPackages|Loading plugins.
+2017-10-24 16:24:30.5942|TRACE|DeployPackages|SQL connection string: Data Source=adsql2008r2;Initial Catalog=RhetosDb_nkaramarko;Integrated Security=SSPI;
+2017-10-24 16:24:30.6255|TRACE|DeployPackages|Preparing Rhetos database.
+2017-10-24 16:24:30.7192|TRACE|DeployPackages|Parsing DSL scripts.
+2017-10-24 16:24:31.1411|TRACE|DeployPackages|Application model has 683 statements.
+2017-10-24 16:24:31.1567|TRACE|DeployPackages|Compiling DOM assembly.
+2017-10-24 16:24:31.2817|TRACE|AssemblyGenerator|Compiling assembly: ServerDom.Model.dll.
+2017-10-24 16:24:31.4536|TRACE|AssemblyGenerator|Compiling assembly: ServerDom.Orm.dll.
+2017-10-24 16:24:31.6098|TRACE|AssemblyGenerator|Compiling assembly: ServerDom.Repositories.dll.
+2017-10-24 16:24:31.8911|INFO|AssemblyGenerator|Warning CS0618: 'Common.QueryableRepositoryBase<Common.Queryable.Common_LogReader,Common.LogReader>.Filter(System.Collections.Generic.IEnumerable<System.Guid>)' is obsolete: 'Use Load(identifiers)or Query(identifiers) method.'. At line 5132, column 23, file 'c:\Users\nkaramarko\Desktop\Projekti\MojPrviRhetosProjekt\Rhetos\Rhetos.2.2.0\bin\Generated\ServerDom.Repositories.cs'.
+2017-10-24 16:24:31.8911|TRACE|DeployPackages|Generated 181 types.
+2017-10-24 16:24:31.9067|INFO|DeployPackages|Missing dependency '' for application generator 'Rhetos.RestGenerator.RestGenerator'.
+2017-10-24 16:24:31.9067|TRACE|DeployPackages|Executing EntityFrameworkMappingGenerator.
+2017-10-24 16:24:31.9244|TRACE|DeployPackages|Executing RestGenerator.
+2017-10-24 16:24:31.9434|TRACE|AssemblyGenerator|Compiling assembly: RestService.dll.
+2017-10-24 16:24:32.1830|INFO|AssemblyGenerator|Warning CS1701: Assuming assembly reference 'Autofac, Version=3.3.0.0, Culture=neutral, PublicKeyToken=17863af14b0044da' matches 'Autofac, Version=3.5.0.0, Culture=neutral, PublicKeyToken=17863af14b0044da', you may need to supply runtime policy.
+2017-10-24 16:24:32.1986|INFO|AssemblyGenerator|90 warnings CS0618: 'Rhetos.LegacyClientException' is obsolete: 'Use ClientException instead.'. At line 268, column 34, file 'c:\Users\nkaramarko\Desktop\Projekti\MojPrviRhetosProjekt\Rhetos\Rhetos.2.2.0\bin\Generated\RestService.cs'.
+2017-10-24 16:24:32.1986|TRACE|DeployPackages|Executing CaptionsResourceGenerator.
+2017-10-24 16:24:32.2455|TRACE|AssemblyGenerator|Compiling assembly: Captions.dll.
+2017-10-24 16:24:32.3236|TRACE|DeployPackages|Executing MvcModelGenerator.
+2017-10-24 16:24:32.3705|TRACE|AssemblyGenerator|Compiling assembly: Rhetos.Mvc.dll.
+2017-10-24 16:24:32.4486|TRACE|DeployPackages|Executing EntityFrameworkGenerateMetadataFiles.
+2017-10-24 16:24:33.0267|ERROR|DeployPackages|System.InvalidOperationException: Multiple potential primary key properties named 'Id' but differing only by case were found on entity type 'Stanovnik_Adresa'. Configure the primary key explicitly using the HasKey fluent API or the KeyAttribute data annotation.
+   at System.Data.Entity.ModelConfiguration.Conventions.IdKeyDiscoveryConvention.MatchKeyProperty(EntityType entityType, IEnumerable`1 primitiveProperties)
+   at System.Data.Entity.ModelConfiguration.Conventions.KeyDiscoveryConvention.Apply(EntityType item, DbModel model)
+   at System.Data.Entity.ModelConfiguration.Configuration.ConventionsConfiguration.ModelConventionDispatcher.VisitEdmEntityType(EntityType item)
+   at System.Data.Entity.Edm.EdmModelVisitor.VisitCollection[T](IEnumerable`1 collection, Action`1 visitMethod)
+   at System.Data.Entity.Edm.EdmModelVisitor.VisitEdmModel(EdmModel item)
+   at System.Data.Entity.ModelConfiguration.Configuration.ConventionsConfiguration.ApplyConceptualModel(DbModel model)
+   at System.Data.Entity.DbModelBuilder.Build(DbProviderManifest providerManifest, DbProviderInfo providerInfo)
+   at System.Data.Entity.DbModelBuilder.Build(DbConnection providerConnection)
+   at System.Data.Entity.Internal.LazyInternalContext.CreateModel(LazyInternalContext internalContext)
+   at System.Data.Entity.Internal.RetryLazy`2.GetValue(TInput input)
+   at System.Data.Entity.Internal.LazyInternalContext.InitializeContext()
+   at System.Data.Entity.Internal.LazyInternalContext.get_ModelBeingInitialized()
+   at System.Data.Entity.Infrastructure.EdmxWriter.WriteEdmx(DbContext context, XmlWriter writer)
+   at Rhetos.Dom.DefaultConcepts.Persistence.EntityFrameworkGenerateMetadataFiles.Generate() in C:\My Projects\Rhetos\CommonConcepts\Plugins\Rhetos.Dom.DefaultConcepts\Persistence\EntityFrameworkGenerateMetadataFiles.cs:line 93
+   at Rhetos.Deployment.ApplicationGenerator.ExecuteGenerators(Boolean deployDatabaseOnly) in C:\My Projects\Rhetos\Source\Rhetos.Deployment\ApplicationGenerator.cs:line 99
+   at DeployPackages.Program.GenerateApplication(ILogger logger, Arguments arguments) in C:\My Projects\Rhetos\Source\DeployPackages\Program.cs:line 183
+   at DeployPackages.Program.Main(String[] args) in C:\My Projects\Rhetos\Source\DeployPackages\Program.cs:line 69
+2017-10-24 16:28:08.2807|TRACE|DeployPackages|Moving old generated files to cache.
+2017-10-24 16:28:08.3588|TRACE|DeployPackages|Getting packages.
+2017-10-24 16:28:08.4682|TRACE|DeployPackages|Reading package from cache 'Rhetos.CommonConcepts.2.2.0'.
+2017-10-24 16:28:08.4838|TRACE|DeployPackages|Reading package from cache 'Rhetos.OmegaCommonConcepts.2.2.0'.
+2017-10-24 16:28:08.4995|TRACE|DeployPackages|Reading package from cache 'Rhetos.RestGenerator.2.4.0'.
+2017-10-24 16:28:08.4995|TRACE|DeployPackages|Reading package from cache 'Rhetos.MvcModelGenerator.2.2.0'.
+2017-10-24 16:28:08.4995|TRACE|DeployPackages|Reading package from cache 'Rhetos.AspNetFormsAuth.2.0.1'.
+2017-10-24 16:28:10.2964|TRACE|PackageDownloader|Downloading NuGet package MojPrviRhetosPaket 1.0.0 from C:\Users\nkaramarko\Desktop\Projekti\MojPrviRhetosProjekt\MojPrviRhetosPaket.
+2017-10-24 16:28:10.3433|TRACE|NuGet|Installing 'MojPrviRhetosPaket 1.0.0'.
+2017-10-24 16:28:10.3901|TRACE|NuGet|Successfully installed 'MojPrviRhetosPaket 1.0.0'.
+2017-10-24 16:28:10.4057|TRACE|PackageDownloader|Not looking for valueinjecter 2.3.3 in packages cache because the request does not specify an exact version.
+2017-10-24 16:28:10.7026|TRACE|PackageDownloader|Downloading NuGet package ValueInjecter 2.3.3 from https://www.nuget.org/api/v2/.
+2017-10-24 16:28:10.7183|TRACE|NuGet|'ValueInjecter 2.3.3' already installed.
+2017-10-24 16:28:10.7183|TRACE|PackageDownloader|Not looking for Rhetos.MvcModelGenerator.Client 2.2.0 in packages cache because the request does not specify an exact version.
+2017-10-24 16:28:10.9214|TRACE|PackageDownloader|There is no legacy file Rhetos.MvcModelGenerator.Client_2_2_0.zip in Packages.
+2017-10-24 16:28:10.9214|TRACE|PackageDownloader|Downloading NuGet package Rhetos.MvcModelGenerator.Client 2.2.0 from C:\Users\nkaramarko\Desktop\Projekti\MojPrviRhetosProjekt\Rhetos\Rhetos.2.2.0\Packages.
+2017-10-24 16:28:10.9214|TRACE|NuGet|'Rhetos.MvcModelGenerator.Client 2.2.0' already installed.
+2017-10-24 16:28:15.5571|ERROR|DeployPackages|System.UnauthorizedAccessException: Access to the path 'C:\Users\nkaramarko\Desktop\Projekti\MojPrviRhetosProjekt\Rhetos\Rhetos.2.2.0\bin\Plugins\OmegaCommonConcepts.dll' is denied.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.File.InternalDelete(String path, Boolean checkHost)
+   at Rhetos.Utilities.FilesUtility.<>c__DisplayClass9_0.<SafeDeleteFile>b__0() in C:\My Projects\Rhetos\Source\Rhetos.Utilities\FilesUtility.cs:line 154
+   at Rhetos.Utilities.FilesUtility.Retry(Action action, Func`1 actionName) in C:\My Projects\Rhetos\Source\Rhetos.Utilities\FilesUtility.cs:line 53
+   at Rhetos.Utilities.FilesUtility.SafeDeleteFile(String path) in C:\My Projects\Rhetos\Source\Rhetos.Utilities\FilesUtility.cs:line 154
+   at Rhetos.Utilities.FilesUtility.EmptyDirectory(String path) in C:\My Projects\Rhetos\Source\Rhetos.Utilities\FilesUtility.cs:line 111
+   at Rhetos.Utilities.FileSyncer.UpdateDestination(Boolean deleteSource) in C:\My Projects\Rhetos\Source\Rhetos.Utilities\FileSyncer.cs:line 109
+   at Rhetos.Deployment.PackageDownloader.GetPackages() in C:\My Projects\Rhetos\Source\Rhetos.Deployment\PackageDownloader.cs:line 98
+   at DeployPackages.Program.DownloadPackages(ILogger logger, Arguments arguments) in C:\My Projects\Rhetos\Source\DeployPackages\Program.cs:line 156
+   at DeployPackages.Program.Main(String[] args) in C:\My Projects\Rhetos\Source\DeployPackages\Program.cs:line 68
+2017-10-24 16:32:19.1331|TRACE|DeployPackages|Moving old generated files to cache.
+2017-10-24 16:32:19.1644|TRACE|DeployPackages|Getting packages.
+2017-10-24 16:32:19.2737|TRACE|DeployPackages|Reading package from cache 'Rhetos.CommonConcepts.2.2.0'.
+2017-10-24 16:32:19.3050|TRACE|DeployPackages|Reading package from cache 'Rhetos.OmegaCommonConcepts.2.2.0'.
+2017-10-24 16:32:19.3050|TRACE|DeployPackages|Reading package from cache 'Rhetos.RestGenerator.2.4.0'.
+2017-10-24 16:32:19.3206|TRACE|DeployPackages|Reading package from cache 'Rhetos.MvcModelGenerator.2.2.0'.
+2017-10-24 16:32:19.3206|TRACE|DeployPackages|Reading package from cache 'Rhetos.AspNetFormsAuth.2.0.1'.
+2017-10-24 16:32:19.3362|TRACE|DeployPackages|Reading package from cache 'MojPrviRhetosPaket.1.0.0'.
+2017-10-24 16:32:19.3362|TRACE|PackageDownloader|Not looking for valueinjecter 2.3.3 in packages cache because the request does not specify an exact version.
+2017-10-24 16:32:21.0550|TRACE|PackageDownloader|Downloading NuGet package ValueInjecter 2.3.3 from https://www.nuget.org/api/v2/.
+2017-10-24 16:32:21.1175|TRACE|NuGet|'ValueInjecter 2.3.3' already installed.
+2017-10-24 16:32:21.1175|TRACE|PackageDownloader|Not looking for Rhetos.MvcModelGenerator.Client 2.2.0 in packages cache because the request does not specify an exact version.
+2017-10-24 16:32:21.3051|TRACE|PackageDownloader|There is no legacy file Rhetos.MvcModelGenerator.Client_2_2_0.zip in Packages.
+2017-10-24 16:32:21.3051|TRACE|PackageDownloader|Downloading NuGet package Rhetos.MvcModelGenerator.Client 2.2.0 from C:\Users\nkaramarko\Desktop\Projekti\MojPrviRhetosProjekt\Rhetos\Rhetos.2.2.0\Packages.
+2017-10-24 16:32:21.3206|TRACE|NuGet|'Rhetos.MvcModelGenerator.Client 2.2.0' already installed.
+2017-10-24 16:32:25.9492|ERROR|DeployPackages|System.UnauthorizedAccessException: Access to the path 'C:\Users\nkaramarko\Desktop\Projekti\MojPrviRhetosProjekt\Rhetos\Rhetos.2.2.0\bin\Plugins\OmegaCommonConcepts.dll' is denied.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.File.InternalDelete(String path, Boolean checkHost)
+   at Rhetos.Utilities.FilesUtility.<>c__DisplayClass9_0.<SafeDeleteFile>b__0() in C:\My Projects\Rhetos\Source\Rhetos.Utilities\FilesUtility.cs:line 154
+   at Rhetos.Utilities.FilesUtility.Retry(Action action, Func`1 actionName) in C:\My Projects\Rhetos\Source\Rhetos.Utilities\FilesUtility.cs:line 53
+   at Rhetos.Utilities.FilesUtility.SafeDeleteFile(String path) in C:\My Projects\Rhetos\Source\Rhetos.Utilities\FilesUtility.cs:line 154
+   at Rhetos.Utilities.FilesUtility.EmptyDirectory(String path) in C:\My Projects\Rhetos\Source\Rhetos.Utilities\FilesUtility.cs:line 111
+   at Rhetos.Utilities.FileSyncer.UpdateDestination(Boolean deleteSource) in C:\My Projects\Rhetos\Source\Rhetos.Utilities\FileSyncer.cs:line 109
+   at Rhetos.Deployment.PackageDownloader.GetPackages() in C:\My Projects\Rhetos\Source\Rhetos.Deployment\PackageDownloader.cs:line 98
+   at DeployPackages.Program.DownloadPackages(ILogger logger, Arguments arguments) in C:\My Projects\Rhetos\Source\DeployPackages\Program.cs:line 156
+   at DeployPackages.Program.Main(String[] args) in C:\My Projects\Rhetos\Source\DeployPackages\Program.cs:line 68
+2017-10-24 16:38:36.8797|TRACE|DeployPackages|Moving old generated files to cache.
+2017-10-24 16:38:36.9266|TRACE|DeployPackages|Getting packages.
+2017-10-24 16:38:37.0203|TRACE|DeployPackages|Reading package from cache 'Rhetos.CommonConcepts.2.2.0'.
+2017-10-24 16:38:37.0515|TRACE|DeployPackages|Reading package from cache 'Rhetos.OmegaCommonConcepts.2.2.0'.
+2017-10-24 16:38:37.0515|TRACE|DeployPackages|Reading package from cache 'Rhetos.RestGenerator.2.4.0'.
+2017-10-24 16:38:37.0672|TRACE|DeployPackages|Reading package from cache 'Rhetos.MvcModelGenerator.2.2.0'.
+2017-10-24 16:38:37.0672|TRACE|DeployPackages|Reading package from cache 'Rhetos.AspNetFormsAuth.2.0.1'.
+2017-10-24 16:38:37.0828|TRACE|DeployPackages|Reading package from cache 'MojPrviRhetosPaket.1.0.0'.
+2017-10-24 16:38:37.0828|TRACE|PackageDownloader|Not looking for valueinjecter 2.3.3 in packages cache because the request does not specify an exact version.
+2017-10-24 16:38:38.8840|TRACE|PackageDownloader|Downloading NuGet package ValueInjecter 2.3.3 from https://www.nuget.org/api/v2/.
+2017-10-24 16:38:38.9309|TRACE|NuGet|'ValueInjecter 2.3.3' already installed.
+2017-10-24 16:38:38.9465|TRACE|PackageDownloader|Not looking for Rhetos.MvcModelGenerator.Client 2.2.0 in packages cache because the request does not specify an exact version.
+2017-10-24 16:38:39.1496|TRACE|PackageDownloader|There is no legacy file Rhetos.MvcModelGenerator.Client_2_2_0.zip in Packages.
+2017-10-24 16:38:39.1496|TRACE|PackageDownloader|Downloading NuGet package Rhetos.MvcModelGenerator.Client 2.2.0 from C:\Users\nkaramarko\Desktop\Projekti\MojPrviRhetosProjekt\Rhetos\Rhetos.2.2.0\Packages.
+2017-10-24 16:38:39.1652|TRACE|NuGet|'Rhetos.MvcModelGenerator.Client 2.2.0' already installed.
+2017-10-24 16:38:39.2433|TRACE|Packages|MojPrviRhetosPaket 1.0.0 (requested from configuration file RhetosPackages.config) in C:\Users\nkaramarko\Desktop\Projekti\MojPrviRhetosProjekt\Rhetos\Rhetos.2.2.0\PackagesCache\MojPrviRhetosPaket.1.0.0.
+2017-10-24 16:38:39.2433|TRACE|Packages|Rhetos 2.2.0 (requested from Rhetos framework) in C:\Users\nkaramarko\Desktop\Projekti\MojPrviRhetosProjekt\Rhetos\Rhetos.2.2.0.
+2017-10-24 16:38:39.2433|TRACE|Packages|Rhetos.CommonConcepts 2.2.0 (requested from configuration file RhetosPackages.config) in C:\Users\nkaramarko\Desktop\Projekti\MojPrviRhetosProjekt\Rhetos\Rhetos.2.2.0\PackagesCache\Rhetos.CommonConcepts.2.2.0.
+2017-10-24 16:38:39.2433|TRACE|Packages|Rhetos.AspNetFormsAuth 2.0.1 (requested from configuration file RhetosPackages.config) in C:\Users\nkaramarko\Desktop\Projekti\MojPrviRhetosProjekt\Rhetos\Rhetos.2.2.0\PackagesCache\Rhetos.AspNetFormsAuth.2.0.1.
+2017-10-24 16:38:39.2433|TRACE|Packages|Rhetos.MvcModelGenerator.Client 2.2.0 (requested from package Rhetos.MvcModelGenerator) in C:\Users\nkaramarko\Desktop\Projekti\MojPrviRhetosProjekt\Rhetos\Rhetos.2.2.0\PackagesCache\Rhetos.MvcModelGenerator.Client.2.2.0.
+2017-10-24 16:38:39.2433|TRACE|Packages|Rhetos.MvcModelGenerator 2.2.0 (requested from configuration file RhetosPackages.config) in C:\Users\nkaramarko\Desktop\Projekti\MojPrviRhetosProjekt\Rhetos\Rhetos.2.2.0\PackagesCache\Rhetos.MvcModelGenerator.2.2.0.
+2017-10-24 16:38:39.2433|TRACE|Packages|Rhetos.RestGenerator 2.4.0 (requested from configuration file RhetosPackages.config) in C:\Users\nkaramarko\Desktop\Projekti\MojPrviRhetosProjekt\Rhetos\Rhetos.2.2.0\PackagesCache\Rhetos.RestGenerator.2.4.0.
+2017-10-24 16:38:39.2433|TRACE|Packages|ValueInjecter 2.3.3 (requested from package Rhetos.OmegaCommonConcepts) in C:\Users\nkaramarko\Desktop\Projekti\MojPrviRhetosProjekt\Rhetos\Rhetos.2.2.0\PackagesCache\ValueInjecter.2.3.3.
+2017-10-24 16:38:39.2433|TRACE|Packages|Rhetos.OmegaCommonConcepts 2.2.0 (requested from configuration file RhetosPackages.config) in C:\Users\nkaramarko\Desktop\Projekti\MojPrviRhetosProjekt\Rhetos\Rhetos.2.2.0\PackagesCache\Rhetos.OmegaCommonConcepts.2.2.0.
+2017-10-24 16:38:39.2746|TRACE|DeployPackages|Loading plugins.
+2017-10-24 16:38:39.8059|TRACE|DeployPackages|SQL connection string: Data Source=adsql2008r2;Initial Catalog=RhetosDb_nkaramarko;Integrated Security=SSPI;
+2017-10-24 16:38:39.8371|TRACE|DeployPackages|Preparing Rhetos database.
+2017-10-24 16:38:39.9309|TRACE|DeployPackages|Parsing DSL scripts.
+2017-10-24 16:38:40.2277|TRACE|DeployPackages|Application model has 683 statements.
+2017-10-24 16:38:40.2277|TRACE|DeployPackages|Compiling DOM assembly.
+2017-10-24 16:38:40.3527|TRACE|AssemblyGenerator|Compiling assembly: ServerDom.Model.dll.
+2017-10-24 16:38:40.5246|TRACE|AssemblyGenerator|Restoring assembly from cache: ServerDom.Orm.dll.
+2017-10-24 16:38:40.5402|TRACE|AssemblyGenerator|Compiling assembly: ServerDom.Repositories.dll.
+2017-10-24 16:38:40.9152|INFO|AssemblyGenerator|Warning CS0618: 'Common.QueryableRepositoryBase<Common.Queryable.Common_LogReader,Common.LogReader>.Filter(System.Collections.Generic.IEnumerable<System.Guid>)' is obsolete: 'Use Load(identifiers)or Query(identifiers) method.'. At line 5132, column 23, file 'c:\Users\nkaramarko\Desktop\Projekti\MojPrviRhetosProjekt\Rhetos\Rhetos.2.2.0\bin\Generated\ServerDom.Repositories.cs'.
+2017-10-24 16:38:40.9152|TRACE|DeployPackages|Generated 181 types.
+2017-10-24 16:38:40.9309|INFO|DeployPackages|Missing dependency '' for application generator 'Rhetos.RestGenerator.RestGenerator'.
+2017-10-24 16:38:40.9309|TRACE|DeployPackages|Executing EntityFrameworkMappingGenerator.
+2017-10-24 16:38:40.9465|TRACE|DeployPackages|Executing RestGenerator.
+2017-10-24 16:38:40.9777|TRACE|AssemblyGenerator|Compiling assembly: RestService.dll.
+2017-10-24 16:38:41.2277|INFO|AssemblyGenerator|Warning CS1701: Assuming assembly reference 'Autofac, Version=3.3.0.0, Culture=neutral, PublicKeyToken=17863af14b0044da' matches 'Autofac, Version=3.5.0.0, Culture=neutral, PublicKeyToken=17863af14b0044da', you may need to supply runtime policy.
+2017-10-24 16:38:41.2277|INFO|AssemblyGenerator|90 warnings CS0618: 'Rhetos.LegacyClientException' is obsolete: 'Use ClientException instead.'. At line 268, column 34, file 'c:\Users\nkaramarko\Desktop\Projekti\MojPrviRhetosProjekt\Rhetos\Rhetos.2.2.0\bin\Generated\RestService.cs'.
+2017-10-24 16:38:41.2277|TRACE|DeployPackages|Executing CaptionsResourceGenerator.
+2017-10-24 16:38:41.2746|TRACE|AssemblyGenerator|Compiling assembly: Captions.dll.
+2017-10-24 16:38:41.3527|TRACE|DeployPackages|Executing MvcModelGenerator.
+2017-10-24 16:38:41.3996|TRACE|AssemblyGenerator|Compiling assembly: Rhetos.Mvc.dll.
+2017-10-24 16:38:41.4777|TRACE|DeployPackages|Executing EntityFrameworkGenerateMetadataFiles.
+2017-10-24 16:38:42.4152|TRACE|DeployPackages|Cleaning old migration data.
+2017-10-24 16:38:42.4465|TRACE|DeployPackages|Deleted 0 columns in data migration schemas, 7 remaining.
+2017-10-24 16:38:42.4621|TRACE|DeployPackages|Executing data migration scripts.
+2017-10-24 16:38:42.4778|INFO|DataMigration|Executing Rhetos.AspNetFormsAuth\0.9.14\1 - Initialize Principal.AspNetUserId.sql (tag C68D1E92-C433-45F9-A2B5-1867C121841C)
+2017-10-24 16:38:42.9183|TRACE|DeployPackages|Executed 1 of 8 scripts.
+2017-10-24 16:38:42.9183|TRACE|DeployPackages|Upgrading database.
+2017-10-24 16:38:43.0901|TRACE|DatabaseGenerator Concepts|Removing EntityLoggingInfo Common.PrincipalPermission/OmegaCommonConcepts.EntityLoggingDescriptionDefinition, ID=EA80096F-476F-4755-9AE0-2B964884E23E.
+2017-10-24 16:38:43.0901|TRACE|DatabaseGenerator Concepts|Removing EntityLoggingInfo Common.PrincipalPermission/Rhetos.DatabaseGenerator.DefaultConcepts.EntityLoggingDefinition, ID=C669D061-2FC8-4DB8-855D-90C5E0F93999.
+2017-10-24 16:38:43.0901|TRACE|DatabaseGenerator Concepts|Removing EntityLoggingInfo Common.Principal/OmegaCommonConcepts.EntityLoggingDescriptionDefinition, ID=5B221991-20C7-43AB-9A19-C76C0C36E567.
+2017-10-24 16:38:43.0901|TRACE|DatabaseGenerator Concepts|Removing EntityLoggingInfo Common.Principal/Rhetos.DatabaseGenerator.DefaultConcepts.EntityLoggingDefinition, ID=25BD70A4-AA41-4AFE-B121-6BF7611F8F01.
+2017-10-24 16:38:43.0901|INFO|DeployPackages|DatabaseGenerator removing 4 concept applications.
+2017-10-24 16:38:43.0901|TRACE|DatabaseGenerator Concepts|Creating ModuleInfo Stanovnik/Rhetos.DatabaseGenerator.DefaultConcepts.ModuleDatabaseDefinition, ID=28677A3F-EEED-4704-A8DC-A3AD2A8CCE87.
+2017-10-24 16:38:43.1057|TRACE|DatabaseGenerator Concepts|Creating DataStructureInfo Stanovnik.Osoba/Rhetos.DatabaseGenerator.DefaultConcepts.EntityDatabaseDefinition, ID=04BACF30-70D2-4EE6-8867-6ED6EC0FDD69.
+2017-10-24 16:38:43.1057|TRACE|DatabaseGenerator Concepts|Creating PropertyInfo Stanovnik.Osoba.OIB/Rhetos.DatabaseGenerator.DefaultConcepts.IntegerPropertyDatabaseDefinition, ID=D648266E-1C78-4520-A9B9-C962132D0B54.
+2017-10-24 16:38:43.1057|TRACE|DatabaseGenerator Concepts|Creating PropertyInfo Stanovnik.Osoba.Ime/Rhetos.DatabaseGenerator.DefaultConcepts.ShortStringPropertyDatabaseDefinition, ID=4F53EE21-9155-4BB3-843B-73EE7ECE6735.
+2017-10-24 16:38:43.1057|TRACE|DatabaseGenerator Concepts|Creating PropertyInfo Stanovnik.Osoba.Prezime/Rhetos.DatabaseGenerator.DefaultConcepts.ShortStringPropertyDatabaseDefinition, ID=D9B9D43D-493A-482C-91F7-8859F15F56AA.
+2017-10-24 16:38:43.1057|TRACE|DatabaseGenerator Concepts|Creating DataStructureInfo Stanovnik.Drzava/Rhetos.DatabaseGenerator.DefaultConcepts.EntityDatabaseDefinition, ID=85673088-6A2E-4153-B38C-19396B32E989.
+2017-10-24 16:38:43.1057|TRACE|DatabaseGenerator Concepts|Creating PropertyInfo Stanovnik.Drzava.Sifra/Rhetos.DatabaseGenerator.DefaultConcepts.IntegerPropertyDatabaseDefinition, ID=92CBF2D2-CCFE-4058-A0B0-16C7A9E75C16.
+2017-10-24 16:38:43.1057|TRACE|DatabaseGenerator Concepts|Creating PropertyInfo Stanovnik.Drzava.Naziv/Rhetos.DatabaseGenerator.DefaultConcepts.ShortStringPropertyDatabaseDefinition, ID=902D2325-1040-4CFE-A8CC-1CDBB9C91219.
+2017-10-24 16:38:43.1057|TRACE|DatabaseGenerator Concepts|Creating DataStructureInfo Stanovnik.Grad/Rhetos.DatabaseGenerator.DefaultConcepts.EntityDatabaseDefinition, ID=E4B883EC-03C3-4074-9E29-75E07FEE0DC1.
+2017-10-24 16:38:43.1057|TRACE|DatabaseGenerator Concepts|Creating PropertyInfo Stanovnik.Grad.Sifra/Rhetos.DatabaseGenerator.DefaultConcepts.IntegerPropertyDatabaseDefinition, ID=AA9FAE71-1B53-4C36-AA02-1F71C22D5169.
+2017-10-24 16:38:43.1057|TRACE|DatabaseGenerator Concepts|Creating PropertyInfo Stanovnik.Grad.Naziv/Rhetos.DatabaseGenerator.DefaultConcepts.ShortStringPropertyDatabaseDefinition, ID=F32E1DC3-964B-435C-ABE0-17C92C740F5D.
+2017-10-24 16:38:43.1057|TRACE|DatabaseGenerator Concepts|Creating PropertyInfo Stanovnik.Grad.PostanskiBroj/Rhetos.DatabaseGenerator.DefaultConcepts.ShortStringPropertyDatabaseDefinition, ID=C48A4B3C-633A-4A4A-B8F8-17A20E19F77D.
+2017-10-24 16:38:43.1057|TRACE|DatabaseGenerator Concepts|Creating PropertyInfo Stanovnik.Grad.GradUDrzavi/Rhetos.DatabaseGenerator.DefaultConcepts.ReferencePropertyDatabaseDefinition, ID=D6DE59C1-3DDC-4EA9-B5B6-B18310333D04.
+2017-10-24 16:38:43.1057|TRACE|DatabaseGenerator Concepts|Creating PropertyInfo Stanovnik.Grad.GradUDrzavi/Rhetos.DatabaseGenerator.DefaultConcepts.ReferencePropertyConstraintDatabaseDefinition, ID=94A9B10E-1695-40B2-9D5E-20458F241972.
+2017-10-24 16:38:43.1057|TRACE|DatabaseGenerator Concepts|Creating DataStructureInfo Stanovnik.Adresa/Rhetos.DatabaseGenerator.DefaultConcepts.EntityDatabaseDefinition, ID=CBECE94B-73E6-4FEC-9070-06D529D283C2.
+2017-10-24 16:38:43.1057|TRACE|DatabaseGenerator Concepts|Creating PropertyInfo Stanovnik.Adresa.Sifra/Rhetos.DatabaseGenerator.DefaultConcepts.IntegerPropertyDatabaseDefinition, ID=37FE37C0-171A-4300-9E99-4952FE3EE486.
+2017-10-24 16:38:43.1057|TRACE|DatabaseGenerator Concepts|Creating PropertyInfo Stanovnik.Adresa.Naziv/Rhetos.DatabaseGenerator.DefaultConcepts.ShortStringPropertyDatabaseDefinition, ID=2E3987BD-6F96-4D93-B093-0E231A5CF38D.
+2017-10-24 16:38:43.1057|TRACE|DatabaseGenerator Concepts|Creating PropertyInfo Stanovnik.Adresa.KucniBroj/Rhetos.DatabaseGenerator.DefaultConcepts.ShortStringPropertyDatabaseDefinition, ID=17E6D1D3-774A-46D3-B1CA-AFD9CF158D81.
+2017-10-24 16:38:43.1057|TRACE|DatabaseGenerator Concepts|Creating PropertyInfo Stanovnik.Adresa.AdresaUGradu/Rhetos.DatabaseGenerator.DefaultConcepts.ReferencePropertyDatabaseDefinition, ID=5569C97A-11E7-4424-8004-CDFD36A3A1CA.
+2017-10-24 16:38:43.1213|TRACE|DatabaseGenerator Concepts|Creating PropertyInfo Stanovnik.Adresa.AdresaUGradu/Rhetos.DatabaseGenerator.DefaultConcepts.ReferencePropertyConstraintDatabaseDefinition, ID=DDE6D799-6AD1-44B8-9710-96029A058C6F.
+2017-10-24 16:38:43.1213|TRACE|DatabaseGenerator Concepts|Creating DataStructureInfo Common.Permission/Rhetos.DatabaseGenerator.DefaultConcepts.LegacyEntityWithAutoCreatedViewDatabaseDefinition, ID=9E752D30-080A-4FE4-984D-6C653F74B16B.
+2017-10-24 16:38:43.1213|TRACE|DatabaseGenerator Concepts|Creating PropertyInfo Common.Principal.AspNetUserId/Rhetos.DatabaseGenerator.DefaultConcepts.IntegerPropertyDatabaseDefinition, ID=7FCA1600-1089-46CE-846F-76A50B567E57.
+2017-10-24 16:38:43.1213|TRACE|DatabaseGenerator Concepts|Creating SqlIndexMultipleInfo Common.Principal.AspNetUserId/Rhetos.DatabaseGenerator.DefaultConcepts.SqlIndexMultipleDatabaseDefinition, ID=8EAECF5D-0737-493B-A6D7-06E25BDC6CFD.
+2017-10-24 16:38:43.1213|TRACE|DatabaseGenerator Concepts|Creating SqlObjectInfo Common.aspnet_Principal/Rhetos.DatabaseGenerator.DefaultConcepts.SqlObjectDatabaseDefinition, ID=4DF209A0-AC06-4183-AB94-61B9FFFBA4EC.
+2017-10-24 16:38:43.1213|TRACE|DatabaseGenerator Concepts|Creating SqlTriggerInfo Common.Principal.GenerateAspNetUserId/Rhetos.DatabaseGenerator.DefaultConcepts.SqlTriggerDatabaseDefinition, ID=43713EDE-EE16-46D4-A4DA-5DAF4D55AED1.
+2017-10-24 16:38:43.1213|TRACE|DatabaseGenerator Concepts|Creating DataStructureInfo Common.AspNetFormsAuthPasswordAttemptsLimit/Rhetos.DatabaseGenerator.DefaultConcepts.EntityDatabaseDefinition, ID=D8618C06-6E5A-4FDD-BD54-4BDDB35FA6A4.
+2017-10-24 16:38:43.1213|TRACE|DatabaseGenerator Concepts|Creating PropertyInfo Common.AspNetFormsAuthPasswordAttemptsLimit.MaxInvalidPasswordAttempts/Rhetos.DatabaseGenerator.DefaultConcepts.IntegerPropertyDatabaseDefinition, ID=DF5B9604-5F40-43C3-9762-C3816636ED2B.
+2017-10-24 16:38:43.1213|TRACE|DatabaseGenerator Concepts|Creating PropertyInfo Common.AspNetFormsAuthPasswordAttemptsLimit.TimeoutInSeconds/Rhetos.DatabaseGenerator.DefaultConcepts.IntegerPropertyDatabaseDefinition, ID=A475B4C4-D733-4A4E-90F7-372A275C1B06.
+2017-10-24 16:38:43.1213|TRACE|DatabaseGenerator Concepts|Creating DataStructureInfo Common.AspNetFormsAuthPasswordStrength/Rhetos.DatabaseGenerator.DefaultConcepts.EntityDatabaseDefinition, ID=E032537F-AD63-4534-BF4B-2C92EA372E1A.
+2017-10-24 16:38:43.1213|TRACE|DatabaseGenerator Concepts|Creating PropertyInfo Common.AspNetFormsAuthPasswordStrength.RegularExpression/Rhetos.DatabaseGenerator.DefaultConcepts.ShortStringPropertyDatabaseDefinition, ID=9FE0B313-8D26-4E51-987C-521200054058.
+2017-10-24 16:38:43.1213|TRACE|DatabaseGenerator Concepts|Creating PropertyInfo Common.AspNetFormsAuthPasswordStrength.RuleDescription/Rhetos.DatabaseGenerator.DefaultConcepts.ShortStringPropertyDatabaseDefinition, ID=1F72A8FB-E11F-4551-BCD2-2591B0C6740F.
+2017-10-24 16:38:43.1213|TRACE|DatabaseGenerator Concepts|Creating SqlIndexMultipleInfo Stanovnik.Osoba.OIB/Rhetos.DatabaseGenerator.DefaultConcepts.SqlIndexMultipleDatabaseDefinition, ID=BCCAEA0E-93D8-4BFE-8665-8A38877AD5AB.
+2017-10-24 16:38:43.1213|TRACE|DatabaseGenerator Concepts|Creating SqlIndexMultipleInfo Stanovnik.Drzava.Sifra/Rhetos.DatabaseGenerator.DefaultConcepts.SqlIndexMultipleDatabaseDefinition, ID=0636DB78-F5C7-4C07-8FCB-4B63037D0CA1.
+2017-10-24 16:38:43.1213|TRACE|DatabaseGenerator Concepts|Creating SqlIndexMultipleInfo Stanovnik.Grad.Sifra/Rhetos.DatabaseGenerator.DefaultConcepts.SqlIndexMultipleDatabaseDefinition, ID=A9C6A2EB-A919-4540-A3C0-49CA757168CD.
+2017-10-24 16:38:43.1213|TRACE|DatabaseGenerator Concepts|Creating SqlIndexMultipleInfo Stanovnik.Adresa.Sifra/Rhetos.DatabaseGenerator.DefaultConcepts.SqlIndexMultipleDatabaseDefinition, ID=5FE2A464-24F9-4B61-B58E-00E594BA8CA0.
+2017-10-24 16:38:43.1213|TRACE|DatabaseGenerator Concepts|Creating EntityLoggingInfo Common.Principal/Rhetos.DatabaseGenerator.DefaultConcepts.EntityLoggingDefinition, ID=25BD70A4-AA41-4AFE-B121-6BF7611F8F01.
+2017-10-24 16:38:43.1370|TRACE|DatabaseGenerator Concepts|Creating EntityLoggingInfo Common.Principal/OmegaCommonConcepts.EntityLoggingDescriptionDefinition, ID=5B221991-20C7-43AB-9A19-C76C0C36E567.
+2017-10-24 16:38:43.1370|TRACE|DatabaseGenerator Concepts|Creating EntityLoggingInfo Common.PrincipalPermission/Rhetos.DatabaseGenerator.DefaultConcepts.EntityLoggingDefinition, ID=C669D061-2FC8-4DB8-855D-90C5E0F93999.
+2017-10-24 16:38:43.1370|TRACE|DatabaseGenerator Concepts|Creating EntityLoggingInfo Common.PrincipalPermission/OmegaCommonConcepts.EntityLoggingDescriptionDefinition, ID=EA80096F-476F-4755-9AE0-2B964884E23E.
+2017-10-24 16:38:43.1370|INFO|DeployPackages|DatabaseGenerator creating 39 concept applications.
+2017-10-24 16:38:43.9182|TRACE|DeployPackages|Deleting redundant migration data.
+2017-10-24 16:38:43.9651|TRACE|DeployPackages|Deleted 5 columns in data migration schemas, 3 remaining.
+2017-10-24 16:38:43.9807|TRACE|DeployPackages|Uploading DSL scripts.
+2017-10-24 16:38:44.0276|TRACE|DeployPackages|Uploaded 11 DSL scripts to database.
+2017-10-24 16:38:44.0276|TRACE|DeployPackages|Loading generated plugins.
+2017-10-24 16:38:44.1682|TRACE|DeployPackages|Initialization KeepSynchronizedRecomputeOnDeploy.
+2017-10-24 16:38:45.3870|TRACE|DeployPackages|Initialization ClaimGenerator.
+2017-10-24 16:38:45.5901|TRACE|ClaimGenerator Claims|Inserting claims AspNetFormsAuth.AuthenticationService.GeneratePasswordResetToken, AspNetFormsAuth.AuthenticationService.IgnorePasswordStrengthPolicy, AspNetFormsAuth.AuthenticationService.SetPassword, AspNetFormsAuth.AuthenticationService.UnlockUser, Common.AspNetFormsAuthPasswordAttemptsLimit.Edit, Common.AspNetFormsAuthPasswordAttemptsLimit.New, Common.AspNetFormsAuthPasswordAttemptsLimit.Read, Common.AspNetFormsAuthPasswordAttemptsLimit.Remove, Common.AspNetFormsAuthPasswordStrength.Edit, Common.AspNetFormsAuthPasswordStrength.New, Common.AspNetFormsAuthPasswordStrength.Read, Common.AspNetFormsAuthPasswordStrength.Remove, Common.Permission.Edit, Common.Permission.New, Common.Permission.Read, Common.Permission.Remove, Stanovnik.Adresa.Edit, Stanovnik.Adresa.New, Stanovnik.Adresa.Read, Stanovnik.Adresa.Remove, Stanovnik.Drzava.Edit, Stanovnik.Drzava.New, Stanovnik.Drzava.Read, Stanovnik.Drzava.Remove, Stanovnik.Grad.Edit, Stanovnik.Grad.New, Stanovnik.Grad.Read, Stanovnik.Grad.Remove, Stanovnik.Osoba.Edit, Stanovnik.Osoba.New, Stanovnik.Osoba.Read, Stanovnik.Osoba.Remove.
+2017-10-24 16:38:46.1370|TRACE|DeployPackages|Initialization AuthenticationDatabaseInitializer.
+2017-10-24 16:38:47.6683|TRACE|DeployPackages|Updated Web.config modification date to restart server.
+2017-10-24 16:38:47.6683|TRACE|DeployPackages|Done.
+2017-10-24 16:42:47.0140|TRACE|DeployPackages|Moving old generated files to cache.
+2017-10-24 16:42:47.1078|TRACE|DeployPackages|Getting packages.
+2017-10-24 16:42:47.2171|TRACE|DeployPackages|Reading package from cache 'Rhetos.CommonConcepts.2.2.0'.
+2017-10-24 16:42:47.2328|TRACE|DeployPackages|Reading package from cache 'Rhetos.OmegaCommonConcepts.2.2.0'.
+2017-10-24 16:42:47.2484|TRACE|DeployPackages|Reading package from cache 'Rhetos.RestGenerator.2.4.0'.
+2017-10-24 16:42:47.2484|TRACE|DeployPackages|Reading package from cache 'Rhetos.MvcModelGenerator.2.2.0'.
+2017-10-24 16:42:47.2484|TRACE|DeployPackages|Reading package from cache 'MojPrviRhetosPaket.1.0.0'.
+2017-10-24 16:42:47.2640|TRACE|PackageDownloader|Not looking for valueinjecter 2.3.3 in packages cache because the request does not specify an exact version.
+2017-10-24 16:42:49.0609|TRACE|PackageDownloader|Downloading NuGet package ValueInjecter 2.3.3 from https://www.nuget.org/api/v2/.
+2017-10-24 16:42:49.1234|TRACE|NuGet|'ValueInjecter 2.3.3' already installed.
+2017-10-24 16:42:49.1234|TRACE|PackageDownloader|Not looking for Rhetos.MvcModelGenerator.Client 2.2.0 in packages cache because the request does not specify an exact version.
+2017-10-24 16:42:49.2963|TRACE|PackageDownloader|There is no legacy file Rhetos.MvcModelGenerator.Client_2_2_0.zip in Packages.
+2017-10-24 16:42:49.2963|TRACE|PackageDownloader|Downloading NuGet package Rhetos.MvcModelGenerator.Client 2.2.0 from C:\Users\nkaramarko\Desktop\Projekti\MojPrviRhetosProjekt\Rhetos\Rhetos.2.2.0\Packages.
+2017-10-24 16:42:49.3119|TRACE|NuGet|'Rhetos.MvcModelGenerator.Client 2.2.0' already installed.
+2017-10-24 16:42:53.9966|ERROR|DeployPackages|System.UnauthorizedAccessException: Access to the path 'C:\Users\nkaramarko\Desktop\Projekti\MojPrviRhetosProjekt\Rhetos\Rhetos.2.2.0\bin\Plugins\OmegaCommonConcepts.dll' is denied.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.File.InternalDelete(String path, Boolean checkHost)
+   at Rhetos.Utilities.FilesUtility.<>c__DisplayClass9_0.<SafeDeleteFile>b__0() in C:\My Projects\Rhetos\Source\Rhetos.Utilities\FilesUtility.cs:line 154
+   at Rhetos.Utilities.FilesUtility.Retry(Action action, Func`1 actionName) in C:\My Projects\Rhetos\Source\Rhetos.Utilities\FilesUtility.cs:line 53
+   at Rhetos.Utilities.FilesUtility.SafeDeleteFile(String path) in C:\My Projects\Rhetos\Source\Rhetos.Utilities\FilesUtility.cs:line 154
+   at Rhetos.Utilities.FilesUtility.EmptyDirectory(String path) in C:\My Projects\Rhetos\Source\Rhetos.Utilities\FilesUtility.cs:line 111
+   at Rhetos.Utilities.FileSyncer.UpdateDestination(Boolean deleteSource) in C:\My Projects\Rhetos\Source\Rhetos.Utilities\FileSyncer.cs:line 109
+   at Rhetos.Deployment.PackageDownloader.GetPackages() in C:\My Projects\Rhetos\Source\Rhetos.Deployment\PackageDownloader.cs:line 98
+   at DeployPackages.Program.DownloadPackages(ILogger logger, Arguments arguments) in C:\My Projects\Rhetos\Source\DeployPackages\Program.cs:line 156
+   at DeployPackages.Program.Main(String[] args) in C:\My Projects\Rhetos\Source\DeployPackages\Program.cs:line 68
+2017-10-24 16:43:05.7495|TRACE|DeployPackages|Moving old generated files to cache.
+2017-10-24 16:43:05.7807|TRACE|DeployPackages|Getting packages.
+2017-10-24 16:43:05.8745|TRACE|DeployPackages|Reading package from cache 'Rhetos.CommonConcepts.2.2.0'.
+2017-10-24 16:43:05.9057|TRACE|DeployPackages|Reading package from cache 'Rhetos.OmegaCommonConcepts.2.2.0'.
+2017-10-24 16:43:05.9213|TRACE|DeployPackages|Reading package from cache 'Rhetos.RestGenerator.2.4.0'.
+2017-10-24 16:43:05.9213|TRACE|DeployPackages|Reading package from cache 'Rhetos.MvcModelGenerator.2.2.0'.
+2017-10-24 16:43:05.9370|TRACE|DeployPackages|Reading package from cache 'MojPrviRhetosPaket.1.0.0'.
+2017-10-24 16:43:05.9370|TRACE|PackageDownloader|Not looking for valueinjecter 2.3.3 in packages cache because the request does not specify an exact version.
+2017-10-24 16:43:07.5620|TRACE|PackageDownloader|Downloading NuGet package ValueInjecter 2.3.3 from https://www.nuget.org/api/v2/.
+2017-10-24 16:43:07.6089|TRACE|NuGet|'ValueInjecter 2.3.3' already installed.
+2017-10-24 16:43:07.6245|TRACE|PackageDownloader|Not looking for Rhetos.MvcModelGenerator.Client 2.2.0 in packages cache because the request does not specify an exact version.
+2017-10-24 16:43:07.7495|TRACE|PackageDownloader|There is no legacy file Rhetos.MvcModelGenerator.Client_2_2_0.zip in Packages.
+2017-10-24 16:43:07.7495|TRACE|PackageDownloader|Downloading NuGet package Rhetos.MvcModelGenerator.Client 2.2.0 from C:\Users\nkaramarko\Desktop\Projekti\MojPrviRhetosProjekt\Rhetos\Rhetos.2.2.0\Packages.
+2017-10-24 16:43:07.7495|TRACE|NuGet|'Rhetos.MvcModelGenerator.Client 2.2.0' already installed.
+2017-10-24 16:43:12.4047|ERROR|DeployPackages|System.UnauthorizedAccessException: Access to the path 'C:\Users\nkaramarko\Desktop\Projekti\MojPrviRhetosProjekt\Rhetos\Rhetos.2.2.0\bin\Plugins\OmegaCommonConcepts.dll' is denied.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.File.InternalDelete(String path, Boolean checkHost)
+   at Rhetos.Utilities.FilesUtility.<>c__DisplayClass9_0.<SafeDeleteFile>b__0() in C:\My Projects\Rhetos\Source\Rhetos.Utilities\FilesUtility.cs:line 154
+   at Rhetos.Utilities.FilesUtility.Retry(Action action, Func`1 actionName) in C:\My Projects\Rhetos\Source\Rhetos.Utilities\FilesUtility.cs:line 53
+   at Rhetos.Utilities.FilesUtility.SafeDeleteFile(String path) in C:\My Projects\Rhetos\Source\Rhetos.Utilities\FilesUtility.cs:line 154
+   at Rhetos.Utilities.FilesUtility.EmptyDirectory(String path) in C:\My Projects\Rhetos\Source\Rhetos.Utilities\FilesUtility.cs:line 111
+   at Rhetos.Utilities.FileSyncer.UpdateDestination(Boolean deleteSource) in C:\My Projects\Rhetos\Source\Rhetos.Utilities\FileSyncer.cs:line 109
+   at Rhetos.Deployment.PackageDownloader.GetPackages() in C:\My Projects\Rhetos\Source\Rhetos.Deployment\PackageDownloader.cs:line 98
+   at DeployPackages.Program.DownloadPackages(ILogger logger, Arguments arguments) in C:\My Projects\Rhetos\Source\DeployPackages\Program.cs:line 156
+   at DeployPackages.Program.Main(String[] args) in C:\My Projects\Rhetos\Source\DeployPackages\Program.cs:line 68
+2017-10-24 16:44:18.1556|TRACE|DeployPackages|Moving old generated files to cache.
+2017-10-24 16:44:18.1868|TRACE|DeployPackages|Getting packages.
+2017-10-24 16:44:18.2962|TRACE|DeployPackages|Reading package from cache 'Rhetos.CommonConcepts.2.2.0'.
+2017-10-24 16:44:18.3118|TRACE|DeployPackages|Reading package from cache 'Rhetos.OmegaCommonConcepts.2.2.0'.
+2017-10-24 16:44:18.3274|TRACE|DeployPackages|Reading package from cache 'Rhetos.RestGenerator.2.4.0'.
+2017-10-24 16:44:18.3274|TRACE|DeployPackages|Reading package from cache 'Rhetos.MvcModelGenerator.2.2.0'.
+2017-10-24 16:44:18.3431|TRACE|DeployPackages|Reading package from cache 'MojPrviRhetosPaket.1.0.0'.
+2017-10-24 16:44:18.3431|TRACE|PackageDownloader|Not looking for valueinjecter 2.3.3 in packages cache because the request does not specify an exact version.
+2017-10-24 16:44:20.0786|TRACE|PackageDownloader|Downloading NuGet package ValueInjecter 2.3.3 from https://www.nuget.org/api/v2/.
+2017-10-24 16:44:20.1400|TRACE|NuGet|'ValueInjecter 2.3.3' already installed.
+2017-10-24 16:44:20.1400|TRACE|PackageDownloader|Not looking for Rhetos.MvcModelGenerator.Client 2.2.0 in packages cache because the request does not specify an exact version.
+2017-10-24 16:44:20.4733|TRACE|PackageDownloader|There is no legacy file Rhetos.MvcModelGenerator.Client_2_2_0.zip in Packages.
+2017-10-24 16:44:20.4762|TRACE|PackageDownloader|Downloading NuGet package Rhetos.MvcModelGenerator.Client 2.2.0 from C:\Users\nkaramarko\Desktop\Projekti\MojPrviRhetosProjekt\Rhetos\Rhetos.2.2.0\Packages.
+2017-10-24 16:44:20.4762|TRACE|NuGet|'Rhetos.MvcModelGenerator.Client 2.2.0' already installed.
+2017-10-24 16:44:20.5557|TRACE|Packages|MojPrviRhetosPaket 1.0.0 (requested from configuration file RhetosPackages.config) in C:\Users\nkaramarko\Desktop\Projekti\MojPrviRhetosProjekt\Rhetos\Rhetos.2.2.0\PackagesCache\MojPrviRhetosPaket.1.0.0.
+2017-10-24 16:44:20.5557|TRACE|Packages|Rhetos 2.2.0 (requested from Rhetos framework) in C:\Users\nkaramarko\Desktop\Projekti\MojPrviRhetosProjekt\Rhetos\Rhetos.2.2.0.
+2017-10-24 16:44:20.5557|TRACE|Packages|Rhetos.CommonConcepts 2.2.0 (requested from configuration file RhetosPackages.config) in C:\Users\nkaramarko\Desktop\Projekti\MojPrviRhetosProjekt\Rhetos\Rhetos.2.2.0\PackagesCache\Rhetos.CommonConcepts.2.2.0.
+2017-10-24 16:44:20.5557|TRACE|Packages|Rhetos.MvcModelGenerator.Client 2.2.0 (requested from package Rhetos.MvcModelGenerator) in C:\Users\nkaramarko\Desktop\Projekti\MojPrviRhetosProjekt\Rhetos\Rhetos.2.2.0\PackagesCache\Rhetos.MvcModelGenerator.Client.2.2.0.
+2017-10-24 16:44:20.5557|TRACE|Packages|Rhetos.MvcModelGenerator 2.2.0 (requested from configuration file RhetosPackages.config) in C:\Users\nkaramarko\Desktop\Projekti\MojPrviRhetosProjekt\Rhetos\Rhetos.2.2.0\PackagesCache\Rhetos.MvcModelGenerator.2.2.0.
+2017-10-24 16:44:20.5557|TRACE|Packages|Rhetos.RestGenerator 2.4.0 (requested from configuration file RhetosPackages.config) in C:\Users\nkaramarko\Desktop\Projekti\MojPrviRhetosProjekt\Rhetos\Rhetos.2.2.0\PackagesCache\Rhetos.RestGenerator.2.4.0.
+2017-10-24 16:44:20.5557|TRACE|Packages|ValueInjecter 2.3.3 (requested from package Rhetos.OmegaCommonConcepts) in C:\Users\nkaramarko\Desktop\Projekti\MojPrviRhetosProjekt\Rhetos\Rhetos.2.2.0\PackagesCache\ValueInjecter.2.3.3.
+2017-10-24 16:44:20.5557|TRACE|Packages|Rhetos.OmegaCommonConcepts 2.2.0 (requested from configuration file RhetosPackages.config) in C:\Users\nkaramarko\Desktop\Projekti\MojPrviRhetosProjekt\Rhetos\Rhetos.2.2.0\PackagesCache\Rhetos.OmegaCommonConcepts.2.2.0.
+2017-10-24 16:44:20.5713|TRACE|DeployPackages|Loading plugins.
+2017-10-24 16:44:21.0557|TRACE|DeployPackages|SQL connection string: Data Source=adsql2008r2;Initial Catalog=RhetosDb_nkaramarko;Integrated Security=SSPI;
+2017-10-24 16:44:21.0870|TRACE|DeployPackages|Preparing Rhetos database.
+2017-10-24 16:44:21.1807|TRACE|DeployPackages|Parsing DSL scripts.
+2017-10-24 16:44:21.5870|TRACE|DeployPackages|Application model has 621 statements.
+2017-10-24 16:44:21.5870|TRACE|DeployPackages|Compiling DOM assembly.
+2017-10-24 16:44:21.7276|TRACE|AssemblyGenerator|Compiling assembly: ServerDom.Model.dll.
+2017-10-24 16:44:21.8682|TRACE|AssemblyGenerator|Compiling assembly: ServerDom.Orm.dll.
+2017-10-24 16:44:22.1338|TRACE|AssemblyGenerator|Compiling assembly: ServerDom.Repositories.dll.
+2017-10-24 16:44:22.3995|INFO|AssemblyGenerator|Warning CS0618: 'Common.QueryableRepositoryBase<Common.Queryable.Common_LogReader,Common.LogReader>.Filter(System.Collections.Generic.IEnumerable<System.Guid>)' is obsolete: 'Use Load(identifiers)or Query(identifiers) method.'. At line 4590, column 23, file 'c:\Users\nkaramarko\Desktop\Projekti\MojPrviRhetosProjekt\Rhetos\Rhetos.2.2.0\bin\Generated\ServerDom.Repositories.cs'.
+2017-10-24 16:44:22.3995|TRACE|DeployPackages|Generated 165 types.
+2017-10-24 16:44:22.4151|INFO|DeployPackages|Missing dependency '' for application generator 'Rhetos.RestGenerator.RestGenerator'.
+2017-10-24 16:44:22.4151|TRACE|DeployPackages|Executing EntityFrameworkMappingGenerator.
+2017-10-24 16:44:22.4307|TRACE|DeployPackages|Executing RestGenerator.
+2017-10-24 16:44:22.4620|TRACE|AssemblyGenerator|Compiling assembly: RestService.dll.
+2017-10-24 16:44:22.6807|INFO|AssemblyGenerator|Warning CS1701: Assuming assembly reference 'Autofac, Version=3.3.0.0, Culture=neutral, PublicKeyToken=17863af14b0044da' matches 'Autofac, Version=3.5.0.0, Culture=neutral, PublicKeyToken=17863af14b0044da', you may need to supply runtime policy.
+2017-10-24 16:44:22.6807|INFO|AssemblyGenerator|78 warnings CS0618: 'Rhetos.LegacyClientException' is obsolete: 'Use ClientException instead.'. At line 258, column 34, file 'c:\Users\nkaramarko\Desktop\Projekti\MojPrviRhetosProjekt\Rhetos\Rhetos.2.2.0\bin\Generated\RestService.cs'.
+2017-10-24 16:44:22.6807|TRACE|DeployPackages|Executing CaptionsResourceGenerator.
+2017-10-24 16:44:22.7432|TRACE|AssemblyGenerator|Compiling assembly: Captions.dll.
+2017-10-24 16:44:22.8214|TRACE|DeployPackages|Executing MvcModelGenerator.
+2017-10-24 16:44:22.8682|TRACE|AssemblyGenerator|Compiling assembly: Rhetos.Mvc.dll.
+2017-10-24 16:44:22.9620|TRACE|DeployPackages|Executing EntityFrameworkGenerateMetadataFiles.
+2017-10-24 16:44:23.9091|TRACE|DeployPackages|Cleaning old migration data.
+2017-10-24 16:44:23.9247|TRACE|DeployPackages|Deleted 0 columns in data migration schemas, 3 remaining.
+2017-10-24 16:44:23.9404|TRACE|DeployPackages|Executing data migration scripts.
+2017-10-24 16:44:23.9560|INFO|DataMigration|Removing Rhetos.AspNetFormsAuth\0.9.14\1 - Initialize Principal.AspNetUserId.sql (tag C68D1E92-C433-45F9-A2B5-1867C121841C)
+2017-10-24 16:44:23.9872|TRACE|DeployPackages|Executed 0 of 7 scripts.
+2017-10-24 16:44:23.9872|TRACE|DeployPackages|Upgrading database.
+2017-10-24 16:44:24.1591|TRACE|DatabaseGenerator Concepts|Removing EntityLoggingInfo Common.Principal/OmegaCommonConcepts.EntityLoggingDescriptionDefinition, ID=5B221991-20C7-43AB-9A19-C76C0C36E567.
+2017-10-24 16:44:24.1591|TRACE|DatabaseGenerator Concepts|Removing EntityLoggingInfo Common.Principal/Rhetos.DatabaseGenerator.DefaultConcepts.EntityLoggingDefinition, ID=25BD70A4-AA41-4AFE-B121-6BF7611F8F01.
+2017-10-24 16:44:24.1747|TRACE|DatabaseGenerator Concepts|Removing PropertyInfo Common.AspNetFormsAuthPasswordStrength.RuleDescription/Rhetos.DatabaseGenerator.DefaultConcepts.ShortStringPropertyDatabaseDefinition, ID=1F72A8FB-E11F-4551-BCD2-2591B0C6740F.
+2017-10-24 16:44:24.1747|TRACE|DatabaseGenerator Concepts|Removing PropertyInfo Common.AspNetFormsAuthPasswordStrength.RegularExpression/Rhetos.DatabaseGenerator.DefaultConcepts.ShortStringPropertyDatabaseDefinition, ID=9FE0B313-8D26-4E51-987C-521200054058.
+2017-10-24 16:44:24.1747|TRACE|DatabaseGenerator Concepts|Removing DataStructureInfo Common.AspNetFormsAuthPasswordStrength/Rhetos.DatabaseGenerator.DefaultConcepts.EntityDatabaseDefinition, ID=E032537F-AD63-4534-BF4B-2C92EA372E1A.
+2017-10-24 16:44:24.1747|TRACE|DatabaseGenerator Concepts|Removing PropertyInfo Common.AspNetFormsAuthPasswordAttemptsLimit.TimeoutInSeconds/Rhetos.DatabaseGenerator.DefaultConcepts.IntegerPropertyDatabaseDefinition, ID=A475B4C4-D733-4A4E-90F7-372A275C1B06.
+2017-10-24 16:44:24.1747|TRACE|DatabaseGenerator Concepts|Removing PropertyInfo Common.AspNetFormsAuthPasswordAttemptsLimit.MaxInvalidPasswordAttempts/Rhetos.DatabaseGenerator.DefaultConcepts.IntegerPropertyDatabaseDefinition, ID=DF5B9604-5F40-43C3-9762-C3816636ED2B.
+2017-10-24 16:44:24.1747|TRACE|DatabaseGenerator Concepts|Removing DataStructureInfo Common.AspNetFormsAuthPasswordAttemptsLimit/Rhetos.DatabaseGenerator.DefaultConcepts.EntityDatabaseDefinition, ID=D8618C06-6E5A-4FDD-BD54-4BDDB35FA6A4.
+2017-10-24 16:44:24.1747|TRACE|DatabaseGenerator Concepts|Removing SqlTriggerInfo Common.Principal.GenerateAspNetUserId/Rhetos.DatabaseGenerator.DefaultConcepts.SqlTriggerDatabaseDefinition, ID=43713EDE-EE16-46D4-A4DA-5DAF4D55AED1.
+2017-10-24 16:44:24.1747|TRACE|DatabaseGenerator Concepts|Removing SqlObjectInfo Common.aspnet_Principal/Rhetos.DatabaseGenerator.DefaultConcepts.SqlObjectDatabaseDefinition, ID=4DF209A0-AC06-4183-AB94-61B9FFFBA4EC.
+2017-10-24 16:44:24.1747|TRACE|DatabaseGenerator Concepts|Removing SqlIndexMultipleInfo Common.Principal.AspNetUserId/Rhetos.DatabaseGenerator.DefaultConcepts.SqlIndexMultipleDatabaseDefinition, ID=8EAECF5D-0737-493B-A6D7-06E25BDC6CFD.
+2017-10-24 16:44:24.1747|TRACE|DatabaseGenerator Concepts|Removing PropertyInfo Common.Principal.AspNetUserId/Rhetos.DatabaseGenerator.DefaultConcepts.IntegerPropertyDatabaseDefinition, ID=7FCA1600-1089-46CE-846F-76A50B567E57.
+2017-10-24 16:44:24.1747|TRACE|DatabaseGenerator Concepts|Removing DataStructureInfo Common.Permission/Rhetos.DatabaseGenerator.DefaultConcepts.LegacyEntityWithAutoCreatedViewDatabaseDefinition, ID=9E752D30-080A-4FE4-984D-6C653F74B16B.
+2017-10-24 16:44:24.1747|INFO|DeployPackages|DatabaseGenerator removing 13 concept applications.
+2017-10-24 16:44:24.1904|TRACE|DatabaseGenerator Concepts|Creating EntityLoggingInfo Common.Principal/Rhetos.DatabaseGenerator.DefaultConcepts.EntityLoggingDefinition, ID=25BD70A4-AA41-4AFE-B121-6BF7611F8F01.
+2017-10-24 16:44:24.1904|TRACE|DatabaseGenerator Concepts|Creating EntityLoggingInfo Common.Principal/OmegaCommonConcepts.EntityLoggingDescriptionDefinition, ID=5B221991-20C7-43AB-9A19-C76C0C36E567.
+2017-10-24 16:44:24.1904|INFO|DeployPackages|DatabaseGenerator creating 2 concept applications.
+2017-10-24 16:44:24.6599|TRACE|DeployPackages|Deleting redundant migration data.
+2017-10-24 16:44:24.6643|TRACE|DeployPackages|Deleted 0 columns in data migration schemas, 11 remaining.
+2017-10-24 16:44:24.6800|TRACE|DeployPackages|Uploading DSL scripts.
+2017-10-24 16:44:24.7269|TRACE|DeployPackages|Uploaded 9 DSL scripts to database.
+2017-10-24 16:44:24.7269|TRACE|DeployPackages|Loading generated plugins.
+2017-10-24 16:44:24.8675|TRACE|DeployPackages|Initialization KeepSynchronizedRecomputeOnDeploy.
+2017-10-24 16:44:26.1319|TRACE|DeployPackages|Initialization ClaimGenerator.
+2017-10-24 16:44:26.3306|TRACE|ClaimGenerator Claims|Updating claims AspNetFormsAuth.AuthenticationService.GeneratePasswordResetToken, AspNetFormsAuth.AuthenticationService.IgnorePasswordStrengthPolicy, AspNetFormsAuth.AuthenticationService.SetPassword, AspNetFormsAuth.AuthenticationService.UnlockUser.
+2017-10-24 16:44:26.3306|TRACE|ClaimGenerator Claims|Deleting claims Common.AspNetFormsAuthPasswordAttemptsLimit.Edit, Common.AspNetFormsAuthPasswordAttemptsLimit.New, Common.AspNetFormsAuthPasswordAttemptsLimit.Read, Common.AspNetFormsAuthPasswordAttemptsLimit.Remove, Common.AspNetFormsAuthPasswordStrength.Edit, Common.AspNetFormsAuthPasswordStrength.New, Common.AspNetFormsAuthPasswordStrength.Read, Common.AspNetFormsAuthPasswordStrength.Remove, Common.Permission.Edit, Common.Permission.New, Common.Permission.Read, Common.Permission.Remove.
+2017-10-24 16:44:26.8023|TRACE|DeployPackages|Updated Web.config modification date to restart server.
+2017-10-24 16:44:26.8336|TRACE|DeployPackages|Done.
+2017-10-24 18:01:57.7682|TRACE|DeployPackages|Moving old generated files to cache.
+2017-10-24 18:01:57.8463|TRACE|DeployPackages|Getting packages.
+2017-10-24 18:01:57.9557|TRACE|DeployPackages|Reading package from cache 'Rhetos.CommonConcepts.2.2.0'.
+2017-10-24 18:01:57.9869|TRACE|DeployPackages|Reading package from cache 'Rhetos.OmegaCommonConcepts.2.2.0'.
+2017-10-24 18:01:57.9869|TRACE|DeployPackages|Reading package from cache 'Rhetos.RestGenerator.2.4.0'.
+2017-10-24 18:01:58.0026|TRACE|DeployPackages|Reading package from cache 'Rhetos.MvcModelGenerator.2.2.0'.
+2017-10-24 18:01:58.0026|TRACE|DeployPackages|Reading package from cache 'MojPrviRhetosPaket.1.0.0'.
+2017-10-24 18:01:58.0026|TRACE|PackageDownloader|Not looking for valueinjecter 2.3.3 in packages cache because the request does not specify an exact version.
+2017-10-24 18:01:59.7714|TRACE|PackageDownloader|Downloading NuGet package ValueInjecter 2.3.3 from https://www.nuget.org/api/v2/.
+2017-10-24 18:01:59.8339|TRACE|NuGet|'ValueInjecter 2.3.3' already installed.
+2017-10-24 18:01:59.8339|TRACE|PackageDownloader|Not looking for Rhetos.MvcModelGenerator.Client 2.2.0 in packages cache because the request does not specify an exact version.
+2017-10-24 18:02:00.0375|TRACE|PackageDownloader|There is no legacy file Rhetos.MvcModelGenerator.Client_2_2_0.zip in Packages.
+2017-10-24 18:02:00.0375|TRACE|PackageDownloader|Downloading NuGet package Rhetos.MvcModelGenerator.Client 2.2.0 from C:\Users\nkaramarko\Desktop\Projekti\MojPrviRhetosProjekt\Rhetos\Rhetos.2.2.0\Packages.
+2017-10-24 18:02:00.0375|TRACE|NuGet|'Rhetos.MvcModelGenerator.Client 2.2.0' already installed.
+2017-10-24 18:02:00.1000|TRACE|Packages|MojPrviRhetosPaket 1.0.0 (requested from configuration file RhetosPackages.config) in C:\Users\nkaramarko\Desktop\Projekti\MojPrviRhetosProjekt\Rhetos\Rhetos.2.2.0\PackagesCache\MojPrviRhetosPaket.1.0.0.
+2017-10-24 18:02:00.1000|TRACE|Packages|Rhetos 2.2.0 (requested from Rhetos framework) in C:\Users\nkaramarko\Desktop\Projekti\MojPrviRhetosProjekt\Rhetos\Rhetos.2.2.0.
+2017-10-24 18:02:00.1000|TRACE|Packages|Rhetos.CommonConcepts 2.2.0 (requested from configuration file RhetosPackages.config) in C:\Users\nkaramarko\Desktop\Projekti\MojPrviRhetosProjekt\Rhetos\Rhetos.2.2.0\PackagesCache\Rhetos.CommonConcepts.2.2.0.
+2017-10-24 18:02:00.1000|TRACE|Packages|Rhetos.MvcModelGenerator.Client 2.2.0 (requested from package Rhetos.MvcModelGenerator) in C:\Users\nkaramarko\Desktop\Projekti\MojPrviRhetosProjekt\Rhetos\Rhetos.2.2.0\PackagesCache\Rhetos.MvcModelGenerator.Client.2.2.0.
+2017-10-24 18:02:00.1000|TRACE|Packages|Rhetos.MvcModelGenerator 2.2.0 (requested from configuration file RhetosPackages.config) in C:\Users\nkaramarko\Desktop\Projekti\MojPrviRhetosProjekt\Rhetos\Rhetos.2.2.0\PackagesCache\Rhetos.MvcModelGenerator.2.2.0.
+2017-10-24 18:02:00.1000|TRACE|Packages|Rhetos.RestGenerator 2.4.0 (requested from configuration file RhetosPackages.config) in C:\Users\nkaramarko\Desktop\Projekti\MojPrviRhetosProjekt\Rhetos\Rhetos.2.2.0\PackagesCache\Rhetos.RestGenerator.2.4.0.
+2017-10-24 18:02:00.1000|TRACE|Packages|ValueInjecter 2.3.3 (requested from package Rhetos.OmegaCommonConcepts) in C:\Users\nkaramarko\Desktop\Projekti\MojPrviRhetosProjekt\Rhetos\Rhetos.2.2.0\PackagesCache\ValueInjecter.2.3.3.
+2017-10-24 18:02:00.1000|TRACE|Packages|Rhetos.OmegaCommonConcepts 2.2.0 (requested from configuration file RhetosPackages.config) in C:\Users\nkaramarko\Desktop\Projekti\MojPrviRhetosProjekt\Rhetos\Rhetos.2.2.0\PackagesCache\Rhetos.OmegaCommonConcepts.2.2.0.
+2017-10-24 18:02:00.1156|TRACE|DeployPackages|Loading plugins.
+2017-10-24 18:02:00.5844|TRACE|DeployPackages|SQL connection string: Data Source=adsql2008r2;Initial Catalog=RhetosDb_nkaramarko;Integrated Security=SSPI;
+2017-10-24 18:02:00.6156|TRACE|DeployPackages|Preparing Rhetos database.
+2017-10-24 18:02:00.7094|TRACE|DeployPackages|Parsing DSL scripts.
+2017-10-24 18:02:01.0688|TRACE|DeployPackages|Application model has 621 statements.
+2017-10-24 18:02:01.0688|TRACE|DeployPackages|Compiling DOM assembly.
+2017-10-24 18:02:01.1938|TRACE|AssemblyGenerator|Restoring assembly from cache: ServerDom.Model.dll.
+2017-10-24 18:02:01.2094|TRACE|AssemblyGenerator|Restoring assembly from cache: ServerDom.Orm.dll.
+2017-10-24 18:02:01.2406|TRACE|AssemblyGenerator|Restoring assembly from cache: ServerDom.Repositories.dll.
+2017-10-24 18:02:01.2563|TRACE|DeployPackages|Generated 165 types.
+2017-10-24 18:02:01.2563|INFO|DeployPackages|Missing dependency '' for application generator 'Rhetos.RestGenerator.RestGenerator'.
+2017-10-24 18:02:01.2719|TRACE|DeployPackages|Executing EntityFrameworkMappingGenerator.
+2017-10-24 18:02:01.2719|TRACE|DeployPackages|Executing RestGenerator.
+2017-10-24 18:02:01.3032|TRACE|AssemblyGenerator|Restoring assembly from cache: RestService.dll.
+2017-10-24 18:02:01.3188|TRACE|DeployPackages|Executing CaptionsResourceGenerator.
+2017-10-24 18:02:01.3656|TRACE|AssemblyGenerator|Restoring assembly from cache: Captions.dll.
+2017-10-24 18:02:01.3813|TRACE|DeployPackages|Executing MvcModelGenerator.
+2017-10-24 18:02:01.4125|TRACE|AssemblyGenerator|Restoring assembly from cache: Rhetos.Mvc.dll.
+2017-10-24 18:02:01.4281|TRACE|DeployPackages|Executing EntityFrameworkGenerateMetadataFiles.
+2017-10-24 18:02:01.4281|TRACE|DeployPackages|Cleaning old migration data.
+2017-10-24 18:02:01.4438|TRACE|DeployPackages|Deleted 0 columns in data migration schemas, 11 remaining.
+2017-10-24 18:02:01.4438|TRACE|DeployPackages|Executing data migration scripts.
+2017-10-24 18:02:01.4750|TRACE|DeployPackages|Executed 0 of 7 scripts.
+2017-10-24 18:02:01.4750|TRACE|DeployPackages|Upgrading database.
+2017-10-24 18:02:01.6625|TRACE|DeployPackages|DatabaseGenerator removing 0 concept applications.
+2017-10-24 18:02:01.6625|TRACE|DeployPackages|DatabaseGenerator creating 0 concept applications.
+2017-10-24 18:02:01.6782|TRACE|DeployPackages|Deleting redundant migration data.
+2017-10-24 18:02:01.6938|TRACE|DeployPackages|Deleted 0 columns in data migration schemas, 11 remaining.
+2017-10-24 18:02:01.6938|TRACE|DeployPackages|Uploading DSL scripts.
+2017-10-24 18:02:01.7250|TRACE|DeployPackages|Uploaded 9 DSL scripts to database.
+2017-10-24 18:02:01.7250|TRACE|DeployPackages|Loading generated plugins.
+2017-10-24 18:02:01.8657|TRACE|DeployPackages|Initialization KeepSynchronizedRecomputeOnDeploy.
+2017-10-24 18:02:03.5063|TRACE|DeployPackages|Initialization ClaimGenerator.
+2017-10-24 18:02:03.7251|TRACE|DeployPackages|Updated Web.config modification date to restart server.
+2017-10-24 18:02:03.7251|TRACE|DeployPackages|Done.
