@@ -2,7 +2,8 @@ Module Stanovnik
 {
 	Entity Osoba
 	{
-		ShortString OIB {Required; Unique; MinLength 11; MaxLength 11; RegExMatch "^[0-9]$";}
+		ShortString OIB {Required; Unique;  RegExMatch "^([0-9]{11})$";}
+		//MinLength 11; MaxLength 11;
 		ShortString Ime {Required;}
 		ShortString Prezime {Required;}
 	}
